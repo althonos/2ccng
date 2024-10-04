@@ -170,3 +170,6 @@ basecost {
 train_width_32_px = 1;
 //align train properly in depot window
 traininfo_y_offset = 2;
+
+// override 2cc Trains in NML
+engine_override("TM\01\01");

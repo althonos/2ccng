@@ -79,30 +79,12 @@
 
 //Railbus-steam
 #include "src/_CodeSupport/TypeInitialization/init_type_RBS.pnml"
-// #include "src/Railbus-steam/Austria_NOLB_1_property.pnml"
-// #include "src/Railbus-steam/Austria_NOLB_1_graphics.pnml"
-// #include "src/Railbus-steam/Austria_NOLB_1_item.pnml"
-// #include "src/Railbus-steam/Italy_FS_86_property.pnml"
-// #include "src/Railbus-steam/Italy_FS_86_graphics.pnml"
-// #include "src/Railbus-steam/Italy_FS_86_item.pnml"
-// #include "src/Railbus-steam/Australia_Victorian_Railways_Rowan_Railmotor_property.pnml"
-// #include "src/Railbus-steam/Australia_Victorian_Railways_Rowan_Railmotor_graphics.pnml"
-// #include "src/Railbus-steam/Australia_Victorian_Railways_Rowan_Railmotor_item.pnml"
-// #include "src/Railbus-steam/Switzerland_UeBB_Czm_1_2_property.pnml"
-// #include "src/Railbus-steam/Switzerland_UeBB_Czm_1_2_graphics.pnml"
-// #include "src/Railbus-steam/Switzerland_UeBB_Czm_1_2_item.pnml"
-// #include "src/Railbus-steam/Germany_Bavarian_MCCi_property.pnml"
-// #include "src/Railbus-steam/Germany_Bavarian_MCCi_graphics.pnml"
-// #include "src/Railbus-steam/Germany_Bavarian_MCCi_item.pnml"
-// #include "src/Railbus-steam/South_Africa_CSAR_Railmotor_property.pnml"
-// #include "src/Railbus-steam/South_Africa_CSAR_Railmotor_graphics.pnml"
-// #include "src/Railbus-steam/South_Africa_CSAR_Railmotor_item.pnml"
-// #include "src/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3_property.pnml"
-// #include "src/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3_graphics.pnml"
-// #include "src/Railbus-steam/Australia_Victorian_Railways_Motor_Car_3_item.pnml"
-// #include "src/Railbus-steam/Austria_kkStB_4_0_property.pnml"
-// #include "src/Railbus-steam/Austria_kkStB_4_0_graphics.pnml"
-// #include "src/Railbus-steam/Austria_kkStB_4_0_item.pnml"
+#include "src/Railbus-steam/Austria_NOLB_1_property.pnml"
+#include "src/Railbus-steam/Austria_NOLB_1_graphics.pnml"
+#include "src/Railbus-steam/Austria_NOLB_1_item.pnml"
+#include "src/Railbus-steam/South_Africa_CSAR_Railmotor_property.pnml"
+#include "src/Railbus-steam/South_Africa_CSAR_Railmotor_graphics.pnml"
+#include "src/Railbus-steam/South_Africa_CSAR_Railmotor_item.pnml"
 
 //Railbus-diesel
 #include "src/_CodeSupport/TypeInitialization/init_type_RBD.pnml"
@@ -2256,6 +2238,3 @@
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
-
-// override 2cc Trains in NML
-engine_override("TM\01\01");
