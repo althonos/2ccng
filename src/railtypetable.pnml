@@ -14,5 +14,7 @@ railtypetable {
 	ELRL,
 	MONO,
 	MGLV,
-	MTRO: [SAB3, "3RDR", MTRO, MONO] // fall back to monorail if no Metro-tracks are available
+	MTRO: [SAB3, "3RDR", MTRO, MONO], // fall back to monorail if no Metro-tracks are available
+	NAAN,
+	NAAE
 }
