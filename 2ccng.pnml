@@ -2256,3 +2256,6 @@
 
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
+
+// override 2cc Trains in NML
+engine_override("TM\01\01");
