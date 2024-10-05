@@ -13,6 +13,7 @@
 #define NAME string(str_steam_Kenya_East_African_Railway_21)
 
 #define VEHICLE_REGION REGION(AFRICA,NOREGION,NOCONCEPT)
+#define VEHICLE_GAUGE METRIC
 
 #define INTRODUCTION_YEAR 1928
 #define MODEL_LIFE 45

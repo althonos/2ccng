@@ -13,6 +13,7 @@
 #define NAME string(str_steam_Mozambique_Beira_Railway_BR6_F2_Falcon)
 
 #define VEHICLE_REGION REGION(AFRICA,NOREGION,NOCONCEPT)
+#define VEHICLE_GAUGE TWOFOOT
 
 #define INTRODUCTION_YEAR 1895
 #define MODEL_LIFE 45
