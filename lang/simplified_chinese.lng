@@ -270,6 +270,7 @@ str_diesel_Canada_CPR_Trainmaster                                               
 str_diesel_Liberia_Liberia_Railways_Class_08                    :利比里亚铁路  08 (内燃)
 str_diesel_Austria_OBB_2060                                                     :奥铁OBB 2060 (内燃)
 str_diesel_Canada_CNR_SW1200                                                    :加国铁CNR SW1200 (内燃)
+str_diesel_Chile_SQM_SW1200 							                        ::加国铁SQM SW1200 (内燃)
 str_diesel_Canada_VIA_Rail_FP9                                                  :维亚铁路(加)VIA Rail FP9 (内燃)
 str_diesel_Hungary_MAV_M44                                                              :匈铁MAV M44 (内燃)
 str_diesel_Hungary_MAV_M28                                                              :匈铁MAV M28 (内燃)

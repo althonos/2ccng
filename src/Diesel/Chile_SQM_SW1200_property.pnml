@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE diesel_Canada_CNR_SW1200
-#define ITEM item_diesel_Canada_CNR_SW1200
-#define NAME string(str_diesel_Canada_CNR_SW1200)
+#define VEHIDCODE diesel_Chile_SQM_SW1200
+#define ITEM item_diesel_Chile_SQM_SW1200
+#define NAME string(str_diesel_Chile_SQM_SW1200)
 
 #define VEHICLE_REGION REGION(NORTHAMERICA,NOREGION,NOCONCEPT)
 

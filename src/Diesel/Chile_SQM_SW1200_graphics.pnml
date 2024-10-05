@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Canada_CNR_SW1200_purchase, "gfx/Diesel/Canada_CNR_SW1200.png") {
+spriteset(spriteset_diesel_Chile_SQM_SW1200_purchase, "gfx/Diesel/Chile_SQM_SW1200.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_diesel_Canada_CNR_SW1200_purchase, "gfx/Diesel/Canada_CNR_SW
 */
 
 //Engine
-spriteset(spriteset_diesel_Canada_CNR_SW1200, "gfx/Diesel/Canada_CNR_SW1200.png") {
+spriteset(spriteset_diesel_Chile_SQM_SW1200, "gfx/Diesel/Chile_SQM_SW1200.png") {
 	template_2cc_engines_general(1, 1)
 }
 

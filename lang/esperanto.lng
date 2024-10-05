@@ -69,6 +69,7 @@ str_diesel_USA_UP_EMD_E8                                                        
 str_diesel_Brazil_EFCB_ALCO_RS_3                                                :EFCB ALCO RS-3 (Dizelo)
 str_diesel_Netherlands_NS_600                                                   :NS 600 'Bakkie' (Dizelo)
 str_diesel_Canada_CNR_SW1200                                                    :CNR SW1200 (Dizelo)
+str_diesel_Chile_SQM_SW1200 							                        :SQM SW1200 (Dizelo)
 str_diesel_Canada_VIA_Rail_FP9                                                  :VIA Rail FP9 (Dizelo)
 str_diesel_Hungary_MAV_M44                                                              :MAV M44 (Dizelo)
 str_diesel_USA_Amtrak_FL9                                                               :Amtrak FL9 (Dizelo)

@@ -430,6 +430,9 @@
 #include "src/Diesel/South_Africa_SAR_Afro_4000_property.pnml"
 #include "src/Diesel/South_Africa_SAR_Afro_4000_graphics.pnml"
 #include "src/Diesel/South_Africa_SAR_Afro_4000_item.pnml"
+#include "src/Diesel/Chile_SQM_SW1200_property.pnml"
+#include "src/Diesel/Chile_SQM_SW1200_graphics.pnml"
+#include "src/Diesel/Chile_SQM_SW1200_item.pnml"
 
 //Electric
 #include "src/_CodeSupport/TypeInitialization/init_type_Electric.pnml"

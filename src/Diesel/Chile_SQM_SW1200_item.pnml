@@ -42,11 +42,11 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_diesel_Canada_CNR_SW1200_purchase;
+		purchase: spriteset_diesel_Chile_SQM_SW1200_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: spriteset_diesel_Canada_CNR_SW1200;
+		default: spriteset_diesel_Chile_SQM_SW1200;
 	}
 }
