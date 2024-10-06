@@ -42,11 +42,11 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_wagon_Gen1_Flat_Wagon_purchase;
+		purchase: spriteset_wagon_Narrow_Gen1_Flat_Wagon_purchase;
 		//Add calls to defined switches below
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: switch_wagon_Gen1_Flat_Wagon_cargo_selection;
+		default: switch_wagon_Narrow_Gen1_Flat_Wagon_cargo_selection;
 	}
 }
