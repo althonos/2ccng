@@ -95,9 +95,6 @@
 #include "src/Railbus-diesel/Portugal_CP_USD_9050_property.pnml"
 #include "src/Railbus-diesel/Portugal_CP_USD_9050_graphics.pnml"
 #include "src/Railbus-diesel/Portugal_CP_USD_9050_item.pnml"
-// #include "src/Railbus-diesel/Tunisia_SNCFT_Z431_property.pnml"
-// #include "src/Railbus-diesel/Tunisia_SNCFT_Z431_graphics.pnml"
-// #include "src/Railbus-diesel/Tunisia_SNCFT_Z431_item.pnml"
 #include "src/Railbus-diesel/Japan_JR_Shikoku_1000_property.pnml"
 #include "src/Railbus-diesel/Japan_JR_Shikoku_1000_graphics.pnml"
 #include "src/Railbus-diesel/Japan_JR_Shikoku_1000_item.pnml"
@@ -113,6 +110,9 @@
 #include "src/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina_property.pnml"
 #include "src/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina_graphics.pnml"
 #include "src/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina_item.pnml"
+#include "src/Railbus-diesel/Tunisia_SNCFT_YZ_661_property.pnml"
+#include "src/Railbus-diesel/Tunisia_SNCFT_YZ_661_graphics.pnml"
+#include "src/Railbus-diesel/Tunisia_SNCFT_YZ_661_item.pnml"
 
 //Railbus-electric
 #include "src/_CodeSupport/TypeInitialization/init_type_RBE.pnml"

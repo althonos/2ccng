@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Tunisia_SNCFT_Z431_purchase, "gfx/Railbus-diesel/Tunisia_SNCFT_Z431.png") {
+spriteset(spriteset_rbd_Tunisia_SNCFT_YZ_661_purchase, "gfx/Railbus-diesel/Tunisia_SNCFT_YZ_661.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_rbd_Tunisia_SNCFT_Z431_purchase, "gfx/Railbus-diesel/Tunisia
 */
 
 //Engine
-spriteset(spriteset_rbd_Tunisia_SNCFT_Z431, "gfx/Railbus-diesel/Tunisia_SNCFT_Z431.png") {
+spriteset(spriteset_rbd_Tunisia_SNCFT_YZ_661, "gfx/Railbus-diesel/Tunisia_SNCFT_YZ_661.png") {
 	template_2cc_engines_general(1, 1)
 }
 
