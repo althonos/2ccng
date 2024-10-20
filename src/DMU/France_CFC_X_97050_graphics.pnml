@@ -28,14 +28,14 @@ spriteset(spriteset_dmu_France_CFC_X_97050_back, "gfx/DMU/France_CFC_X_97050.png
 	template_2cc_engines_general(1, 32)
 }
 
-//Middle - PAX
-// spriteset(spriteset_dmu_France_CFC_X_97050_middlepass, "gfx/DMU/France_CFC_X_97050.png") {
-// 	template_2cc_engines_general(1, 64)
-// }
-//Middle - MAIL
-// spriteset(spriteset_dmu_France_CFC_X_97050_middlemail, "gfx/DMU/France_CFC_X_97050.png") {
-// 	template_2cc_engines_general(1, 96)
-// }
+//Middle - Forward
+spriteset(spriteset_dmu_France_CFC_X_97050_forward, "gfx/DMU/France_CFC_X_97050.png") {
+	template_2cc_engines_general(1, 64)
+}
+//Middle - Backward
+spriteset(spriteset_dmu_France_CFC_X_97050_backward, "gfx/DMU/France_CFC_X_97050.png") {
+	template_2cc_engines_general(1, 96)
+}
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_dmu_France_CFC_X_97050_reversed, var[0xC8]) {
@@ -60,10 +60,10 @@ ENGINECAPACITYSWITCH(VEHIDCODE)
 WAGONCAPACITYSWITCH(VEHIDCODE)
 
 //Graphics for the unit wagon based on cargo class
-switch(FEAT_TRAINS, SELF, switch_dmu_France_CFC_X_97050_cargo_selection, position_in_consist % 2){
+switch(FEAT_TRAINS, SELF, switch_dmu_France_CFC_X_97050_cargo_selection, position_in_consist & 0x01){
 	// bitmask(CC_PASSENGERS): spriteset_dmu_France_CFC_X_97050_middlepass;
-	1: spriteset_dmu_France_CFC_X_97050_back;
-	0: spriteset_dmu_France_CFC_X_97050_front;
+	0x00: spriteset_dmu_France_CFC_X_97050_forward;
+	0x01: spriteset_dmu_France_CFC_X_97050_backward;
 }
 
 //Add defined switches
