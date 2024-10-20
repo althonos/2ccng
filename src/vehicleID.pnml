@@ -550,6 +550,8 @@ item(FEAT_TRAINS, item_dmu_Ghana_Ghana_Railways_DEMU, 7050) {}
 item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, 7051) {}
 item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, 7052) {}
 item(FEAT_TRAINS, item_dmu_Argentina_FCGU_CMM_400_2, 7053) {}
+// Narrow
+// item(FEAT_TRAINS, item_dmu_France_CFC_X_97050, 7080) {}
 
 
 //EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)

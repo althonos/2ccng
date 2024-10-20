@@ -114,6 +114,7 @@ str_rbd_Chile_EFE_Buscarril :EFE Buscarril (Diesel railbus)
 str_rbd_Argentina_FCPBA_M_Railcar :FCPBA M Railcar (Diesel railbus)
 str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :Eritrean Railway A.62-70 'Littorina' (Diesel railbus)
 str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Diesel railbus)
+str_rbd_France_CdN_OC1 :CdN OC1 (Diesel railbus)
 
 #Railbus-electric
 str_rbe_Switzerland_AB_CFe_3_3		:AB CFe 3/3 (Electric Railbus)
@@ -568,6 +569,7 @@ str_dmu_Italy_FS_ALn_442_448 :FS ALn 442-448 (DMU)
 str_dmu_Portugal_CP_0400 :CP 0400 (DMU)
 str_dmu_Portugal_CP_0600 :CP 0600 (DMU)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (DMU)
+str_dmu_France_CFC_X_97050  :CFC X 97050 (DMU)
 
 #CargoDMU
 str_cargodmu_Germany_DB_691_CargoSprinter	:DB 691 'CargoSprinter' (Cargo DMU)

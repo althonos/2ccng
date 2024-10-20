@@ -359,6 +359,9 @@
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
+#include "src/DMU/France_CFC_X_97050_property.pnml"
+#include "src/DMU/France_CFC_X_97050_graphics.pnml"
+#include "src/DMU/France_CFC_X_97050_item.pnml"
 // #include "src/DMU/Argentina_FCGU_CMM_400_2_graphics.pnml"
 // #include "src/DMU/Argentina_FCGU_CMM_400_2_property.pnml"
 // #include "src/DMU/Argentina_FCGU_CMM_400_2_item.pnml"
