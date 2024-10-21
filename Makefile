@@ -520,7 +520,11 @@ endif
 
 # If non of the above matched, we'll assume we're on a unix-like system
 ifeq ($(OSTYPE),Linux)
-INSTALL_DIR := $(HOME)/.openttd/newgrf/$(BASE_FILENAME)
+	ifeq ($(XDG_DATA_HOME),"")
+		INSTALL_DIR := $(HOME)/.local/share/openttd/newgrf/$(BASE_FILENAME)
+	else
+		INSTALL_DIR := $(XDG_DATA_HOME)/openttd/newgrf/$(BASE_FILENAME)
+	endif
 endif
 
 endif
