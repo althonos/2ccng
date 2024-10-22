@@ -494,6 +494,8 @@ item(FEAT_TRAINS, item_electric_USA_Amtrak_HHP_8, 6132) {}
 item(FEAT_TRAINS, item_electric_Brasil_MRS_He_4_4, 6133) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL11, 6134) {}
 item(FEAT_TRAINS, item_electric_Germany_Prussian_ES_6, 6135) {}
+// Narrow
+item(FEAT_TRAINS, item_electric_Slovakia_TEZ_485_951, 6800) {}
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
 #define ID_RANGE_DMU 0x1B58..0x1F3F

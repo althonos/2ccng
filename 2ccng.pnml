@@ -356,6 +356,9 @@
 #include "src/Electric/South_Africa_SAR_E38_property.pnml"
 #include "src/Electric/South_Africa_SAR_E38_graphics.pnml"
 #include "src/Electric/South_Africa_SAR_E38_item.pnml"
+#include "src/Electric/Slovakia_TEZ_485_951_property.pnml"
+#include "src/Electric/Slovakia_TEZ_485_951_graphics.pnml"
+#include "src/Electric/Slovakia_TEZ_485_951_item.pnml"
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
