@@ -42,11 +42,11 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_diesel_Indonesia_Indonesia_Railways_CC300_purchase;
+		purchase: spriteset_diesel_Indonesia_KAI_CC300_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: spriteset_diesel_Indonesia_Indonesia_Railways_CC300;
+		default: spriteset_diesel_Indonesia_KAI_CC300;
 	}
 }
