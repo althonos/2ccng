@@ -385,6 +385,7 @@ str_diesel_Norway_CargoNet_312 :CargoNet 312 (Diesel)
 str_diesel_Australia_Pacific_National_92 :Pacific National 92 (Diesel)
 str_diesel_UK_BR_68 :BR 68 (Diesel)
 str_diesel_USA_Amtrak_Charger :Amtrak Charger (Diesel)
+str_diesel_Indonesia_KAI_CC203 :KAI CC203 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)

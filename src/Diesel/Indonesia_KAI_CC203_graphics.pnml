@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Argentina_MF_GE_U20C_purchase, "gfx/Diesel/Argentina_MF_GE_U20C.png") {
+spriteset(spriteset_diesel_Indonesia_KAI_CC203_purchase, "gfx/Diesel/Indonesia_KAI_CC203.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_diesel_Argentina_MF_GE_U20C_purchase, "gfx/Diesel/Argentina_
 */
 
 //Engine
-spriteset(spriteset_diesel_Argentina_MF_GE_U20C, "gfx/Diesel/Argentina_MF_GE_U20C.png") {
+spriteset(spriteset_diesel_Indonesia_KAI_CC203, "gfx/Diesel/Indonesia_KAI_CC203.png") {
 	template_2cc_engines_general(1, 1)
 }
 

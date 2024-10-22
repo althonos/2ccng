@@ -239,9 +239,6 @@
 #include "src/Diesel/Australia_Queensland_Rail_2100_property.pnml"
 #include "src/Diesel/Australia_Queensland_Rail_2100_graphics.pnml"
 #include "src/Diesel/Australia_Queensland_Rail_2100_item.pnml"
-#include "src/Diesel/Argentina_MF_GE_U20C_property.pnml"
-#include "src/Diesel/Argentina_MF_GE_U20C_graphics.pnml"
-#include "src/Diesel/Argentina_MF_GE_U20C_item.pnml"
 #include "src/Diesel/Brazil_EFC_3300_Baldwin_AS_616_property.pnml"
 #include "src/Diesel/Brazil_EFC_3300_Baldwin_AS_616_graphics.pnml"
 #include "src/Diesel/Brazil_EFC_3300_Baldwin_AS_616_item.pnml"
@@ -284,6 +281,9 @@
 #include "src/Diesel/Chile_SQM_SW1200_property.pnml"
 #include "src/Diesel/Chile_SQM_SW1200_graphics.pnml"
 #include "src/Diesel/Chile_SQM_SW1200_item.pnml"
+#include "src/Diesel/Indonesia_KAI_CC203_property.pnml"
+#include "src/Diesel/Indonesia_KAI_CC203_graphics.pnml"
+#include "src/Diesel/Indonesia_KAI_CC203_item.pnml"
 
 //Electric
 #include "src/_CodeSupport/TypeInitialization/init_type_Electric.pnml"
