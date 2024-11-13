@@ -826,6 +826,7 @@ item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
 item(FEAT_TRAINS, item_wagon_Narrow_Gen1_Tanker, 12800) {}
 item(FEAT_TRAINS, item_wagon_Narrow_Gen1_Flat_Wagon, 12801) {}
 item(FEAT_TRAINS, item_wagon_Narrow_Gen1_Open_Wagon, 12802) {}
+item(FEAT_TRAINS, item_wagon_Narrow_Gen1_Boxcar_Wagon, 12803) {}
 
 //Unit Wagons, available ID range: 13000-13499 (hex 0x32C8..0x34BB)
 #define ID_RANGE_UNIT_WAGONS 0x32C8..0x34BB
