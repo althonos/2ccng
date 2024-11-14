@@ -843,7 +843,8 @@ item(FEAT_TRAINS, item_mglv_wagon_unpowered, 13004) {}
 item(FEAT_TRAINS, item_mglv_wagon_powered, 13005) {}
 item(FEAT_TRAINS, item_mu_cargo_wagon_unpowered, 13006) {}
 item(FEAT_TRAINS, item_mu_cargo_wagon_powered, 13007) {}
-// item(FEAT_TRAINS, item_mu_narrow_wagon_unpowered, 13008) {}
+// Narrow-Gauge
+item(FEAT_TRAINS, item_mu_narrow_wagon_unpowered, 13008) {}
 item(FEAT_TRAINS, item_mu_narrow_wagon_powered, 13009) {}
 
 //Single Unit Metros, available ID range: 14000-14499 (hex 0x36B0..0x38A3)

@@ -858,7 +858,7 @@ str_mu_narrow_wagon_unpowered 	:Narrow-Gauge Multiple Unit Wagon (Unpowered)
 str_mu_wagon_powered			:Multiple Unit Wagon (Powered)
 str_mtro_wagon_powered			:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered			:Maglev Unit Wagon (Powered)
-str_mu_cargo_wagon_powered		:Multipe Unit Cargo Wagon (Powered)
+str_mu_cargo_wagon_powered		:Narrow-Gauge Multipe Unit Cargo Wagon (Powered)
 str_mu_narrow_wagon_powered 	:Narrow-Gauge Multiple Unit Wagon (Powered)
 
 #Obsolete vehicles
