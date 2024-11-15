@@ -386,6 +386,7 @@ str_diesel_Australia_Pacific_National_92 :Pacific National 92 (Diesel)
 str_diesel_UK_BR_68 :BR 68 (Diesel)
 str_diesel_USA_Amtrak_Charger :Amtrak Charger (Diesel)
 str_diesel_Indonesia_KAI_CC203 :KAI CC203 (Diesel)
+str_diesel_Ireland_Bord_na_Mona_LM200  :Bord na Mona LM 200 'Wagonmaster' (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)
@@ -858,7 +859,7 @@ str_mu_narrow_wagon_unpowered 	:Narrow-Gauge Multiple Unit Wagon (Unpowered)
 str_mu_wagon_powered			:Multiple Unit Wagon (Powered)
 str_mtro_wagon_powered			:Metro Unit Wagon (Powered)
 str_mglv_wagon_powered			:Maglev Unit Wagon (Powered)
-str_mu_cargo_wagon_powered		:Narrow-Gauge Multipe Unit Cargo Wagon (Powered)
+str_mu_cargo_wagon_powered		:Multipe Unit Cargo Wagon (Powered)
 str_mu_narrow_wagon_powered 	:Narrow-Gauge Multiple Unit Wagon (Powered)
 
 #Obsolete vehicles

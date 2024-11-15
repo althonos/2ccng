@@ -284,6 +284,9 @@
 #include "src/Diesel/Indonesia_KAI_CC203_property.pnml"
 #include "src/Diesel/Indonesia_KAI_CC203_graphics.pnml"
 #include "src/Diesel/Indonesia_KAI_CC203_item.pnml"
+#include "src/Diesel/Ireland_Bord_na_Mona_LM200_property.pnml"
+#include "src/Diesel/Ireland_Bord_na_Mona_LM200_graphics.pnml"
+#include "src/Diesel/Ireland_Bord_na_Mona_LM200_item.pnml"
 
 //Electric
 #include "src/_CodeSupport/TypeInitialization/init_type_Electric.pnml"
