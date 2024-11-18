@@ -168,7 +168,7 @@ item(FEAT_TRAINS, item_steam_Egypt_ENR_1100, 4066) {}
 item(FEAT_TRAINS, item_steam_Japan_JNR_Class_E10, 4067) {}
 item(FEAT_TRAINS, item_steam_UK_GWR_1600_Class, 4068) {}
 item(FEAT_TRAINS, item_steam_Australia_Victorian_Railways_R_Class, 4069) {}
-item(FEAT_TRAINS, item_steam_Germany_DB_9977_79, 4070) {}
+item(FEAT_TRAINS, item_steam_Germany_RuKB_9977_79, 4070) {}
 item(FEAT_TRAINS, item_steam_Germany_DB_18_201, 4071) {}
 item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T, 4072) {} 
 item(FEAT_TRAINS, item_steam_India_Fairy_Queen, 4073) {}
