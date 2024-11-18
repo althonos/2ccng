@@ -261,6 +261,7 @@ item_diesel_South_Korea_Korail_6000_EMD_SD18, /*Year: 1960*/ \
 item_diesel_Tunisia_SNCFT_040_DF, /*Year: 1960*/ \
 item_diesel_Chile_EFE_GE_U5B, /*Year: 1961*/ \
 item_diesel_Belgium_NMBS_SNCB_62, /*Year: 1961*/ \
+item_diesel_Ireland_Bord_na_Mona_LM200, /*Year: 1962*/ \
 item_diesel_Denmark_DSB_MaK_100, /*Year: 1962*/ \
 item_diesel_India_Indian_Railways_WDM_2, /*Year: 1963*/ \
 item_diesel_UK_BR_14, /*Year: 1964*/ \
@@ -281,6 +282,7 @@ item_diesel_Croatia_HZ_2062, /*Year: 1972*/ \
 item_diesel_Sweden_SJ_V4, /*Year: 1972*/ \
 item_diesel_Canada_CNR_MLW_M420W, /*Year: 1973*/ \
 item_diesel_Egypt_ENR_TE114E, /*Year: 1974*/ \
+item_diesel_Bulgaria_BDZ_76, /*Year: 1976*/ \
 item_diesel_China_China_Railways_DFH3, /*Year: 1976*/ \
 item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH, /*Year: 1977*/ \
 item_diesel_Tunisia_SNCFT_040_DJ, /*Year: 1977*/ \
