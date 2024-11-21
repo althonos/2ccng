@@ -445,7 +445,7 @@
 #include "src/_CodeSupport/TypeInitialization/init_type_Coaches.pnml"
 
 //wagons
-// #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
+#include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
 #include "src/Wagons/Gen1/Gen1_Flat_Wagon_property.pnml"
 #include "src/Wagons/Gen1/Gen1_Flat_Wagon_graphics.pnml"
 #include "src/Wagons/Gen1/Gen1_Flat_Wagon_item.pnml"
