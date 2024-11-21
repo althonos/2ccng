@@ -87,6 +87,7 @@ item_rbe_Poland_PKP_EN81, /*Year: 2005*/ \
 item_rbe_USA_SEPTA_Silverliner_V, /*Year: 2010*/
 
 #define SORTING_STEAM \
+item_steam_USA_D_H_Stourbridge_Lion, /*Year: 1829 */ \
 item_steam_Belgium_Le_Belge, /*Year: 1835*/ \
 item_steam_Netherlands_NRS_11, /*Year: 1844*/ \
 item_steam_UK_GWR_Iron_DUKe_Class, /*Year: 1846*/ \
