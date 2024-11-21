@@ -783,6 +783,7 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	AORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;
 	CORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;  //Copper ore
 	NKOR: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;  //Nickel ore
+	PORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;  //Pyrite (Zinc) ore
 	
 	LIME: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
 	SAND: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
