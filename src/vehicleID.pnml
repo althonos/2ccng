@@ -217,6 +217,7 @@ item(FEAT_TRAINS, item_steam_Chile_FCAB_4_8_2, 4115) {}
 item(FEAT_TRAINS, item_steam_China_Railways_QJ, 4116) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_steam_USA_D_H_Stourbridge_Lion, 4801) {}
+item(FEAT_TRAINS, item_steam_USA_0_4_4_Forney, 4802) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F
