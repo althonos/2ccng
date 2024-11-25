@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Angola_South_West_African_2_8_0_purchase, "gfx/Steam/Angola_South_West_African_2_8_0.png") {
+spriteset(spriteset_steam_Namibia_South_West_African_2_8_0_purchase, "gfx/Steam/Namibia_South_West_African_2_8_0.png") {
 	template_purchase(1, 96)
 }
 
@@ -19,46 +19,46 @@ spriteset(spriteset_steam_Angola_South_West_African_2_8_0_purchase, "gfx/Steam/A
 */
 
 //Engine
-spriteset(spriteset_steam_Angola_South_West_African_2_8_0_engine1, "gfx/Steam/Angola_South_West_African_2_8_0.png") {
+spriteset(spriteset_steam_Namibia_South_West_African_2_8_0_engine1, "gfx/Steam/Namibia_South_West_African_2_8_0.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-spriteset(spriteset_steam_Angola_South_West_African_2_8_0_engine2, "gfx/Steam/Angola_South_West_African_2_8_0.png") {
+spriteset(spriteset_steam_Namibia_South_West_African_2_8_0_engine2, "gfx/Steam/Namibia_South_West_African_2_8_0.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Tender
-spriteset(spriteset_steam_Angola_South_West_African_2_8_0_tender, "gfx/Steam/Angola_South_West_African_2_8_0.png") {
+spriteset(spriteset_steam_Namibia_South_West_African_2_8_0_tender, "gfx/Steam/Namibia_South_West_African_2_8_0.png") {
 	template_2cc_engines_general(1, 64)
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_Angola_South_West_African_2_8_0_animation, motion_counter % 2){
-	0: spriteset_steam_Angola_South_West_African_2_8_0_engine1;
-	spriteset_steam_Angola_South_West_African_2_8_0_engine2;
+switch(FEAT_TRAINS, SELF, switch_steam_Namibia_South_West_African_2_8_0_animation, motion_counter % 2){
+	0: spriteset_steam_Namibia_South_West_African_2_8_0_engine1;
+	spriteset_steam_Namibia_South_West_African_2_8_0_engine2;
 }
 
-switch(FEAT_TRAINS, SELF, switch_steam_Angola_South_West_African_2_8_0_position, position_in_vehid_chain % 2) {
-	0: switch_steam_Angola_South_West_African_2_8_0_animation;
-	spriteset_steam_Angola_South_West_African_2_8_0_tender;
+switch(FEAT_TRAINS, SELF, switch_steam_Namibia_South_West_African_2_8_0_position, position_in_vehid_chain % 2) {
+	0: switch_steam_Namibia_South_West_African_2_8_0_animation;
+	spriteset_steam_Namibia_South_West_African_2_8_0_tender;
 }
 
 /*
 * Visual effect
 */
 
-switch(FEAT_TRAINS, SELF, switch_steam_Angola_South_West_African_2_8_0_visual_effect, position_in_vehid_chain % 2) {
+switch(FEAT_TRAINS, SELF, switch_steam_Namibia_South_West_African_2_8_0_visual_effect, position_in_vehid_chain % 2) {
 	0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
 	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
 }
 
-switch(FEAT_TRAINS, SELF, switch_steam_Angola_South_West_African_2_8_0_length, position_in_vehid_chain % 2) {
+switch(FEAT_TRAINS, SELF, switch_steam_Namibia_South_West_African_2_8_0_length, position_in_vehid_chain % 2) {
 	0: 6;
 	4;
 }
 
-switch(FEAT_TRAINS, SELF, switch_steam_Angola_South_West_African_2_8_0_articulated, extra_callback_info1) {
-	1: return item_steam_Angola_South_West_African_2_8_0;
+switch(FEAT_TRAINS, SELF, switch_steam_Namibia_South_West_African_2_8_0_articulated, extra_callback_info1) {
+	1: return item_steam_Namibia_South_West_African_2_8_0;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 

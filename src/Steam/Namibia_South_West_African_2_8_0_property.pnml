@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE steam_Angola_South_West_African_2_8_0
-#define ITEM item_steam_Angola_South_West_African_2_8_0
-#define NAME string(str_steam_Angola_South_West_African_2_8_0)
+#define VEHIDCODE steam_Namibia_South_West_African_2_8_0
+#define ITEM item_steam_Namibia_South_West_African_2_8_0
+#define NAME string(str_steam_Namibia_South_West_African_2_8_0)
 
 #define VEHICLE_REGION REGION(AFRICA,NOREGION,NOCONCEPT)
 #define VEHICLE_GAUGE CAPE

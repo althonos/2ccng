@@ -155,7 +155,7 @@ item(FEAT_TRAINS, item_steam_Norway_NSB_Class_XXI, 4053) {}
 item(FEAT_TRAINS, item_steam_USA_PRR_D16, 4054) {}
 item(FEAT_TRAINS, item_steam_Netherlands_NS_8100, 4055) {}
 item(FEAT_TRAINS, item_steam_South_Africa_SAR_MD_Class, 4056) {}
-item(FEAT_TRAINS, item_steam_Angola_South_West_African_2_8_0, 4057) {}
+item(FEAT_TRAINS, item_steam_Namibia_South_West_African_2_8_0, 4057) {}
 item(FEAT_TRAINS, item_steam_UK_LNER_N7, 4058) {}
 item(FEAT_TRAINS, item_steam_Germany_Saxon_XX_HV, 4059) {}
 item(FEAT_TRAINS, item_steam_Belgium_NMBS_Type_7, 4060) {}

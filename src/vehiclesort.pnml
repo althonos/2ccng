@@ -13,13 +13,13 @@
 */
  
 #define SORTING_RBS \
-item_rbs_Austria_kkStB_4_0,  /*Year: 1880*/ \^M
-item_rbs_Australia_Victorian_Railways_Rowan_Railmotor, /*Year: 1883*/ \^M
-item_rbs_Switzerland_UeBB_Czm_1_2, /*Year: 1902*/ \^M
- item_rbs_Austria_NOLB_1, /*Year: 1903*/ \
-item_rbs_Germany_Bavarian_MCCi, /*Year: 1906*/ \^M
-item_rbs_Italy_FS_86, /*Year: 1906*/ \^M
-item_rbs_South_Africa_CSAR_Railmotor, /*Year: 1906*/ \^M
+item_rbs_Austria_kkStB_4_0,  /*Year: 1880*/ \
+item_rbs_Australia_Victorian_Railways_Rowan_Railmotor, /*Year: 1883*/ \
+item_rbs_Switzerland_UeBB_Czm_1_2, /*Year: 1902*/ \
+item_rbs_Austria_NOLB_1, /*Year: 1903*/ \
+item_rbs_Germany_Bavarian_MCCi, /*Year: 1906*/ \
+item_rbs_Italy_FS_86, /*Year: 1906*/ \
+item_rbs_South_Africa_CSAR_Railmotor, /*Year: 1906*/ \
 item_rbs_Australia_Victorian_Railways_Motor_Car_3, /*Year: 1912*/
 
 #define SORTING_RBD \
@@ -140,7 +140,7 @@ item_steam_Uruguay_AFE_N1_2_6_0, /*Year: 1910*/ \
 item_steam_Czech_Republic_CD_5341, /*Year: 1910*/ \
 item_steam_Eritrea_Eritrean_Railway_R440, /*Year: 1911*/ \
 item_steam_Austria_KKStB_310, /*Year: 1911*/ \
-item_steam_Angola_South_West_African_2_8_0, /*Year: 1911*/ \
+item_steam_Namibia_South_West_African_2_8_0, /*Year: 1911*/ \
 item_steam_Russia_RZD_E, /*Year: 1912*/ \
 item_steam_Japan_JNR_9600, /*Year: 1913*/ \
 item_steam_Switzerland_SBB_C_5_6, /*Year: 1913*/ \
