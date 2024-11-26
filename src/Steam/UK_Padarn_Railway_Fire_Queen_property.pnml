@@ -12,7 +12,7 @@
 #define ITEM item_steam_UK_Padarn_Railway_Fire_Queen
 #define NAME string(str_steam_UK_Padarn_Railway_Fire_Queen)
 
-#define VEHICLE_REGION REGION(WESTERNEUROPE,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(NORTHERNEUROPE,NOREGION,NOCONCEPT)
 #define VEHICLE_GAUGE FOURFEET
 
 #define INTRODUCTION_YEAR 1848

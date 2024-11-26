@@ -321,7 +321,7 @@ item(FEAT_TRAINS, item_diesel_France_SNCF_461000, 5095) {}
 item(FEAT_TRAINS, item_diesel_Italy_ACT_D_200, 5096) {}
 item(FEAT_TRAINS, item_diesel_Canada_GO_Transit_MP40PH_3C, 5097) {}
 item(FEAT_TRAINS, item_diesel_Spain_RENFE_Class_334, 5098) {}
-item(FEAT_TRAINS, item_diesel_Indonesia_Indonesia_Railways_CC300, 5099) {}
+item(FEAT_TRAINS, item_diesel_Indonesia_KAI_CC300, 5099) {}
 item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose, 5100) {}
 item(FEAT_TRAINS, item_diesel_Argentina_Great_Southern_Railway_DH501, 5101) {}
 item(FEAT_TRAINS, item_diesel_Brazil_EE_VFFLB, 5102) {}
