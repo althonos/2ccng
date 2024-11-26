@@ -787,7 +787,6 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	
 	LIME: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
 	SAND: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
-	PORE: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
 	
 	// OLSD: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;
 	// SUGR: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;

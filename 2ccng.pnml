@@ -146,6 +146,9 @@
 
 //Steam
 #include "src/_CodeSupport/TypeInitialization/init_type_Steam.pnml"
+#include "src/Steam/UK_Padarn_Railway_Fire_Queen_property.pnml"
+#include "src/Steam/UK_Padarn_Railway_Fire_Queen_graphics.pnml"
+#include "src/Steam/UK_Padarn_Railway_Fire_Queen_item.pnml"
 #include "src/Steam/USA_D_H_Stourbridge_Lion_property.pnml"
 #include "src/Steam/USA_D_H_Stourbridge_Lion_graphics.pnml"
 #include "src/Steam/USA_D_H_Stourbridge_Lion_item.pnml"
