@@ -299,6 +299,9 @@
 #include "src/Diesel/Bulgaria_BDZ_76_property.pnml"
 #include "src/Diesel/Bulgaria_BDZ_76_graphics.pnml"
 #include "src/Diesel/Bulgaria_BDZ_76_item.pnml"
+#include "src/Diesel/Estonia_EVR_TU2_property.pnml"
+#include "src/Diesel/Estonia_EVR_TU2_graphics.pnml"
+#include "src/Diesel/Estonia_EVR_TU2_item.pnml"
 
 //Electric
 #include "src/_CodeSupport/TypeInitialization/init_type_Electric.pnml"

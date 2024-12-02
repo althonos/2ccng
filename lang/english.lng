@@ -392,6 +392,7 @@ str_diesel_USA_Amtrak_Charger :Amtrak Charger (Diesel)
 str_diesel_Indonesia_KAI_CC203 :KAI CC203 (Diesel)
 str_diesel_Ireland_Bord_na_Mona_LM200  :Bord na Mona LM 200 'Wagonmaster' (Diesel)
 str_diesel_Bulgaria_BDZ_76  :BDZ 76 (Diesel)
+str_diesel_Estonia_EVR_TU2  :EVR TU2 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)

@@ -252,6 +252,7 @@ item_diesel_Chile_SQM_SW1200, /*Year: 1954*/ \
 item_diesel_Canada_VIA_Rail_FP9, /*Year: 1954*/ \
 item_diesel_Hungary_MAV_M44, /*Year: 1954*/ \
 item_diesel_Sri_Lanka_Sri_Lanka_Railways_M2, /*Year: 1954*/ \
+item_diesel_Estonia_EVR_TU2, /*Year: 1955*/ \
 item_diesel_Hungary_MAV_M28, /*Year: 1955*/ \
 item_diesel_Ireland_CIE_001, /*Year: 1955*/ \
 item_diesel_Belgium_NMBS_SNCB_83, /*Year: 1956*/ \
@@ -362,7 +363,6 @@ item_electric_UK_NER_EE1, /*Year: 1922*/ \
 item_electric_Australia_Victorian_Railways_E_Class, /*Year: 1923*/ \
 item_electric_New_Zealand_NZR_EO_Class, /*Year: 1923*/ \
 item_electric_Germany_DB_E_919, /*Year: 1925*/ \
-item_electric_Indonesia_ESS_3200, /*Year: 1925*/ \
 item_electric_Indonesia_ESS_3200, /*Year: 1925*/ \
 item_electric_USA_PRR_B1, /*Year: 1926*/ \
 item_electric_Morocco_ONCFM_E_500, /*Year: 1926*/ \

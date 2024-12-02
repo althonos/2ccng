@@ -359,6 +359,7 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrak_Charger, 5133) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_diesel_Chile_SQM_SW1200, 5800) {}
 item(FEAT_TRAINS, item_diesel_Indonesia_KAI_CC203, 5801) {}
+item(FEAT_TRAINS, item_diesel_Estonia_EVR_TU2, 5802) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
