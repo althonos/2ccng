@@ -374,9 +374,9 @@
 #include "src/Electric/South_Africa_SAR_E38_property.pnml"
 #include "src/Electric/South_Africa_SAR_E38_graphics.pnml"
 #include "src/Electric/South_Africa_SAR_E38_item.pnml"
-#include "src/Electric/Slovakia_ZSSK_485_951_property.pnml"
-#include "src/Electric/Slovakia_ZSSK_485_951_graphics.pnml"
-#include "src/Electric/Slovakia_ZSSK_485_951_item.pnml"
+#include "src/Electric/Slovakia_ZSSK_HGem_2_2_property.pnml"
+#include "src/Electric/Slovakia_ZSSK_HGem_2_2_graphics.pnml"
+#include "src/Electric/Slovakia_ZSSK_HGem_2_2_item.pnml"
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"

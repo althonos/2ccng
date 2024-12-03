@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Slovakia_ZSSK_485_951_purchase, "gfx/Electric/Slovakia_ZSSK_485_951.png") {
+spriteset(spriteset_electric_Slovakia_ZSSK_HGem_2_2_purchase, "gfx/Electric/Slovakia_ZSSK_HGem_2_2.png") {
 	template_purchase(1, 64)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_electric_Slovakia_ZSSK_485_951_purchase, "gfx/Electric/Slova
 */
 
 //Engine
-spriteset(spriteset_electric_Slovakia_ZSSK_485_951, "gfx/Electric/Slovakia_ZSSK_485_951.png") {
+spriteset(spriteset_electric_Slovakia_ZSSK_HGem_2_2, "gfx/Electric/Slovakia_ZSSK_HGem_2_2.png") {
 	template_2cc_engines_general(1, 1)
 }
 

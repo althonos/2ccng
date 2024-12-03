@@ -42,11 +42,11 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_electric_Slovakia_ZSSK_485_951_purchase;
+		purchase: spriteset_electric_Slovakia_ZSSK_HGem_2_2_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: spriteset_electric_Slovakia_ZSSK_485_951;
+		default: spriteset_electric_Slovakia_ZSSK_HGem_2_2;
 	}
 }
