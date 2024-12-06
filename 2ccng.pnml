@@ -449,6 +449,9 @@
 #include "src/EMU/Australia_Queensland_Rail_Tilt_Train_property.pnml"
 #include "src/EMU/Australia_Queensland_Rail_Tilt_Train_graphics.pnml"
 #include "src/EMU/Australia_Queensland_Rail_Tilt_Train_item.pnml"
+#include "src/EMU/Spain_Euskotren_3500_property.pnml"
+#include "src/EMU/Spain_Euskotren_3500_graphics.pnml"
+#include "src/EMU/Spain_Euskotren_3500_item.pnml"
 
 //coaches
 #include "src/_CodeSupport/TypeInitialization/init_type_Coaches.pnml"
