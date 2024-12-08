@@ -256,6 +256,7 @@ str_steam_Germany_RuKB_9977_79 :RuKB 99.77-79 'Rasender Roland' (Steam)
 str_steam_USA_D_H_Stourbridge_Lion  :D&H 'Stourbridge Lion' (Steam)
 str_steam_USA_0_4_4_Forney  :0-4-4 'Forney' (Steam)
 str_steam_UK_Padarn_Railway_Fire_Queen  :Padarn Railway 'Fire Queen' (Steam)
+str_steam_Australia_Queensland_Railways_A10  :Queensland Railways A10 (Steam)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II							:DB Kof II / DB 322 (Diesel) 

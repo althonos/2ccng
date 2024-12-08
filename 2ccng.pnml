@@ -236,6 +236,9 @@
 #include "src/Steam/Chile_FCAB_4_8_2_property.pnml"
 #include "src/Steam/Chile_FCAB_4_8_2_graphics.pnml"
 #include "src/Steam/Chile_FCAB_4_8_2_item.pnml"
+#include "src/Steam/Australia_Queensland_Railways_A10_property.pnml"
+#include "src/Steam/Australia_Queensland_Railways_A10_graphics.pnml"
+#include "src/Steam/Australia_Queensland_Railways_A10_item.pnml"
 
 //Diesel
 #include "src/_CodeSupport/TypeInitialization/init_type_Diesel.pnml"
