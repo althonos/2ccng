@@ -18,9 +18,14 @@
 #define GAUGEPURCHASESWITCHNAME(VEHIDCODE) switch_ ## VEHIDCODE ## _track_gauge_text
 #define GAUGEPURCHASESWITCHSWITCH(VEHIDCODE) \
     switch(FEAT_TRAINS, SELF, GAUGEPURCHASESWITCHNAME(VEHIDCODE), VEHICLE_GAUGE) { \
-        GAUGE_BOSNIAN: return string(STR_EXTRA_GAUGE_BOSNIAN); \
-        GAUGE_METRIC: return string(STR_EXTRA_GAUGE_METRIC); \
         GAUGE_CAPE: return string(STR_EXTRA_GAUGE_CAPE); \
+        GAUGE_METRIC: return string(STR_EXTRA_GAUGE_METRIC); \
+        GAUGE_950MM: return string(STR_EXTRA_GAUGE_950MM); \
+        GAUGE_750MM: return string(STR_EXTRA_GAUGE_750MM); \
+        GAUGE_760MM: return string(STR_EXTRA_GAUGE_760MM); \
+        GAUGE_2FT: return string(STR_EXTRA_GAUGE_2FT); \
+        GAUGE_3FT: return string(STR_EXTRA_GAUGE_3FT); \
+        GAUGE_4FT: return string(STR_EXTRA_GAUGE_4FT); \
         default: return string(STR_EXTRA_GAUGE_UNKNOWN); \
     }
 

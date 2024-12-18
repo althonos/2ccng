@@ -58,12 +58,17 @@ STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 
 #track gauges
 STR_EXTRA_GAUGE_UNKNOWN                 :{GRAY}Unknown{BLACK}
+STR_EXTRA_GAUGE_2FT                     :{CREAM}2 ft (610mm){BLACK}
+STR_EXTRA_GAUGE_750MM                   :{YELLOW}750mm{BLACK}
+STR_EXTRA_GAUGE_760MM                   :{YELLOW}Bosnian (760mm){BLACK}
+STR_EXTRA_GAUGE_950MM                   :{LTBROWN}Italian metre (950mm){BLACK}
+STR_EXTRA_GAUGE_3FT                     :{BROWN}3 ft (914mm){BLACK}
+STR_EXTRA_GAUGE_METRIC                  :{DKGREEN}Metric (1,000mm){BLACK}
 STR_EXTRA_GAUGE_CAPE                    :{PURPLE}Cape (1,067mm){BLACK}
-STR_EXTRA_GAUGE_METRIC                  :{CREAM}Metric (1,000mm){BLACK}
-STR_EXTRA_GAUGE_BOSNIAN                 :{ORANGE}Bosnian (760mm){BLACK}
+STR_EXTRA_GAUGE_4FT                     :{BLUE}4 ft (1,219mm){BLACK}
 
 # extra purchase text
-STR_EXTRA_PRIMARY                       :Track Gauge: {STRING} {}
+STR_EXTRA_PRIMARY                       :Track Gauge: {STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
