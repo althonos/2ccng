@@ -56,6 +56,15 @@ STR_PARAM_LOADINGSPEED_NORMAL			:Normal (default)
 STR_PARAM_LOADINGSPEED_FAST				:Fast
 STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 
+#track gauges
+STR_EXTRA_GAUGE_UNKNOWN                 :{GRAY}Unknown{BLACK}
+STR_EXTRA_GAUGE_CAPE                    :{PURPLE}Cape (1,067mm){BLACK}
+STR_EXTRA_GAUGE_METRIC                  :{CREAM}Metric (1,000mm){BLACK}
+STR_EXTRA_GAUGE_BOSNIAN                 :{ORANGE}Bosnian (760mm){BLACK}
+
+# extra purchase text
+STR_EXTRA_PRIMARY                       :Track Gauge: {STRING} {}
+
 #VEHICLE NAMES
 #Railbus-steam
 str_rbs_Austria_NOLB_1		:NOLB 1 (Steam Railbus)
