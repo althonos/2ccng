@@ -27,4 +27,4 @@ spriteset(spriteset_diesel_Australia_Westrail_P_Class, "gfx/Diesel/Australia_Wes
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

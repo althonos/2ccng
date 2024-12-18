@@ -48,7 +48,7 @@ item(FEAT_TRAINS, ITEM ) {
 		visual_effect_and_powered: switch_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train_visual_effect_and_powered;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
 		default: switch_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train_reversed;
 	}
 	livery_override (item_mu_narrow_wagon_unpowered ) {

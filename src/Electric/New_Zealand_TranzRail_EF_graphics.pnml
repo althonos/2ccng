@@ -27,4 +27,4 @@ spriteset(spriteset_electric_New_Zealand_TranzRail_EF, "gfx/Electric/New_Zealand
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

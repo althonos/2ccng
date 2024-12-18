@@ -47,7 +47,7 @@ item(FEAT_TRAINS, ITEM ) {
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
 		default: switch_emu_Australia_Queensland_Rail_Tilt_Train_reversed;
 	}
 	livery_override (item_mu_narrow_wagon_unpowered ) {

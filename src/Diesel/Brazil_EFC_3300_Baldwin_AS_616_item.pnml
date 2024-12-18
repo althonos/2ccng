@@ -46,7 +46,7 @@ item(FEAT_TRAINS, ITEM ) {
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
 		default: spriteset_diesel_Brazil_EFC_3300_Baldwin_AS_616;
 	}
 }

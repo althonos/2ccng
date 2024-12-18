@@ -27,4 +27,4 @@ spriteset(spriteset_electric_Japan_Aichi_Railroad_DeKi_400, "gfx/Electric/Japan_
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

@@ -27,4 +27,4 @@ spriteset(spriteset_diesel_Australia_Queensland_Rail_2100, "gfx/Diesel/Australia
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

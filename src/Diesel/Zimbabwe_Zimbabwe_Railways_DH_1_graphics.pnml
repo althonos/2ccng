@@ -27,4 +27,4 @@ spriteset(spriteset_diesel_Zimbabwe_Zimbabwe_Railways_DH_1, "gfx/Diesel/Zimbabwe
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

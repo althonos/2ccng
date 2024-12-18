@@ -27,4 +27,4 @@ spriteset(spriteset_electric_Switzerland_RhB_DE_2_2, "gfx/Electric/Switzerland_R
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

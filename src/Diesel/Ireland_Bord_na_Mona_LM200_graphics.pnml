@@ -27,4 +27,4 @@ spriteset(spriteset_diesel_Ireland_Bord_na_Mona_LM200, "gfx/Diesel/Ireland_Bord_
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

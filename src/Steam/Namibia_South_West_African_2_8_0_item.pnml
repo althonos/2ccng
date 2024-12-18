@@ -49,7 +49,7 @@ item(FEAT_TRAINS, ITEM ) {
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
 		default: switch_steam_Namibia_South_West_African_2_8_0_position;
 	}
 }

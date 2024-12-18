@@ -49,7 +49,7 @@ item(FEAT_TRAINS, ITEM ) {
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
 		default: switch_steam_Chile_FCAB_4_8_2_position;
 	}
 }

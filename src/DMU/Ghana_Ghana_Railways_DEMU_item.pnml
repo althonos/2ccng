@@ -48,7 +48,7 @@ item(FEAT_TRAINS, ITEM ) {
 		visual_effect_and_powered: switch_dmu_Ghana_Ghana_Railways_DEMU_visual_effect_and_powered;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
 		default: switch_dmu_Ghana_Ghana_Railways_DEMU_reversed;
 	}
 	livery_override (item_mu_narrow_wagon_unpowered ) {
