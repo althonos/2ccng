@@ -1,0 +1,31 @@
+/*
+ * Copyright (C) 2024 Martin Larralde
+ * This file is part of the 2cc Narrow Gauge In NML, based on the 2cc Trains In NML by Transportman
+ * This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+#define MAKER_UNKNOWN 0
+#define MAKER_KOMAREK 1
+#define MAKER_KITSON_CO 2
+#define MAKER_HORLOCK_CO 3
+#define MAKER_FOSTER_RASTRICK_CO 4
+#define MAKER_HINKLEY 5
+#define MAKER_HENSCHEL 6
+#define MAKER_BEYER_PEACOCK 7
+#define MAKER_NASMYTH_WILSON_CO 8
+#define MAKER_SLM 9
+#define MAKER_SACHSICHE 10
+#define MAKER_LKM_BABELSBERG 11
+#define MAKER_DUBS_CO 12
+#define MAKER_ALCO 13
+#define MAKER_ORENSTEIN_KOPPEL 14
+#define MAKER_KISHA_SEIZO 15
+#define MAKER_FALCON 16
+#define MAKER_ANSALDO 17
+#define MAKER_NORTH_BRITISH 18
+#define MAKER_VULCAN 19
+#define MAKER_HK_PORTER 20
+#define MAKER_KAWASAKI 21
+#define MAKER_NEILSON_CO 22

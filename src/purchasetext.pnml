@@ -10,30 +10,63 @@
 #define PURCHASETEXTSWITCHCALL
 #define PURCHASETEXTSWITCH
 
+// purchase text for MU wagons
 #define PURCHASETEXTMUWAGONPASSENGERUNPOWERED additional_text: string(str_unit_wagon_passenger);
 #define PURCHASETEXTMUWAGONCARGOUNPOWERED additional_text: string(str_unit_wagon_cargo);
 #define PURCHASETEXTMUWAGONPASSENGERPOWERED additional_text: string(str_unit_wagon_passenger);
 #define PURCHASETEXTMUWAGONCARGOPOWERED additional_text: string(str_unit_wagon_cargo);
 
+// extra information displaying gauge
 #define GAUGEPURCHASESWITCHNAME(VEHIDCODE) switch_ ## VEHIDCODE ## _track_gauge_text
-#define GAUGEPURCHASESWITCHSWITCH(VEHIDCODE) \
+#define GAUGEPURCHASESWITCH(VEHIDCODE) \
     switch(FEAT_TRAINS, SELF, GAUGEPURCHASESWITCHNAME(VEHIDCODE), VEHICLE_GAUGE) { \
-        GAUGE_CAPE: return string(STR_EXTRA_GAUGE_CAPE); \
-        GAUGE_METRIC: return string(STR_EXTRA_GAUGE_METRIC); \
-        GAUGE_950MM: return string(STR_EXTRA_GAUGE_950MM); \
-        GAUGE_750MM: return string(STR_EXTRA_GAUGE_750MM); \
-        GAUGE_760MM: return string(STR_EXTRA_GAUGE_760MM); \
-        GAUGE_2FT: return string(STR_EXTRA_GAUGE_2FT); \
-        GAUGE_3FT: return string(STR_EXTRA_GAUGE_3FT); \
-        GAUGE_4FT: return string(STR_EXTRA_GAUGE_4FT); \
-        default: return string(STR_EXTRA_GAUGE_UNKNOWN); \
+        GAUGE_CAPE:   return string(STR_EXTRA_GAUGE_CAPE);      \
+        GAUGE_METRIC: return string(STR_EXTRA_GAUGE_METRIC);    \
+        GAUGE_950MM:  return string(STR_EXTRA_GAUGE_950MM);     \
+        GAUGE_750MM:  return string(STR_EXTRA_GAUGE_750MM);     \
+        GAUGE_760MM:  return string(STR_EXTRA_GAUGE_760MM);     \
+        GAUGE_2FT:    return string(STR_EXTRA_GAUGE_2FT);       \
+        GAUGE_3FT:    return string(STR_EXTRA_GAUGE_3FT);       \
+        GAUGE_4FT:    return string(STR_EXTRA_GAUGE_4FT);       \
+        default:      return string(STR_EXTRA_GAUGE_UNKNOWN);   \
     }
 
+// extra information displaying maker
+#define MAKERPURCHASESWITCHNAME(VEHIDCODE) switch_ ## VEHIDCODE ## _maker_text
+#define MAKERPURCHASESWITCH(VEHIDCODE) \
+    switch(FEAT_TRAINS, SELF, MAKERPURCHASESWITCHNAME(VEHIDCODE), VEHICLE_MAKER) {   \
+        MAKER_KOMAREK:            return string(STR_EXTRA_MAKER_KOMAREK);            \
+        MAKER_KITSON_CO:          return string(STR_EXTRA_MAKER_KITSON_CO);          \
+        MAKER_HORLOCK_CO:         return string(STR_EXTRA_MAKER_HORLOCK_CO);         \
+        MAKER_FOSTER_RASTRICK_CO: return string(STR_EXTRA_MAKER_FOSTER_RASTRICK_CO); \
+        MAKER_HINKLEY:            return string(STR_EXTRA_MAKER_HINKLEY);            \
+        MAKER_HENSCHEL:           return string(STR_EXTRA_MAKER_HENSCHEL);           \
+        MAKER_BEYER_PEACOCK:      return string(STR_EXTRA_MAKER_BEYER_PEACOCK);      \
+        MAKER_NASMYTH_WILSON_CO:  return string(STR_EXTRA_MAKER_NASMYTH_WILSON_CO);  \
+        MAKER_SLM:                return string(STR_EXTRA_MAKER_SLM);                \
+        MAKER_SACHSICHE:          return string(STR_EXTRA_MAKER_SACHSICHE);          \
+        MAKER_LKM_BABELSBERG:     return string(STR_EXTRA_MAKER_LKM_BABELSBERG);     \
+        MAKER_DUBS_CO:            return string(STR_EXTRA_MAKER_DUBS_CO);            \
+        MAKER_ALCO:               return string(STR_EXTRA_MAKER_ALCO);               \
+        MAKER_ORENSTEIN_KOPPEL:   return string(STR_EXTRA_MAKER_ORENSTEIN_KOPPEL);   \
+        MAKER_KISHA_SEIZO:        return string(STR_EXTRA_MAKER_KISHA_SEIZO);        \
+        MAKER_FALCON:             return string(STR_EXTRA_MAKER_FALCON);             \
+        MAKER_ANSALDO:            return string(STR_EXTRA_MAKER_ANSALDO);            \
+        MAKER_NORTH_BRITISH:      return string(STR_EXTRA_MAKER_NORTH_BRITISH);      \
+        MAKER_VULCAN:             return string(STR_EXTRA_MAKER_VULCAN);             \
+        MAKER_HK_PORTER:          return string(STR_EXTRA_MAKER_HK_PORTER);          \
+        MAKER_KAWASAKI:           return string(STR_EXTRA_MAKER_KAWASAKI);           \
+        MAKER_NEILSON_CO:         return string(STR_EXTRA_MAKER_NEILSON_CO);         \
+        default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
+    }
+
+// extra purchase information 
 #define EXPANDEDPURCHASETEXTSWITCHNAME(VEHIDCODE) switch_ ## VEHIDCODE ## _purchase_text
 #define EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE) additional_text: EXPANDEDPURCHASETEXTSWITCHNAME(VEHIDCODE);
 #define EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE) \
-    GAUGEPURCHASESWITCHSWITCH(VEHIDCODE) \
-    switch(FEAT_TRAINS, SELF, EXPANDEDPURCHASETEXTSWITCHNAME(VEHIDCODE), [  STORE_TEMP(GAUGEPURCHASESWITCHNAME(VEHIDCODE), 0x100) ]) \
+    MAKERPURCHASESWITCH(VEHIDCODE) \
+    GAUGEPURCHASESWITCH(VEHIDCODE) \
+    switch(FEAT_TRAINS, SELF, EXPANDEDPURCHASETEXTSWITCHNAME(VEHIDCODE), [ STORE_TEMP(MAKERPURCHASESWITCHNAME(VEHIDCODE), 0x100) ]) \
     { \
-        return string(STR_EXTRA_PRIMARY); \
+        return GAUGEPURCHASESWITCHNAME(VEHIDCODE); \
     }
