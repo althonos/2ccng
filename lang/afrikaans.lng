@@ -108,7 +108,7 @@ str_rbd_Japan_JR_Shikoku_1000 :JR Shikoku 1000 (Diesel Spoorbus)
 str_rbd_Finland_VR_Dm12 :VR Dm12 (Diesel Spoorbus)
 str_rbd_Japan_JR_KiHa_E120 :JR KiHa E120 (Diesel Spoorbus)
 str_rbd_Czech_Republic_CD_840 :CD 840 (Diesel Spoorbus)
-str_rbd_Chile_EFE_Buscarril :EFE Buscarril (Diesel spoorbus)
+str_rbd_Chile_EFE_SB_56_Buscarril :EFE Buscarril (Diesel spoorbus)
 str_rbd_Argentina_FCPBA_M_Railcar :FCPBA M Spoorkar (Diesel Spoorbus)
 
 #Railbus-electric

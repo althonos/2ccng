@@ -63,7 +63,7 @@ item(FEAT_TRAINS, item_rbd_Japan_JR_Shikoku_1000, 2038) {}
 item(FEAT_TRAINS, item_rbd_Finland_VR_Dm12, 2039) {}
 item(FEAT_TRAINS, item_rbd_Japan_JR_KiHa_E120, 2040) {}
 item(FEAT_TRAINS, item_rbd_Czech_Republic_CD_840, 2041) {}
-item(FEAT_TRAINS, item_rbd_Chile_EFE_Buscarril, 2042) {}
+item(FEAT_TRAINS, item_rbd_Chile_EFE_SB_56_Buscarril, 2042) {}
 item(FEAT_TRAINS, item_rbd_Argentina_FCPBA_M_Railcar, 2043) {}
 item(FEAT_TRAINS, item_rbd_Germany_DB_VT_989, 2044) {}
 item(FEAT_TRAINS, item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, 2045) {}
