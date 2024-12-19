@@ -92,6 +92,24 @@ STR_EXTRA_MAKER_VULCAN                  :Constructor: {GOLD}Vulcan Foundry{BLACK
 STR_EXTRA_MAKER_HK_PORTER               :Constructor: {GOLD}H.K. Porter, Inc.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_KAWASAKI                :Constructor: {GOLD}Kawasaki Heavy Industries{BLACK}{}{STRING}
 STR_EXTRA_MAKER_NEILSON_CO              :Constructor: {GOLD}Neilson & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CLYDE                   :Constructor: {GOLD}Clyde Locomotive Company{BLACK}{}{STRING}
+STR_EXTRA_MAKER_GONINAN_CO              :Constructor: {GOLD}A. Goninan & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_EMD                     :Constructor: {GOLD}Electro-Motive Division{BLACK}{}{STRING}
+STR_EXTRA_MAKER_EE                      :Constructor: {GOLD}English Electric{BLACK}{}{STRING}
+STR_EXTRA_MAKER_BLH                     :Constructor: {GOLD}Baldwin-Lima-Hamilton{BLACK}{}{STRING}
+STR_EXTRA_MAKER_KRAUSS_MAFFEI           :Constructor: {GOLD}Krauss-Maffei{BLACK}{}{STRING}
+STR_EXTRA_MAKER_GE                      :Constructor: {GOLD}General Electric{BLACK}{}{STRING}
+STR_EXTRA_MAKER_INKA                    :Constructor: {GOLD}Industri Kereta Api{BLACK}{}{STRING}
+STR_EXTRA_MAKER_HUNSLET                 :Constructor: {GOLD}Hunslet Engine Company{BLACK}{}{STRING}
+STR_EXTRA_MAKER_WALKERS                 :Constructor: {GOLD}Walkers Limited{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NIPPON_SHARYO           :Constructor: {GOLD}Nippon Sharyo{BLACK}{}{STRING}
+STR_EXTRA_MAKER_GANZ_MAVAG              :Constructor: {GOLD}Ganz-MAVAG{BLACK}{}{STRING}
+STR_EXTRA_MAKER_METRO_CAMMELL           :Constructor: {GOLD}Metro-Cammell{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CAF                     :Constructor: {GOLD}CAF{BLACK}{}{STRING}
+STR_EXTRA_MAKER_ALSTHOM                 :Constructor: {GOLD}Alsthom{BLACK}{}{STRING}
+STR_EXTRA_MAKER_FIAT                    :Constructor: {GOLD}Fiat Ferroviari{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NIIGATA                 :Constructor: {GOLD}Niigata Transys{BLACK}{}{STRING}
+STR_EXTRA_MAKER_FERROSTAAL              :Constructor: {GOLD}Ferrostaal{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam

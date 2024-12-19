@@ -57,6 +57,24 @@
         MAKER_HK_PORTER:          return string(STR_EXTRA_MAKER_HK_PORTER);          \
         MAKER_KAWASAKI:           return string(STR_EXTRA_MAKER_KAWASAKI);           \
         MAKER_NEILSON_CO:         return string(STR_EXTRA_MAKER_NEILSON_CO);         \
+        MAKER_CLYDE:              return string(STR_EXTRA_MAKER_CLYDE);              \
+        MAKER_GONINAN_CO:         return string(STR_EXTRA_MAKER_GONINAN_CO);         \
+        MAKER_EMD:                return string(STR_EXTRA_MAKER_EMD);                \
+        MAKER_EE:                 return string(STR_EXTRA_MAKER_EE);                 \
+        MAKER_BLH:                return string(STR_EXTRA_MAKER_BLH);                \
+        MAKER_KRAUSS_MAFFEI:      return string(STR_EXTRA_MAKER_KRAUSS_MAFFEI);      \
+        MAKER_GE:                 return string(STR_EXTRA_MAKER_GE);                 \
+        MAKER_INKA:               return string(STR_EXTRA_MAKER_INKA);               \
+        MAKER_HUNSLET:            return string(STR_EXTRA_MAKER_HUNSLET);            \
+        MAKER_WALKERS:            return string(STR_EXTRA_MAKER_WALKERS);            \
+        MAKER_NIPPON_SHARYO:      return string(STR_EXTRA_MAKER_NIPPON_SHARYO);      \
+        MAKER_GANZ_MAVAG:         return string(STR_EXTRA_MAKER_GANZ_MAVAG);         \
+        MAKER_METRO_CAMMELL:      return string(STR_EXTRA_MAKER_METRO_CAMMELL);      \
+        MAKER_CAF:                return string(STR_EXTRA_MAKER_CAF);                \
+        MAKER_ALSTHOM:            return string(STR_EXTRA_MAKER_ALSTHOM);            \
+        MAKER_FIAT:               return string(STR_EXTRA_MAKER_FIAT);               \
+        MAKER_NIIGATA:            return string(STR_EXTRA_MAKER_NIIGATA);            \
+        MAKER_FERROSTAAL:         return string(STR_EXTRA_MAKER_FERROSTAAL);         \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 
@@ -66,7 +84,7 @@
 #define EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE) \
     MAKERPURCHASESWITCH(VEHIDCODE) \
     GAUGEPURCHASESWITCH(VEHIDCODE) \
-    switch(FEAT_TRAINS, SELF, EXPANDEDPURCHASETEXTSWITCHNAME(VEHIDCODE), [ STORE_TEMP(MAKERPURCHASESWITCHNAME(VEHIDCODE), 0x100) ]) \
+    switch(FEAT_TRAINS, SELF, EXPANDEDPURCHASETEXTSWITCHNAME(VEHIDCODE), [ STORE_TEMP(GAUGEPURCHASESWITCHNAME(VEHIDCODE), 0x100) ]) \
     { \
-        return GAUGEPURCHASESWITCHNAME(VEHIDCODE); \
+        return MAKERPURCHASESWITCHNAME(VEHIDCODE); \
     }
