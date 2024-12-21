@@ -34,7 +34,7 @@
 #define ACTUAL_LENGTH 7
 #define WAGON_LENGTH 7
 
-#define HEAD_CAPACITY 52
+#define HEAD_CAPACITY 56
 #define WAGON_CAPACITY 52
 
 
