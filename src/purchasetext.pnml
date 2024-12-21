@@ -75,6 +75,7 @@
         MAKER_FIAT:               return string(STR_EXTRA_MAKER_FIAT);               \
         MAKER_NIIGATA:            return string(STR_EXTRA_MAKER_NIIGATA);            \
         MAKER_FERROSTAAL:         return string(STR_EXTRA_MAKER_FERROSTAAL);         \
+        MAKER_ANSALDO_BREDA:      return string(STR_EXTRA_MAKER_ANSALDO_BREDA);      \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 
