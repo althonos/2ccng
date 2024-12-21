@@ -76,6 +76,25 @@
         MAKER_NIIGATA:            return string(STR_EXTRA_MAKER_NIIGATA);            \
         MAKER_FERROSTAAL:         return string(STR_EXTRA_MAKER_FERROSTAAL);         \
         MAKER_ANSALDO_BREDA:      return string(STR_EXTRA_MAKER_ANSALDO_BREDA);      \
+        MAKER_WISMAR:             return string(STR_EXTRA_MAKER_WISMAR);             \
+        MAKER_RINGHOFFER:         return string(STR_EXTRA_MAKER_RINGHOFFER);         \
+        MAKER_STADLER:            return string(STR_EXTRA_MAKER_STADLER);            \
+        MAKER_SIG:                return string(STR_EXTRA_MAKER_SIG);                \
+        MAKER_KALUGA:             return string(STR_EXTRA_MAKER_KALUGA);             \
+        MAKER_VOSSLOH_ESPANA:     return string(STR_EXTRA_MAKER_VOSSLOH_ESPANA);     \
+        MAKER_AEG:                return string(STR_EXTRA_MAKER_AEG);                \
+        MAKER_FUJI_HEAVY:         return string(STR_EXTRA_MAKER_FUJI_HEAVY);         \
+        MAKER_MTM:                return string(STR_EXTRA_MAKER_MTM);                \
+        MAKER_SULZER:             return string(STR_EXTRA_MAKER_SULZER);             \
+        MAKER_SWS:                return string(STR_EXTRA_MAKER_SWS);                \
+        MAKER_SIEMENS:            return string(STR_EXTRA_MAKER_SIEMENS);            \
+        MAKER_WERKSPOOR:          return string(STR_EXTRA_MAKER_WERKSPOOR);          \
+        MAKER_HITACHI:            return string(STR_EXTRA_MAKER_HITACHI);            \
+        MAKER_TOSHIBA:            return string(STR_EXTRA_MAKER_TOSHIBA);            \
+        MAKER_BRUSH:              return string(STR_EXTRA_MAKER_BRUSH);              \
+        MAKER_UCW:                return string(STR_EXTRA_MAKER_UCW);                \
+        MAKER_GM:                 return string(STR_EXTRA_MAKER_GM);                 \
+        MAKER_CRRC:               return string(STR_EXTRA_MAKER_CRRC);               \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

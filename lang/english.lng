@@ -111,6 +111,25 @@ STR_EXTRA_MAKER_FIAT                    :Constructor: {GOLD}Fiat Ferroviari{BLAC
 STR_EXTRA_MAKER_NIIGATA                 :Constructor: {GOLD}Niigata Transys{BLACK}{}{STRING}
 STR_EXTRA_MAKER_FERROSTAAL              :Constructor: {GOLD}Ferrostaal{BLACK}{}{STRING}
 STR_EXTRA_MAKER_ANSALDO_BREDA           :Constructor: {GOLD}AnsaldoBreda{BLACK}{}{STRING}
+STR_EXTRA_MAKER_WISMAR                  :Constructor: {GOLD}Waggonfabrik Wismar{BLACK}{}{STRING}
+STR_EXTRA_MAKER_RINGHOFFER              :Constructor: {GOLD}Ringhoffer{BLACK}{}{STRING}
+STR_EXTRA_MAKER_STADLER                 :Constructor: {GOLD}Stadler Rail{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SIG                     :Constructor: {GOLD}SIG Group{BLACK}{}{STRING}
+STR_EXTRA_MAKER_KALUGA                  :Constructor: {GOLD}Kalugatransmash{BLACK}{}{STRING}
+STR_EXTRA_MAKER_VOSSLOH_ESPANA          :Constructor: {GOLD}Vossloh Espana{BLACK}{}{STRING}
+STR_EXTRA_MAKER_AEG                     :Constructor: {GOLD}AEG{BLACK}{}{STRING}
+STR_EXTRA_MAKER_FUJI_HEAVY              :Constructor: {GOLD}Fuji Heavy Industries{BLACK}{}{STRING}
+STR_EXTRA_MAKER_MTM                     :Constructor: {GOLD}MTM{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SULZER                  :Constructor: {GOLD}Sulzer{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SWS                     :Constructor: {GOLD}SWS 'Wagi'{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SIEMENS                 :Constructor: {GOLD}Siemens Mobility{BLACK}{}{STRING}
+STR_EXTRA_MAKER_WERKSPOOR               :Constructor: {GOLD}Werkspoor{BLACK}{}{STRING}
+STR_EXTRA_MAKER_HITACHI                 :Constructor: {GOLD}Hitachi Rail{BLACK}{}{STRING}
+STR_EXTRA_MAKER_TOSHIBA                 :Constructor: {GOLD}Toshiba{BLACK}{}{STRING}
+STR_EXTRA_MAKER_BRUSH                   :Constructor: {GOLD}Brush Traction{BLACK}{}{STRING}
+STR_EXTRA_MAKER_UCW                     :Constructor: {GOLD}Union Carriage & Wagon{BLACK}{}{STRING}
+STR_EXTRA_MAKER_GM                      :Constructor: {GOLD}General Motors{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
