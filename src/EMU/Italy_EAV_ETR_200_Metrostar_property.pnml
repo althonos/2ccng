@@ -11,7 +11,7 @@
 #define ITEM item_emu_Italy_EAV_ETR_200_Metrostar
 #define NAME string(str_emu_Italy_EAV_ETR_200_Metrostar)
 
-#define VEHICLE_REGION REGION(OCEANIA,NOREGION,NOCONCEPT)
+#define VEHICLE_REGION REGION(SOUTHERNEUROPE,NOREGION,NOCONCEPT)
 #define VEHICLE_GAUGE GAUGE_950MM
 #define VEHICLE_MAKER MAKER_ANSALDO_BREDA
 
@@ -33,8 +33,15 @@
 #define ACTUAL_LENGTH 8
 #define WAGON_LENGTH 6
 
-#define HEAD_CAPACITY 100       /* The reported 150 is for a crush load of 6p/m2, this is with the "European" 4p/m2 */
-#define WAGON_CAPACITY 100
+/* The reported 150 is for a crush load of 6p/m2, which is not realistic for
+ *  European trains: this is instead an estimation if the entire train was
+ *  filled with 2 seats per side (and strapontins next to doors) instead of
+ *  if 2/1 configuration and empty door space.
+ *
+ *  See: http://www.fedoa.unina.it/10204/1/Miraglia_Elisabetta_27.pdf, Fig. D6
+ */
+#define HEAD_CAPACITY 48
+#define WAGON_CAPACITY 40
 
 
 #define DUAL_HEADED 1
