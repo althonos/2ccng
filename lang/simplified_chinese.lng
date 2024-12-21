@@ -59,7 +59,7 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :尽可能快
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1          :下奥地利铁路NOLB 1 (蒸汽铁路巴士)
+str_rbs_Austria_NOLB_1_3          :下奥地利铁路NOLB 1-3 (蒸汽铁路巴士)
 str_rbs_Italy_FS_86                     :意铁FS 86 (蒸汽铁路巴士)
 str_rbs_Australia_Victorian_Railways_Rowan_Railmotor :维多利亚铁路(澳) Rowan Railmotor (蒸汽铁路巴士)
 str_rbs_Switzerland_UeBB_Czm_1_2 :尤-宝铁路(瑞) UeBB Czm 1/2 (蒸汽铁路巴士)

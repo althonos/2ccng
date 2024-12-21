@@ -54,7 +54,7 @@ STR_PARAM_REGION_OCEANIA_DESC                   :Emprar vehicles d'Oceania
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1          :NOLB 1 (Ferrobús a Vapor)
+str_rbs_Austria_NOLB_1_3          :NOLB 1-3 (Ferrobús a Vapor)
 str_rbs_Italy_FS_86                     :FS 86 (Ferrobús a Vapor)
 str_rbs_Australia_Victorian_Railways_Rowan_Railmotor :Ferrocarrils victorians - Vehicle Motor Rowan (Ferrobús a Vapor)
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Ferrobús a Vapor)

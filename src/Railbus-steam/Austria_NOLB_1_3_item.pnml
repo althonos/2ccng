@@ -43,11 +43,11 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
-		purchase: spriteset_rbs_Austria_NOLB_1_purchase;
+		purchase: spriteset_rbs_Austria_NOLB_1_3_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
-		default: spriteset_rbs_Austria_NOLB_1;
+		default: spriteset_rbs_Austria_NOLB_1_3;
 	}
 }

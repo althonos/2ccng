@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbs_Austria_NOLB_1_purchase, "gfx/Railbus-steam/Austria_NOLB_1.png") {
+spriteset(spriteset_rbs_Austria_NOLB_1_3_purchase, "gfx/Railbus-steam/Austria_NOLB_1_3.png") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_rbs_Austria_NOLB_1_purchase, "gfx/Railbus-steam/Austria_NOLB
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_rbs_Austria_NOLB_1, "gfx/Railbus-steam/Austria_NOLB_1.png") {
+spriteset(spriteset_rbs_Austria_NOLB_1_3, "gfx/Railbus-steam/Austria_NOLB_1_3.png") {
 	template_2cc_engines_general(1, 1) //different from railbus template
 }
 

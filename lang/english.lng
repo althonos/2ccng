@@ -114,7 +114,7 @@ STR_EXTRA_MAKER_ANSALDO_BREDA           :Constructor: {GOLD}AnsaldoBreda{BLACK}{
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1		:NOLB 1 (Steam Railbus)
+str_rbs_Austria_NOLB_1_3	:NOLB 1-3 (Steam Railbus)
 str_rbs_Italy_FS_86			:FS 86 (Steam Railbus)
 str_rbs_Australia_Victorian_Railways_Rowan_Railmotor :Victorian Railways Rowan Railmotor (Steam Railbus)
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Steam Railbus)

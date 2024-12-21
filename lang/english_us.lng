@@ -18,7 +18,7 @@ STR_GRF_URL             :https://dev.openttdcoop.org/projects/2ccts
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1          :NOLB 1 (Steam Railbus)
+str_rbs_Austria_NOLB_1_3          :NOLB 1-3 (Steam Railbus)
 str_rbs_Italy_FS_86                     :FS 86 (Steam Railbus)
 
 #Railbus-diesel

@@ -58,7 +58,7 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :Prawie natychmiastowa
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1          :NOLB 1 (parowy wagon motorowy)
+str_rbs_Austria_NOLB_1_3          :NOLB 1-3 (parowy wagon motorowy)
 str_rbs_Italy_FS_86                     :FS 86 (parowy wagon motorowy)
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (parowy wagon motorowy)
 str_rbs_Germany_Bavarian_MCCi :K.Bay.Sts.B. MCCi (parowy wagon motorowy)

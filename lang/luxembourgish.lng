@@ -59,7 +59,7 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :Sou séier wéi méiglech
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1          :NOLB 1 (Dampschinnebus)
+str_rbs_Austria_NOLB_1_3          :NOLB 1-3 (Dampschinnebus)
 str_rbs_Italy_FS_86                     :FS 86 (Damp Schinnebus)
 str_rbs_Australia_Victorian_Railways_Rowan_Railmotor :Victorian Railways Rowan Railmotor (Damp Schinnebus)
 str_rbs_Switzerland_UeBB_Czm_1_2 :UeBB Czm 1/2 (Damp Schinnebus)

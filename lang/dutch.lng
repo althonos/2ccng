@@ -58,7 +58,7 @@ STR_PARAM_LOADINGSPEED_ULTRA                    :Zo snel mogelijk
 
 #VEHICLE NAMES
 #Railbus-steam
-str_rbs_Austria_NOLB_1          :NOLB 1 (Stoom Railbus)
+str_rbs_Austria_NOLB_1_3          :NOLB 1-3 (Stoom Railbus)
 str_rbs_Italy_FS_86                     :FS 86 (Stoom Railbus)
 str_rbs_Germany_Bavarian_MCCi :Bavarian MCCi (Stoom Railbus)
 str_rbs_South_Africa_CSAR_Railmotor :CSAR Railmotor (Stoomrailbus)
