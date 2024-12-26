@@ -119,7 +119,7 @@ GIT            ?= git
 PYTHON         ?= python
 
 UNIX2DOS       ?= unix2dos
-UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>/dev/null && echo "-q" || echo "")
+UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 2>&1 >/dev/null && echo "-q" || echo "")
 
 ################################################################
 # Get the Repository revision, tags and the modified status
