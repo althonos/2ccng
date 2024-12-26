@@ -31,3 +31,10 @@ if (ALLREGION == 0) {
 	//Continue loading to allow changing parameters to fix problem
 	error(FATAL, string(str_error_region));
 }
+
+//check if 2ccNML is behind if loaded 
+if(grf_future_status("TM\01\01") == 1) {
+    if (grf_order_behind("TM\01\01") == 0) {
+        error(ERROR, MUST_LOAD_AFTER, "2cc Trains in NML");
+    }
+}
