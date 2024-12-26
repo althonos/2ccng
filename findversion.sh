@@ -100,6 +100,20 @@ if [ -d "$ROOT_DIR/.hg" ]; then
 		BRANCH=""
 		DISPLAY_VERSION="${TAG}"
 	fi
+elif [ -d "$ROOT_DIR/.git" ]; then
+	_DESCRIBE=$(git describe --always)
+	_DESCRIBE_TAGS=$(git describe --always --tags)
+	HASH=$(git log --pretty=format:'%H' -n 1)
+	TAG="${_DESCRIBE_TAGS}"
+	REPO_DATE=$(git log --pretty=format:'%at' -n 1)
+	VERSION=`python -c "from datetime import date; print((date.fromtimestamp($REPO_DATE)-date(2000,1,1)).days)"`
+	MODIFIED=$([ "${_DESCRIBE}" == "${_DESCRIBE_TAGS}" ] && echo "" || echo "dirty")
+	BRANCH=$(git branch | cut -d' ' -f2)
+	DISPLAY_VERSION="${_DESCRIBE_TAGS}"
+	if [ -n "$TAG" ]; then
+		BRANCH=""
+		DISPLAY_VERSION="${TAG}"
+	fi
 elif [ -f "$ROOT_DIR/.rev" ]; then
 	# We are an exported source bundle
 	cat $ROOT_DIR/.rev
