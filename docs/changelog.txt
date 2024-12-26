@@ -1,3 +1,42 @@
+2cc Narrow-Gauge in NML changelog
+=================================
+
+v0.1.0 (2024-12-26)
+-------------------
+
+Changed
+^^^^^^^
+- Move all narrow-gauge engines from 2ccNML to the appropriate rail type.
+- Display track gauge and manufacturer in purchase info of all locomotives.
+- Update cargo table with complete set from `tt-wiki.net`.
+- Assign 'DB 99.77-79` to the `Rügener Kleibahn` subsidiary company. 
+
+Added
+^^^^^
+- 1st-generation flat, tanker, open and boxcar wagons for narrow-gauge tracks.
+- SNCFT YZ 661 as a palette swap of the Z 431 DMU.
+- French (corsican) CFC X 97050 DMU. 
+- Indonesian KAI CC203 version of GE U20C with custom front cab.
+- Irish Bord na Mona (Peat board) 'Wagonmaster' industrial engine.
+- Slovakian HGem 2/2 electric shunter of Tatra Railways.
+- United States' first steam locomotive 'Stourbridge Lion'.
+- United States' 0-4-4 Forney front-cab locomotive based off B&B 'Ariel'.
+- United Kingdom's early locomotive 'Fire Queen'.
+- Estonian Soviet-made TU-2 diesel locomotive.
+- Spanish 'Euskotren 3500' commuter EMU.
+- Australian Queensland Railways' first locomotive 'A10 Neilson'
+- Italian EAV ETR 200 'Metrostar' from the Circumvesuviana suburban train.
+
+Fixed
+^^^^^
+- Use KAI (Kerata Api Indonesia) as the abbreviation for modern Indonesian trains.
+- Change flag of `South West African 2-8-0` to Namibia instead of Angola.
+- Head wagon capacity of `SAR 5M2` EMUs.
+- Rename `NOLB 1` to `NOLB 1-3`.
+- Rename `EFE Buscarril` to `EFE SB-56 Buscarril`.
+- Power, tractive effort and capacity of `Camrail ZE 500`
+
+
 2cc TrainsInNML changelog
 =========================
 

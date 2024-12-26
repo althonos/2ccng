@@ -2,7 +2,7 @@
 
 #Main grf title and description
 STR_GRF_NAME			:{TITLE}
-STR_GRF_DESCRIPTION		:{SILVER}2cc Narrow Gauge Trains in NML {}{}A fork of 2ccNML to support narrow gauge trains, with new engines and additional bugfixes.{}{}{COPYRIGHT}2024 {BLUE}althonos{SILVER}{}{COPYRIGHT}2017 {BLUE}Transportman{SILVER}{}{}License:GPLv3 or higher. {}See readme for details.
+STR_GRF_DESCRIPTION		:{SILVER}2cc Narrow Gauge Trains in NML {}{}A fork of 2ccNML to support narrow gauge trains, with new engines and additional bugfixes. Requires a narrow-gauge track set (U&ReMM2, Termite, ...). Works in conjunction with the original 2cc Trains in NML, but can be used as a standalone provider of narrow-gauge engines.{}See readme for details.{}{}{COPYRIGHT}2024 {BLUE}althonos{SILVER}{}{COPYRIGHT}2017 {BLUE}Transportman{SILVER}{}{}{BLACK}License:{SILVER} GPLv3 or higher.{BLACK}
 STR_GRF_URL             :https://www.tt-forums.net/viewtopic.php?t=92033
 
 #General error messages
