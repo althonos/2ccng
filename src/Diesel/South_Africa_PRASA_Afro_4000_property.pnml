@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE diesel_South_Africa_SAR_Afro_4000
-#define ITEM item_diesel_South_Africa_SAR_Afro_4000
-#define NAME string(str_diesel_South_Africa_SAR_Afro_4000)
+#define VEHIDCODE diesel_South_Africa_PRASA_Afro_4000
+#define ITEM item_diesel_South_Africa_PRASA_Afro_4000
+#define NAME string(str_diesel_South_Africa_PRASA_Afro_4000)
 
 #define VEHICLE_REGION REGION(AFRICA,NOREGION,NOCONCEPT)
 #define VEHICLE_GAUGE GAUGE_CAPE

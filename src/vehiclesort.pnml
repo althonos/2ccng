@@ -344,7 +344,7 @@ item_diesel_Indonesia_KAI_CC300, /*Year: 2011*/ \
 item_diesel_Russia_RZD_GT1, /*Year: 2011*/ \
 item_diesel_Argentina_SOFSE_CNR_CKD8, /*Year: 2013*/ \
 item_diesel_UK_BR_68, /*Year: 2014*/ \
-item_diesel_South_Africa_SAR_Afro_4000, /*Year: 2014*/ \
+item_diesel_South_Africa_PRASA_Afro_4000, /*Year: 2014*/ \
 item_diesel_USA_Amtrak_Charger, /*Year: 2015*/
 
 #define SORTING_ELECTRIC \

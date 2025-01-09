@@ -355,7 +355,7 @@ item(FEAT_TRAINS, item_diesel_Norway_CargoNet_312, 5128) {}
 item(FEAT_TRAINS, item_diesel_Australia_Pacific_National_92, 5129) {}
 item(FEAT_TRAINS, item_diesel_Egypt_ENR_2400_GE_ES40ACi, 5130) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_68, 5131) {}
-item(FEAT_TRAINS, item_diesel_South_Africa_SAR_Afro_4000, 5132) {}
+item(FEAT_TRAINS, item_diesel_South_Africa_PRASA_Afro_4000, 5132) {}
 item(FEAT_TRAINS, item_diesel_USA_Amtrak_Charger, 5133) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_diesel_Chile_SQM_SW1200, 5800) {}

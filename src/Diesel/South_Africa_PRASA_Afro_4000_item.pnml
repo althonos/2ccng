@@ -42,11 +42,11 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_diesel_South_Africa_SAR_Afro_4000_purchase;
+		purchase: spriteset_diesel_South_Africa_PRASA_Afro_4000_purchase;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
-		default: spriteset_diesel_South_Africa_SAR_Afro_4000;
+		default: spriteset_diesel_South_Africa_PRASA_Afro_4000;
 	}
 }
