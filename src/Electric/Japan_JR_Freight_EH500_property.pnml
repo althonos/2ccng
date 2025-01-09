@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE electric_Japan_JR_EH500
-#define ITEM item_electric_Japan_JR_EH500
-#define NAME string(str_electric_Japan_JR_EH500)
+#define VEHIDCODE electric_Japan_JR_Freight_EH500
+#define ITEM item_electric_Japan_JR_Freight_EH500
+#define NAME string(str_electric_Japan_JR_Freight_EH500)
 
 #define VEHICLE_REGION REGION(ASIA,NOREGION,NOCONCEPT)
 #define VEHICLE_GAUGE GAUGE_CAPE

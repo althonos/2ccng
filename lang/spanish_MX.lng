@@ -433,7 +433,7 @@ str_electric_Spain_RENFE_252                                    :RENFE 252 (elé
 str_electric_UK_BR_92                                                   :BR 92 (eléctrica)
 str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (eléctrica)
 str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (eléctrica)
-str_electric_Japan_JR_EH500                                     :JR EH500 (eléctrica)
+str_electric_Japan_JR_Freight_EH500                                     :JR Freight EH500 (eléctrica)
 str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U "Taurus" (eléctrica)
 str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (eléctrica)
 str_electric_South_Korea_Korail_8200                    :Korail 8200 (eléctrica)

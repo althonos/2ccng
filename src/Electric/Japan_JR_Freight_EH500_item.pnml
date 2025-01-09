@@ -42,14 +42,14 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_electric_Japan_JR_EH500_purchase;
-		visual_effect_and_powered: switch_electric_Japan_JR_EH500_visual_effect;
-		length: switch_electric_Japan_JR_EH500_length;
-		articulated_part: switch_electric_Japan_JR_EH500_articulated;
+		purchase: spriteset_electric_Japan_JR_Freight_EH500_purchase;
+		visual_effect_and_powered: switch_electric_Japan_JR_Freight_EH500_visual_effect;
+		length: switch_electric_Japan_JR_Freight_EH500_length;
+		articulated_part: switch_electric_Japan_JR_Freight_EH500_articulated;
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
-		default: switch_electric_Japan_JR_EH500_position;
+		default: switch_electric_Japan_JR_Freight_EH500_position;
 	}
 }

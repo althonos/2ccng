@@ -400,7 +400,7 @@ str_electric_Spain_RENFE_252                                    :RENFE 252 (Elek
 str_electric_UK_BR_92                                                   :BR 92 (Elektrowóz)
 str_electric_Germany_DB_185_TRAXX_F140                  :DB 185 TRAXX F140 (Elektrowóz)
 str_electric_Belgium_NMBS_SNCB_13_HLE                   :NMBS/SNCB 13 HLE (Elektrowóz)
-str_electric_Japan_JR_EH500                                     :JR EH500 (Elektrowóz)
+str_electric_Japan_JR_Freight_EH500                                     :JR Freight EH500 (Elektrowóz)
 str_electric_Germany_DB_182_ES64U_Taurus                :DB 182 ES64U 'Taurus' (Elektrowóz)
 str_electric_Sweden_MTAB_IORE                                   :MTAB IORE (Elektrowóz)
 str_electric_South_Korea_Korail_8200                    :Korail 8200 (Elektrowóz)

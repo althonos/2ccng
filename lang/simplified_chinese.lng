@@ -432,7 +432,7 @@ str_electric_Spain_RENFE_252                                    :西铁RENFE 252
 str_electric_UK_BR_92                                                   :英铁BR 92 (电力)
 str_electric_Germany_DB_185_TRAXX_F140                  :德铁DB 185 TRAXX F140 (电力)
 str_electric_Belgium_NMBS_SNCB_13_HLE                   :比铁NMBS/SNCB 13 HLE (电力)
-str_electric_Japan_JR_EH500                                     :日铁JR EH500 (电力)
+str_electric_Japan_JR_Freight_EH500                                     :日铁JR Freight EH500 (电力)
 str_electric_Germany_DB_182_ES64U_Taurus                :德铁DB 182 ES64U 'Taurus' (电力)
 str_electric_Sweden_MTAB_IORE                                   :卢卡矿业MTAB IORE(->HXD3B) (电力)
 str_electric_South_Korea_Korail_8200                    :韩铁Korail 8200 (电力)
