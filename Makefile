@@ -20,16 +20,17 @@ SHELL := /bin/bash
 ##################################################################
 
 # Definition of the grfs
-REPO_NAME           ?= My NewGRF
+REPO_NAME           ?= 2cc Narrow-Gauge in NML
 
 # This is the filename part common to the grf file, main source file and the tar name
-BASE_FILENAME       ?= mynewgrf
+BASE_FILENAME       ?= 2ccng
 
 # Documentation files
 DOC_FILES ?= docs/readme.txt docs/license.txt docs/changelog.txt
 
 # Directory structure
 SCRIPT_DIR          ?= scripts
+BUILD_DIR           ?= build
 
 # Uncomment in order to make use of gimp scripting. See the file
 # for a description of the format
@@ -46,8 +47,8 @@ SCRIPT_DIR          ?= scripts
 ##################################################################
 
 # Define the filenames of the grf and nml file. They must be in the main directoy
-GRF_FILE            ?= $(BASE_FILENAME).grf
-NML_FILE            ?= $(BASE_FILENAME).nml
+GRF_FILE            ?= $(BUILD_DIR)/$(BASE_FILENAME).grf
+NML_FILE            ?= $(BUILD_DIR)/$(BASE_FILENAME).nml
 # uncomment MAIN_SRC_FILE if you do not want any preprocessing to happen to your source file
 MAIN_SRC_FILE       ?= $(BASE_FILENAME).pnml
 
@@ -96,7 +97,7 @@ MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
 NML            ?= nmlc
-NML_FLAGS      ?= -c
+NML_FLAGS      ?= -c --custom-tags $(CUSTOM_TAGS)
 ifdef REQUIRED_NML_BRANCH
 	NML_BRANCH = $(shell $(NML) --version | head -n1 | cut -d. -f1-2)
 endif
@@ -158,6 +159,10 @@ _E ?= @echo
 distclean:: clean
 maintainer-clean:: distclean
 
+clean::
+	$(_E) "[CLEAN BUILD]"
+	$(_V)-rm -rf $(BUILD_DIR)
+
 # target nml
 ################################################################
 # Pre-processing and generation of $(NML_FILE)
@@ -166,9 +171,12 @@ maintainer-clean:: distclean
 # ifdef $(MAIN_SRC_FILE)
 pnml:
 
-nml: $(GENERATE_PNML)
-	$(_E) "[CPP] $(NML_FILE)"
-	$(_V) $(CC) -D REPO_REVISION=$(NEWGRF_VERSION) -D NEWGRF_VERSION=$(NEWGRF_VERSION) $(CC_USER_FLAGS) $(CC_FLAGS) -o $(NML_FILE) $(MAIN_SRC_FILE)
+nml: $(NML_FILE)
+
+$(NML_FILE): $(GENERATE_PNML)
+	$(_E) "[CPP] $@"
+	$(_V) mkdir -p $(shell dirname $@)
+	$(_V) $(CC) -D REPO_REVISION=$(NEWGRF_VERSION) -D NEWGRF_VERSION=$(NEWGRF_VERSION) $(CC_USER_FLAGS) $(CC_FLAGS) -o $@ $(MAIN_SRC_FILE)
 
 clean::
 	$(_E) "[CLEAN NML]"
@@ -243,9 +251,12 @@ endif
 #####################################################
 # target 'lng' which builds the lang/*.lng files
 #####################################################
-lng: custom_tags.txt
 
-custom_tags.txt: $(GENERATE_NML)
+CUSTOM_TAGS ?= $(BUILD_DIR)/custom_tags.txt
+
+lng: $(CUSTOM_TAGS)
+
+$(CUSTOM_TAGS): $(GENERATE_NML)
 	$(_E) "[LNG] $@"
 	$(_V) echo "VERSION        :$(REPO_VERSION_STRING)" > $@
 	$(_V) echo "VERSION_STRING :$(REPO_VERSION_STRING)" >> $@
@@ -256,7 +267,7 @@ custom_tags.txt: $(GENERATE_NML)
 
 clean::
 	$(_E) "[CLEAN LNG]"
-	$(_V)-rm -rf custom_tags.txt
+	$(_V)-rm -rf $(CUSTOM_TAGS)
 
 ################################################################
 # grf - specific rules
@@ -356,9 +367,9 @@ GRFID_FLAGS    ?= -m
 
 # Common to all filenames
 FILE_VERSION_STRING ?= $(shell [ -n "$(REPO_TAGS)" ] && echo "$(REPO_TAGS)$(REPO_MODIFIED)" || echo "$(REPO_BRANCH_STRING)$(NEWGRF_VERSION)$(REPO_MODIFIED)")
-DIR_NAME           := $(shell [ -n "$(REPO_TAGS)" ] && echo $(BASE_FILENAME)-$(FILE_VERSION_STRING) || echo $(BASE_FILENAME))
+DIR_NAME           := $(BUILD_DIR)/$(shell [ -n "$(REPO_TAGS)" ] && echo $(BASE_FILENAME)-$(FILE_VERSION_STRING) || echo $(BASE_FILENAME))
 VERSIONED_FILENAME := $(BASE_FILENAME)-$(FILE_VERSION_STRING)
-DIR_NAME_SRC       := $(VERSIONED_FILENAME)-source
+DIR_NAME_SRC       := $(BUILD_DIR)/$(VERSIONED_FILENAME)-source
 
 TAR_FILENAME       := $(shell if [[ ! -z "$(USE_VERSION)" ]]; then echo $(BASE_FILENAME)-$(FILE_VERSION_STRING); else echo $(DIR_NAME).tar; fi)
 BZIP_FILENAME      := $(TAR_FILENAME).bz2
@@ -377,7 +388,7 @@ MD5_SRC_FILENAME   ?= $(DIR_NAME).check.md5
 $(DIR_NAME): $(GENERATE_GRF) $(GENERATE_DOC)
 	$(_E) "[BUNDLE] $@"
 	$(_V) if [ -e $@ ]; then rm -rf $@; fi
-	$(_V) mkdir $@
+	$(_V) mkdir -p $@
 	$(_V) -for i in $(BUNDLE_FILES); do cp $(CP_FLAGS) $$i $@; done
 
 $(DIR_NAME).tar: $(DIR_NAME)
@@ -463,7 +474,7 @@ ifneq ("$(strip $(HG))",":")
 $(DIR_NAME_SRC): $(MD5_SRC_FILENAME) Makefile.fordist
 	$(_E) "[ASSEMBLING] $(DIR_NAME_SRC)"
 	$(_V)-rm -rf $@
-	$(_V) mkdir $@
+	$(_V) mkdir -p $@
 	$(_V) cp $(CP_FLAGS) $(MD5_SRC_FILENAME) $(DIR_NAME_SRC)
 	$(_V) cp $(CP_FLAGS) Makefile.fordist $@/Makefile.dist
 else
