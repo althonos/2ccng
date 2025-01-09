@@ -14,13 +14,15 @@ Makefile.fordist
 *-*-source.zip
 2ccng/*
 2ccng.tar
+2ccng-v*
+2ccng-v*.tar
 
 # The local makefile should be ignored:
 Makefile.local
 
 # NML intermediate files
 parsetab.py
-.nmlcache/*
+.nmlcache
 
 # Dependency files:
 .version
