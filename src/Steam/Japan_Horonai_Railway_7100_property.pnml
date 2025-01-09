@@ -8,15 +8,15 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE steam_Japan_JNR_9600
-#define ITEM item_steam_Japan_JNR_9600
-#define NAME string(str_steam_Japan_JNR_9600)
+#define VEHIDCODE steam_Japan_Horonai_Railway_7100
+#define ITEM item_steam_Japan_Horonai_Railway_7100
+#define NAME string(str_steam_Japan_Horonai_Railway_7100)
 
 #define VEHICLE_REGION REGION(ASIA,NOREGION,NOCONCEPT)
 #define VEHICLE_GAUGE GAUGE_CAPE
-#define VEHICLE_MAKER MAKER_KAWASAKI
+#define VEHICLE_MAKER MAKER_HK_PORTER
 
-#define INTRODUCTION_YEAR 1913
+#define INTRODUCTION_YEAR 1880
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
 #define VEHICLE_LIFE 40
@@ -24,14 +24,14 @@
 #define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
 #define CARGODEF CARGODEF_NONE
 
-#define SPEED 65
-#define POWER 870
-#define WEIGHT 95
-#define TE_COEFFICIENT 0.15
+#define SPEED 36
+#define POWER 200
+#define WEIGHT 31
+#define TE_COEFFICIENT 0.07
 #define AIR_DRAG_COEFFICIENT 0
 
-#define LENGTH 7
-#define ACTUAL_LENGTH 8
+#define LENGTH 5
+#define ACTUAL_LENGTH 6
 
 #define HEAD_CAPACITY 0
 

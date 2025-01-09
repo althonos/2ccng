@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Japan_JNR_860_purchase, "gfx/Steam/Japan_JNR_860.png") {
+spriteset(spriteset_steam_Japan_JGR_860_purchase, "gfx/Steam/Japan_JGR_860.png") {
 	template_purchase(1, 96)
 }
 
@@ -19,23 +19,23 @@ spriteset(spriteset_steam_Japan_JNR_860_purchase, "gfx/Steam/Japan_JNR_860.png")
 */
 
 //Engine
-spriteset(spriteset_steam_Japan_JNR_860_engine1, "gfx/Steam/Japan_JNR_860.png") {
+spriteset(spriteset_steam_Japan_JGR_860_engine1, "gfx/Steam/Japan_JGR_860.png") {
 	template_2cc_engines_general(1, 1)
 }
 
-spriteset(spriteset_steam_Japan_JNR_860_engine2, "gfx/Steam/Japan_JNR_860.png") {
+spriteset(spriteset_steam_Japan_JGR_860_engine2, "gfx/Steam/Japan_JGR_860.png") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Tender
-spriteset(spriteset_steam_Japan_JNR_860_tender, "gfx/Steam/Japan_JNR_860.png") {
+spriteset(spriteset_steam_Japan_JGR_860_tender, "gfx/Steam/Japan_JGR_860.png") {
 	template_2cc_engines_general(1, 64)
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_Japan_JNR_860_animation, motion_counter % 2){
-	0: spriteset_steam_Japan_JNR_860_engine1;
-	spriteset_steam_Japan_JNR_860_engine2;
+switch(FEAT_TRAINS, SELF, switch_steam_Japan_JGR_860_animation, motion_counter % 2){
+	0: spriteset_steam_Japan_JGR_860_engine1;
+	spriteset_steam_Japan_JGR_860_engine2;
 }
 
 //Add defined switches

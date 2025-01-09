@@ -113,7 +113,7 @@ item_steam_Argentina_FCGR_315, /*Year: 1871*/ \
 item_steam_South_Africa_Harbour_Board_EL_0_4_0, /*Year: 1873*/ \
 item_steam_USA_2_8_0_Consolidation, /*Year: 1875*/ \
 item_steam_USA_0_4_4_Forney, /*Year: 1877*/ \
-item_steam_Japan_JNR_7100, /*Year: 1880*/ \
+item_steam_Japan_Horonai_Railway_7100, /*Year: 1880*/ \
 item_steam_Australia_NSWGR_Z25_Class, /*Year: 1881*/ \
 item_steam_Hungary_MAV_377, /*Year: 1885*/ \
 item_steam_Canada_Canadian_Pacific_374, /*Year: 1886*/ \
@@ -123,7 +123,7 @@ item_steam_Switzerland_RhB_G_3_4, /*Year: 1889*/ \
 item_steam_Spain_RENFE_Class_040, /*Year: 1891*/ \
 item_steam_Germany_Saxon_IV_K, /*Year: 1892*/ \
 item_steam_Germany_Prussian_S_3, /*Year: 1893*/ \
-item_steam_Japan_JNR_860, /*Year: 1893*/ \
+item_steam_Japan_JGR_860, /*Year: 1893*/ \
 item_steam_Norway_NSB_Class_XXI, /*Year: 1894*/ \
 item_steam_USA_PRR_D16, /*Year: 1895*/ \
 item_steam_Mozambique_Beira_Railway_BR6_F2_Falcon, /*Year: 1895*/ \
@@ -144,7 +144,7 @@ item_steam_Eritrea_Eritrean_Railway_R440, /*Year: 1911*/ \
 item_steam_Austria_KKStB_310, /*Year: 1911*/ \
 item_steam_Namibia_South_West_African_2_8_0, /*Year: 1911*/ \
 item_steam_Russia_RZD_E, /*Year: 1912*/ \
-item_steam_Japan_JNR_9600, /*Year: 1913*/ \
+item_steam_Japan_JGR_9600, /*Year: 1913*/ \
 item_steam_Switzerland_SBB_C_5_6, /*Year: 1913*/ \
 item_steam_USA_NYC_H_6A_Light_Mikado, /*Year: 1914*/ \
 item_steam_Australia_NSWGR_C35, /*Year: 1914*/ \
@@ -489,7 +489,7 @@ item_dmu_France_CFC_X_97050, /*Year: 1989*/ \
 item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, /*Year: 2003*/ \
 item_dmu_Tunisia_SNCFT_AMT_800, /*Year: 2008*/ \
 item_dmu_Ghana_Ghana_Railways_DEMU, /*Year: 2009*/ \
-item_dmu_Japan_JR_KiHa_189, /*Year: 2010*/ \
+item_dmu_Japan_JR_West_KiHa_189, /*Year: 2010*/ \
 item_dmu_Argentina_FCGU_CMM_400_2, /*Year: 2015*/
 
 #define SORTING_CARGODMU \

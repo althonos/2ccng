@@ -173,9 +173,9 @@ item(FEAT_TRAINS, item_steam_Germany_DB_18_201, 4071) {}
 item(FEAT_TRAINS, item_steam_South_Africa_PPR_35_tonner_4_6_0T, 4072) {} 
 item(FEAT_TRAINS, item_steam_India_Fairy_Queen, 4073) {}
 item(FEAT_TRAINS, item_steam_South_Africa_Harbour_Board_EL_0_4_0, 4074) {}
-item(FEAT_TRAINS, item_steam_Japan_JNR_7100, 4075) {}
+item(FEAT_TRAINS, item_steam_Japan_Horonai_Railway_7100, 4075) {}
 item(FEAT_TRAINS, item_steam_India_DHR_B, 4076) {}
-item(FEAT_TRAINS, item_steam_Japan_JNR_860, 4077) {}
+item(FEAT_TRAINS, item_steam_Japan_JGR_860, 4077) {}
 item(FEAT_TRAINS, item_steam_Mozambique_Beira_Railway_BR6_F2_Falcon, 4078) {}
 item(FEAT_TRAINS, item_steam_China_China_Railways_H, 4079) {}
 item(FEAT_TRAINS, item_steam_Russia_RZD_U, 4080) {}
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, item_steam_Czech_Republic_CD_5341, 4082) {}
 item(FEAT_TRAINS, item_steam_Eritrea_Eritrean_Railway_R440, 4083) {}
 item(FEAT_TRAINS, item_steam_Austria_KKStB_310, 4084) {}
 item(FEAT_TRAINS, item_steam_Russia_RZD_E, 4085) {}
-item(FEAT_TRAINS, item_steam_Japan_JNR_9600, 4086) {}
+item(FEAT_TRAINS, item_steam_Japan_JGR_9600, 4086) {}
 item(FEAT_TRAINS, item_steam_Israel_Israel_Railways_H, 4087) {}
 item(FEAT_TRAINS, item_steam_Kenya_East_African_Railway_23, 4088) {}
 item(FEAT_TRAINS, item_steam_Italy_FS_480, 4089) {}
@@ -537,7 +537,7 @@ item(FEAT_TRAINS, item_dmu_Iran_RAI_141_Pacer, 7028) {}
 item(FEAT_TRAINS, item_dmu_Israel_Israel_Railways_IC3, 7029) {}
 item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100, 7030) {}
 item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Xplorer, 7031) {}
-item(FEAT_TRAINS, item_dmu_Japan_JR_KiHa_189, 7032) {}
+item(FEAT_TRAINS, item_dmu_Japan_JR_West_KiHa_189, 7032) {}
 item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11, 7033) {}
 // 7034 free
 item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861, 7035) {}

@@ -33,7 +33,7 @@ str_steam_UK_LNER_N7 :LNER N7 (Uap)
 str_steam_Germany_Saxon_XX_HV :DB 19.0 'Saxon XX HV' (Uap)
 str_steam_Egypt_ENR_1100 :ENR 1100 (Uap)
 str_steam_Australia_South_Australian_Railways_520 :KA Australia Selatan 520 (Uap)
-str_steam_Japan_JNR_9600 :JNR 9600 (Uap)
+str_steam_Japan_JGR_9600 :JGR 9600 (Uap)
 str_steam_Italy_FS_480 :FS 480 (Uap)
 str_steam_Spain_RENFE_242F :RENFE 242F (Uap)
 
