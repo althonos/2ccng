@@ -27,7 +27,7 @@
 #define SPEED 90
 #define POWER 5200
 #define WEIGHT 172
-#define TE_COEFFICIENT 0.23
+#define TE_COEFFICIENT 0.24
 #define AIR_DRAG_COEFFICIENT 0
 
 #define LENGTH 8

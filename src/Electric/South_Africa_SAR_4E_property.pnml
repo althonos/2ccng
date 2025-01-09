@@ -25,8 +25,8 @@
 #define CARGODEF CARGODEF_NONE
 
 #define SPEED 97
-#define POWER 2520
-#define WEIGHT 155
+#define POWER 2518
+#define WEIGHT 158
 #define TE_COEFFICIENT 0.09
 #define AIR_DRAG_COEFFICIENT 0
 
