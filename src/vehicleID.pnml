@@ -458,7 +458,7 @@ item(FEAT_TRAINS, item_electric_Italy_FS_E444, 6090) {}
 item(FEAT_TRAINS, item_electric_Czech_Republic_CD_380, 6091) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_EP20, 6092) {}
 item(FEAT_TRAINS, item_electric_China_China_Railways_HXD1D, 6093) {}
-item(FEAT_TRAINS, item_electric_South_Africa_SAR_20E, 6094) {}
+item(FEAT_TRAINS, item_electric_South_Africa_TFR_20E, 6094) {}
 item(FEAT_TRAINS, item_electric_Kazakhstan_KTZ_KZ8A, 6095) {}
 item(FEAT_TRAINS, item_electric_Indonesia_ESS_3200, 6096) {}
 item(FEAT_TRAINS, item_electric_USA_GN_W_1, 6097) {}
