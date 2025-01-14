@@ -33,3 +33,5 @@
 // Four foot (4 ft, 1,219 mm)
 #define GAUGE_4FT 8
 
+// 900mm
+#define GAUGE_900MM 9

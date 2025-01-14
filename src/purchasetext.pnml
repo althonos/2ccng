@@ -23,6 +23,7 @@
         GAUGE_CAPE:   return string(STR_EXTRA_GAUGE_CAPE);      \
         GAUGE_METRIC: return string(STR_EXTRA_GAUGE_METRIC);    \
         GAUGE_950MM:  return string(STR_EXTRA_GAUGE_950MM);     \
+        GAUGE_900MM:  return string(STR_EXTRA_GAUGE_900MM);     \
         GAUGE_750MM:  return string(STR_EXTRA_GAUGE_750MM);     \
         GAUGE_760MM:  return string(STR_EXTRA_GAUGE_760MM);     \
         GAUGE_2FT:    return string(STR_EXTRA_GAUGE_2FT);       \
@@ -95,6 +96,7 @@
         MAKER_UCW:                return string(STR_EXTRA_MAKER_UCW);                \
         MAKER_GM:                 return string(STR_EXTRA_MAKER_GM);                 \
         MAKER_CRRC:               return string(STR_EXTRA_MAKER_CRRC);               \
+        MAKER_SMZ:                return string(STR_EXTRA_MAKER_SMZ);                \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

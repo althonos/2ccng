@@ -63,6 +63,7 @@ STR_EXTRA_GAUGE_2FT                     :Track Gauge: {CREAM}2 ft (610mm){BLACK}
 STR_EXTRA_GAUGE_750MM                   :Track Gauge: {YELLOW}750mm{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_760MM                   :Track Gauge: {YELLOW}Bosnian (760mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_950MM                   :Track Gauge: {LTBROWN}Italian metre (950mm){BLACK}{}{STRING}
+STR_EXTRA_GAUGE_900MM                   :Track Gauge: {BROWN}900mm{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_3FT                     :Track Gauge: {BROWN}3 ft (914mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_METRIC                  :Track Gauge: {DKGREEN}Metric (1,000mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_CAPE                    :Track Gauge: {PURPLE}Cape (1,067mm){BLACK}{}{STRING}
@@ -130,6 +131,7 @@ STR_EXTRA_MAKER_BRUSH                   :Constructor: {GOLD}Brush Traction{BLACK
 STR_EXTRA_MAKER_UCW                     :Constructor: {GOLD}Union Carriage & Wagon{BLACK}{}{STRING}
 STR_EXTRA_MAKER_GM                      :Constructor: {GOLD}General Motors{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -600,6 +602,7 @@ str_electric_Russia_RZD_VL11 :RZD VL11 (Electric)
 str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Electric)
 str_electric_China_China_Railways_6K :China Railways 6K (Electric)
 str_electric_Slovakia_ZSSK_HGem_2_2 :ZSSK HGem 2/2 (Electric)
+str_electric_Georgia_BBR_ChS11 :BBR ChS11 (Electric)
 
 #DMU
 str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DB VT 04.0 'Flying Hamburger' (DMU)

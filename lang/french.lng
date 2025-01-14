@@ -515,6 +515,7 @@ str_electric_USA_Amtrak_HHP_8 :Amtrak HHP-8 (Électrique)
 str_electric_Russia_RZD_VL11 :RZD VL11 (Électrique)
 str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Électrique)
 str_electric_China_China_Railways_6K :China Railways 6K (Électrique)
+str_electric_Georgia_BBR_ChS11 :BBR ChS11 (Électrique)
 
 #DMU
 str_dmu_Germany_DB_VT_040_Flying_Hamburger      :DB VT 04.0 'Fliegender Hamburger' (Rame Diesel)

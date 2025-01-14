@@ -67,3 +67,4 @@
 #define MAKER_UCW 58
 #define MAKER_GM 59
 #define MAKER_CRRC 60
+#define MAKER_SMZ 61
