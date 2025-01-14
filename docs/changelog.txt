@@ -1,6 +1,28 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.1.1 (2025-01-06)
+-------------------
+
+Added
+^^^^^
+- Nickname for the ``SAR 25``.
+- Georgian locomotive ``ChS11`` of 1966 from the Borjomi–Bakuriani railway.
+
+Changed
+^^^^^^^
+- Mark most recent train engines of each category to *never-expire*.
+- Assign ``SAR Afro 4000`` to PRASA.
+- Assign ``SAR 20E`` to TFR.
+- Assign ``SAR E38`` to Amcoal.
+- Assign ``JR EH500`` to JR Freight.
+- Assign several Japanese engines to the appropriate operators.
+
+Fixed
+^^^^^
+- Missing files for ``EFE SB-56 Buscarril``.
+- Power, tractive effort and weight of all South-African electric locomotives.
+
 v0.1.0 (2024-12-26)
 -------------------
 
@@ -8,8 +30,8 @@ Changed
 ^^^^^^^
 - Move all narrow-gauge engines from 2ccNML to the appropriate rail type.
 - Display track gauge and manufacturer in purchase info of all locomotives.
-- Update cargo table with complete set from `tt-wiki.net`.
-- Assign 'DB 99.77-79` to the `Rügener Kleibahn` subsidiary company. 
+- Update cargo table with complete set from ``tt-wiki.net``.
+- Assign ``DB 99.77-79`` to the Rügener Kleibahn subsidiary company. 
 
 Added
 ^^^^^
