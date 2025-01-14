@@ -537,7 +537,7 @@ endif
 
 endif
 
-install: $(DIR_NAME).tar
+install: $(TAR_FILENAME)
 ifeq ($(INSTALL_DIR),"")
 	$(_E) "No install dir defined! Aborting."
 	$(_E) "Try calling 'make install -D INSTALL_DIR=path/to/install_dir'"
