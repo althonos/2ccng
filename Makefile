@@ -30,6 +30,7 @@ DOC_FILES ?= docs/readme.txt docs/license.txt docs/changelog.txt
 
 # Directory structure
 SCRIPT_DIR          ?= scripts
+BUNDLE_DIR          ?= bundle
 BUILD_DIR           ?= build
 
 # Uncomment in order to make use of gimp scripting. See the file
@@ -152,6 +153,9 @@ REPO_VERSION_STRING ?= $(shell echo ${VERSION_INFO} | cut -f5)
 # The title consists of name and version
 REPO_TITLE     ?= $(REPO_NAME) $(REPO_VERSION_STRING)
 
+# Use a version if we are on a tagged commit
+USE_VERSION    ?= 1
+
 # Remove the @ when you want a more verbose output.
 _V ?= @
 _E ?= @echo
@@ -162,6 +166,10 @@ maintainer-clean:: distclean
 clean::
 	$(_E) "[CLEAN BUILD]"
 	$(_V)-rm -rf $(BUILD_DIR)
+
+distclean::
+	$(_E) "[CLEAN BUNDLE]"
+	$(_V)-rm -rf $(BUNDLE_DIR)
 
 # target nml
 ################################################################
@@ -371,7 +379,8 @@ DIR_NAME           := $(BUILD_DIR)/$(shell [ -n "$(REPO_TAGS)" ] && echo $(BASE_
 VERSIONED_FILENAME := $(BASE_FILENAME)-$(FILE_VERSION_STRING)
 DIR_NAME_SRC       := $(BUILD_DIR)/$(VERSIONED_FILENAME)-source
 
-TAR_FILENAME       := $(shell if [[ ! -z "$(USE_VERSION)" ]]; then echo $(BASE_FILENAME)-$(FILE_VERSION_STRING); else echo $(DIR_NAME).tar; fi)
+# TAR_FILENAME       := $(shell if [[ ! -z "$(USE_VERSION)" ]]; then echo $(BASE_FILENAME)-$(FILE_VERSION_STRING); else echo $(DIR_NAME).tar; fi)
+TAR_FILENAME       := $(shell [ -n "$(USE_VERSION)" ] && echo $(BUNDLE_DIR)/$(VERSIONED_FILENAME).tar || echo $(BUILD_DIR)/$(BASE_FILENAME).tar)
 BZIP_FILENAME      := $(TAR_FILENAME).bz2
 GZIP_FILENAME      := $(TAR_FILENAME).gz
 XZ_FILENAME        := $(TAR_FILENAME).xz
@@ -391,37 +400,30 @@ $(DIR_NAME): $(GENERATE_GRF) $(GENERATE_DOC)
 	$(_V) mkdir -p $@
 	$(_V) -for i in $(BUNDLE_FILES); do cp $(CP_FLAGS) $$i $@; done
 
-$(DIR_NAME).tar: $(DIR_NAME)
+$(TAR_FILENAME): $(DIR_NAME)
 	$(_E) "[BUNDLE TAR] $@"
+	$(_V) mkdir -p $(shell dirname $@)
 	$(_V) $(TAR) $(TAR_FLAGS) $@ $<
 
-bundle_tar: $(DIR_NAME).tar
+bundle_tar: $(TAR_FILENAME)
 bundle_zip: $(ZIP_FILENAME)
-%.zip: $(DIR_NAME).tar
+$(ZIP_FILENAME): $(DIR_NAME)
 	$(_E) "[BUNDLE ZIP] $@"
+	$(_V) mkdir -p $(shell dirname $@)
 	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $< >/dev/null
-bundle_bzip: $(DIR_NAME).tar.bz2
-%.tar.bz2: %.tar
+bundle_bzip: $(BZIP_FILENAME)
+$(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[BUNDLE BZIP] $@"
 	$(_V) $(BZIP) $(BZIP_FLAGS) $^
-bundle_gzip: $(DIR_NAME).tar.gz
+bundle_gzip: $(GZIP_FILENAME)
 # gzip has no option -k, so we cat the tar to keep it
-%.tar.gz: %.tar
+$(GZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[BUNDLE GZIP] $@"
 	$(_V) cat $^ | $(GZIP) $(GZIP_FLAGS) > $@
-bundle_xz: $(DIR_NAME).tar.xz
-%.tar.xz: %.tar
+bundle_xz: $(XZ_FILENAME)
+$(XZ_FILENAME): $(TAR_FILENAME)
 	$(_E) "[BUNDLE XZ] $@"
 	$(_V) $(XZ) $(XZ_FLAGS) $^
-
-clean::
-	$(_E) "[CLEAN BUNDLE]"
-	$(_V) -rm -rf $(DIR_NAME)
-	$(_V) -rm -rf $(DIR_NAME).tar
-	$(_V) -rm -rf $(DIR_NAME).tar.zip
-	$(_V) -rm -rf $(DIR_NAME).tar.gz
-	$(_V) -rm -rf $(DIR_NAME).tar.bz2
-	$(_V) -rm -rf $(DIR_NAME).tar.xz
 
 ################################################################
 # Bundle source targets
