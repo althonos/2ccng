@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          submodules: true
       - name: Setup Python '3.12'
         uses: actions/setup-python@v5
         with:
@@ -25,3 +23,32 @@ jobs:
         run: python -m pip install --no-build-isolation -U nml
       - name: Build GRF
         run: make
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: build
+    if: "startsWith(github.ref, 'refs/tags/v')"
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Python '3.12'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install requirements
+        run: sudo apt-get install -y dos2unix
+      - name: Install Python requirements
+        run: python -m pip install -U setuptools wheel ply Pillow>=3.4
+      - name: Install NML
+        run: python -m pip install --no-build-isolation -U nml
+      - name: Build release
+        run: make bundle_gzip
+      - name: Generate release text
+        run: sh docs/release-text.sh > docs/release-text.rst
+      - name: Create release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "bundle/*.tar.gz"
+          bodyFile: "docs/release-text.rst"
