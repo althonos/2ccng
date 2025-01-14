@@ -82,7 +82,7 @@ all: $(GENERATE_GRF) $(GENERATE_DOC) bundle_tar
 
 # general definitions (no rules!)
 -include Makefile.dist
-.PHONY: all clean distclean doc bundle bundle_bsrc bundle_bzip bundle_gsrc bundle_src bundle_tar bundle_xsrc bundle_xz bundle_zip bundle_zsrc check
+.PHONY: all clean distclean doc bundle bundle_bsrc bundle_bzip bundle_gsrc bundle_src bundle_tar bundle_xsrc bundle_xz bundle_zsrc check
 
 # We want to disable the default rules. It's not c/c++ anyway
 .SUFFIXES:
@@ -340,7 +340,7 @@ clean::
 # Binary bundle targets
 ################################################################
 # target 'bundle' and bundle_xxx which builds the distribution files
-# and the distribution bundles like bundle_tar, bundle_zip, ...
+# and the distribution bundles like bundle_tar, ...
 
 # Programme definitions
 TAR            ?= tar
@@ -402,15 +402,10 @@ $(DIR_NAME): $(GENERATE_GRF) $(GENERATE_DOC)
 
 $(TAR_FILENAME): $(DIR_NAME)
 	$(_E) "[BUNDLE TAR] $@"
-	$(_V) mkdir -p $(shell dirname $@)
-	$(_V) $(TAR) $(TAR_FLAGS) $@ $<
+	$(_V) mkdir -p $(@D)
+	$(_V) $(TAR) $(TAR_FLAGS) $@ -C $(<D) $(<F)
 
 bundle_tar: $(TAR_FILENAME)
-bundle_zip: $(ZIP_FILENAME)
-$(ZIP_FILENAME): $(DIR_NAME)
-	$(_E) "[BUNDLE ZIP] $@"
-	$(_V) mkdir -p $(shell dirname $@)
-	$(_V) $(ZIP) $(ZIP_FLAGS) $@ $< >/dev/null
 bundle_bzip: $(BZIP_FILENAME)
 $(BZIP_FILENAME): $(TAR_FILENAME)
 	$(_E) "[BUNDLE BZIP] $@"
@@ -580,7 +575,6 @@ endif
 	$(_E) "Bundles for distribution:"
 	$(_E) "bundle:      Build the distribution bundle in $(DIR_NAME)"
 	$(_E) "bundle_tar:  Build the distribution bundle as tar archive ($(DIR_NAME).tar)"
-	$(_E) "bundle_zip:  Build the distribution bundle and compress with zip ($(DIR_NAME).tar.zip)"
 	$(_E) "bundle_xz:   Build the distribution bundle and compress with xz ($(DIR_NAME).tar.xz)"
 	$(_E) "bundle_gzip: Build the distribution bundle and compress with gzip ($(DIR_NAME).tar.gz)"
 	$(_E) "bundle_bzip: Build the distribution bundle and compress with bzip2 ($(DIR_NAME).tar.bz2)"
