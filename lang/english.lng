@@ -937,6 +937,10 @@ str_coach_Gen6_Speedmail_Coach 							:Speedmail Coach
 str_coach_Gen6_Super_Regio_Coach 						:Super Regio Coach
 str_coach_Gen6_Super_Voyager_Coach 						:Super Voyager Coach
 
+#coaches - narrow
+str_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon           :Wooden Stagecoach Wagon (Narrow)
+
+
 #special wagons
 str_mu_wagon_unpowered			:Multiple Unit Wagon (Unpowered)
 str_mtro_wagon_unpowered		:Metro Unit Wagon (Unpowered)

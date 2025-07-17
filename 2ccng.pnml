@@ -429,6 +429,9 @@
 
 //coaches
 #include "src/_CodeSupport/TypeInitialization/init_type_Coaches.pnml"
+#include "src/Coaches/Gen1/Wooden_Stagecoach_Wagon_property.pnml"
+#include "src/Coaches/Gen1/Wooden_Stagecoach_Wagon_graphics.pnml"
+#include "src/Coaches/Gen1/Wooden_Stagecoach_Wagon_item.pnml"
 
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
