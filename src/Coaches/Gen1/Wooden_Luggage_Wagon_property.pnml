@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE coach_Narrow_Gen1_Wooden_Stagecoach_Wagon
-#define ITEM item_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon
-#define NAME string(str_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon)
+#define VEHIDCODE coach_Narrow_Gen1_Wooden_Luggage_Wagon
+#define ITEM item_coach_Narrow_Gen1_Wooden_Luggage_Wagon
+#define NAME string(str_coach_Narrow_Gen1_Wooden_Luggage_Wagon)
 
 #define VEHICLE_REGION REGION(ALLREGION,NOREGION,NOCONCEPT)
 
@@ -19,8 +19,8 @@
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
 #define VEHICLE_LIFE 40
 
-#define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
-#define CARGODEF CARGODEF_PASSENGERS_ONLY
+#define LOADINGSPEED LOADINGSPEEDDEF_MAIL
+#define CARGODEF CARGODEF_MAIL_ONLY
 
 #define SPEED 20
 #define POWER 0
@@ -31,7 +31,7 @@
 #define LENGTH 4
 #define ACTUAL_LENGTH 4
 
-#define HEAD_CAPACITY 10
+#define HEAD_CAPACITY 8
 
 
 #define DUAL_HEADED 0

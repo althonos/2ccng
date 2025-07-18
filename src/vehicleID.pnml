@@ -782,6 +782,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Super_Regio_Coach, 11069) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon, 11800) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen1_Wooden_Luggage_Wagon, 11801) {}
 
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
