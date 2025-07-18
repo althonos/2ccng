@@ -938,8 +938,8 @@ str_coach_Gen6_Super_Regio_Coach 						:Super Regio Coach
 str_coach_Gen6_Super_Voyager_Coach 						:Super Voyager Coach
 
 #coaches - narrow
-str_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon           :Wooden Stagecoach Wagon (Narrow)
-str_coach_Narrow_Gen1_Wooden_Luggage_Wagon              :Wooden Luggage Wagon (Narrow)
+str_coach_Narrow_Gen1_Early_Passenger_Coach             :Early Passenger Coach (Narrow)
+str_coach_Narrow_Gen1_Early_Baggage_Coach               :Early Baggage Coach (Narrow)
 
 
 #special wagons

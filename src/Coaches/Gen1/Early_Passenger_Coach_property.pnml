@@ -8,9 +8,9 @@
 
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE coach_Narrow_Gen1_Wooden_Stagecoach_Wagon
-#define ITEM item_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon
-#define NAME string(str_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon)
+#define VEHIDCODE coach_Narrow_Gen1_Early_Passenger_Coach
+#define ITEM item_coach_Narrow_Gen1_Early_Passenger_Coach
+#define NAME string(str_coach_Narrow_Gen1_Early_Passenger_Coach)
 
 #define VEHICLE_REGION REGION(ALLREGION,NOREGION,NOCONCEPT)
 

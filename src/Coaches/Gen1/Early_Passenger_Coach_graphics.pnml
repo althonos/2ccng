@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon_purchase, "gfx/Coaches/Gen1/Wooden_Stagecoach_Wagon_Purchase.png") {
+spriteset(spriteset_coach_Narrow_Gen1_Early_Passenger_Coach_purchase, "gfx/Coaches/Gen1/Early_Passenger_Coach_Purchase.png") {
 	template_purchase_wagon(1, 1)
 }
 
@@ -19,12 +19,12 @@ spriteset(spriteset_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon_purchase, "gfx/Coa
 */
 
 //Livery 1
-spriteset(spriteset_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon_L1, "gfx/Coaches/Gen1/Wooden_Stagecoach_Wagon.png") {
+spriteset(spriteset_coach_Narrow_Gen1_Early_Passenger_Coach_L1, "gfx/Coaches/Gen1/Early_Passenger_Coach.png") {
 	template_2cc_wagons(1, 1)
 }
 
-random_switch(FEAT_TRAINS, SELF, switch_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon_livery) {
-	1: spriteset_coach_Narrow_Gen1_Wooden_Stagecoach_Wagon_L1;
+random_switch(FEAT_TRAINS, SELF, switch_coach_Narrow_Gen1_Early_Passenger_Coach_livery) {
+	1: spriteset_coach_Narrow_Gen1_Early_Passenger_Coach_L1;
 }
 
 //Add defined switches
