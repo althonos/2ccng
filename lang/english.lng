@@ -132,6 +132,7 @@ STR_EXTRA_MAKER_UCW                     :Constructor: {GOLD}Union Carriage & Wag
 STR_EXTRA_MAKER_GM                      :Constructor: {GOLD}General Motors{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -329,7 +330,7 @@ str_steam_Australia_NSWGR_C35 :NSWGR C35 (Steam)
 str_steam_Belgium_NMBS_SNCB_Type_29 :NMBS/SNCB Type 29 (Steam)
 str_steam_Chile_FCAB_4_8_2 :FCAB 4-8-2 (Steam)
 str_steam_China_Railways_QJ :China Railways QJ (Steam)
-str_steam_Germany_RuKB_9977_79 :RuKB 99.77-79 'Rasender Roland' (Steam)
+str_steam_Germany_RuKB_9977_79 :RüKB 99.77-79 'Rasender Roland' (Steam)
 str_steam_USA_D_H_Stourbridge_Lion  :D&H 'Stourbridge Lion' (Steam)
 str_steam_USA_0_4_4_Forney  :0-4-4 'Forney' (Steam)
 str_steam_UK_Padarn_Railway_Fire_Queen  :Padarn Railway 'Fire Queen' (Steam)
@@ -738,6 +739,7 @@ str_emu_China_Railways_CHR380A :China Railways CHR380A(EMU)
 str_emu_Europe_Sureot :Sureot (EMU)
 str_emu_Spain_Euskotren_3500  :Euskotren 3500 (EMU)
 str_emu_Italy_EAV_ETR_200_Metrostar  :EAV ETR 200 'Metrostar' (EMU)
+str_emu_San_Marino_SVEFT_AB_01_04    :SVEFT AB01-04 'Trenino Biancazzuro' (EMU)
 
 #Single Unit Metro
 str_singlemtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)
