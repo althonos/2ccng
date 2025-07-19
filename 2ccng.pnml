@@ -435,6 +435,12 @@
 #include "src/Coaches/Gen1/Early_Baggage_Coach_property.pnml"
 #include "src/Coaches/Gen1/Early_Baggage_Coach_graphics.pnml"
 #include "src/Coaches/Gen1/Early_Baggage_Coach_item.pnml"
+#include "src/Coaches/Gen1/Clerestory_Regional_Coach_property.pnml"
+#include "src/Coaches/Gen1/Clerestory_Regional_Coach_graphics.pnml"
+#include "src/Coaches/Gen1/Clerestory_Regional_Coach_item.pnml"
+#include "src/Coaches/Gen1/Clerestory_Mail_Coach_property.pnml"
+#include "src/Coaches/Gen1/Clerestory_Mail_Coach_graphics.pnml"
+#include "src/Coaches/Gen1/Clerestory_Mail_Coach_item.pnml"
 
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
