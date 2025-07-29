@@ -11,7 +11,8 @@
 */
 
 spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_purchase, "gfx/EMU/San_Marino_SVEFT_AB_01_04.png") {
-	template_purchase_dualheaded(1, 128)
+	// template_purchase_dualheaded(1, 128)
+	template_purchase(1, 128)
 }
 
 /*
