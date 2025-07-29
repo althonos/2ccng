@@ -220,6 +220,7 @@ item(FEAT_TRAINS, item_steam_USA_D_H_Stourbridge_Lion, 4801) {}
 item(FEAT_TRAINS, item_steam_USA_0_4_4_Forney, 4802) {}
 item(FEAT_TRAINS, item_steam_UK_Padarn_Railway_Fire_Queen, 4803) {}
 item(FEAT_TRAINS, item_steam_Australia_Queensland_Railways_A10, 4804) {}
+item(FEAT_TRAINS, item_steam_USA_D_RGW_K_27_Mudhen, 4805) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F

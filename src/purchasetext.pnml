@@ -98,6 +98,7 @@
         MAKER_CRRC:               return string(STR_EXTRA_MAKER_CRRC);               \
         MAKER_SMZ:                return string(STR_EXTRA_MAKER_SMZ);                \
         MAKER_CARMINATI_TOSELLI:  return string(STR_EXTRA_MAKER_CARMINATI_TOSELLI);  \
+        MAKER_BALDWIN:            return string(STR_EXTRA_MAKER_BALDWIN);            \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

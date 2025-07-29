@@ -133,6 +133,7 @@ STR_EXTRA_MAKER_GM                      :Constructor: {GOLD}General Motors{BLACK
 STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{BLACK}{}{STRING}
+STR_EXTRA_MAKER_BALDWIN                 :Constructor: {GOLD}Baldwin Locomotive Works{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -335,6 +336,7 @@ str_steam_USA_D_H_Stourbridge_Lion  :D&H 'Stourbridge Lion' (Steam)
 str_steam_USA_0_4_4_Forney  :0-4-4 'Forney' (Steam)
 str_steam_UK_Padarn_Railway_Fire_Queen  :Padarn Railway 'Fire Queen' (Steam)
 str_steam_Australia_Queensland_Railways_A10  :Queensland Railways A10 (Steam)
+str_steam_USA_D_RGW_K_27_Mudhen     :D&RGW K-27 'Mudhen' (Steam)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II							:DB Kof II / DB 322 (Diesel) 
