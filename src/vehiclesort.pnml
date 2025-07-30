@@ -723,6 +723,7 @@ item_coach_Narrow_Gen1_Clerestory_Mail_Coach, /* Year: 1840 */
 item_wagon_Gen1_Flat_Wagon, /*Year: 1660*/ \
 item_wagon_Gen1_Tanker, /*Year: 1660*/ \
 item_wagon_Gen1_Open_Wagon, /*Year: 1660*/ \
+item_wagon_Gen1_BoxCar, /*Year: 1660*/ \
 item_wagon_Gen2_Flat_Wagon, /*Year: 1900*/ \
 item_wagon_Gen2_Boxcar_Type1, /*Year: 1890*/ \
 item_wagon_Gen2_Boxcar_Type2, /*Year: 1890*/ \
