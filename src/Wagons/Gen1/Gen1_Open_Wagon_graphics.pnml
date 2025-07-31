@@ -73,10 +73,12 @@ GEN1_OPEN_WAGON(Ore)
 GEN1_OPEN_WAGON(Gray)
 GEN1_OPEN_WAGON(Sand)
 GEN1_OPEN_WAGON(Salt)
+GEN1_OPEN_WAGON(Maize)
 // GEN1_OPEN_WAGON(Wood)
 // GEN1_OPEN_WAGON(Fruit)
 
 GEN1_OPEN_WAGON_COVERED(Grain)
+GEN1_OPEN_WAGON_COVERED(Sulphur)
 // GEN1_OPEN_WAGON_COVERED(Carbon)
 // GEN1_OPEN_WAGON_COVERED(Kaolin)
 // GEN1_OPEN_WAGON_COVERED(Clay)
@@ -171,10 +173,10 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;	 // Cereals
 	
 	/* Yellow cargo */
-	// MAIZ: switch_wagon_Narrow_Gen1_Open_Wagon_Maize_livery;	 // Maize
+	MAIZ: switch_wagon_Narrow_Gen1_Open_Wagon_Maize_livery;	 // Maize
 
 	/* Yellow cargo, covered */
-	// SULP: switch_wagon_Narrow_Gen1_Open_Wagon_Sulphur_livery;  // Sulphur
+	SULP: switch_wagon_Narrow_Gen1_Open_Wagon_Sulphur_livery;  // Sulphur
 	
 	/* Default */
 	switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery; 

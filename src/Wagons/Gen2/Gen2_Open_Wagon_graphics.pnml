@@ -73,14 +73,15 @@ GEN2_OPEN_WAGON(Gray)
 GEN2_OPEN_WAGON(Maize)
 GEN2_OPEN_WAGON(Ore)
 GEN2_OPEN_WAGON(Sand)
-// WAGON_BULK(Crates)
-// WAGON_BULK(Wood)
-// WAGON_BULK(Peat)
+// GEN2_OPEN_WAGON(Crates)
+// GEN2_OPEN_WAGON(Wood)
+// GEN2_OPEN_WAGON(Peat)
 
 GEN2_OPEN_WAGON_COVERED(Carbon)
-GEN2_OPEN_WAGON_COVERED(Grain)
+GEN2_OPEN_WAGON_COVERED(Sulphur)
 GEN2_OPEN_WAGON_COVERED(Kaolin)
-// WAGON_BULK(Clay)
+// GEN2_OPEN_WAGON_COVERED(Grain)
+// GEN2_OPEN_WAGON_COVERED(Clay)
 
 /*
 * PURCHASE
@@ -165,16 +166,16 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	// WSTE: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Waste
 
 	/* Light-brown cargo, covered */
-	GRAI: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;	 // Grains
-	WHEA: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Wheat
-	SEED: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Seed
-	CERE: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;	 // Cereals
+	// GRAI: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;	 // Grains
+	// WHEA: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Wheat
+	// SEED: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Seed
+	// CERE: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;	 // Cereals
 	
 	/* Yellow cargo */
 	MAIZ: switch_wagon_Narrow_Gen2_Open_Wagon_Maize_livery;	 // Maize
 
 	/* Yellow cargo, covered */
-	// SULP: switch_wagon_Narrow_Gen2_Open_Wagon_Sulphur_livery;  // Sulphur
+	SULP: switch_wagon_Narrow_Gen2_Open_Wagon_Sulphur_livery;  // Sulphur
 	
 	/* Default */
 	switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery; 
