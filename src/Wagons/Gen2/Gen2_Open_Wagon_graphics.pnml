@@ -77,6 +77,7 @@ GEN2_OPEN_WAGON(Salt)
 GEN2_OPEN_WAGON(Peat)
 GEN2_OPEN_WAGON(Crate)
 GEN2_OPEN_WAGON(Fruit)
+GEN2_OPEN_WAGON(Nickel)
 // GEN2_OPEN_WAGON(Wood)
 
 GEN2_OPEN_WAGON_COVERED(Carbon)
@@ -112,8 +113,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	FECR: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Ferrochrome
 
 	/* Ore (greenish) cargo */
-	URAN: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Uranium ore
-	NKOR: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Nickel ore
+	URAN: switch_wagon_Narrow_Gen2_Open_Wagon_Nickel_livery;	// Uranium ore
+	NKOR: switch_wagon_Narrow_Gen2_Open_Wagon_Nickel_livery;	// Nickel ore
 
 	/* Wood cargo */
 	// WOOD: switch_wagon_Narrow_Gen2_Open_Wagon_Wood_livery;  // Wood
