@@ -76,6 +76,7 @@ GEN2_OPEN_WAGON(Sand)
 GEN2_OPEN_WAGON(Salt)
 GEN2_OPEN_WAGON(Peat)
 GEN2_OPEN_WAGON(Crate)
+GEN2_OPEN_WAGON(Fruit)
 // GEN2_OPEN_WAGON(Wood)
 
 GEN2_OPEN_WAGON_COVERED(Carbon)
@@ -151,14 +152,14 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	QLME: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Quicklime
 	SASH: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Soda Ash
 
-	/* Light brown & green cargo */
-	// FRUT: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;	// Fruit
-	// CASS: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Cassava
-	// BEAN: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Beans
+	/* Fruit cargo */
+	FRUT: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;	// Fruit
 
 	/* Light brown & green cargo, covered */
 	// SGCN: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar cane
 	// SGBT: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar beet
+	// CASS: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Cassava
+	// BEAN: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Beans
 
 	/* Brown cargo */
 	PEAT: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Peat
