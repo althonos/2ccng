@@ -41,6 +41,7 @@ GEN2_FLAT_WAGON(Steel)
 GEN2_FLAT_WAGON(Machinery)
 GEN2_FLAT_WAGON(Copper)
 GEN2_FLAT_WAGON(Wood)
+GEN2_FLAT_WAGON(Paper)
 
 /*
 * PURCHASE
@@ -73,6 +74,7 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_cargo_selection, c
 	ENSP: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
 	FMSP: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
 	WDPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Planks_livery;
+	PAPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Paper_livery;
 	// YETI: switch_wagon_Narrow_Gen2_Flat_Wagon_YETI_livery;
 	// YETY: switch_wagon_Narrow_Gen2_Flat_Wagon_YETI_livery;
 	switch_wagon_Narrow_Gen2_Flat_Wagon_Crates_livery; 
