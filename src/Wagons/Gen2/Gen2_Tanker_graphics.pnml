@@ -1,0 +1,109 @@
+/*
+ *  Copyright (C) 2025 althonos
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+#define GEN2_TANKER_LIVERY(NAME, L, OFFSET) \
+	spriteset(spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen2/Gen2_Tanker_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 1) \
+	} \
+	spritegroup spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L { \
+		loading: [spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1]; \
+		loaded: [spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1]; \
+	}
+
+#define GEN2_TANKER_WAGON(NAME) \
+	GEN2_TANKER_LIVERY(NAME, L1, 1) \
+	GEN2_TANKER_LIVERY(NAME, L2, 179) \
+	GEN2_TANKER_LIVERY(NAME, L3, 357) \
+	GEN2_TANKER_LIVERY(NAME, L4, 535) \
+	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_ ## NAME ## _livery) { \
+		7: spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _L1; \
+		1: spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _L2; \
+		1: spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _L3; \
+		1: spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _L4; \
+	}
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_wagon_Narrow_Gen2_Tanker_purchase, "gfx/Wagons/Gen2/Gen2_Tanker_Purchase.png") {
+	template_purchase_wagon(1, 1)
+}
+
+GEN2_TANKER_WAGON(Oil)
+GEN2_TANKER_WAGON(Alcohol)
+GEN2_TANKER_WAGON(Rubber)
+
+
+
+//Goods can have multiple liveries
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Goods_livery) {
+	1: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;
+}
+
+//Plastic can have multiple liveries
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Plastic_livery) {
+	1: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;
+}
+
+switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_cargo_selection, cargo_type_in_veh) {
+	/* Drinkable liquid */
+	EOIL: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Edible Oil
+	WATR: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Water
+	BEER: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Alcohol / Water
+	COLA: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cola
+	CHSE: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cheese
+
+	/* Milk */
+	// MILK: switch_wagon_Narrow_Gen2_Tanker_Milk_livery;  // Milk
+
+	/* Oil & Fuel */
+	OIL_: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil
+	OILI: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil (imported)
+	OILD: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil (domestic)
+	PETR: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Petrol
+
+	/* Plastic */
+	PLST: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Plastic
+	PLAS: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Plastic
+
+	/* Products */
+	DYES: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Dyes
+	RUBR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Rubber
+	RFPR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Refined products
+	CTAR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Coal tar
+	KAOL: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Kaolin
+	COAT: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Paint & Coating
+	MOLS: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Molasses
+	SOAP: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Cleaning Agent
+
+	/* Chemicals */
+	SULP: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Sulphur
+	ACID: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Acid
+	NH3_: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Ammonia
+	LYE_: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Sodium hydroxide
+	O2__: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Oxygen
+
+	/* Misc */
+	GOOD: switch_wagon_Narrow_Gen2_Tanker_Goods_livery;  // Goods
+
+	/* Default */
+	switch_wagon_Narrow_Gen2_Tanker_Oil_livery;
+}
+
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH
