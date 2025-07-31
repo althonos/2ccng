@@ -121,27 +121,31 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	// RCYC: switch_wagon_Narrow_Gen1_Open_Wagon_Metal_livery; // Recyclables
 	
 	/* Crate cargo */
-	// SUGR: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Sugar
-	// CTCD: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Candyfloss
-	// CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Cereal
-	// FICR: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Fibre Crop
-	// OLSD: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Oil Seed
-	// FURN: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Furniture
+	// SUGR: switch_wagon_Narrow_Gen1_Open_Wagon_Crate_livery;  // Sugar
+	// CTCD: switch_wagon_Narrow_Gen1_Open_Wagon_Crate_livery;  // Candyfloss
+	// CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Crate_livery;  // Cereal
+	// FICR: switch_wagon_Narrow_Gen1_Open_Wagon_Crate_livery;  // Fibre Crop
+	// OLSD: switch_wagon_Narrow_Gen1_Open_Wagon_Crate_livery;  // Oil Seed
+	// FURN: switch_wagon_Narrow_Gen1_Open_Wagon_Crate_livery;  // Furniture
 
 	/* Sand cargo */
 	PHOS: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;  // Phosphate
 	SAND: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;	// Sand
+	LIME: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;	// Limestone
 	
 	/* Gray cargo */
 	GRVL: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Gravel / Stone
-	LIME: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Limestone
-	SALT: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Salt
-	NITR: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Nitrate
-	NHNO: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Ammonium nitrate
 
 	/* Gray cargo, covered */
+	// CMNT: switch_wagon_Narrow_Gen1_Open_Wagon_Cement_livery;  // Cement
+
+	/* White cargo */
+	SALT: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;	// Salt
+	NITR: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;	// Nitrate
+	NHNO: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;	// Ammonium nitrate
+
+	/* White cargo, covered */
 	// KAOL: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Kaolin
-	// CMNT: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Cement
 	// BAKE: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Flour
 	// QLME: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Quicklime
 	// SASH: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Soda Ash
@@ -156,10 +160,10 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	// SGBT: switch_wagon_Narrow_Gen1_Open_Wagon_Beet_livery;	// Sugar beet
 
 	/* Brown cargo */
-	// PEAT: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Peat
-	// FERT: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Fertilizer
-	// TBCO: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Tobacco
-	// TOFF: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Toffee
+	// PEAT: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;  // Peat
+	// FERT: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;  // Fertilizer
+	// TBCO: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;  // Tobacco
+	// TOFF: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;  // Toffee
 
 	/* Brown cargo, covered */
 	// CLAY: switch_wagon_Narrow_Gen1_Open_Wagon_Clay_livery;  // Clay
@@ -167,10 +171,10 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	// WSTE: switch_wagon_Narrow_Gen1_Open_Wagon_Clay_livery;  // Waste
 
 	/* Light-brown cargo, covered */
-	GRAI: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;	 // Grains
+	GRAI: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;  // Grains
 	WHEA: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;  // Wheat
 	SEED: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;  // Seed
-	CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;	 // Cereals
+	CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;  // Cereals
 	
 	/* Yellow cargo */
 	MAIZ: switch_wagon_Narrow_Gen1_Open_Wagon_Maize_livery;	 // Maize
