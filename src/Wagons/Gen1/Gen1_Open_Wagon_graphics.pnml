@@ -1,10 +1,86 @@
 /*
+ *  Copyright (C) 2025 althonos
  *  Copyright (C) 2017 Transportman
- *  This file is part of the 2cc Trains In NML
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition
  *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
+
+#define GEN1_OPEN_LIVERY(NAME, L, OFFSET) \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S1, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 1) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S2, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 32) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S3, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 64) \
+	} \
+	spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L { \
+		loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
+		loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
+	}
+
+#define GEN1_OPEN_LIVERY_COVERED(NAME, L, OFFSET) \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S1, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 1) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S2, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 32) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S3, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 64) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S4, format_string("gfx/Wagons/Gen1/Gen1_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 96) \
+	} \
+	spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L { \
+		loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
+		loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S4, spriteset_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _ ## L ## _S4]; \
+	}
+
+#define GEN1_OPEN_WAGON(NAME) \
+	GEN1_OPEN_LIVERY(NAME, L1, 1) \
+	GEN1_OPEN_LIVERY(NAME, L2, 179) \
+	GEN1_OPEN_LIVERY(NAME, L3, 357) \
+	GEN1_OPEN_LIVERY(NAME, L4, 535) \
+	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _livery) { \
+		7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L1; \
+		1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L2; \
+		1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L3; \
+		1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L4; \
+	}
+
+#define GEN1_OPEN_WAGON_COVERED(NAME) \
+	GEN1_OPEN_LIVERY_COVERED(NAME, L1, 1) \
+	GEN1_OPEN_LIVERY_COVERED(NAME, L2, 179) \
+	GEN1_OPEN_LIVERY_COVERED(NAME, L3, 357) \
+	GEN1_OPEN_LIVERY_COVERED(NAME, L4, 535) \
+	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _livery) { \
+		7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L1; \
+		1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L2; \
+		1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L3; \
+		1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_ ## NAME ## _L4; \
+	}
+
+/*
+* CARGO VARIATIONS
+*/
+
+GEN1_OPEN_WAGON(Coal)
+GEN1_OPEN_WAGON(Ore)
+GEN1_OPEN_WAGON(Gray)
+GEN1_OPEN_WAGON(Sand)
+GEN1_OPEN_WAGON(Salt)
+// GEN1_OPEN_WAGON(Wood)
+// GEN1_OPEN_WAGON(Fruit)
+
+GEN1_OPEN_WAGON_COVERED(Grain)
+// GEN1_OPEN_WAGON_COVERED(Carbon)
+// GEN1_OPEN_WAGON_COVERED(Kaolin)
+// GEN1_OPEN_WAGON_COVERED(Clay)
+
 
 /*
 * PURCHASE
@@ -14,810 +90,94 @@ spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_purchase, "gfx/Wagons/Gen1/Gen1
 	template_purchase_wagon(1, 1)
 }
 
-/*
-* Coal
-*/
-
-//Livery 1 - Loading State 1 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Coal
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Coal
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Coal
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Coal
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Coal.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Coal
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Coal_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Coal_L4;
-}
-
-/*
-* Tarp
-*/
-
-//Livery 1 - Loading State 1 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Tarp
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Tarp
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Tarp
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Tarp
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Tarp.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Tarp
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Tarp_L4;
-}
-
-/*
-* Ore
-*/
-
-//Livery 1 - Loading State 1 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Ore
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Ore
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Ore
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Ore
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Ore.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Ore
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Ore_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Ore_L4;
-}
-
-// /*
-// * Wood
-// */
-
-// //Livery 1 - Loading State 1 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(1, 1)
-// }
-
-// //Livery 1 - Loading State 2 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(1, 32)
-// }
-
-// //Livery 1 - Loading State 3 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(1, 64)
-// }
-
-// //Livery 1 Spritegroup - Wood
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L1 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L1_S3];
-// }
-
-// //Livery 2 - Loading State 1 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(179, 1)
-// }
-
-// //Livery 2 - Loading State 2 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(179, 32)
-// }
-
-// //Livery 2 - Loading State 3 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(179, 64)
-// }
-
-// //Livery 2 Spritegroup - Wood
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L2 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L2_S3];	
-// }
-
-// //Livery 3 - Loading State 1 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(357, 1)
-// }
-
-// //Livery 3 - Loading State 2 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(357, 32)
-// }
-
-// //Livery 3 - Loading State 3 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(357, 64)
-// }
-
-// //Livery 3 Spritegroup - Wood
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L3 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L3_S3];	
-// }
-
-// //Livery 4 - Loading State 1 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(535, 1)
-// }
-
-// //Livery 4 - Loading State 2 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(535, 32)
-// }
-
-// //Livery 4 - Loading State 3 - Wood
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Wood.png") {
-// 	template_2cc_wagons(535, 64)
-// }
-
-// //Livery 4 Spritegroup - Wood
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L4 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Wood_L4_S3];	
-// }
-
-// random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Wood_livery) {
-// 	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L1;
-// 	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L2;
-// 	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L3;
-// 	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Wood_L4;
-// }
-
-/*
-* Gray
-*/
-
-//Livery 1 - Loading State 1 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Gray
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Gray
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Gray
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Gray
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Gray.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Gray
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Gray_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Gray_L4;
-}
-
-/*
-* Sand
-*/
-
-//Livery 1 - Loading State 1 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Sand
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Sand
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Sand
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Sand
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Sand.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Sand
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Sand_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Sand_L4;
-}
-
-/*
-* Salt
-*/
-
-//Livery 1 - Loading State 1 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Salt
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Salt
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Salt
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Salt
-spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Salt.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Salt
-spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Salt_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Salt_L4;
-}
-
-// /*
-// * Fruit
-// */
-
-// //Livery 1 - Loading State 1 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(1, 1)
-// }
-
-// //Livery 1 - Loading State 2 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(1, 32)
-// }
-
-// //Livery 1 - Loading State 3 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(1, 64)
-// }
-
-// //Livery 1 Spritegroup - Fruit
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1_S3];
-// }
-
-// //Livery 2 - Loading State 1 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(179, 1)
-// }
-
-// //Livery 2 - Loading State 2 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(179, 32)
-// }
-
-// //Livery 2 - Loading State 3 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(179, 64)
-// }
-
-// //Livery 2 Spritegroup - Fruit
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2_S3];	
-// }
-
-// //Livery 3 - Loading State 1 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(357, 1)
-// }
-
-// //Livery 3 - Loading State 2 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(357, 32)
-// }
-
-// //Livery 3 - Loading State 3 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(357, 64)
-// }
-
-// //Livery 3 Spritegroup - Fruit
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3_S3];	
-// }
-
-// //Livery 4 - Loading State 1 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S1, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(535, 1)
-// }
-
-// //Livery 4 - Loading State 2 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S2, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(535, 32)
-// }
-
-// //Livery 4 - Loading State 3 - Fruit
-// spriteset(spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S3, "gfx/Wagons/Gen1/Gen1_Open_Wagon_Fruit.png") {
-// 	template_2cc_wagons(535, 64)
-// }
-
-// //Livery 4 Spritegroup - Fruit
-// spritegroup spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4 {
-// 	loading: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S3];
-// 	loaded: [spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S1, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S2, spriteset_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4_S3];	
-// }
-
-// random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery) {
-// 	7: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L1;
-// 	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L2;
-// 	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L3;
-// 	1: spritegroup_wagon_Narrow_Gen1_Open_Wagon_Fruit_L4;
-// }
-
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, cargo_type_in_veh) {
-	COAL: switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery;
-	COKE: switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery;
-	MNO2: switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery;
-	
-	IORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;
-	AORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;
-	CORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;  //Copper ore
-	NKOR: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;  //Nickel ore
-	PORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;  //Pyrite (Zinc) ore
-	
-	LIME: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
-	SAND: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;
-	
-	// OLSD: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;
-	// SUGR: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;
-	// CTCD: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;
-	// FRUT: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;
-	// CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;
+	/* Black cargo */
+	COAL: switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery;	// Coal
+	SLAG: switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery;	// Slag
+	COKE: switch_wagon_Narrow_Gen1_Open_Wagon_Coal_livery;	// Coke
 
-	// WOOD: switch_wagon_Narrow_Gen1_Open_Wagon_Wood_livery;
-	// POTA: switch_wagon_Narrow_Gen1_Open_Wagon_Wood_livery; //Potash is light brown-ish, so uses the Wood livery
+	/* Black cargo, carbon */
+	// CBLK: switch_wagon_Narrow_Gen1_Open_Wagon_Carbon_livery;  // Carbon black
 
-	BUBL: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;
-	CLAY: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;
-	CMNT: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;
-	SCMT: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;
-	GRVL: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;
+	/* Ore cargo */
+	IORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Iron ore
+	MNO2: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Manganese ore
+	CORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Copper ore
+	AORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Bauxite ore
+	PORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Pyrite ore
+	FECR: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Ferrochrome
+
+	/* Ore (greenish) cargo */
+	URAN: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Uranium ore
+	NKOR: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Nickel ore
+
+	/* Wood cargo */
+	// WOOD: switch_wagon_Narrow_Gen1_Open_Wagon_Wood_livery;  // Wood
+
+	/* Metal cargo */
+	// SCMT: switch_wagon_Narrow_Gen1_Open_Wagon_Metal_livery; // Scrap metal
+	// RCYC: switch_wagon_Narrow_Gen1_Open_Wagon_Metal_livery; // Recyclables
 	
-	SALT: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;
-	QLME: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;
-	KAOL: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;
-	NITR: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;	
-	SASH: switch_wagon_Narrow_Gen1_Open_Wagon_Salt_livery;
+	/* Crate cargo */
+	// SUGR: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Sugar
+	// CTCD: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Candyfloss
+	// CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Cereal
+	// FICR: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Fibre Crop
+	// OLSD: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Oil Seed
+	// FURN: switch_wagon_Narrow_Gen1_Open_Wagon_Crates_livery;	// Furniture
 
-	GRAI: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
-	FICR: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
-	MAIZ: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
-	TOFF: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
-	SGCN: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
-	SGBT: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
-	CASS: switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
+	/* Sand cargo */
+	PHOS: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;  // Phosphate
+	SAND: switch_wagon_Narrow_Gen1_Open_Wagon_Sand_livery;	// Sand
+	
+	/* Gray cargo */
+	GRVL: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Gravel / Stone
+	LIME: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Limestone
+	SALT: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Salt
+	NITR: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Nitrate
+	NHNO: switch_wagon_Narrow_Gen1_Open_Wagon_Gray_livery;	// Ammonium nitrate
 
-	switch_wagon_Narrow_Gen1_Open_Wagon_Tarp_livery;
+	/* Gray cargo, covered */
+	// KAOL: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Kaolin
+	// CMNT: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Cement
+	// BAKE: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Flour
+	// QLME: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Quicklime
+	// SASH: switch_wagon_Narrow_Gen1_Open_Wagon_Kaolin_livery;  // Soda Ash
+
+	/* Light brown & green cargo */
+	// FRUT: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;	// Fruit
+	// CASS: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;  // Cassava
+	// BEAN: switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery;  // Beans
+
+	/* Light brown & green cargo, covered */
+	// SGCN: switch_wagon_Narrow_Gen1_Open_Wagon_Beet_livery;	// Sugar cane
+	// SGBT: switch_wagon_Narrow_Gen1_Open_Wagon_Beet_livery;	// Sugar beet
+
+	/* Brown cargo */
+	// PEAT: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Peat
+	// FERT: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Fertilizer
+	// TBCO: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Tobacco
+	// TOFF: switch_wagon_Narrow_Gen1_Open_Wagon_Peat_livery;	// Toffee
+
+	/* Brown cargo, covered */
+	// CLAY: switch_wagon_Narrow_Gen1_Open_Wagon_Clay_livery;  // Clay
+	// POTA: switch_wagon_Narrow_Gen1_Open_Wagon_Clay_livery;  // Potash
+	// WSTE: switch_wagon_Narrow_Gen1_Open_Wagon_Clay_livery;  // Waste
+
+	/* Light-brown cargo, covered */
+	GRAI: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;	 // Grains
+	WHEA: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;  // Wheat
+	SEED: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;  // Seed
+	CERE: switch_wagon_Narrow_Gen1_Open_Wagon_Grain_livery;	 // Cereals
+	
+	/* Yellow cargo */
+	// MAIZ: switch_wagon_Narrow_Gen1_Open_Wagon_Maize_livery;	 // Maize
+
+	/* Yellow cargo, covered */
+	// SULP: switch_wagon_Narrow_Gen1_Open_Wagon_Sulphur_livery;  // Sulphur
+	
+	/* Default */
+	switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery; 
 }
 
 //Add defined switches 
