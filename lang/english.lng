@@ -134,6 +134,7 @@ STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING
 STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BALDWIN                 :Constructor: {GOLD}Baldwin Locomotive Works{BLACK}{}{STRING}
+STR_EXTRA_MAKER_23_AUGUST               :Constructor: {GOLD}'23 August' Bucharest Locomotive Works{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
