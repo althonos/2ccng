@@ -767,6 +767,8 @@ item_wagon_Gen5_Container_Carrier, /*Year: 1990*/ \
 item_wagon_Gen5_Centerbeam, /*Year: 1990*/ \
 item_wagon_Gen5_Container_Doublestack, /*Year: 1980*/ \
 item_wagon_Gen5_Superheavy_Flatcar, /*Year: 1990*/ \
+item_wagon_Service_Car_Type1, /*Year: 1660*/ \
+item_wagon_Service_Car_Type2, /*Year: 1660*/ \
 item_wagon_Narrow_Gen1_Boxcar, /*Year: 1660*/ \
 item_wagon_Narrow_Gen1_Flat_Wagon, /*Year: 1660*/ \
 item_wagon_Narrow_Gen1_Open_Wagon, /*Year: 1660*/ \
@@ -774,9 +776,7 @@ item_wagon_Narrow_Gen1_Tanker, /*Year: 1660*/ \
 item_wagon_Narrow_Gen2_Boxcar, /*Year: 1890*/ \
 item_wagon_Narrow_Gen2_Flat_Wagon, /*Year: 1890*/ \
 item_wagon_Narrow_Gen2_Open_Wagon, /*Year: 1890*/ \
-item_wagon_Narrow_Gen2_Tanker, /*Year: 1890*/ \
-item_wagon_Service_Car_Type1, /*Year: 1660*/ \
-item_wagon_Service_Car_Type2, /*Year: 1660*/
+item_wagon_Narrow_Gen2_Tanker, /*Year: 1890*/
 
 #define SORTING_SPECIAL \
 item_mu_wagon_unpowered, \
@@ -786,7 +786,9 @@ item_mtro_wagon_powered, \
 item_mglv_wagon_unpowered, \
 item_mglv_wagon_powered, \
 item_mu_cargo_wagon_unpowered, \
-item_mu_cargo_wagon_powered,
+item_mu_cargo_wagon_powered, \
+item_mu_narrow_wagon_unpowered, \
+item_mu_narrow_wagon_powered, 
 
 sort(FEAT_TRAINS, [
 	SORTING_RBS
