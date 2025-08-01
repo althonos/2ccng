@@ -99,6 +99,7 @@
         MAKER_SMZ:                return string(STR_EXTRA_MAKER_SMZ);                \
         MAKER_CARMINATI_TOSELLI:  return string(STR_EXTRA_MAKER_CARMINATI_TOSELLI);  \
         MAKER_BALDWIN:            return string(STR_EXTRA_MAKER_BALDWIN);            \
+        MAKER_23_AUGUST:          return string(STR_EXTRA_MAKER_23_AUGUST);          \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 
