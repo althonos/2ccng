@@ -362,6 +362,8 @@ item(FEAT_TRAINS, item_diesel_USA_Amtrak_Charger, 5133) {}
 item(FEAT_TRAINS, item_diesel_Chile_SQM_SW1200, 5800) {}
 item(FEAT_TRAINS, item_diesel_Indonesia_KAI_CC203, 5801) {}
 item(FEAT_TRAINS, item_diesel_Estonia_EVR_TU2, 5802) {}
+item(FEAT_TRAINS, item_diesel_Ireland_Bord_na_Mona_LM200, 5803) {}
+item(FEAT_TRAINS, item_diesel_Bulgaria_BDZ_76, 5804) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
@@ -792,7 +794,7 @@ item(FEAT_TRAINS, item_coach_Narrow_Gen1_Clerestory_Mail_Coach, 11803) {}
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
 item(FEAT_TRAINS, item_wagon_Gen1_Flat_Wagon, 12000) {}
-item(FEAT_TRAINS, item_wagon_Gen1_BoxCar, 12001) {}
+item(FEAT_TRAINS, item_wagon_Gen1_Boxcar, 12001) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Tanker, 12002) {}
 item(FEAT_TRAINS, item_wagon_Gen1_Open_Wagon, 12003) {}
 item(FEAT_TRAINS, item_wagon_Gen2_Flat_Wagon, 12004) {}
