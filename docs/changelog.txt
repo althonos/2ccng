@@ -1,6 +1,28 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+Unreleased
+----------
+
+Added
+^^^^^
+- Early 'experimental' narrow-gauge passenger and baggage cars.
+- Palette swaps of 2ccNML ``Clerestory`` coaches.
+- San-Marino-Rimini train of 1932 (as a single-headed EMU).
+- USA steam locomotive ``K-27`` 'Mudhen' of the Denver & Rio Grande Western.
+- 2nd generation cargo wagons (flat wagon, boxcar, open wagon, tanker).
+
+Changed
+^^^^^^^
+- Improved pantograph of ``ChS11``.
+
+Fixed
+^^^^^
+- Incorrect track type assigned to electric railbuses.
+- Colors for some cargo of Gen1 open wagons.
+- Issues with Bulgaria ``BDZ 76`` purchase text and vehicle ID.
+- Sort order of special MU wagons and service cars.
+
 v0.1.1 (2025-01-06)
 -------------------
 
