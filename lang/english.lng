@@ -59,6 +59,7 @@ STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 #EXTRA PURCHASE TEXT
 #track gauges
 STR_EXTRA_GAUGE_UNKNOWN                 :Track Gauge: {GRAY}Unknown{BLACK}{}{STRING}
+STR_EXTRA_GAUGE_600MM                   :Track Gauge: {CREAM}600mm{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_2FT                     :Track Gauge: {CREAM}2 ft (610mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_750MM                   :Track Gauge: {YELLOW}750mm{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_760MM                   :Track Gauge: {YELLOW}Bosnian (760mm){BLACK}{}{STRING}
@@ -135,6 +136,7 @@ STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BALDWIN                 :Constructor: {GOLD}Baldwin Locomotive Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_23_AUGUST               :Constructor: {GOLD}'23 August' Bucharest Locomotive Works{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CROCHAT                 :Constructor: {GOLD}Crochat{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -195,6 +197,7 @@ str_rbd_Argentina_FCPBA_M_Railcar :FCPBA M Railcar (Diesel railbus)
 str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :Eritrean Railway A.62-70 'Littorina' (Diesel railbus)
 str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Diesel railbus)
 str_rbd_France_CdN_OC1 :CdN OC1 (Diesel railbus)
+str_rbd_France_Pithiviers_Toury_AT1     :Pithiviers-Toury AT1 (Diesel railbus)
 
 #Railbus-electric
 str_rbe_Switzerland_AB_CFe_3_3		:AB CFe 3/3 (Electric Railbus)

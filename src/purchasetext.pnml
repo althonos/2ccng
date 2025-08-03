@@ -26,6 +26,7 @@
         GAUGE_900MM:  return string(STR_EXTRA_GAUGE_900MM);     \
         GAUGE_750MM:  return string(STR_EXTRA_GAUGE_750MM);     \
         GAUGE_760MM:  return string(STR_EXTRA_GAUGE_760MM);     \
+        GAUGE_600MM:  return string(STR_EXTRA_GAUGE_600MM);     \
         GAUGE_2FT:    return string(STR_EXTRA_GAUGE_2FT);       \
         GAUGE_3FT:    return string(STR_EXTRA_GAUGE_3FT);       \
         GAUGE_4FT:    return string(STR_EXTRA_GAUGE_4FT);       \
@@ -100,6 +101,7 @@
         MAKER_CARMINATI_TOSELLI:  return string(STR_EXTRA_MAKER_CARMINATI_TOSELLI);  \
         MAKER_BALDWIN:            return string(STR_EXTRA_MAKER_BALDWIN);            \
         MAKER_23_AUGUST:          return string(STR_EXTRA_MAKER_23_AUGUST);          \
+        MAKER_CROCHAT:            return string(STR_EXTRA_MAKER_CROCHAT);            \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

@@ -35,3 +35,6 @@
 
 // 900mm
 #define GAUGE_900MM 9
+
+// 600mm
+#define GAUGE_600MM 10

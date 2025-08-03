@@ -69,7 +69,8 @@ item(FEAT_TRAINS, item_rbd_Germany_DB_VT_989, 2044) {}
 item(FEAT_TRAINS, item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, 2045) {}
 item(FEAT_TRAINS, item_rbd_Italy_FS_ALn_668, 2046) {} 
 // Narrow-Gauge
-item(FEAT_TRAINS, item_rbd_Tunisia_SNCFT_YZ_661, 2801) {}
+item(FEAT_TRAINS, item_rbd_Tunisia_SNCFT_YZ_661, 2401) {}
+item(FEAT_TRAINS, item_rbd_France_Pithiviers_Toury_AT1, 2402) {}
 
 //Railbus-Electric, available ID range: 3000-3499 (hex 0x0BB8..0x0DAB)
 #define ID_RANGE_RBE 0x0BB8..0x0DAB
