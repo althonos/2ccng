@@ -958,7 +958,8 @@ str_coach_Narrow_Gen1_Early_Baggage_Coach               :Early Baggage Coach (Na
 str_coach_Narrow_Gen1_Clerestory_Compartment_Coach 		:Clerestory Compartment Coach (Narrow)
 str_coach_Narrow_Gen1_Clerestory_Regional_Coach 		:Clerestory Regional Coach (Narrow)
 str_coach_Narrow_Gen1_Clerestory_Mail_Coach 			:Clerestory Mail Coach (Narrow)
-
+str_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach    :GEX 2006 Panorama Coach (Narrow)
+str_coach_Narrow_Gen5_Glacier_Express_Service_Coach     :GEX 2006 Service Coach (Narrow)
 
 #special wagons
 str_mu_wagon_unpowered			:Multiple Unit Wagon (Unpowered)

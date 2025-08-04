@@ -790,6 +790,8 @@ item(FEAT_TRAINS, item_coach_Narrow_Gen1_Early_Passenger_Coach, 11800) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Early_Baggage_Coach, 11801) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Clerestory_Regional_Coach, 11802) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Clerestory_Mail_Coach, 11803) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, 11804) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, 11805) {}
 
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
