@@ -102,6 +102,11 @@
         MAKER_BALDWIN:            return string(STR_EXTRA_MAKER_BALDWIN);            \
         MAKER_23_AUGUST:          return string(STR_EXTRA_MAKER_23_AUGUST);          \
         MAKER_CROCHAT:            return string(STR_EXTRA_MAKER_CROCHAT);            \
+        MAKER_EVELEIGH:           return string(STR_EXTRA_MAKER_EVELEIGH);           \
+        MAKER_HUTT:               return string(STR_EXTRA_MAKER_HUTT);               \
+        MAKER_CFD:                return string(STR_EXTRA_MAKER_CFD);                \
+        MAKER_DOWNER:             return string(STR_EXTRA_MAKER_DOWNER);             \
+        MAKER_SOULE:              return string(STR_EXTRA_MAKER_SOULE);              \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

@@ -137,6 +137,11 @@ STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{
 STR_EXTRA_MAKER_BALDWIN                 :Constructor: {GOLD}Baldwin Locomotive Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_23_AUGUST               :Constructor: {GOLD}'23 August' Bucharest Locomotive Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CROCHAT                 :Constructor: {GOLD}Crochat{BLACK}{}{STRING}
+STR_EXTRA_MAKER_EVELEIGH                :Constructor: {GOLD}NZR Eveleigh Carriage Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_HUTT                    :Constructor: {GOLD}NZR Hutt Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CFD                     :Constructor: {GOLD}CFD Bagnères{BLACK}{}{STRING}
+STR_EXTRA_MAKER_DOWNER                  :Constructor: {GOLD}Downer Rail{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SOULE                   :Constructor: {GOLD}Soulé{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -154,7 +159,7 @@ str_rbd_Australia_Victorian_Railways_AEC_RM1 	:Victorian Railways AEC RM1 (Diese
 str_rbd_Germany_DB_VT_133 						:DB VT 133 'Wismar railbus' (Diesel Railbus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar 			:GWR AEC Railcar (Diesel Railbus)
 str_rbd_Austria_OBB_5042 						:OBB 5042 (Diesel Railbus)
-str_rbd_New_Zealand_NZR_RM31 					:NZR RM31 (Diesel Railbus)
+str_rbd_New_Zealand_NZR_RM31 					:NZR RM31 'Tokomaru' (Diesel Railbus)
 str_rbd_Portugal_CP_0100 						:CP 0100 (Diesel Railbus)
 str_rbd_USA_Amtrak_Budd_RDC 					:Amtrak Budd RDC (Diesel Railbus)
 str_rbd_Germany_DB_VT_989 						:DB VT 98.9 / DB 798 'Uerdingen railbus' (Diesel Railbus)
