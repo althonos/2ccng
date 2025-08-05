@@ -1,8 +1,8 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
-Unreleased
-----------
+v0.2.0 (2025-08-05)
+-------------------
 
 Added
 ^^^^^
@@ -11,10 +11,13 @@ Added
 - San-Marino-Rimini train of 1932 (as a single-headed EMU).
 - USA steam locomotive ``K-27`` 'Mudhen' of the Denver & Rio Grande Western.
 - 2nd generation cargo wagons (flat wagon, boxcar, open wagon, tanker).
+- ``AT1`` petro-electric autorail of Pithiviers-Toury tramway.
+- ``GEX 2006`` modern coaches from the RhB/MGB Glacier Express.
 
 Changed
 ^^^^^^^
 - Improved pantograph of ``ChS11``.
+- Use NML built-in ``sqrt`` function to compute running costs.
 
 Fixed
 ^^^^^
