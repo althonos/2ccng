@@ -42,10 +42,10 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_coach_Narrow_Gen1_Early_Baggage_Coach_purchase;
+		purchase: spriteset_coach_Narrow_Gen0_Early_Passenger_Coach_purchase;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
-		default: switch_coach_Narrow_Gen1_Early_Baggage_Coach_livery;
+		default: switch_coach_Narrow_Gen0_Early_Passenger_Coach_livery;
 	}
 }
