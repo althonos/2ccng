@@ -30,8 +30,8 @@
 #define TE_COEFFICIENT 0.06 /*Unknown*/
 #define AIR_DRAG_COEFFICIENT 0
 
-#define LENGTH 5
-#define ACTUAL_LENGTH 5
+#define LENGTH 4
+#define ACTUAL_LENGTH 4
 
 /* 32 if counting standing passengers*/
 #define HEAD_CAPACITY 17 
