@@ -24,7 +24,10 @@
 #define LOADINGSPEED LOADINGSPEEDDEF_NONE
 #define CARGODEF CARGODEF_NONE
 
-#define SPEED 15             /* Estimated from travel duration: ~45 minutes for 11km of track */
+/* Estimation gives ~15km/h (45 minutes for 11km of track), but the previous 
+ * engine (Stourbridge Lion) is 18km/h so give it 22km/h for gameplay progression.
+ */
+#define SPEED 20             
 #define POWER 44             /* Calculated from heating surface (437 sq ft / 10): https://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-4-0&railroad=padarn using https://www.smokstak.com/forum/threads/steam-engine-hp-calculation.72483/ */
 #define WEIGHT 13            /* Arbitrary, gameplay progression */
 #define TE_COEFFICIENT 0.12  /* Arbitrary, gameplay progression */
