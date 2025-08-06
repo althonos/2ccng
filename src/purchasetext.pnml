@@ -107,6 +107,7 @@
         MAKER_CFD:                return string(STR_EXTRA_MAKER_CFD);                \
         MAKER_DOWNER:             return string(STR_EXTRA_MAKER_DOWNER);             \
         MAKER_SOULE:              return string(STR_EXTRA_MAKER_SOULE);              \
+        MAKER_BROWN_MARSHALL_CO:  return string(STR_EXTRA_MAKER_BROWN_MARSHALL_CO);  \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

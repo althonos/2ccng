@@ -73,29 +73,29 @@ STR_EXTRA_GAUGE_4FT                     :Track Gauge: {BLUE}4 ft (1,219mm){BLACK
 #train constructors
 STR_EXTRA_MAKER_UNKNOWN                 :Constructor: {GRAY}Unknown{BLACK}{}{STRING}
 STR_EXTRA_MAKER_KOMAREK                 :Constructor: {GOLD}Komarek Maschinenfabrik{BLACK}{}{STRING}
-STR_EXTRA_MAKER_KITSON_CO               :Constructor: {GOLD}Kitson & Co{BLACK}{}{STRING}
-STR_EXTRA_MAKER_HORLOCK_CO              :Constructor: {GOLD}A. Horlock & Co{BLACK}{}{STRING}
-STR_EXTRA_MAKER_FOSTER_RASTRICK_CO      :Constructor: {GOLD}Foster, Rastrick & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_KITSON_CO               :Constructor: {GOLD}Kitson & Co.{BLACK}{}{STRING}
+STR_EXTRA_MAKER_HORLOCK_CO              :Constructor: {GOLD}A. Horlock & Co.{BLACK}{}{STRING}
+STR_EXTRA_MAKER_FOSTER_RASTRICK_CO      :Constructor: {GOLD}Foster, Rastrick & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_HINKLEY                 :Constructor: {GOLD}Hinkley Locomotive Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_HENSCHEL                :Constructor: {GOLD}Henschel & Son{BLACK}{}{STRING}
-STR_EXTRA_MAKER_BEYER_PEACOCK           :Constructor: {GOLD}Beyer, Peacock & Co{BLACK}{}{STRING}
-STR_EXTRA_MAKER_NASMYTH_WILSON_CO       :Constructor: {GOLD}Nasmyth, Wilson & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_BEYER_PEACOCK           :Constructor: {GOLD}Beyer, Peacock & Co.{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NASMYTH_WILSON_CO       :Constructor: {GOLD}Nasmyth, Wilson & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SLM                     :Constructor: {GOLD}Swiss Locomotive and Machine Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SACHSICHE               :Constructor: {GOLD}Sächsische Maschinenfabrik{BLACK}{}{STRING}
 STR_EXTRA_MAKER_LKM_BABELSBERG          :Constructor: {GOLD}Lokomotivbau Karl Marx Babelsberg{BLACK}{}{STRING}
-STR_EXTRA_MAKER_DUBS_CO                 :Constructor: {GOLD}Dübs & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_DUBS_CO                 :Constructor: {GOLD}Dübs & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_ALCO                    :Constructor: {GOLD}American Locomotive Company{BLACK}{}{STRING}
 STR_EXTRA_MAKER_ORENSTEIN_KOPPEL        :Constructor: {GOLD}Orenstein & Koppel{BLACK}{}{STRING}
 STR_EXTRA_MAKER_KISHA_SEIZO             :Constructor: {GOLD}Kisha Seizo{BLACK}{}{STRING}
 STR_EXTRA_MAKER_FALCON                  :Constructor: {GOLD}Falcon Engine & Car Works{BLACK}{}{STRING}
-STR_EXTRA_MAKER_ANSALDO                 :Constructor: {GOLD}Gio. Ansaldo & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_ANSALDO                 :Constructor: {GOLD}Gio. Ansaldo & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_NORTH_BRITISH           :Constructor: {GOLD}North British Locomotive Company{BLACK}{}{STRING}
 STR_EXTRA_MAKER_VULCAN                  :Constructor: {GOLD}Vulcan Foundry{BLACK}{}{STRING}
 STR_EXTRA_MAKER_HK_PORTER               :Constructor: {GOLD}H.K. Porter, Inc.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_KAWASAKI                :Constructor: {GOLD}Kawasaki Heavy Industries{BLACK}{}{STRING}
-STR_EXTRA_MAKER_NEILSON_CO              :Constructor: {GOLD}Neilson & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NEILSON_CO              :Constructor: {GOLD}Neilson & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CLYDE                   :Constructor: {GOLD}Clyde Locomotive Company{BLACK}{}{STRING}
-STR_EXTRA_MAKER_GONINAN_CO              :Constructor: {GOLD}A. Goninan & Co{BLACK}{}{STRING}
+STR_EXTRA_MAKER_GONINAN_CO              :Constructor: {GOLD}A. Goninan & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_EMD                     :Constructor: {GOLD}Electro-Motive Division{BLACK}{}{STRING}
 STR_EXTRA_MAKER_EE                      :Constructor: {GOLD}English Electric{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BLH                     :Constructor: {GOLD}Baldwin-Lima-Hamilton{BLACK}{}{STRING}
@@ -142,6 +142,7 @@ STR_EXTRA_MAKER_HUTT                    :Constructor: {GOLD}NZR Hutt Workshops{B
 STR_EXTRA_MAKER_CFD                     :Constructor: {GOLD}CFD Bagnères{BLACK}{}{STRING}
 STR_EXTRA_MAKER_DOWNER                  :Constructor: {GOLD}Downer Rail{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SOULE                   :Constructor: {GOLD}Soulé{BLACK}{}{STRING}
+STR_EXTRA_MAKER_BROWN_MARSHALL_CO       :Constructor: {GOLD}Brown, Marshalls & Co.{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -960,6 +961,8 @@ str_coach_Gen6_Super_Voyager_Coach 						:Super Voyager Coach
 #coaches - narrow
 str_coach_Narrow_Gen0_Early_Passenger_Coach             :Early Passenger Coach (Narrow)
 str_coach_Narrow_Gen0_Early_Baggage_Coach               :Early Baggage Coach (Narrow)
+str_coach_Narrow_Gen1_Bug_Box_Passenger_Coach 		    :'Bug Box' Passenger Coach (Narrow)
+str_coach_Narrow_Gen1_Bug_Box_Baggage_Coach 		    :'Bug Box' Brake & Baggage Coach (Narrow)
 str_coach_Narrow_Gen1_Clerestory_Compartment_Coach 		:Clerestory Compartment Coach (Narrow)
 str_coach_Narrow_Gen1_Clerestory_Regional_Coach 		:Clerestory Regional Coach (Narrow)
 str_coach_Narrow_Gen1_Clerestory_Mail_Coach 			:Clerestory Mail Coach (Narrow)
