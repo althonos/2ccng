@@ -6,32 +6,40 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+/* Adapted from the DSP&P Pullman Plan 73 'Bonanza' & 'Leadville', converted
+ * into RPO coaches.
+ *
+ */
+
 #include "../undefine_properties.pnml"
 
-#define VEHIDCODE coach_Narrow_Gen1_Clerestory_Regional_Coach
-#define ITEM item_coach_Narrow_Gen1_Clerestory_Regional_Coach
-#define NAME string(str_coach_Narrow_Gen1_Clerestory_Regional_Coach)
+#define VEHIDCODE coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach
+#define ITEM item_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach
+#define NAME string(str_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach)
 
 #define VEHICLE_REGION REGION(ALLREGION,NOREGION,NOCONCEPT)
+#define VEHICLE_GAUGE GAUGE_METRIC
+#define VEHICLE_MAKER MAKER_PULLMAN
 
 #define INTRODUCTION_YEAR 1880
 #define MODEL_LIFE 95
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
 #define VEHICLE_LIFE 25
 
-#define LOADINGSPEED LOADINGSPEEDDEF_INTERCITY
-#define CARGODEF CARGODEF_PASSENGERS_ONLY
+#define LOADINGSPEED LOADINGSPEEDDEF_MAIL
+#define CARGODEF CARGODEF_MAIL_ONLY
 
-#define SPEED 60
+/* See: https://midcontinent.org/rollingstock/CandS/dsp-passenger/bonanza-leadville-sanjuan3.htm */
+#define SPEED 50
 #define POWER 0
-#define WEIGHT 22
+#define WEIGHT 15
 #define TE_COEFFICIENT 0.3
 #define AIR_DRAG_COEFFICIENT 0
 
 #define LENGTH 6
 #define ACTUAL_LENGTH 6
 
-#define HEAD_CAPACITY 32
+#define HEAD_CAPACITY 20
 
 
 #define DUAL_HEADED 0

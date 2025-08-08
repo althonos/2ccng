@@ -786,10 +786,10 @@ item(FEAT_TRAINS, item_coach_Gen6_Speedmail_Coach, 11068) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Regio_Coach, 11069) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
 // Narrow-Gauge
-item(FEAT_TRAINS, item_coach_Narrow_Gen1_Early_Passenger_Coach, 11800) {}
-item(FEAT_TRAINS, item_coach_Narrow_Gen1_Early_Baggage_Coach, 11801) {}
-item(FEAT_TRAINS, item_coach_Narrow_Gen1_Clerestory_Regional_Coach, 11802) {}
-item(FEAT_TRAINS, item_coach_Narrow_Gen1_Clerestory_Mail_Coach, 11803) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen0_Early_Passenger_Coach, 11800) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen0_Early_Baggage_Coach, 11801) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach, 11802) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach, 11803) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, 11804) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, 11805) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Bug_Box_Passenger_Coach, 11806) {}

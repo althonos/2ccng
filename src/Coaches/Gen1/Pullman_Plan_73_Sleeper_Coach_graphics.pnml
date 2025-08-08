@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_purchase, "gfx/Coaches/Gen1/Clerestory_Regional_Coach_Purchase.png") {
+spriteset(spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_purchase, "gfx/Coaches/Gen1/Pullman_Plan_73_Sleeper_Coach_Purchase.png") {
 	template_purchase_wagon(1, 1)
 }
 
@@ -19,19 +19,19 @@ spriteset(spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_purchase, "gfx/C
 */
 
 //Livery 1
-spriteset(spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_L1, "gfx/Coaches/Gen1/Clerestory_Regional_Coach.png") {
+spriteset(spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_L1, "gfx/Coaches/Gen1/Pullman_Plan_73_Sleeper_Coach.png") {
 	template_2cc_wagons(1, 1)
 }
 
-random_switch(FEAT_TRAINS, SELF, switch_coach_Narrow_Gen1_Clerestory_Regional_Coach_livery) {
-	7: spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_L1;
-	// 1: spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_L2;
-	// 1: spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_L3;
-	// 1: spriteset_coach_Narrow_Gen1_Clerestory_Regional_Coach_L4;
+random_switch(FEAT_TRAINS, SELF, switch_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_livery) {
+	7: spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_L1;
+	// 1: spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_L2;
+	// 1: spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_L3;
+	// 1: spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_L4;
 }
 
 //Add defined switches
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

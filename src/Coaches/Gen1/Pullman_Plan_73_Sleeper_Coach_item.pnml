@@ -42,10 +42,10 @@ item(FEAT_TRAINS, ITEM ) {
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
 	}
 	graphics {
-		purchase: spriteset_coach_Narrow_Gen1_Clerestory_Mail_Coach_purchase;
+		purchase: spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_purchase;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
-		PURCHASETEXTSWITCHCALL
-		default: switch_coach_Narrow_Gen1_Clerestory_Mail_Coach_livery;
+		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
+		default: switch_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_livery;
 	}
 }

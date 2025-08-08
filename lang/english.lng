@@ -143,6 +143,7 @@ STR_EXTRA_MAKER_CFD                     :Constructor: {GOLD}CFD Bagnères{BLACK}
 STR_EXTRA_MAKER_DOWNER                  :Constructor: {GOLD}Downer Rail{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SOULE                   :Constructor: {GOLD}Soulé{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BROWN_MARSHALL_CO       :Constructor: {GOLD}Brown, Marshalls & Co.{BLACK}{}{STRING}
+STR_EXTRA_MAKER_PULLMAN                 :Constructor: {GOLD}Pullman Palace Car Company{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -963,9 +964,8 @@ str_coach_Narrow_Gen0_Early_Passenger_Coach             :Early Passenger Coach (
 str_coach_Narrow_Gen0_Early_Baggage_Coach               :Early Baggage Coach (Narrow)
 str_coach_Narrow_Gen1_Bug_Box_Passenger_Coach 		    :'Bug Box' Passenger Coach (Narrow)
 str_coach_Narrow_Gen1_Bug_Box_Baggage_Coach 		    :'Bug Box' Brake & Baggage Coach (Narrow)
-str_coach_Narrow_Gen1_Clerestory_Compartment_Coach 		:Clerestory Compartment Coach (Narrow)
-str_coach_Narrow_Gen1_Clerestory_Regional_Coach 		:Clerestory Regional Coach (Narrow)
-str_coach_Narrow_Gen1_Clerestory_Mail_Coach 			:Clerestory Mail Coach (Narrow)
+str_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach 	:Plan 73 Sleeper Coach (Narrow)
+str_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach 		:Plan 73 Mail Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach    :GEX 2006 Panorama Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Service_Coach     :GEX 2006 Service Coach (Narrow)
 

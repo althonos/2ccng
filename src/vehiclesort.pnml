@@ -715,10 +715,12 @@ item_coach_Gen6_Metropolis_Coach, /*Year: 2030*/ \
 item_coach_Gen6_Speedmail_Coach, /*Year: 2030*/ \
 item_coach_Gen6_Super_Regio_Coach, /*Year: 2030*/ \
 item_coach_Gen6_Super_Voyager_Coach, /*Year: 2030*/ \
-item_coach_Narrow_Gen1_Early_Passenger_Coach, /* Year: 1800 */ \
-item_coach_Narrow_Gen1_Early_Baggage_Coach, /* Year: 1800 */ \
-item_coach_Narrow_Gen1_Clerestory_Regional_Coach, /* Year: 1840 */ \
-item_coach_Narrow_Gen1_Clerestory_Mail_Coach, /* Year: 1840 */ \
+item_coach_Narrow_Gen0_Early_Passenger_Coach, /* Year: 1800 */ \
+item_coach_Narrow_Gen0_Early_Baggage_Coach, /* Year: 1800 */ \
+item_coach_Narrow_Gen1_Bug_Box_Passenger_Coach, /* Year: 1863 */ \
+item_coach_Narrow_Gen1_Bug_Box_Baggage_Coach, /* Year: 1863 */ \
+item_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach, /* Year: 1880 */ \
+item_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach, /* Year: 1880 */ \
 item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, /*Year: 2006*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, /*Year: 2006*/ \
 
