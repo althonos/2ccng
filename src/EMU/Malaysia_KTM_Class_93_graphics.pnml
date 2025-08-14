@@ -46,7 +46,7 @@ switch(FEAT_TRAINS, SELF, switch_emu_Malaysia_KTM_Class_93_reversed, var[0xC8]) 
 }
 
 
-//Visual effect, for DMU this is done on the front engine
+//Visual effect, this particular EMU has a pantograph at the last car
 switch(FEAT_TRAINS, SELF, switch_emu_Malaysia_KTM_Class_93_visual_effect_and_powered, var[0xC8]) {
 	0xFF: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -4, DISABLE_WAGON_POWER);
 	0xFE: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -4, DISABLE_WAGON_POWER);
