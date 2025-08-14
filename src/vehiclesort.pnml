@@ -574,6 +574,7 @@ item_emu_Netherlands_NS_4800_HSA, /*Year: 2012*/ \
 item_emu_Netherlands_NS_Hispeed_V250_Albatros, /*Year: 2012*/ \
 item_emu_Croatia_HZ_6112, /*Year: 2015*/ \
 item_emu_Italy_NTV_AGV_Duplex, /*Year: 2015*/ \
+item_emu_Malaysia_KTM_Class_93, /*Year: 2016*/ \
 item_emu_Europe_Sureot, /*Year: 2030*/
 
 #define SORTING_SINGLE_METRO \

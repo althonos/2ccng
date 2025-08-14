@@ -753,6 +753,7 @@ str_emu_Europe_Sureot :Sureot (EMU)
 str_emu_Spain_Euskotren_3500  :Euskotren 3500 (EMU)
 str_emu_Italy_EAV_ETR_200_Metrostar  :EAV ETR 200 'Metrostar' (EMU)
 str_emu_San_Marino_SVEFT_AB_01_04    :SVEFT AB01-04 'Trenino Biancazzuro' (EMU)
+str_emu_Malaysia_KTM_Class_93        :KTM Class 93 (EMU)
 
 #Single Unit Metro
 str_singlemtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)
