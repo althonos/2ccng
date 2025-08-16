@@ -38,3 +38,6 @@
 
 // 600mm
 #define GAUGE_600MM 10
+
+// Two foot (2 ft 6in) 
+#define GAUGE_2FT6IN 11

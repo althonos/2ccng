@@ -61,6 +61,7 @@ STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 STR_EXTRA_GAUGE_UNKNOWN                 :Track Gauge: {GRAY}Unknown{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_600MM                   :Track Gauge: {CREAM}600mm{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_2FT                     :Track Gauge: {CREAM}2 ft (610mm){BLACK}{}{STRING}
+STR_EXTRA_GAUGE_2FT6IN                  :Track Gauge: {YELLOW}2 ft 6 in (762mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_750MM                   :Track Gauge: {YELLOW}750mm{BLACK}{}{STRING}
 STR_EXTRA_GAUGE_760MM                   :Track Gauge: {YELLOW}Bosnian (760mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_950MM                   :Track Gauge: {LTBROWN}Italian metre (950mm){BLACK}{}{STRING}

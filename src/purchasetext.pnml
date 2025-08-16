@@ -28,6 +28,7 @@
         GAUGE_760MM:  return string(STR_EXTRA_GAUGE_760MM);     \
         GAUGE_600MM:  return string(STR_EXTRA_GAUGE_600MM);     \
         GAUGE_2FT:    return string(STR_EXTRA_GAUGE_2FT);       \
+        GAUGE_2FT6IN: return string(STR_EXTRA_GAUGE_2FT6IN);    \
         GAUGE_3FT:    return string(STR_EXTRA_GAUGE_3FT);       \
         GAUGE_4FT:    return string(STR_EXTRA_GAUGE_4FT);       \
         default:      return string(STR_EXTRA_GAUGE_UNKNOWN);   \
