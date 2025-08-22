@@ -18,7 +18,7 @@
 #define INTRODUCTION_YEAR 2016
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
-#define VEHICLE_LIFE 40
+#define VEHICLE_LIFE VEHICLE_NEVER_EXPIRES
 
 #define LOADINGSPEED LOADINGSPEEDDEF_INTERCITY
 #define CARGODEF CARGODEF_PASSENGERS
@@ -34,12 +34,6 @@
 #define ACTUAL_LENGTH 8
 #define WAGON_LENGTH 8
 
-/* Estimated, the pictures of the car interior show 10 seats in 1st class
- * and 24 seats in 2nd class, but it's unsure how many seats are inside the
- * coaches.
- *
- *  See: https://transphoto.org/vehicle/342835/?&lang=en
- */
 #define HEAD_CAPACITY 44  
 #define WAGON_CAPACITY 58
 
