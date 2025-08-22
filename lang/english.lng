@@ -83,7 +83,7 @@ STR_EXTRA_MAKER_BEYER_PEACOCK           :Constructor: {GOLD}Beyer, Peacock & Co.
 STR_EXTRA_MAKER_NASMYTH_WILSON_CO       :Constructor: {GOLD}Nasmyth, Wilson & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SLM                     :Constructor: {GOLD}Swiss Locomotive and Machine Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SACHSICHE               :Constructor: {GOLD}Sächsische Maschinenfabrik{BLACK}{}{STRING}
-STR_EXTRA_MAKER_LKM_BABELSBERG          :Constructor: {GOLD}Lokomotivbau Karl Marx Babelsberg{BLACK}{}{STRING}
+STR_EXTRA_MAKER_LKM_BABELSBERG          :Constructor: {GOLD}Lokomotivbau 'Karl Marx' Babelsberg{BLACK}{}{STRING}
 STR_EXTRA_MAKER_DUBS_CO                 :Constructor: {GOLD}Dübs & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_ALCO                    :Constructor: {GOLD}American Locomotive Company{BLACK}{}{STRING}
 STR_EXTRA_MAKER_ORENSTEIN_KOPPEL        :Constructor: {GOLD}Orenstein & Koppel{BLACK}{}{STRING}
@@ -133,7 +133,7 @@ STR_EXTRA_MAKER_BRUSH                   :Constructor: {GOLD}Brush Traction{BLACK
 STR_EXTRA_MAKER_UCW                     :Constructor: {GOLD}Union Carriage & Wagon{BLACK}{}{STRING}
 STR_EXTRA_MAKER_GM                      :Constructor: {GOLD}General Motors{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING}
-STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ Dubnica{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BALDWIN                 :Constructor: {GOLD}Baldwin Locomotive Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_23_AUGUST               :Constructor: {GOLD}'23 August' Bucharest Locomotive Works{BLACK}{}{STRING}
@@ -618,7 +618,7 @@ str_electric_Russia_RZD_VL11 :RZD VL11 (Electric)
 str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Electric)
 str_electric_China_China_Railways_6K :China Railways 6K (Electric)
 str_electric_Slovakia_ZSSK_HGem_2_2 :ZSSK HGem 2/2 (Electric)
-str_electric_Georgia_BBR_ChS11 :BBR ChS11 (Electric)
+str_electric_Georgia_BBR_ChS11 :Borjomi-Bakuriani ChS11 (Electric)
 
 #DMU
 str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DB VT 04.0 'Flying Hamburger' (DMU)
