@@ -25,13 +25,15 @@ REPO_NAME           ?= 2cc Narrow-Gauge in NML
 # This is the filename part common to the grf file, main source file and the tar name
 BASE_FILENAME       ?= 2ccng
 
-# Documentation files
-DOC_FILES ?= docs/readme.txt docs/license.txt docs/changelog.txt
-
 # Directory structure
 SCRIPT_DIR          ?= scripts
 BUNDLE_DIR          ?= bundle
 BUILD_DIR           ?= build
+DOCS_DIR            ?= docs
+
+# Documentation files
+DOC_FILES ?= $(DOCS_DIR)/readme.txt $(DOCS_DIR)/license.txt $(DOCS_DIR)/changelog.txt
+
 
 # Uncomment in order to make use of gimp scripting. See the file
 # for a description of the format
@@ -319,6 +321,9 @@ maintainer-clean::
 # Documentation targets
 # target 'doc' which builds the docs
 ################################################################
+
+$(DOCS_DIR)/license.txt: COPYING
+	$(_V)cp $< $@
 
 %.txt: %.ptxt
 	$(_E) "[DOC] $@"

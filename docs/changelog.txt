@@ -1,6 +1,35 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.2.1 (2025-08-22)
+-------------------
+
+Added
+^^^^^
+- ``Bug Box`` passenger and baggage coaches based on Ffestiniog wagons.
+- ``Pullman 'Plan 73'`` cars from the Colorado & Southern replacing generic clerestory wagons.
+- ``KTM Class 93`` high-speed EMU from Malaysia.
+- ``Barbados Light Railway 2-6-0T`` of 1898 steam locomotive.
+
+Fixed
+^^^^^
+- Issues with graphics of several multiple-unit trains when refitted to non-passenger cargo.
+- Missing coupler in ``Stourbridge Lion`` locomotive.
+- Tender graphic and engine speed of ``Fire Queen`` locomotive.
+- Recolor Gen1 wagon purchase icons to use primary company colors.
+- Some 2ccNML vehicles missing from sorting order
+- Improve spriteset of ``CFC X 97050`` DMU.
+
+Changed
+^^^^^^^
+- Reduce dimensions of ``AT1`` railbus.
+- Lower speed of early coaches to 15 km/h.
+
+Removed
+^^^^^^^
+- Generic clerestory coaches.
+
+
 v0.2.0 (2025-08-05)
 -------------------
 

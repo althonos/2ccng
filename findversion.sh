@@ -101,13 +101,14 @@ if [ -d "$ROOT_DIR/.hg" ]; then
 		DISPLAY_VERSION="${TAG}"
 	fi
 elif [ -d "$ROOT_DIR/.git" ]; then
-	_DESCRIBE=$(git describe --always)
+	#_DESCRIBE=$(git describe --always)
+	_DESCRIBE_DIRTY=$(git describe --dirty --always --tags)
 	_DESCRIBE_TAGS=$(git describe --always --tags)
 	HASH=$(git log --pretty=format:'%H' -n 1)
 	TAG="${_DESCRIBE_TAGS}"
 	REPO_DATE=$(git log --pretty=format:'%at' -n 1)
 	VERSION=`python -c "from datetime import date; print((date.fromtimestamp($REPO_DATE)-date(2000,1,1)).days)"`
-	MODIFIED=$([ "${_DESCRIBE}" == "${_DESCRIBE_TAGS}" ] && echo "" || echo "dirty")
+	MODIFIED=$(if [ "${_DESCRIBE_DIRTY}" = "${_DESCRIBE_TAGS}" ]; then echo ""; else echo "dirty"; fi)
 	BRANCH=$(git branch | cut -d' ' -f2)
 	DISPLAY_VERSION="${_DESCRIBE_TAGS}"
 	if [ -n "$TAG" ]; then
@@ -128,7 +129,9 @@ else
 	DISPLAY_VERSION="noRev"
 fi
 
-DISPLAY_VERSION="${DISPLAY_VERSION}${MODIFIED}"
+if [ -n "$MODIFIED" ]; then
+	DISPLAY_VERSION="${DISPLAY_VERSION}-${MODIFIED}"
+fi
 
 if [ -n "$BRANCH" ]; then
 	DISPLAY_VERSION="$BRANCH-${DISPLAY_VERSION}"

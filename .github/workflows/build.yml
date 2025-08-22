@@ -21,8 +21,19 @@ jobs:
         run: python -m pip install -U setuptools wheel ply Pillow>=3.4
       - name: Install NML
         run: python -m pip install --no-build-isolation -U nml
+      - name: Show GRF version
+        run: sh -x findversion.sh
       - name: Build GRF
         run: make
+      - name: Build release
+        run: make bundle_gzip
+      - name: Show release tags
+        run: cat build/custom_tags.txt
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle
+          path: bundle/*
   release:
     name: Release
     runs-on: ubuntu-latest
@@ -33,18 +44,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Setup Python '3.12'
-        uses: actions/setup-python@v5
+      - name: Download bundle
+        uses: actions/download-artifact@v4
         with:
-          python-version: '3.12'
-      - name: Install requirements
-        run: sudo apt-get install -y dos2unix
-      - name: Install Python requirements
-        run: python -m pip install -U setuptools wheel ply Pillow>=3.4
-      - name: Install NML
-        run: python -m pip install --no-build-isolation -U nml
-      - name: Build release
-        run: make bundle_gzip
+          name: bundle
+          path: bundle/*
       - name: Generate release text
         run: sh docs/release-text.sh > docs/release-text.rst
       - name: Create release
