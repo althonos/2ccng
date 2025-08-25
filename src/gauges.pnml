@@ -41,3 +41,6 @@
 
 // Two foot (2 ft 6in) 
 #define GAUGE_2FT6IN 11
+
+// Swedish three foot (891mm)
+#define GAUGE_SWEDISH 12

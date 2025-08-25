@@ -24,6 +24,7 @@
         GAUGE_METRIC: return string(STR_EXTRA_GAUGE_METRIC);    \
         GAUGE_950MM:  return string(STR_EXTRA_GAUGE_950MM);     \
         GAUGE_900MM:  return string(STR_EXTRA_GAUGE_900MM);     \
+        GAUGE_SWEDISH:return string(STR_EXTRA_GAUGE_SWEDISH);   \
         GAUGE_750MM:  return string(STR_EXTRA_GAUGE_750MM);     \
         GAUGE_760MM:  return string(STR_EXTRA_GAUGE_760MM);     \
         GAUGE_600MM:  return string(STR_EXTRA_GAUGE_600MM);     \

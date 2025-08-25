@@ -66,6 +66,7 @@ STR_EXTRA_GAUGE_750MM                   :Track Gauge: {YELLOW}750mm{BLACK}{}{STR
 STR_EXTRA_GAUGE_760MM                   :Track Gauge: {YELLOW}Bosnian (760mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_950MM                   :Track Gauge: {LTBROWN}Italian metre (950mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_900MM                   :Track Gauge: {BROWN}900mm{BLACK}{}{STRING}
+STR_EXTRA_GAUGE_SWEDISH                 :Track Gauge: {BROWN}Swedish 3 ft (891mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_3FT                     :Track Gauge: {BROWN}3 ft (914mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_METRIC                  :Track Gauge: {DKGREEN}Metric (1,000mm){BLACK}{}{STRING}
 STR_EXTRA_GAUGE_CAPE                    :Track Gauge: {PURPLE}Cape (1,067mm){BLACK}{}{STRING}
@@ -350,6 +351,8 @@ str_steam_UK_Padarn_Railway_Fire_Queen  :Padarn Railway 'Fire Queen' (Steam)
 str_steam_Australia_Queensland_Railways_A10  :Queensland Railways A10 (Steam)
 str_steam_USA_D_RGW_K_27_Mudhen     :D&RGW K-27 'Mudhen' (Steam)
 str_steam_Barbados_Barbados_2_6_0T  :Barbados Light Railway 2-6-0T (Steam)
+str_steam_Sweden_NJ_Forstlingen   :Norbergs Järnväg 'Förstlingen' (Steam)
+str_steam_Sweden_Gotland_1_3   :Gotlands Järnväg 1-3 (Steam)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II							:DB Kof II / DB 322 (Diesel) 

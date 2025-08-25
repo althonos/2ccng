@@ -223,6 +223,8 @@ item(FEAT_TRAINS, item_steam_UK_Padarn_Railway_Fire_Queen, 4803) {}
 item(FEAT_TRAINS, item_steam_Australia_Queensland_Railways_A10, 4804) {}
 item(FEAT_TRAINS, item_steam_USA_D_RGW_K_27_Mudhen, 4805) {}
 item(FEAT_TRAINS, item_steam_Barbados_Barbados_2_6_0T, 4806) {}
+item(FEAT_TRAINS, item_steam_Sweden_NJ_Forstlingen, 4807) {}
+item(FEAT_TRAINS, item_steam_Sweden_Gotland_1_3, 4808) {}
 
 //Diesel, available ID range: 5000-5999 (hex 0x1388..0x176F)
 #define ID_RANGE_DIESEL 0x1388..0x176F

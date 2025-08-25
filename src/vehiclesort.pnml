@@ -101,6 +101,7 @@ item_steam_Netherlands_NRS_11, /*Year: 1844*/ \
 item_steam_UK_GWR_Iron_DUKe_Class, /*Year: 1846*/ \
 item_steam_UK_Padarn_Railway_Fire_Queen, /*Year: 1848 */ \
 item_steam_USA_4_4_0_American, /*Year: 1848*/ \
+item_steam_Sweden_NJ_Forstlingen, /*Year: 1853*/ \
 item_steam_Switzerland_SBB_Ec_2_5, /*Year: 1854*/ \
 item_steam_Australia_Sidney_Railway_Locomotive_No1, /*Year: 1855*/ \
 item_steam_India_Fairy_Queen, /*Year: 1855*/ \
@@ -114,6 +115,7 @@ item_steam_Argentina_FCGR_315, /*Year: 1871*/ \
 item_steam_South_Africa_Harbour_Board_EL_0_4_0, /*Year: 1873*/ \
 item_steam_USA_2_8_0_Consolidation, /*Year: 1875*/ \
 item_steam_USA_0_4_4_Forney, /*Year: 1877*/ \
+item_steam_Sweden_Gotland_1_3, /*Year: 1878*/ \
 item_steam_Japan_Horonai_Railway_7100, /*Year: 1880*/ \
 item_steam_Australia_NSWGR_Z25_Class, /*Year: 1881*/ \
 item_steam_Hungary_MAV_377, /*Year: 1885*/ \
