@@ -33,7 +33,7 @@
 #define TE_COEFFICIENT 0.12  /* Arbitrary, gameplay progression */
 #define AIR_DRAG_COEFFICIENT 0
 
-#define LENGTH 8
+#define LENGTH 5
 #define ACTUAL_LENGTH 8
 
 #define HEAD_CAPACITY 0

@@ -30,7 +30,7 @@
 #define TE_COEFFICIENT 0.10
 #define AIR_DRAG_COEFFICIENT 0
 
-#define LENGTH 5
+#define LENGTH 3
 #define ACTUAL_LENGTH 5
 
 #define HEAD_CAPACITY 0
