@@ -82,11 +82,11 @@ STR_EXTRA_MAKER_HINKLEY                 :Constructor: {GOLD}Hinkley Locomotive W
 STR_EXTRA_MAKER_HENSCHEL                :Constructor: {GOLD}Henschel & Son{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BEYER_PEACOCK           :Constructor: {GOLD}Beyer, Peacock & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_NASMYTH_WILSON_CO       :Constructor: {GOLD}Nasmyth, Wilson & Co.{BLACK}{}{STRING}
-STR_EXTRA_MAKER_SLM                     :Constructor: {GOLD}Swiss Locomotive and Machine Works{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SLM                     :Constructor: {GOLD}Swiss Locomotive and Machine Works 'SLM'{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SACHSICHE               :Constructor: {GOLD}Sächsische Maschinenfabrik{BLACK}{}{STRING}
 STR_EXTRA_MAKER_LKM_BABELSBERG          :Constructor: {GOLD}Lokomotivbau 'Karl Marx' Babelsberg{BLACK}{}{STRING}
 STR_EXTRA_MAKER_DUBS_CO                 :Constructor: {GOLD}Dübs & Co.{BLACK}{}{STRING}
-STR_EXTRA_MAKER_ALCO                    :Constructor: {GOLD}American Locomotive Company{BLACK}{}{STRING}
+STR_EXTRA_MAKER_ALCO                    :Constructor: {GOLD}American Locomotive Company 'ALCO'{BLACK}{}{STRING}
 STR_EXTRA_MAKER_ORENSTEIN_KOPPEL        :Constructor: {GOLD}Orenstein & Koppel{BLACK}{}{STRING}
 STR_EXTRA_MAKER_KISHA_SEIZO             :Constructor: {GOLD}Kisha Seizo{BLACK}{}{STRING}
 STR_EXTRA_MAKER_FALCON                  :Constructor: {GOLD}Falcon Engine & Car Works{BLACK}{}{STRING}
@@ -120,8 +120,8 @@ STR_EXTRA_MAKER_RINGHOFFER              :Constructor: {GOLD}Ringhoffer{BLACK}{}{
 STR_EXTRA_MAKER_STADLER                 :Constructor: {GOLD}Stadler Rail{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SIG                     :Constructor: {GOLD}SIG Group{BLACK}{}{STRING}
 STR_EXTRA_MAKER_KALUGA                  :Constructor: {GOLD}Kalugatransmash{BLACK}{}{STRING}
-STR_EXTRA_MAKER_VOSSLOH_ESPANA          :Constructor: {GOLD}Vossloh Espana{BLACK}{}{STRING}
-STR_EXTRA_MAKER_AEG                     :Constructor: {GOLD}AEG{BLACK}{}{STRING}
+STR_EXTRA_MAKER_VOSSLOH_ESPANA          :Constructor: {GOLD}Vossloh España{BLACK}{}{STRING}
+STR_EXTRA_MAKER_AEG                     :Constructor: {GOLD}Allgemeine Elektricitäts-Gesellschaft 'AEG'{BLACK}{}{STRING}
 STR_EXTRA_MAKER_FUJI_HEAVY              :Constructor: {GOLD}Fuji Heavy Industries{BLACK}{}{STRING}
 STR_EXTRA_MAKER_MTM                     :Constructor: {GOLD}MTM{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SULZER                  :Constructor: {GOLD}Sulzer{BLACK}{}{STRING}
@@ -133,19 +133,23 @@ STR_EXTRA_MAKER_TOSHIBA                 :Constructor: {GOLD}Toshiba{BLACK}{}{STR
 STR_EXTRA_MAKER_BRUSH                   :Constructor: {GOLD}Brush Traction{BLACK}{}{STRING}
 STR_EXTRA_MAKER_UCW                     :Constructor: {GOLD}Union Carriage & Wagon{BLACK}{}{STRING}
 STR_EXTRA_MAKER_GM                      :Constructor: {GOLD}General Motors{BLACK}{}{STRING}
-STR_EXTRA_MAKER_CRRC                    :Constructor: {GOLD}CRRC{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SMZ                     :Constructor: {GOLD}SMZ Dubnica{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CARMINATI_TOSELLI       :Constructor: {GOLD}Carminati & Toselli{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BALDWIN                 :Constructor: {GOLD}Baldwin Locomotive Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_23_AUGUST               :Constructor: {GOLD}'23 August' Bucharest Locomotive Works{BLACK}{}{STRING}
-STR_EXTRA_MAKER_CROCHAT                 :Constructor: {GOLD}Crochat{BLACK}{}{STRING}
-STR_EXTRA_MAKER_EVELEIGH                :Constructor: {GOLD}NZR Eveleigh Carriage Workshops{BLACK}{}{STRING}
-STR_EXTRA_MAKER_HUTT                    :Constructor: {GOLD}NZR Hutt Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CROCHAT                 :Constructor: {GOLD}Ateliers Henry Crochat{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NZR_EVELEIGH            :Constructor: {GOLD}NZR Eveleigh Carriage Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NZR_HUTT                :Constructor: {GOLD}NZR Hutt Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NZR_HILLSIDE            :Constructor: {GOLD}NZR Hillside Workshops{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CFD                     :Constructor: {GOLD}CFD Bagnères{BLACK}{}{STRING}
 STR_EXTRA_MAKER_DOWNER                  :Constructor: {GOLD}Downer Rail{BLACK}{}{STRING}
-STR_EXTRA_MAKER_SOULE                   :Constructor: {GOLD}Soulé{BLACK}{}{STRING}
+STR_EXTRA_MAKER_SOULE                   :Constructor: {GOLD}Établissements Soulé{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BROWN_MARSHALL_CO       :Constructor: {GOLD}Brown, Marshalls & Co.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_PULLMAN                 :Constructor: {GOLD}Pullman Palace Car Company{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CRRC_TANGSHAN           :Constructor: {GOLD}CRRC Tangshan{BLACK}{}{STRING}
+STR_EXTRA_MAKER_CRRC_ZUZHOU             :Constructor: {GOLD}CRRC Tangshan{BLACK}{}{STRING}
+STR_EXTRA_MAKER_MUNKTELLS               :Constructor: {GOLD}Munktells Mekaniska Verkstad{BLACK}{}{STRING}
+STR_EXTRA_MAKER_JGR_KOBE                :Constructor: {GOLD}JGR Kobe Works{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam

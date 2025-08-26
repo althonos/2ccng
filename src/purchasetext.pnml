@@ -98,19 +98,23 @@
         MAKER_BRUSH:              return string(STR_EXTRA_MAKER_BRUSH);              \
         MAKER_UCW:                return string(STR_EXTRA_MAKER_UCW);                \
         MAKER_GM:                 return string(STR_EXTRA_MAKER_GM);                 \
-        MAKER_CRRC:               return string(STR_EXTRA_MAKER_CRRC);               \
         MAKER_SMZ:                return string(STR_EXTRA_MAKER_SMZ);                \
         MAKER_CARMINATI_TOSELLI:  return string(STR_EXTRA_MAKER_CARMINATI_TOSELLI);  \
         MAKER_BALDWIN:            return string(STR_EXTRA_MAKER_BALDWIN);            \
         MAKER_23_AUGUST:          return string(STR_EXTRA_MAKER_23_AUGUST);          \
         MAKER_CROCHAT:            return string(STR_EXTRA_MAKER_CROCHAT);            \
-        MAKER_EVELEIGH:           return string(STR_EXTRA_MAKER_EVELEIGH);           \
-        MAKER_HUTT:               return string(STR_EXTRA_MAKER_HUTT);               \
+        MAKER_NZR_EVELEIGH:       return string(STR_EXTRA_MAKER_NZR_EVELEIGH);       \
+        MAKER_NZR_HUTT:           return string(STR_EXTRA_MAKER_NZR_HUTT);           \
+        MAKER_NZR_HILLSIDE:       return string(STR_EXTRA_MAKER_NZR_HILLSIDE);       \
         MAKER_CFD:                return string(STR_EXTRA_MAKER_CFD);                \
         MAKER_DOWNER:             return string(STR_EXTRA_MAKER_DOWNER);             \
         MAKER_SOULE:              return string(STR_EXTRA_MAKER_SOULE);              \
         MAKER_BROWN_MARSHALL_CO:  return string(STR_EXTRA_MAKER_BROWN_MARSHALL_CO);  \
         MAKER_PULLMAN:            return string(STR_EXTRA_MAKER_PULLMAN);            \
+        MAKER_CRRC_TANGSHAN:      return string(STR_EXTRA_MAKER_CRRC_TANGSHAN);      \
+        MAKER_CRRC_ZUZHOU:        return string(STR_EXTRA_MAKER_CRRC_ZUZHOU);        \
+        MAKER_MUNKTELLS:          return string(STR_EXTRA_MAKER_MUNKTELLS);          \
+        MAKER_JGR_KOBE:           return string(STR_EXTRA_MAKER_JGR_KOBE);           \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 
