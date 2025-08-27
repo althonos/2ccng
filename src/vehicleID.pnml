@@ -798,7 +798,9 @@ item(FEAT_TRAINS, item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, 11804) 
 item(FEAT_TRAINS, item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, 11805) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Bug_Box_Passenger_Coach, 11806) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen1_Bug_Box_Baggage_Coach, 11807) {}
-
+item(FEAT_TRAINS, item_coach_Narrow_Gen3_56_Foot_Express_Coach, 11808) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen3_56_Foot_Suburban_Coach, 11809) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen3_56_Foot_Mail_Coach, 11810) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7

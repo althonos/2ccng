@@ -727,6 +727,9 @@ item_coach_Narrow_Gen1_Bug_Box_Passenger_Coach, /* Year: 1863 */ \
 item_coach_Narrow_Gen1_Bug_Box_Baggage_Coach, /* Year: 1863 */ \
 item_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach, /* Year: 1880 */ \
 item_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach, /* Year: 1880 */ \
+item_coach_Narrow_Gen3_56_Foot_Express_Coach, /* Year: 1938 */ \
+item_coach_Narrow_Gen3_56_Foot_Suburban_Coach, /* Year: 1938 */ \
+item_coach_Narrow_Gen3_56_Foot_Mail_Coach, /* Year: 1938 */ \
 item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, /*Year: 2006*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, /*Year: 2006*/ \
 

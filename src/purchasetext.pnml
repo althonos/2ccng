@@ -115,6 +115,8 @@
         MAKER_CRRC_ZUZHOU:        return string(STR_EXTRA_MAKER_CRRC_ZUZHOU);        \
         MAKER_MUNKTELLS:          return string(STR_EXTRA_MAKER_MUNKTELLS);          \
         MAKER_JGR_KOBE:           return string(STR_EXTRA_MAKER_JGR_KOBE);           \
+        MAKER_NZR_ADDINGTON:      return string(STR_EXTRA_MAKER_NZR_ADDINGTON);      \
+        MAKER_NZR_OTAHUHU:        return string(STR_EXTRA_MAKER_NZR_OTAHUHU);        \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

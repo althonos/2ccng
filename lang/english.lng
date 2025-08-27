@@ -141,6 +141,8 @@ STR_EXTRA_MAKER_CROCHAT                 :Constructor: {GOLD}Ateliers Henry Croch
 STR_EXTRA_MAKER_NZR_EVELEIGH            :Constructor: {GOLD}NZR Eveleigh Carriage Workshops{BLACK}{}{STRING}
 STR_EXTRA_MAKER_NZR_HUTT                :Constructor: {GOLD}NZR Hutt Workshops{BLACK}{}{STRING}
 STR_EXTRA_MAKER_NZR_HILLSIDE            :Constructor: {GOLD}NZR Hillside Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NZR_ADDINGTON           :Constructor: {GOLD}NZR Addington Workshops{BLACK}{}{STRING}
+STR_EXTRA_MAKER_NZR_OTAHUHU             :Constructor: {GOLD}NZR Otahuhu Workshops{BLACK}{}{STRING}
 STR_EXTRA_MAKER_CFD                     :Constructor: {GOLD}CFD Bagnères{BLACK}{}{STRING}
 STR_EXTRA_MAKER_DOWNER                  :Constructor: {GOLD}Downer Rail{BLACK}{}{STRING}
 STR_EXTRA_MAKER_SOULE                   :Constructor: {GOLD}Établissements Soulé{BLACK}{}{STRING}
@@ -976,6 +978,9 @@ str_coach_Narrow_Gen1_Bug_Box_Passenger_Coach 		    :'Bug Box' Passenger Coach (
 str_coach_Narrow_Gen1_Bug_Box_Baggage_Coach 		    :'Bug Box' Brake & Baggage Coach (Narrow)
 str_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach 	:Plan 73 Sleeper Coach (Narrow)
 str_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach 		:Plan 73 Mail Coach (Narrow)
+str_coach_Narrow_Gen3_56_Foot_Express_Coach             :56ft Express Coach (Narrow)
+str_coach_Narrow_Gen3_56_Foot_Suburban_Coach            :56ft Suburban Coach (Narrow)
+str_coach_Narrow_Gen3_56_Foot_Mail_Coach                :56ft Mail Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach    :GEX 2006 Panorama Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Service_Coach     :GEX 2006 Service Coach (Narrow)
 
