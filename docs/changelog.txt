@@ -1,6 +1,23 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.3.0 (2025-08-27)
+-------------------
+
+Added
+^^^^^
+- ``Förstlingen`` first Swedish locomotive of 1853.
+- NZR ``56ft`` passenger carriages of 1938 in ``Mail``, ``Express`` and ``Suburban`` variants.
+
+Fixed
+^^^^^
+- Make ``KTM Class 93`` never expire as the latest EMU.
+
+Changed
+^^^^^^^
+- Refine maker text where applicable.
+
+
 v0.2.1 (2025-08-22)
 -------------------
 
