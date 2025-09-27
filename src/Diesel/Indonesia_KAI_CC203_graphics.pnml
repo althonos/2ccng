@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Indonesia_KAI_CC203_purchase, "gfx/Diesel/Indonesia_KAI_CC203.png") {
+spriteset(spriteset_diesel_Indonesia_KAI_CC203_purchase, "gfx/Diesel/Indonesia_KAI_CC203.xpm") {
 	template_purchase(1, 64)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_diesel_Indonesia_KAI_CC203_purchase, "gfx/Diesel/Indonesia_K
 */
 
 //Engine
-spriteset(spriteset_diesel_Indonesia_KAI_CC203, "gfx/Diesel/Indonesia_KAI_CC203.png") {
+spriteset(spriteset_diesel_Indonesia_KAI_CC203, "gfx/Diesel/Indonesia_KAI_CC203.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
