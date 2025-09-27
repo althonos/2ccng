@@ -368,6 +368,7 @@ item(FEAT_TRAINS, item_diesel_Indonesia_KAI_CC203, 5801) {}
 item(FEAT_TRAINS, item_diesel_Estonia_EVR_TU2, 5802) {}
 item(FEAT_TRAINS, item_diesel_Ireland_Bord_na_Mona_LM200, 5803) {}
 item(FEAT_TRAINS, item_diesel_Bulgaria_BDZ_76, 5804) {}
+item(FEAT_TRAINS, item_diesel_Bangladesh_Bangladesh_Railway_2600, 5805) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
