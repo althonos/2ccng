@@ -117,6 +117,7 @@
         MAKER_JGR_KOBE:           return string(STR_EXTRA_MAKER_JGR_KOBE);           \
         MAKER_NZR_ADDINGTON:      return string(STR_EXTRA_MAKER_NZR_ADDINGTON);      \
         MAKER_NZR_OTAHUHU:        return string(STR_EXTRA_MAKER_NZR_OTAHUHU);        \
+        MAKER_HAIPHONG:           return string(STR_EXTRA_MAKER_HAIPHONG);           \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

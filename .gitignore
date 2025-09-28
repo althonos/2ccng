@@ -41,3 +41,6 @@ Makefile.dep
 # Files created by Mac image preview and file browser:
 **/.DS_Store
 **/Thumbs.db
+
+# GIMP source files
+**.xcf

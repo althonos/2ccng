@@ -152,6 +152,7 @@ STR_EXTRA_MAKER_CRRC_TANGSHAN           :Constructor: {GOLD}CRRC Tangshan{BLACK}
 STR_EXTRA_MAKER_CRRC_ZUZHOU             :Constructor: {GOLD}CRRC Tangshan{BLACK}{}{STRING}
 STR_EXTRA_MAKER_MUNKTELLS               :Constructor: {GOLD}Munktells Mekaniska Verkstad{BLACK}{}{STRING}
 STR_EXTRA_MAKER_JGR_KOBE                :Constructor: {GOLD}JGR Kobe Works{BLACK}{}{STRING}
+STR_EXTRA_MAKER_HAIPHONG                :Constructor: {GOLD}Haiphong Carriage Company{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -982,6 +983,9 @@ str_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach 		:Plan 73 Mail Coach (Narrow)
 str_coach_Narrow_Gen3_56_Foot_Express_Coach             :56ft Express Coach (Narrow)
 str_coach_Narrow_Gen3_56_Foot_Suburban_Coach            :56ft Suburban Coach (Narrow)
 str_coach_Narrow_Gen3_56_Foot_Mail_Coach                :56ft Mail Coach (Narrow)
+str_coach_Narrow_Gen4_Vietnamese_Sleeper_Coach          :Vietnamese Sleeper Coach (Narrow)
+str_coach_Narrow_Gen4_Vietnamese_Soft_Seat_Coach        :Vietnamese Soft Seat Coach (Narrow)
+str_coach_Narrow_Gen4_Vietnamese_Mail_Coach             :Vietnamese Mail Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach    :GEX 2006 Panorama Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Service_Coach     :GEX 2006 Service Coach (Narrow)
 

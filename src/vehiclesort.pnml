@@ -731,6 +731,9 @@ item_coach_Narrow_Gen1_Pullman_Plan_73_Mail_Coach, /* Year: 1880 */ \
 item_coach_Narrow_Gen3_56_Foot_Express_Coach, /* Year: 1938 */ \
 item_coach_Narrow_Gen3_56_Foot_Suburban_Coach, /* Year: 1938 */ \
 item_coach_Narrow_Gen3_56_Foot_Mail_Coach, /* Year: 1938 */ \
+item_coach_Narrow_Gen4_Vietnamese_Sleeper_Coach, /* Year: 1976*/ \
+item_coach_Narrow_Gen4_Vietnamese_Soft_Seat_Coach, /* Year: 1976*/ \
+item_coach_Narrow_Gen4_Vietnamese_Mail_Coach, /* Year: 1976*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, /*Year: 2006*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, /*Year: 2006*/ \
 
