@@ -378,12 +378,6 @@
 
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
-// #include "src/DMU/Argentina_FCGU_CMM_400_2_property.pnml"
-// #include "src/DMU/Argentina_FCGU_CMM_400_2_graphics.pnml"
-// #include "src/DMU/Argentina_FCGU_CMM_400_2_item.pnml"
-#include "src/DMU/Australia_Queensland_Rail_400_property.pnml"
-#include "src/DMU/Australia_Queensland_Rail_400_graphics.pnml"
-#include "src/DMU/Australia_Queensland_Rail_400_item.pnml"
 #include "src/DMU/Australia_Queensland_Rail_Diesel_Tilt_Train_property.pnml"
 #include "src/DMU/Australia_Queensland_Rail_Diesel_Tilt_Train_graphics.pnml"
 #include "src/DMU/Australia_Queensland_Rail_Diesel_Tilt_Train_item.pnml"
