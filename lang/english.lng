@@ -154,6 +154,7 @@ STR_EXTRA_MAKER_MUNKTELLS               :Constructor: {GOLD}Munktells Mekaniska 
 STR_EXTRA_MAKER_JGR_KOBE                :Constructor: {GOLD}JGR Kobe Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_HAIPHONG                :Constructor: {GOLD}Haiphong Carriage Company{BLACK}{}{STRING}
 STR_EXTRA_MAKER_COMENG                  :Constructor: {GOLD}Commonwealth Engineering{BLACK}{}{STRING}
+STR_EXTRA_MAKER_MAV_NORTHERN            :Constructor: {GOLD}MÁV Northern Repair Works{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -499,6 +500,7 @@ str_diesel_Ireland_Bord_na_Mona_LM200  :Bord na Mona 'Wagonmaster' (Diesel)
 str_diesel_Bulgaria_BDZ_76  :BDZ 76 (Diesel)
 str_diesel_Estonia_EVR_TU2  :EVR TU2 (Diesel)
 str_diesel_Bangladesh_Bangladesh_Railway_2600   :Bangladesh Railway 2600 (Diesel)
+str_diesel_Hungary_MAV_C50  :MAV C-50 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)

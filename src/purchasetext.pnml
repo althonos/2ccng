@@ -119,6 +119,7 @@
         MAKER_NZR_OTAHUHU:        return string(STR_EXTRA_MAKER_NZR_OTAHUHU);        \
         MAKER_HAIPHONG:           return string(STR_EXTRA_MAKER_HAIPHONG);           \
         MAKER_COMENG:             return string(STR_EXTRA_MAKER_COMENG);             \
+        MAKER_MAV_NORTHERN:       return string(STR_EXTRA_MAKER_MAV_NORTHERN);       \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 
