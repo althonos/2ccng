@@ -153,6 +153,7 @@ STR_EXTRA_MAKER_CRRC_ZUZHOU             :Constructor: {GOLD}CRRC Tangshan{BLACK}
 STR_EXTRA_MAKER_MUNKTELLS               :Constructor: {GOLD}Munktells Mekaniska Verkstad{BLACK}{}{STRING}
 STR_EXTRA_MAKER_JGR_KOBE                :Constructor: {GOLD}JGR Kobe Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_HAIPHONG                :Constructor: {GOLD}Haiphong Carriage Company{BLACK}{}{STRING}
+STR_EXTRA_MAKER_COMENG                  :Constructor: {GOLD}Commonwealth Engineering{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -378,7 +379,7 @@ str_diesel_Uruguay_AFE_1500 							:AFE 1500 (Diesel)
 str_diesel_Canada_CPR_Trainmaster 						:CPR 'Trainmaster' (Diesel)
 str_diesel_Liberia_Liberia_Railways_Class_08 			:Liberia Railways 08 (Diesel)
 str_diesel_Austria_OBB_2060 							:OBB 2060 (Diesel)
-str_diesel_Canada_CNR_SW1200 							:CNR SW1200 (Diesel)
+str_diesel_Canada_CNR_SW1200 							:CPR SW1200 (Diesel)
 str_diesel_Chile_SQM_SW1200 							:SQM SW1200 (Diesel)
 str_diesel_Canada_VIA_Rail_FP9 							:VIA Rail FP9 (Diesel)
 str_diesel_Hungary_MAV_M44 								:MAV M44 (Diesel)

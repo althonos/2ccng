@@ -118,6 +118,7 @@
         MAKER_NZR_ADDINGTON:      return string(STR_EXTRA_MAKER_NZR_ADDINGTON);      \
         MAKER_NZR_OTAHUHU:        return string(STR_EXTRA_MAKER_NZR_OTAHUHU);        \
         MAKER_HAIPHONG:           return string(STR_EXTRA_MAKER_HAIPHONG);           \
+        MAKER_COMENG:             return string(STR_EXTRA_MAKER_COMENG);             \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 
