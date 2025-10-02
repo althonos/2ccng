@@ -806,6 +806,7 @@ item(FEAT_TRAINS, item_coach_Narrow_Gen3_56_Foot_Mail_Coach, 11810) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen4_Vietnamese_Sleeper_Coach, 11811) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen4_Vietnamese_Soft_Seat_Coach, 11812) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen4_Vietnamese_Mail_Coach, 11813) {}
+item(FEAT_TRAINS, item_coach_Narrow_Gen4_MetroBlitz_Coach, 11814) {}
 
 //Wagons, available ID range: 12000-12999 (hex 0x2EE0..0x32C7)
 #define ID_RANGE_WAGONS 0x2EE0..0x32C7
