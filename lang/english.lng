@@ -155,6 +155,7 @@ STR_EXTRA_MAKER_JGR_KOBE                :Constructor: {GOLD}JGR Kobe Works{BLACK
 STR_EXTRA_MAKER_HAIPHONG                :Constructor: {GOLD}Haiphong Carriage Company{BLACK}{}{STRING}
 STR_EXTRA_MAKER_COMENG                  :Constructor: {GOLD}Commonwealth Engineering{BLACK}{}{STRING}
 STR_EXTRA_MAKER_MAV_NORTHERN            :Constructor: {GOLD}MÁV Northern Repair Works{BLACK}{}{STRING}
+STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO     :Constructor: {GOLD}Ferrovías del Bajío, S.A. de C.V.{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -216,6 +217,7 @@ str_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina :Eritrean Railway A.62-70 'Lit
 str_rbd_Italy_FS_ALn_668 :FS ALn 668 (Diesel railbus)
 str_rbd_France_CdN_OC1 :CdN OC1 (Diesel railbus)
 str_rbd_France_Pithiviers_Toury_AT1     :Pithiviers-Toury AT1 (Diesel railbus)
+str_rbd_Cambodia_Royal_Railway_AS1000   :Royal Railway AS1000 (Diesel railbus)
 
 #Railbus-electric
 str_rbe_Switzerland_AB_CFe_3_3		:AB CFe 3/3 (Electric Railbus)

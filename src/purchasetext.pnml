@@ -120,6 +120,7 @@
         MAKER_HAIPHONG:           return string(STR_EXTRA_MAKER_HAIPHONG);           \
         MAKER_COMENG:             return string(STR_EXTRA_MAKER_COMENG);             \
         MAKER_MAV_NORTHERN:       return string(STR_EXTRA_MAKER_MAV_NORTHERN);       \
+        MAKER_FERROVIAS_DEL_BAJIO:return string(STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO);\
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

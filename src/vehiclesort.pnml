@@ -69,7 +69,8 @@ item_rbd_Germany_DB_670, /*Year: 1996*/ \
 item_rbd_Lithuania_Lithuanian_Railways_AR2, /*Year: 1997*/ \
 item_rbd_Finland_VR_Dm12, /*Year: 2005*/ \
 item_rbd_Japan_JR_KiHa_E120, /*Year: 2008*/ \
-item_rbd_Czech_Republic_CD_840, /*Year: 2011*/
+item_rbd_Czech_Republic_CD_840, /*Year: 2011*/ \
+item_rbd_Cambodia_Royal_Railway_AS1000, /*Year: 2018*/
 
 #define SORTING_RBE \
 item_rbe_Czech_Republic_CD_M400, /*Year: 1903*/ \
