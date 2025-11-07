@@ -156,6 +156,7 @@ STR_EXTRA_MAKER_HAIPHONG                :Constructor: {GOLD}Haiphong Carriage Co
 STR_EXTRA_MAKER_COMENG                  :Constructor: {GOLD}Commonwealth Engineering{BLACK}{}{STRING}
 STR_EXTRA_MAKER_MAV_NORTHERN            :Constructor: {GOLD}MÁV Northern Repair Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO     :Constructor: {GOLD}Ferrovías del Bajío, S.A. de C.V.{BLACK}{}{STRING}
+STR_EXTRA_MAKER_UERDINGEN               :Constructor: {GOLD}Waggon-Fabrik AG Uerdingen{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -690,6 +691,7 @@ str_dmu_Portugal_CP_0400 :CP 0400 (DMU)
 str_dmu_Portugal_CP_0600 :CP 0600 (DMU)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (DMU)
 str_dmu_France_CFC_X_97050  :CFC X 97050 (DMU)
+str_dmu_Cambodia_Royal_Railway_ZZ_800    :Royal Railway ZZ 800 (DMU)
 
 #CargoDMU
 str_cargodmu_Germany_DB_691_CargoSprinter	:DB 691 'CargoSprinter' (Cargo DMU)

@@ -121,6 +121,7 @@
         MAKER_COMENG:             return string(STR_EXTRA_MAKER_COMENG);             \
         MAKER_MAV_NORTHERN:       return string(STR_EXTRA_MAKER_MAV_NORTHERN);       \
         MAKER_FERROVIAS_DEL_BAJIO:return string(STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO);\
+        MAKER_UERDINGEN:          return string(STR_EXTRA_MAKER_UERDINGEN);          \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

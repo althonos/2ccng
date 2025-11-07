@@ -572,6 +572,7 @@ item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, 7052) {}
 item(FEAT_TRAINS, item_dmu_Argentina_FCGU_CMM_400_2, 7053) {}
 // Narrow
 item(FEAT_TRAINS, item_dmu_France_CFC_X_97050, 7800) {}
+item(FEAT_TRAINS, item_dmu_Cambodia_Royal_Railway_ZZ_800, 7801) {}
 
 
 //EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)
