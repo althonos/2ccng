@@ -1,6 +1,34 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.4.0 (2025-11-09)
+-------------------
+
+Added
+^^^^^
+- ``BR 2600`` diesel engine of Bangladesh.
+- ``MAV C50`` diesel engine of Hungary.
+- ``AS1000`` diesel railbus of the Cambodian Royal Railway.
+- ``ZZ 800`` DMU of the Cambodian Royal Railway.
+- ``SL X15p`` EMU of the Swedish Roslagsbanan.
+- Passenger and mail carriages from Vietnam's "Reunification Express" line.
+- Passenger carriages of South-Africa's high-speed "MetroBlitz" service.
+
+Fixed
+^^^^^
+- Update rail type table to use default rail type if narrow rails are unavailable.
+- Improve shading and fix diesel exhaust of ``KAI CC203``.
+- Improve shading and fix rail alignment of ``ZSSK HGem 2/2``.
+- Incorrect cargo display for industries using ``FRVG`` for fruits & vegetables.
+- ``Queensland Railways DL`` diesel locomotive not being included in narrow-gauge roaster.
+- Missing makers metadata for various engines.
+- Incorrect expiration date on 2nd-generation wagons without later alternatives.
+
+Removed
+^^^^^^^
+- Broad-gauge ``Class 400`` railcar of Queensland Rail included by mistake.
+
+
 v0.3.0 (2025-08-27)
 -------------------
 
