@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_EMD
 
+#define VEHICLE_BADGES \
+    "flag/TN", \
+    "region/africa/northern", \
+    "power/diesel"
+    
 #define INTRODUCTION_YEAR 1960
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

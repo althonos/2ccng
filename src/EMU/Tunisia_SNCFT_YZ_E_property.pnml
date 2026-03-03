@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_GANZ_MAVAG
 
+#define VEHICLE_BADGES \
+    "flag/TN", \
+    "region/africa/northern",  \
+    "power/electric/ac"
+
 #define INTRODUCTION_YEAR 1984
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

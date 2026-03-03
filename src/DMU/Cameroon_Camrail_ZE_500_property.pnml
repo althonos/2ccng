@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_ALSTHOM
 
+#define VEHICLE_BADGES \
+    "flag/CM", \
+    "region/africa/western",  \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1976
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

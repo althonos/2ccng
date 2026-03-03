@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_3FT
 #define VEHICLE_MAKER MAKER_HUNSLET
 
+#define VEHICLE_BADGES \
+    "flag/IE", \
+    "region/europe/northern", \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1962
 #define MODEL_LIFE 50
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_760MM
 #define VEHICLE_MAKER MAKER_23_AUGUST
 
+#define VEHICLE_BADGES \
+    "flag/BR", \
+    "region/america/south", \
+    "power/diesel"
+    
 #define INTRODUCTION_YEAR 1976
 #define MODEL_LIFE 40
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

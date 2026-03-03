@@ -15,6 +15,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_CRRC_ZUZHOU
 
+#define VEHICLE_BADGES \
+    "flag/MY", \
+    "region/asia/southeastern",  \
+    "power/electric/ac"
+
 #define INTRODUCTION_YEAR 2016
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

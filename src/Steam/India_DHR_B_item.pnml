@@ -40,6 +40,7 @@ item(FEAT_TRAINS, ITEM ) {
 		length: LENGTH;
 		extra_power_per_wagon: POWER_PER_WAGON;
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
+		BADGESPROPERTY
 	}
 	graphics {
 		purchase: spriteset_steam_India_DHR_B_purchase;

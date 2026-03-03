@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_CAPE
 #define VEHICLE_MAKER MAKER_BRUSH
 
+#define VEHICLE_BADGES \
+    "flag/NZ", \
+    "region/oceania/australia_and_new_zealand", \
+    "power/electric"
+
 #define INTRODUCTION_YEAR 1986
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_SLM
 
+#define VEHICLE_BADGES \
+    "flag/CH", \
+    "region/europe/western", \
+    "power/electric"
+
 #define INTRODUCTION_YEAR 1911
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

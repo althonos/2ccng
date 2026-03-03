@@ -15,6 +15,11 @@
 #define VEHICLE_GAUGE GAUGE_950MM
 #define VEHICLE_MAKER MAKER_CARMINATI_TOSELLI
 
+#define VEHICLE_BADGES \
+    "flag/SM", \
+    "region/europe/southern",  \
+    "power/electric/dc"
+
 #define INTRODUCTION_YEAR 1932
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

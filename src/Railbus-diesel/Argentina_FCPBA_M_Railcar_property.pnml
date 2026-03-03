@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_SULZER
 
+#define VEHICLE_BADGES \
+    "flag/AR", \
+    "region/america/south", \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1935
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

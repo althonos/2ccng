@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_CAPE
 #define VEHICLE_MAKER MAKER_NIPPON_SHARYO
 
+#define VEHICLE_BADGES \
+    "flag/JP", \
+    "region/asia/eastern",  \
+    "power/electric/dc"
+
 #define INTRODUCTION_YEAR 1962
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

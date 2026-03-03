@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_CAF
 
+#define VEHICLE_BADGES \
+    "flag/ES", \
+    "region/europe/southern",  \
+    "power/electric/dc"
+
 #define INTRODUCTION_YEAR 1977
 #define MODEL_LIFE 40
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

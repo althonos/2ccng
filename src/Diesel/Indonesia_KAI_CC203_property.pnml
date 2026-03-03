@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_CAPE
 #define VEHICLE_MAKER MAKER_GE
 
+#define VEHICLE_BADGES \
+    "flag/ID", \
+    "region/asia/southeastern", \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1995
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

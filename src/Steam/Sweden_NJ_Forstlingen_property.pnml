@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_SWEDISH
 #define VEHICLE_MAKER MAKER_MUNKTELLS
 
+#define VEHICLE_BADGES \
+    "flag/SE", \
+    "region/europe/northern", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1853
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

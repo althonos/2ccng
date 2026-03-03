@@ -40,6 +40,7 @@ item(FEAT_TRAINS, ITEM ) {
 		length: LENGTH;
 		extra_power_per_wagon: POWER_PER_WAGON;
 		bitmask_vehicle_info: BITMASK_VEHICLE_INFO;
+		BADGESPROPERTY
 	}
 	graphics {
 		purchase: spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_purchase;

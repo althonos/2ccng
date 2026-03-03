@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_CAPE
 #define VEHICLE_MAKER MAKER_JGR_KOBE
 
+#define VEHICLE_BADGES \
+    "flag/JP", \
+    "region/asia/eastern", \
+    "power/steam"
+    
 #define INTRODUCTION_YEAR 1893
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

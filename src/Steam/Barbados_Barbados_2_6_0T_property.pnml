@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_2FT6IN
 #define VEHICLE_MAKER MAKER_BALDWIN
 
+#define VEHICLE_BADGES \
+    "flag/BB", \
+    "region/america/caribbean", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1898
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

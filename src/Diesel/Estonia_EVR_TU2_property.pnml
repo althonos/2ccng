@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_750MM
 #define VEHICLE_MAKER MAKER_KALUGA
 
+#define VEHICLE_BADGES \
+    "flag/EE", \
+    "region/europe/eastern", \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1955
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

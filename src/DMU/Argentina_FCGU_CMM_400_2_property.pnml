@@ -19,6 +19,11 @@
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
 #define VEHICLE_LIFE 40
 
+#define VEHICLE_BADGES \
+    "flag/AR", \
+    "region/america/south",  \
+    "power/diesel"
+
 #define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
 #define CARGODEF CARGODEF_PASSENGERS
 

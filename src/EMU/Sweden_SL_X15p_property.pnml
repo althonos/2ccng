@@ -15,6 +15,11 @@
 #define VEHICLE_GAUGE GAUGE_SWEDISH
 #define VEHICLE_MAKER MAKER_STADLER
 
+#define VEHICLE_BADGES \
+    "flag/SE", \
+    "region/europe/northern", \
+    "power/electric/dc"
+
 #define INTRODUCTION_YEAR 2017
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

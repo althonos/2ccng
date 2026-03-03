@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_750MM
 #define VEHICLE_MAKER MAKER_LKM_BABELSBERG
 
+#define VEHICLE_BADGES \
+    "flag/DE", \
+    "region/europe/western", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1952
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

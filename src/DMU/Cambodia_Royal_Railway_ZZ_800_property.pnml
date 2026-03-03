@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_UERDINGEN
 
+#define VEHICLE_BADGES \
+    "flag/KH", \
+    "region/asia/southeastern",  \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1969
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

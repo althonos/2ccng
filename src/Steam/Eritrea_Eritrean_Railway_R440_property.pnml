@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_950MM
 #define VEHICLE_MAKER MAKER_ANSALDO
 
+#define VEHICLE_BADGES \
+    "flag/ER", \
+    "region/africa/eastern", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1911
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

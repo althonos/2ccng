@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_2FT
 #define VEHICLE_MAKER MAKER_HINKLEY
 
+#define VEHICLE_BADGES \
+    "flag/US", \
+    "region/america/northern", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1877
 #define MODEL_LIFE 35
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_3FT
 #define VEHICLE_MAKER MAKER_BALDWIN
 
+#define VEHICLE_BADGES \
+    "flag/US", \
+    "region/america/northern", \
+    "power/steam"
+    
 #define INTRODUCTION_YEAR 1903
 #define MODEL_LIFE 50
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

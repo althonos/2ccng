@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_CAPE
 #define VEHICLE_MAKER MAKER_NIIGATA
 
+#define VEHICLE_BADGES \
+    "flag/JP", \
+    "region/asia/eastern",  \
+    "power/diesel"
+    
 #define INTRODUCTION_YEAR 2010
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

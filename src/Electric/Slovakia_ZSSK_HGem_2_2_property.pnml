@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_STADLER
 
+#define VEHICLE_BADGES \
+    "flag/SK", \
+    "region/europe/eastern", \
+    "power/electric"
+
 #define INTRODUCTION_YEAR 2016
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

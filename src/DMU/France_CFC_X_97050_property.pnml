@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_SOULE
 
+#define VEHICLE_BADGES \
+    "flag/FR", \
+    "region/europe/western",  \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1989
 #define MODEL_LIFE 35
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

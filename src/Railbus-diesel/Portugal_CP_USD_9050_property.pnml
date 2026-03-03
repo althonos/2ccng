@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_METRIC
 #define VEHICLE_MAKER MAKER_UNKNOWN
 
+#define VEHICLE_BADGES \
+    "flag/PT", \
+    "region/europe/southern", \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1941
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_CAPE
 #define VEHICLE_MAKER MAKER_BEYER_PEACOCK
 
+#define VEHICLE_BADGES \
+    "flag/ZW", \
+    "region/africa/southern", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1940
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

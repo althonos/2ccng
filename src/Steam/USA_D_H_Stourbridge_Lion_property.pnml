@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_4FT
 #define VEHICLE_MAKER MAKER_FOSTER_RASTRICK_CO
 
+#define VEHICLE_BADGES \
+    "flag/US", \
+    "region/america/northern", \
+    "power/steam"
+    
 #define INTRODUCTION_YEAR 1829
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

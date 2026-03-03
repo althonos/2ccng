@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_4FT
 #define VEHICLE_MAKER MAKER_HORLOCK_CO
 
+#define VEHICLE_BADGES \
+    "flag/GB", \
+    "region/europe/northern", \
+    "power/steam"
+
 #define INTRODUCTION_YEAR 1848
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

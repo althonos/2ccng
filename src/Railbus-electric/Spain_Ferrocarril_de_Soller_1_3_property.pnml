@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_3FT
 #define VEHICLE_MAKER MAKER_UNKNOWN
 
+#define VEHICLE_BADGES \
+    "flag/ES", \
+    "region/europe/southern", \
+    "power/electric"
+
 #define INTRODUCTION_YEAR 1929
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

@@ -16,6 +16,11 @@
 #define VEHICLE_GAUGE GAUGE_760MM
 #define VEHICLE_MAKER MAKER_MAV_NORTHERN
 
+#define VEHICLE_BADGES \
+    "flag/HU", \
+    "region/europe/eastern", \
+    "power/diesel"
+
 #define INTRODUCTION_YEAR 1952
 #define MODEL_LIFE 50
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
