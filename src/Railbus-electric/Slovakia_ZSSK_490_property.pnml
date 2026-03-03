@@ -17,9 +17,9 @@
 #define VEHICLE_MAKER MAKER_RINGHOFFER
 
 #define VEHICLE_BADGES \
-    "flag/ES", \
-    "region/europe/southern", \
-    "power/electric"
+    "flag/SK", \
+    "region/europe/eastern", \
+    "power/electric/dc"
 
 #define INTRODUCTION_YEAR 1930
 #define MODEL_LIFE 45

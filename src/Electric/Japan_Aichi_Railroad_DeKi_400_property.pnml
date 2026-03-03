@@ -19,7 +19,7 @@
 #define VEHICLE_BADGES \
     "flag/JP", \
     "region/asia/eastern", \
-    "power/electric"
+    "power/electric/dc"
 
 #define INTRODUCTION_YEAR 1930
 #define MODEL_LIFE 45

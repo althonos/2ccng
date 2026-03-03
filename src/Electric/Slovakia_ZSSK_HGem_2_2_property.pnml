@@ -19,7 +19,7 @@
 #define VEHICLE_BADGES \
     "flag/SK", \
     "region/europe/eastern", \
-    "power/electric"
+    "power/electric/dc"
 
 #define INTRODUCTION_YEAR 2016
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

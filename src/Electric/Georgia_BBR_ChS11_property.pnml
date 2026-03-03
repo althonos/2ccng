@@ -19,7 +19,7 @@
 #define VEHICLE_BADGES \
     "flag/GE", \
     "region/asia/western", \
-    "power/electric"
+    "power/electric/dc"
 
 #define INTRODUCTION_YEAR 1966
 #define MODEL_LIFE 45

@@ -19,7 +19,7 @@
 #define VEHICLE_BADGES \
     "flag/NZ", \
     "region/oceania/australia_and_new_zealand", \
-    "power/electric"
+    "power/electric/ac"
 
 #define INTRODUCTION_YEAR 1986
 #define MODEL_LIFE 45

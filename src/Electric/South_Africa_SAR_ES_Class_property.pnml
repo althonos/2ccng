@@ -19,8 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/ZA", \
     "region/africa/southern", \
-    "power/electric"
-    
+    "power/electric/ac"
+
 #define INTRODUCTION_YEAR 1936
 #define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY

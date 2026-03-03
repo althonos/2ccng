@@ -19,7 +19,7 @@
 #define VEHICLE_BADGES \
     "flag/CH", \
     "region/europe/western", \
-    "power/electric"
+    "power/electric/ac"
 
 #define INTRODUCTION_YEAR 1921
 #define MODEL_LIFE 45
