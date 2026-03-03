@@ -16,6 +16,8 @@
 #include "src/gauges.pnml"
 // engine manufacturers
 #include "src/makers.pnml"
+// badges
+#include "src/badges.pnml"
 //define grf
 #include "src/header.pnml"
 //check for valid settings
