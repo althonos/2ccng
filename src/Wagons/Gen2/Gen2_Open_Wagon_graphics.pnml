@@ -126,7 +126,6 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	/* Crate cargo */
 	SUGR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Sugar
 	CTCD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Candyfloss
-	CERE: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Cereal
 	FICR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Fibre Crop
 	OLSD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Oil Seed
 	FURN: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Furniture
