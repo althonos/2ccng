@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_purchase, "gfx/Steam/Eritrea_Eritrean_Railway_R440.png") {
+spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_purchase, "gfx/Steam/Eritrea_Eritrean_Railway_R440.xpm") {
 	template_purchase(1, 96)
 }
 
@@ -19,16 +19,16 @@ spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_purchase, "gfx/Steam/Eri
 */
 
 //Engine
-spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_engine1, "gfx/Steam/Eritrea_Eritrean_Railway_R440.png") {
+spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_engine1, "gfx/Steam/Eritrea_Eritrean_Railway_R440.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
-spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_engine2, "gfx/Steam/Eritrea_Eritrean_Railway_R440.png") {
+spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_engine2, "gfx/Steam/Eritrea_Eritrean_Railway_R440.xpm") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Tender
-spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_tender, "gfx/Steam/Eritrea_Eritrean_Railway_R440.png") {
+spriteset(spriteset_steam_Eritrea_Eritrean_Railway_R440_tender, "gfx/Steam/Eritrea_Eritrean_Railway_R440.xpm") {
 	template_2cc_engines_general(1, 64)
 }
 

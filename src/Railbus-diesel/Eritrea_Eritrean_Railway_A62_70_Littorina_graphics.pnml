@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina_purchase, "gfx/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina.png") {
+spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina_purchase, "gfx/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina.xpm") {
 	template_purchase(1, 32)
 }
 
@@ -19,7 +19,7 @@ spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina_purchase, "gfx
 */
 
 //Engine
-spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, "gfx/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina.png") {
+spriteset(spriteset_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, "gfx/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
