@@ -5,6 +5,7 @@
 #Main grf title and description
 #STR_GRF_NAME                    :{TITLE}
 #STR_GRF_DESCRIPTION             :{SILVER}2cc Trajnoj de la Mondo en NML{}{}(c)2ccts{}Lisenso:GNUa Ĝenerala Publika Permesilo v2 aŭ pli alta.{}Vidu la README por detaloj.
+#STR_GRF_URL                     :https://www.tt-forums.net/viewtopic.php?t=92412
 
 #General error messages
 
