@@ -18,7 +18,8 @@
 #define VEHICLE_BADGES \
     "flag/BD", \
     "region/asia/southern", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1988
 #define MODEL_LIFE 45

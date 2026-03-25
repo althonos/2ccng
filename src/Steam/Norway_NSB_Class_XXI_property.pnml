@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/NO", \
     "region/europe/northern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1894
 #define MODEL_LIFE 45

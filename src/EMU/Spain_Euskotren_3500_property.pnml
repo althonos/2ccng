@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/ES", \
     "region/europe/southern",  \
-    "power/electric/dc"
+    "power/electric/dc", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1977
 #define MODEL_LIFE 40

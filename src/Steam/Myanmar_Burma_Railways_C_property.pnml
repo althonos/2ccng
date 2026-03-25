@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/MM", \
     "region/asia/southeastern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1896
 #define MODEL_LIFE 45

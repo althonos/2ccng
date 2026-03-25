@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/US", \
     "region/america/northern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/2ft"
 
 #define INTRODUCTION_YEAR 1877
 #define MODEL_LIFE 35

@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/SK", \
     "region/europe/eastern", \
-    "power/electric/dc"
+    "power/electric/dc", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1930
 #define MODEL_LIFE 45

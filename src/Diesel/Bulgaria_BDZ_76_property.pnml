@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/BG", \
     "region/europe/eastern", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/bosnian"
     
 #define INTRODUCTION_YEAR 1976
 #define MODEL_LIFE 40

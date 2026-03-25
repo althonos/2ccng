@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/HU", \
     "region/europe/eastern", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/bosnian"
 
 #define INTRODUCTION_YEAR 1952
 #define MODEL_LIFE 50

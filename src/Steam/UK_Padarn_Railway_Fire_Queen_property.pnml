@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/GB", \
     "region/europe/northern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/4ft"
 
 #define INTRODUCTION_YEAR 1848
 #define MODEL_LIFE 45

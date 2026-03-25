@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/ZA", \
     "region/africa/southern", \
-    "power/electric/ac"
+    "power/electric/ac", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1978
 #define MODEL_LIFE 45

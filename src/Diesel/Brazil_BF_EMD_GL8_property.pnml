@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/BR", \
     "region/america/south", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1960
 #define MODEL_LIFE 45

@@ -18,7 +18,8 @@
 #define VEHICLE_BADGES \
     "flag/IT", \
     "region/europe/southern",  \
-    "power/electric/dc"
+    "power/electric/dc", \
+    "railgauge/narrow/italian_metre"
 
 #define INTRODUCTION_YEAR 2004
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

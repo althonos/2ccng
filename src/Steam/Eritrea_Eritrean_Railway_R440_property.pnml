@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/ER", \
     "region/africa/eastern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/italian_metre"
 
 #define INTRODUCTION_YEAR 1911
 #define MODEL_LIFE 45

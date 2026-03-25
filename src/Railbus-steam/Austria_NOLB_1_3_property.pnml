@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/AT", \
     "region/europe/western", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/bosnian"
 
 #define INTRODUCTION_YEAR 1903
 #define MODEL_LIFE 45

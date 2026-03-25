@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/IE", \
     "region/europe/northern", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/3ft"
 
 #define INTRODUCTION_YEAR 1962
 #define MODEL_LIFE 50

@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/CL", \
     "region/america/south", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/cape"
     
 #define INTRODUCTION_YEAR 1954
 #define MODEL_LIFE 45

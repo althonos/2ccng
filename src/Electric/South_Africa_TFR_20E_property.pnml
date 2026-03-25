@@ -20,7 +20,8 @@
     "flag/ZA", \
     "region/africa/southern", \
     "power/electric/dc", \
-    "power/electric/ac"
+    "power/electric/ac", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 2013
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

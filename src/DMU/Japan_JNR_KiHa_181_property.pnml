@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/JP", \
     "region/asia/eastern",  \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1968
 #define MODEL_LIFE 45

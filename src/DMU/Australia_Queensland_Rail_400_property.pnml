@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/AU", \
     "region/oceania/australia_and_new_zealand",  \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1955
 #define MODEL_LIFE 45

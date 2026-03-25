@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/MZ", \
     "region/africa/southern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/2ft"
 
 #define INTRODUCTION_YEAR 1895
 #define MODEL_LIFE 45

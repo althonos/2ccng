@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/JP", \
     "region/asia/eastern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1880
 #define MODEL_LIFE 45

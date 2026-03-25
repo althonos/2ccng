@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/CM", \
     "region/africa/western",  \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1976
 #define MODEL_LIFE 45

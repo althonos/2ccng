@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/SE", \
     "region/europe/northern", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/swedish_3ft"
 
 #define INTRODUCTION_YEAR 1853
 #define MODEL_LIFE 45

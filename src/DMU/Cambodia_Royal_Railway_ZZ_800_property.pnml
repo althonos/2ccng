@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/KH", \
     "region/asia/southeastern",  \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1969
 #define MODEL_LIFE 45

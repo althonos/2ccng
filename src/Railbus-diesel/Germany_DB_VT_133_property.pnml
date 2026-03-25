@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/DE", \
     "region/europe/western", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1932
 #define MODEL_LIFE 45

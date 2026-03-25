@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/CH", \
     "region/europe/western", \
-    "power/electric/dc"
+    "power/electric/dc", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1911
 #define MODEL_LIFE 45

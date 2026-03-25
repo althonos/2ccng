@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/PT", \
     "region/europe/southern", \
-    "power/diesel"
+    "power/diesel", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 1941
 #define MODEL_LIFE 45

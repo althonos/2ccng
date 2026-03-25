@@ -19,7 +19,8 @@
 #define VEHICLE_BADGES \
     "flag/AU", \
     "region/oceania/australia_and_new_zealand", \
-    "power/steam"
+    "power/steam", \
+    "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1865
 #define MODEL_LIFE 45

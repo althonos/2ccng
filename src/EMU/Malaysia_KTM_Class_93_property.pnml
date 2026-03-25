@@ -18,7 +18,8 @@
 #define VEHICLE_BADGES \
     "flag/MY", \
     "region/asia/southeastern",  \
-    "power/electric/ac"
+    "power/electric/ac", \
+    "railgauge/narrow/metre"
 
 #define INTRODUCTION_YEAR 2016
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

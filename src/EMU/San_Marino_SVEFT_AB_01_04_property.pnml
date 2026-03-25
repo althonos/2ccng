@@ -18,7 +18,8 @@
 #define VEHICLE_BADGES \
     "flag/SM", \
     "region/europe/southern",  \
-    "power/electric/dc"
+    "power/electric/dc", \
+    "railgauge/narrow/italian_metre"
 
 #define INTRODUCTION_YEAR 1932
 #define MODEL_LIFE 45
