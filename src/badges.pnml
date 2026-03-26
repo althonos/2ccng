@@ -107,6 +107,8 @@ badgetable {
     /* Rail gauge */
     "railgauge",
     "railgauge/broad",
+    "railgauge/broad/iberian",
+    "railgauge/broad/irish",
     "railgauge/narrow",
     "railgauge/standard",
     "railgauge/narrow/4ft6in",
