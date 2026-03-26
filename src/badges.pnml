@@ -51,6 +51,7 @@ badgetable {
     /* Power */
     "power",
     "power/battery",
+    "power/petrol",
     "power/diesel",
     "power/electric",
     "power/electric/ac",
@@ -111,6 +112,8 @@ badgetable {
     "railgauge/broad/iberian",
     "railgauge/broad/irish",
     "railgauge/broad/indian",
+    "railgauge/broad/russian",
+    "railgauge/broad/brunel",
     "railgauge/narrow",
     "railgauge/standard",
     "railgauge/narrow/4ft6in",
