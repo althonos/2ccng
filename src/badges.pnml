@@ -46,6 +46,7 @@ badgetable {
     "flag/UG", "flag/UA", "flag/AE", "flag/GB", "flag/US", "flag/UM", "flag/UY",
     "flag/UZ", "flag/VU", "flag/VE", "flag/VN", "flag/VG", "flag/VI", "flag/WF",
     "flag/EH", "flag/YE", "flag/ZM", "flag/ZW",
+    "flag/europe",
 
     /* Power */
     "power",
@@ -109,6 +110,7 @@ badgetable {
     "railgauge/broad",
     "railgauge/broad/iberian",
     "railgauge/broad/irish",
+    "railgauge/broad/indian",
     "railgauge/narrow",
     "railgauge/standard",
     "railgauge/narrow/4ft6in",

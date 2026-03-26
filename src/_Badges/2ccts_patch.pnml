@@ -8,6 +8,7 @@
 
 //This file sets badges for all vehicles.
 
+#define REGION_europe "europe"
 #define REGION_AR "america/south"
 #define REGION_AT "europe/western"
 #define REGION_AU "oceania/australia_and_new_zealand"
@@ -15,11 +16,14 @@
 #define REGION_BD "asia/southern"
 #define REGION_BG "europe/eastern"
 #define REGION_BR "america/south"
+#define REGION_CA "america/northern"
 #define REGION_CH "europe/western"
 #define REGION_CL "america/south"
+#define REGION_CN "asia/eastern"
 #define REGION_CM "africa/western"
 #define REGION_CZ "europe/eastern"
 #define REGION_DE "europe/western"
+#define REGION_DK "europe/northern"
 #define REGION_EE "europe/eastern"
 #define REGION_ER "africa/eastern"
 #define REGION_ES "europe/southern"
@@ -28,6 +32,7 @@
 #define REGION_GE "asia/western"
 #define REGION_GH "africa/western"
 #define REGION_HU "europe/eastern"
+#define REGION_HR "europe/southern"
 #define REGION_IE "europe/northern"
 #define REGION_ID "asia/southeastern"
 #define REGION_IN "asia/southern"
@@ -36,7 +41,10 @@
 #define REGION_KE "africa/eastern"
 #define REGION_KR "asia/eastern"
 #define REGION_KH "asia/southeastern"
+#define REGION_LK "asia/southern"
+#define REGION_LU "europe/western"
 #define REGION_MG "africa/eastern"
+#define REGION_MK "europe/southern"
 #define REGION_MM "asia/southeastern"
 #define REGION_MY "asia/southeastern"
 #define REGION_MZ "africa/southern"
@@ -44,11 +52,13 @@
 #define REGION_NL "europe/western"
 #define REGION_NO "europe/northern"
 #define REGION_NZ "oceania/australia_and_new_zealand"
+#define REGION_PL "europe/eastern"
 #define REGION_PT "europe/southern"
 #define REGION_SE "europe/northern"
 #define REGION_SK "europe/eastern"
 #define REGION_SM "europe/southern"
 #define REGION_TN "africa/northern"
+#define REGION_TR "asia/western"
 #define REGION_US "america/northern"
 #define REGION_ZA "africa/southern"
 #define REGION_ZW "africa/southern"
@@ -166,22 +176,22 @@ TRAIN_BADGES(item_steam_Switzerland_SBB_Ec_2_5, CH, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_Austria_KkStB_299, 4010) {}
 TRAIN_BADGES(item_steam_New_Zealand_NZR_X_Class, NZ, "steam", "narrow/cape")
 TRAIN_BADGES(item_steam_Italy_FS_895, IT, "steam", "standard")
-// item(FEAT_TRAINS, item_steam_Switzerland_SBB_C_5_6, 4013) {}
+TRAIN_BADGES(item_steam_Switzerland_SBB_C_5_6, CH, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_Croatia_HZ_51, 4014) {}
-// item(FEAT_TRAINS, item_steam_Italy_FS_880, 4015) {}
+TRAIN_BADGES(item_steam_Italy_FS_880, IT, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_Argentina_FCNEA_11B_2_8_0, 4016) {}
-// item(FEAT_TRAINS, item_steam_France_SNCF_140C, 4017) {}
-// item(FEAT_TRAINS, item_steam_France_SNCF_141TA, 4018) {}
-// item(FEAT_TRAINS, item_steam_UK_GWR_4900, 4019) {}
-// item(FEAT_TRAINS, item_steam_UK_GWR_5700, 4020) {}
+TRAIN_BADGES(item_steam_France_SNCF_140C, FR, "steam", "standard")
+TRAIN_BADGES(item_steam_France_SNCF_141TA, FR, "steam", "standard")
+TRAIN_BADGES(item_steam_UK_GWR_4900, GB, "steam", "standard")
+TRAIN_BADGES(item_steam_UK_GWR_5700, GB, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_Netherlands_NS_6300, 4021) {}
 // item(FEAT_TRAINS, item_steam_USA_AT_SF_5000, 4022) {}
-// item(FEAT_TRAINS, item_steam_France_SNCF_150B, 4023) {}
-// item(FEAT_TRAINS, item_steam_Germany_Prussian_S10, 4024) {}
-// item(FEAT_TRAINS, item_steam_UK_LMS_5MT_Black_Five, 4025) {}
+TRAIN_BADGES(item_steam_France_SNCF_150B, FR, "steam", "standard")
+TRAIN_BADGES(item_steam_Germany_Prussian_S10, DE, "steam", "standard")
+TRAIN_BADGES(item_steam_UK_LMS_5MT_Black_Five, GB, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_Russia_RZD_9P, 4026) {}
 // item(FEAT_TRAINS, item_steam_Poland_PKP_Okz32, 4027) {}
-// item(FEAT_TRAINS, item_steam_UK_LNER_A4_Gresley, 4028) {}
+TRAIN_BADGES(item_steam_UK_LNER_A4_Gresley, GB, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_Canada_CPR_Royal_Hudson, 4029) {}
 // //4030 free
 // item(FEAT_TRAINS, item_steam_Germany_DB_52, 4031) {}
@@ -191,7 +201,7 @@ TRAIN_BADGES(item_steam_South_Africa_SAR_25, ZA, "steam", "narrow/cape")
 // item(FEAT_TRAINS, item_steam_Russia_RZD_P36, 4035) {}
 // item(FEAT_TRAINS, item_steam_USA_4_4_0_American, 4036) {}
 // item(FEAT_TRAINS, item_steam_USA_4_6_0_Ten_wheeler, 4037) {}
-// item(FEAT_TRAINS, item_steam_Denmark_DSB_E, 4038) {}
+TRAIN_BADGES(item_steam_Denmark_DSB_E, DK, "steam", "standard")
 // item(FEAT_TRAINS, item_steam_USA_UP_4000_Big_Boy, 4039) {}
 // item(FEAT_TRAINS, item_steam_Netherlands_NRS_11, 4040) {}
 // item(FEAT_TRAINS, item_steam_UK_GWR_Iron_DUKe_Class, 4041) {}
@@ -380,7 +390,7 @@ TRAIN_BADGES(item_diesel_Australia_Westrail_P_Class, AU, "diesel", "narrow/cape"
 // item(FEAT_TRAINS, item_diesel_France_SNCF_461000, 5095) {}
 // item(FEAT_TRAINS, item_diesel_Italy_ACT_D_200, 5096) {}
 // item(FEAT_TRAINS, item_diesel_Canada_GO_Transit_MP40PH_3C, 5097) {}
-// item(FEAT_TRAINS, item_diesel_Spain_RENFE_Class_334, 5098) {}
+TRAIN_BADGES(item_diesel_Spain_RENFE_Class_334, ES, "diesel", "broad/iberian")
 TRAIN_BADGES(item_diesel_Indonesia_KAI_CC300, ID, "diesel", "narrow/cape")
 // item(FEAT_TRAINS, item_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose, 5100) {}
 // item(FEAT_TRAINS, item_diesel_Argentina_Great_Southern_Railway_DH501, 5101) {}
@@ -439,44 +449,44 @@ TRAIN_BADGES(item_electric_Switzerland_RhB_DE_2_2, CH, "electric/dc", "narrow/me
 // item(FEAT_TRAINS, item_electric_Germany_DB_169, 6009) {}
 TRAIN_BADGES(item_electric_Japan_JNR_EB10, JP, "electric/dc", "narrow/cape")
 TRAIN_BADGES(item_electric_Norway_NSB_EL10, NO, "electric/ac", "standard")
-// item(FEAT_TRAINS, item_electric_Germany_DB_104, 6012) {}
+TRAIN_BADGES(item_electric_Germany_DB_104, DE, "electric/ac", "standard")
 TRAIN_BADGES(item_electric_Italy_FS_E428, IT, "electric/dc", "standard")
 // //6014 free
 TRAIN_BADGES(item_electric_Japan_JNR_EF55, JP, "electric/dc", "narrow/cape")
 TRAIN_BADGES(item_electric_South_Africa_SAR_ES_Class, ZA, "electric/ac", "narrow/cape")
-// item(FEAT_TRAINS, item_electric_Austria_OBB_1020_Crocodile, 6017) {}
+TRAIN_BADGES(item_electric_Austria_OBB_1020_Crocodile, AT, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_electric_Russia_RZD_VL22M, 6018) {}
-// item(FEAT_TRAINS, item_electric_Netherlands_NS_1000, 6019) {}
-// item(FEAT_TRAINS, item_electric_Sweden_MTAB_Dm3, 6020) {}
-// item(FEAT_TRAINS, item_electric_UK_BR_77_Metrovic, 6021) {}
+TRAIN_BADGES(item_electric_Netherlands_NS_1000, NL, "electric/dc", "standard")
+TRAIN_BADGES(item_electric_Sweden_MTAB_Dm3, SE, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_UK_BR_77_Metrovic, GB, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_electric_France_SNCF_BB_9004, 6022) {}
 // item(FEAT_TRAINS, item_electric_Switzerland_BLS_Ce_4_4, 6023) {}
-// item(FEAT_TRAINS, item_electric_Switzerland_SBB_Ae_6_6, 6024) {}
+TRAIN_BADGES(item_electric_Switzerland_SBB_Ae_6_6, CH, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_electric_Portugal_CP_2500, 6025) {}
 // item(FEAT_TRAINS, item_electric_India_Indian_Railways_WCM_1, 6026) {}
-// item(FEAT_TRAINS, item_electric_Italy_FS_E646, 6027) {}
+TRAIN_BADGES(item_electric_Italy_FS_E646, IT, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_electric_Russia_RZD_VL41, 6028) {}
 TRAIN_BADGES(item_electric_Japan_JNR_EF64, JP, "electric/dc", "narrow/cape")
-// item(FEAT_TRAINS, item_electric_France_SNCF_CC_40100, 6030) {}
-// item(FEAT_TRAINS, item_electric_Croatia_HZ_1141, 6031) {}
-// item(FEAT_TRAINS, item_electric_Germany_DB_1031, 6032) {}
+TRAIN_BADGES(item_electric_France_SNCF_CC_40100, FR, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_Croatia_HZ_1141, HR, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_Germany_DB_1031, DE, "electric/ac", "standard")
 TRAIN_BADGES(item_electric_South_Africa_SAR_6E, ZA, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Finland_VR_Sr1, 6034) {}
-// item(FEAT_TRAINS, item_electric_Austria_OBB_1044, 6035) {}
+TRAIN_BADGES(item_electric_Austria_OBB_1044, AT, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_electric_France_SNCF_BB_22200, 6036) {}
-// item(FEAT_TRAINS, item_electric_Poland_PKP_ET41, 6037) {}
+TRAIN_BADGES(item_electric_Poland_PKP_ET41, PL, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_electric_Netherlands_NS_1600, 6038) {}
 // item(FEAT_TRAINS, item_electric_Austria_OBB_1063, 6039) {}
 // item(FEAT_TRAINS, item_electric_Russia_RZD_VL85, 6040) {}
 // item(FEAT_TRAINS, item_electric_Russia_RZD_VL15, 6041) {}
-// item(FEAT_TRAINS, item_electric_China_China_Railways_6K, 6042) {}
-// item(FEAT_TRAINS, item_electric_France_SNCF_BB_26000, 6043) {}
-// item(FEAT_TRAINS, item_electric_China_China_Railways_SS6, 6044) {}
-// item(FEAT_TRAINS, item_electric_Switzerland_SBB_Re460_Lok_2000, 6045) {}
-// item(FEAT_TRAINS, item_electric_Spain_RENFE_252, 6046) {}
+TRAIN_BADGES(item_electric_China_China_Railways_6K, CN, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_France_SNCF_BB_26000, FR, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_China_China_Railways_SS6, CN, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_Switzerland_SBB_Re460_Lok_2000, CH, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_Spain_RENFE_252, ES, "electric/dc", "broad/iberian")
 // item(FEAT_TRAINS, item_electric_UK_BR_92, 6047) {}
-// item(FEAT_TRAINS, item_electric_India_Indian_Railways_WAP_4, 6048) {}
-// item(FEAT_TRAINS, item_electric_Germany_DB_185_TRAXX_F140, 6049) {}
+TRAIN_BADGES(item_electric_India_Indian_Railways_WAP_4, IN, "electric/ac", "broad/indian")
+TRAIN_BADGES(item_electric_Germany_DB_185_TRAXX_F140, DE, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_electric_Belgium_NMBS_SNCB_13_HLE, 6050) {}
 TRAIN_BADGES(item_electric_Japan_JR_Freight_EH500, JP, "electric/ac", "narrow/cape")
 // // 6052 free
@@ -504,7 +514,7 @@ TRAIN_BADGES(item_electric_New_Zealand_NZR_EO_Class, NZ, "electric/dc", "narrow/
 // item(FEAT_TRAINS, item_electric_Germany_DB_E_919, 6074) {}
 TRAIN_BADGES(item_electric_Japan_Aichi_Railroad_DeKi_400, JP, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Sweden_SJ_F_Class, 6076) {}
-// item(FEAT_TRAINS, item_electric_Italy_FS_E424, 6077) {}
+TRAIN_BADGES(item_electric_Italy_FS_E424, IT, "electric/dc", "standard")
 TRAIN_BADGES(item_electric_Switzerland_RhB_Ge_4_4_I, CH, "electric/ac", "narrow/metre")
 // item(FEAT_TRAINS, item_electric_Australia_NSWGR_71, 6079) {}
 TRAIN_BADGES(item_electric_South_Africa_SAR_4E, ZA, "electric/dc", "narrow/cape")
@@ -517,10 +527,10 @@ TRAIN_BADGES(item_electric_Japan_JNR_EH10, JP, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_France_SNCF_BB_25500, 6087) {}
 TRAIN_BADGES(item_electric_South_Africa_SAR_5E1, ZA, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Czech_Republic_CD_S499, 6089) {}
-// item(FEAT_TRAINS, item_electric_Italy_FS_E444, 6090) {}
+TRAIN_BADGES(item_electric_Italy_FS_E444, IT, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_electric_Czech_Republic_CD_380, 6091) {}
 // item(FEAT_TRAINS, item_electric_Russia_RZD_EP20, 6092) {}
-// item(FEAT_TRAINS, item_electric_China_China_Railways_HXD1D, 6093) {}
+TRAIN_BADGES(item_electric_China_China_Railways_HXD1D, CN, "electric/ac", "standard")
 TRAIN_BADGES(item_electric_South_Africa_TFR_20E, ZA, "electric/ac", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Kazakhstan_KTZ_KZ8A, 6095) {}
 TRAIN_BADGES(item_electric_Indonesia_ESS_3200, ID, "electric/dc", "narrow/cape")
@@ -528,7 +538,7 @@ TRAIN_BADGES(item_electric_Indonesia_ESS_3200, ID, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_USA_Virginian_Railway_EL_2B, 6098) {}
 // item(FEAT_TRAINS, item_electric_Morocco_ONCF_E_700, 6099) {}
 // item(FEAT_TRAINS, item_electric_Chile_EFE_E_29, 6100) {}
-// item(FEAT_TRAINS, item_electric_USA_PRR_E44, 6101) {}
+TRAIN_BADGES(item_electric_USA_PRR_E44, US, "electric/ac", "standard")
 TRAIN_BADGES(item_electric_New_Zealand_NZR_EA, NZ, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Portugal_CP_2600, 6103) {}
 // item(FEAT_TRAINS, item_electric_USA_Amtrak_EMD_AEM_7, 6104) {}
@@ -537,7 +547,7 @@ TRAIN_BADGES(item_electric_New_Zealand_NZR_EA, NZ, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Chile_EFE_E_269, 6107) {}
 // item(FEAT_TRAINS, item_electric_Czech_Republic_CD_363, 6108) {}
 // item(FEAT_TRAINS, item_electric_Mexico_FNM_GE_E60C_2, 6109) {}
-// item(FEAT_TRAINS, item_electric_Spain_RENFE_250, 6110) {}
+TRAIN_BADGES(item_electric_Spain_RENFE_250, ES, "electric/dc", "broad/iberian")
 // item(FEAT_TRAINS, item_electric_Canada_BC_Rail_GF6C, 6111) {}
 // item(FEAT_TRAINS, item_electric_Ukraine_UZ_ChS7, 6112) {}
 TRAIN_BADGES(item_electric_New_Zealand_TranzRail_EF, NZ, "electric/ac", "narrow/cape")
@@ -556,71 +566,71 @@ TRAIN_BADGES(item_electric_Japan_JNR_EF81, JP, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_electric_Chile_EFE_E_17, 6126) {}
 // item(FEAT_TRAINS, item_electric_China_China_Railways_SS3, 6127) {}
 TRAIN_BADGES(item_electric_South_Africa_SAR_7E, ZA, "electric/ac", "narrow/cape")
-// item(FEAT_TRAINS, item_electric_Norway_NSB_EL17, 6129) {}
+TRAIN_BADGES(item_electric_Norway_NSB_EL17, NO, "electric/ac", "standard")
 TRAIN_BADGES(item_electric_South_Africa_SAR_11E, ZA, "electric/ac", "narrow/cape")
 TRAIN_BADGES(item_electric_South_Africa_Amcoal_E38, ZA, "electric/dc", "narrow/cape")
-// item(FEAT_TRAINS, item_electric_USA_Amtrak_HHP_8, 6132) {}
-// item(FEAT_TRAINS, item_electric_Brasil_MRS_He_4_4, 6133) {}
+TRAIN_BADGES(item_electric_USA_Amtrak_HHP_8, US, "electric/dc", "standard")
+TRAIN_BADGES(item_electric_Brasil_MRS_He_4_4, BR, "electric/dc", "broad/irish")
 // item(FEAT_TRAINS, item_electric_Russia_RZD_VL11, 6134) {}
-// item(FEAT_TRAINS, item_electric_Germany_Prussian_ES_6, 6135) {}
+TRAIN_BADGES(item_electric_Germany_Prussian_ES_6, DE, "electric/ac", "standard")
 // // Narrow
 TRAIN_BADGES(item_electric_Slovakia_ZSSK_HGem_2_2, SK, "electric/dc", "narrow/metre")
 TRAIN_BADGES(item_electric_Georgia_BBR_ChS11, GE, "electric/dc", "narrow/900mm")
 
 // //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
-// item(FEAT_TRAINS, item_dmu_Denmark_DSB_IC4, 7000) {}
-// item(FEAT_TRAINS, item_dmu_Croatia_HZ_7022, 7001) {}
+TRAIN_BADGES(item_dmu_Denmark_DSB_IC4, DK, "diesel", "standard")
+TRAIN_BADGES(item_dmu_Croatia_HZ_7022, HR, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Germany_DB_VT_040_Flying_Hamburger, 7002) {}
-// item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Silver_City_Comet, 7003) {}
+TRAIN_BADGES(item_dmu_Australia_NSWGR_Silver_City_Comet, AU, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_M131, 7004) {}
 // item(FEAT_TRAINS, item_dmu_Germany_DB_VT_085, 7005) {}
 TRAIN_BADGES(item_dmu_Australia_Queensland_Rail_400, AU, "diesel", "narrow/cape")
 // // 7007 free
 // item(FEAT_TRAINS, item_dmu_Germany_DB_VT_115, 7008) {}
 // item(FEAT_TRAINS, item_dmu_Netherlands_NS_Plan_U_DE_III, 7009) {}
-// item(FEAT_TRAINS, item_dmu_Canada_CNR_Turbo_Train, 7010) {}
+TRAIN_BADGES(item_dmu_Canada_CNR_Turbo_Train, CA, "turbine", "standard")
 // item(FEAT_TRAINS, item_dmu_Serbia_ZS_811, 7011) {}
 // item(FEAT_TRAINS, item_dmu_UK_BR_43_IC125, 7012) {}
-// item(FEAT_TRAINS, item_dmu_Canada_VIA_Rail_LRC, 7013) {}
-// item(FEAT_TRAINS, item_dmu_Sweden_SJ_Y2, 7014) {}
-// item(FEAT_TRAINS, item_dmu_Spain_RENFE_594_TRD, 7015) {}
+TRAIN_BADGES(item_dmu_Canada_VIA_Rail_LRC, CA, "diesel", "standard")
+TRAIN_BADGES(item_dmu_Sweden_SJ_Y2, SE, "diesel", "standard")
+TRAIN_BADGES(item_dmu_Spain_RENFE_594_TRD, ES, "diesel", "broad/iberian")
 // item(FEAT_TRAINS, item_dmu_UK_BR_168, 7016) {}
-// item(FEAT_TRAINS, item_dmu_Germany_DB_612_Regio_Swinger, 7017) {}
-// item(FEAT_TRAINS, item_dmu_Germany_DB_642_Desiro, 7018) {}
+TRAIN_BADGES(item_dmu_Germany_DB_612_Regio_Swinger, DE, "diesel", "standard")
+TRAIN_BADGES(item_dmu_Germany_DB_642_Desiro, DE, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Denmark_Arriva_Lint_41, 7019) {}
-// item(FEAT_TRAINS, item_dmu_Norway_NSB_BM_93_Talent, 7020) {}
+TRAIN_BADGES(item_dmu_Norway_NSB_BM_93_Talent, NO, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Australia_Transwa_Prospector, 7021) {}
 // item(FEAT_TRAINS, item_dmu_Australia_CityRail_Hunter_Railcar, 7022) {}
 // item(FEAT_TRAINS, item_dmu_Russia_RZD_RA2, 7023) {}
 // item(FEAT_TRAINS, item_dmu_Turkey_TCDD_MT_5500, 7024) {}
 TRAIN_BADGES(item_dmu_Japan_JNR_KiHa_181, JP, "diesel", "narrow/cape")
-// item(FEAT_TRAINS, item_dmu_Czech_Republic_CD_814, 7026) {}
-// item(FEAT_TRAINS, item_dmu_UK_BR_150_0_Sprinter, 7027) {}
+TRAIN_BADGES(item_dmu_Czech_Republic_CD_814, CZ, "diesel", "standard")
+TRAIN_BADGES(item_dmu_UK_BR_150_0_Sprinter, GB, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Iran_RAI_141_Pacer, 7028) {}
 // item(FEAT_TRAINS, item_dmu_Israel_Israel_Railways_IC3, 7029) {}
-// item(FEAT_TRAINS, item_dmu_Australia_TransAdelaide_3100, 7030) {}
-// item(FEAT_TRAINS, item_dmu_Australia_NSWGR_Xplorer, 7031) {}
+TRAIN_BADGES(item_dmu_Australia_TransAdelaide_3100, AU, "diesel", "broad/irish")
+TRAIN_BADGES(item_dmu_Australia_NSWGR_Xplorer, AU, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Japan_JR_West_KiHa_189, JP, "diesel", "narrow/cape")
-// item(FEAT_TRAINS, item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11, 7033) {}
+TRAIN_BADGES(item_dmu_Sri_Lanka_Sri_Lanka_Railways_S11, LK, "diesel", "broad/indian")
 // // 7034 free
-// item(FEAT_TRAINS, item_dmu_Slovakia_ZSSK_861, 7035) {}
+TRAIN_BADGES(item_dmu_Slovakia_ZSSK_861, SK, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Chile_EFE_TLD_500, 7036) {}
 TRAIN_BADGES(item_dmu_Cameroon_Camrail_ZE_500, CM, "diesel", "narrow/metre")
-// item(FEAT_TRAINS, item_dmu_Italy_FS_ALn_442_448, 7038) {}
-// item(FEAT_TRAINS, item_dmu_UK_BR_251_Blue_Pullman, 7039) {}
-// item(FEAT_TRAINS, item_dmu_Portugal_CP_0400, 7040) {}
+TRAIN_BADGES(item_dmu_Italy_FS_ALn_442_448, IT, "diesel", "standard")
+TRAIN_BADGES(item_dmu_UK_BR_251_Blue_Pullman, GB, "diesel", "standard")
+TRAIN_BADGES(item_dmu_Portugal_CP_0400, PT, "diesel", "broad/iberian")
 TRAIN_BADGES(item_dmu_Australia_WAGR_ADK_ADB, AU, "diesel", "narrow/cape")
-// item(FEAT_TRAINS, item_dmu_France_SNCF_X_4630, 7042) {}
+TRAIN_BADGES(item_dmu_France_SNCF_X_4630, FR, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_France_SNCF_T_2000, 7043) {}
 // item(FEAT_TRAINS, item_dmu_Portugal_CP_0600, 7044) {}
-// item(FEAT_TRAINS, item_dmu_Netherlands_NS_DH2, 7045) {}
+TRAIN_BADGES(item_dmu_Netherlands_NS_DH2, NL, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Spain_FEVE_2400_Apollos, ES, "diesel", "narrow/metre")
-// item(FEAT_TRAINS, item_dmu_Germany_DB_6282, 7047) {}
+TRAIN_BADGES(item_dmu_Germany_DB_6282, DE, "diesel", "standard")
 // item(FEAT_TRAINS, item_dmu_Algeria_SNTF_ZZ_2200_Autorail, 7048) {}
 TRAIN_BADGES(item_dmu_Tunisia_SNCFT_AMT_800, TN, "diesel", "narrow/metre")
 TRAIN_BADGES(item_dmu_Ghana_Ghana_Railways_DEMU, GH, "diesel", "narrow/cape")
 TRAIN_BADGES(item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, AU, "diesel", "narrow/cape")
-// item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, 7052) {}
+TRAIN_BADGES(item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, CA, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Argentina_FCGU_CMM_400_2, AR, "diesel", "standard")
 // // Narrow
 TRAIN_BADGES(item_dmu_France_CFC_X_97050, FR, "diesel", "narrow/metre")
@@ -628,16 +638,16 @@ TRAIN_BADGES(item_dmu_Cambodia_Royal_Railway_ZZ_800, KH, "diesel", "narrow/metre
 
 
 // //EMU, available ID range: 8000-8999 (hex 0x1F40..0x2327)
-// item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat24, 8000) {}
+TRAIN_BADGES(item_emu_Netherlands_NS_Mat24, NL, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_emu_Austria_OBB_4041, 8001) {}
 // item(FEAT_TRAINS, item_emu_Italy_ATAC_ECD_21_30, 8002) {}
-// item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat36, 8003) {}
-// item(FEAT_TRAINS, item_emu_Italy_FS_ETR200, 8004) {}
+TRAIN_BADGES(item_emu_Netherlands_NS_Mat36, NL, "electric/dc", "standard")
+TRAIN_BADGES(item_emu_Italy_FS_ETR200, IT, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_emu_Norway_NSB_BM65, 8005) {}
-// item(FEAT_TRAINS, item_emu_Italy_FS_ETR300_Settebello, 8006) {}
+TRAIN_BADGES(item_emu_Italy_FS_ETR300_Settebello, IT, "electric/dc", "standard")
 // item(FEAT_TRAINS, item_emu_Netherlands_NS_Mat54, 8007) {}
-// item(FEAT_TRAINS, item_emu_Turkey_TCDD_E8000, 8008) {}
-// item(FEAT_TRAINS, item_emu_Switzerland_SBB_Rae_TEE_II, 8009) {}
+TRAIN_BADGES(item_emu_Turkey_TCDD_E8000, TR, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Switzerland_SBB_Rae_TEE_II, CH, "electric/ac", "standard")
 TRAIN_BADGES(item_emu_Japan_Odakyu_3100_Series_Romance, JP, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_emu_Japan_JNR_Shinkansen_Series_0, 8011) {}
 // item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABDe_510, 8012) {}
@@ -647,45 +657,45 @@ TRAIN_BADGES(item_emu_Japan_Odakyu_3100_Series_Romance, JP, "electric/dc", "narr
 // item(FEAT_TRAINS, item_emu_Finland_VR_Sm2, 8016) {}
 // item(FEAT_TRAINS, item_emu_Netherlands_NS_Plan_Y, 8017) {}
 // item(FEAT_TRAINS, item_emu_Netherlands_NS_ICM_4000, 8018) {}
-// item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Sud_Est, 8019) {}
-// item(FEAT_TRAINS, item_emu_Switzerland_SBB_RBDe_560, 8020) {}
+TRAIN_BADGES(item_emu_France_SNCF_TGV_Sud_Est, FR, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Switzerland_SBB_RBDe_560, CH, "electric/ac", "standard")
 TRAIN_BADGES(item_emu_Japan_Odakyu_10000_Series_Romance, JP, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_emu_Hungary_MAV_BDVmot, 8022) {}
-// item(FEAT_TRAINS, item_emu_Sweden_SJ_X2000, 8023) {}
-// item(FEAT_TRAINS, item_emu_Italy_FS_ETR500, 8024) {}
-// item(FEAT_TRAINS, item_emu_Netherlands_NS_DD_IRM_VIRM, 8025) {}
-// item(FEAT_TRAINS, item_emu_France_SNCF_TGV_Duplex, 8026) {}
-// item(FEAT_TRAINS, item_emu_France_Thalys_PBKA, 8027) {}
+TRAIN_BADGES(item_emu_Sweden_SJ_X2000, SE, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Italy_FS_ETR500, IT, "electric/dc", "standard")
+TRAIN_BADGES(item_emu_Netherlands_NS_DD_IRM_VIRM, NL, "electric/dc", "standard")
+TRAIN_BADGES(item_emu_France_SNCF_TGV_Duplex, FR, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_France_Thalys_PBKA, FR, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Denmark_DSB_S_Tog_IV, 8028) {}
-// item(FEAT_TRAINS, item_emu_Italy_FS_ALe426, 8029) {}
-// item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_700, 8030) {}
+TRAIN_BADGES(item_emu_Italy_FS_ALe426, IT, "electric/dc", "standard")
+TRAIN_BADGES(item_emu_Japan_JR_Shinkansen_Series_700, JP, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Netherlands_NS_mDDm_390, 8031) {}
-// item(FEAT_TRAINS, item_emu_Norway_NSB_BM73, 8032) {}
+TRAIN_BADGES(item_emu_Norway_NSB_BM73, NO, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Czech_Republic_CD_680_Pendolino, 8033) {}
 // item(FEAT_TRAINS, item_emu_Finland_VR_Sm4, 8034) {}
-// item(FEAT_TRAINS, item_emu_Luxembourg_CFL_2200_Coradia_Duplex, 8035) {}
-// item(FEAT_TRAINS, item_emu_Germany_DB_403_ICE_3, 8036) {}
-// item(FEAT_TRAINS, item_emu_Spain_RENFE_120, 8037) {}
-// item(FEAT_TRAINS, item_emu_Switzerland_SBB_RABe_523_Flirt, 8038) {}
+TRAIN_BADGES(item_emu_Luxembourg_CFL_2200_Coradia_Duplex, LU, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Germany_DB_403_ICE_3, DE, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Spain_RENFE_120, ES, "electric/ac", "broad/iberian")
+TRAIN_BADGES(item_emu_Switzerland_SBB_RABe_523_Flirt, CH, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Bulgaria_BDZ_10_Desiro, 8039) {}
 // item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_OSCars, 8040) {}
-// item(FEAT_TRAINS, item_emu_South_Africa_Gautrain_Electrostar, 8041) {}
-// item(FEAT_TRAINS, item_emu_Italy_NTV_AGV, 8042) {}
+TRAIN_BADGES(item_emu_South_Africa_Gautrain_Electrostar, ZA, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Italy_NTV_AGV, IT, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Netherlands_NS_4800_HSA, 8043) {}
 // item(FEAT_TRAINS, item_emu_Italy_NTV_AGV_Duplex, 8044) {}
-// item(FEAT_TRAINS, item_emu_USA_PRR_MP54, 8045) {}
-// item(FEAT_TRAINS, item_emu_Australia_Victorian_Railways_Swing_Door, 8046) {}
-// item(FEAT_TRAINS, item_emu_Poland_PKP_EW90, 8047) {}
-// item(FEAT_TRAINS, item_emu_USA_Erie_Lackawanna_MU_Cars, 8048) {}
+TRAIN_BADGES(item_emu_USA_PRR_MP54, US, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Australia_Victorian_Railways_Swing_Door, AU, "electric/dc", "broad/irish")
+TRAIN_BADGES(item_emu_Poland_PKP_EW90, PL, "electric/dc", "standard")
+TRAIN_BADGES(item_emu_USA_Erie_Lackawanna_MU_Cars, US, "electric/dc", "standard")
 TRAIN_BADGES(item_emu_South_Africa_SAR_5M2, ZA, "electric/dc", "narrow/cape")
 // item(FEAT_TRAINS, item_emu_Austria_OBB_4030, 8050) {}
-// item(FEAT_TRAINS, item_emu_Italy_FS_ALe_801, 8051) {}
+TRAIN_BADGES(item_emu_Italy_FS_ALe_801, IT, "electric/ac", "standard")
 TRAIN_BADGES(item_emu_New_Zealand_NZR_EM_ET_Class, NZ, "electric/dc", "narrow/cape")
-// item(FEAT_TRAINS, item_emu_Macedonia_Macedonian_Railways_412, 8053) {}
+TRAIN_BADGES(item_emu_Macedonia_Macedonian_Railways_412, MK, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Australia_Sydney_Trains_A_Set_Waratah, 8054) {}
-// item(FEAT_TRAINS, item_emu_Netherlands_NS_Hispeed_V250_Albatros, 8055) {}
+TRAIN_BADGES(item_emu_Netherlands_NS_Hispeed_V250_Albatros, NL, "electric/ac", "standard")
 // item(FEAT_TRAINS, item_emu_Chile_EFE_AES_Railcar, 8056) {}
-// item(FEAT_TRAINS, item_emu_Chile_EFE_XTrapolis_100, 8057) {}
+TRAIN_BADGES(item_emu_Chile_EFE_XTrapolis_100, CL, "electric/dc", "broad/indian")
 TRAIN_BADGES(item_emu_Tunisia_SNCFT_YZ_E, TN, "electric/ac", "narrow/metre")
 // item(FEAT_TRAINS, item_emu_Russia_RZD_S, 8059) {}
 // item(FEAT_TRAINS, item_emu_Poland_PKP_EW54, 8060) {}
@@ -693,15 +703,15 @@ TRAIN_BADGES(item_emu_Tunisia_SNCFT_YZ_E, TN, "electric/ac", "narrow/metre")
 // item(FEAT_TRAINS, item_emu_USA_Amtrak_Budd_Metroliner, 8062) {}
 // item(FEAT_TRAINS, item_emu_Russia_RZD_ER200, 8063) {}
 // item(FEAT_TRAINS, item_emu_Morocco_ONCF_ZMC, 8064) {}
-// item(FEAT_TRAINS, item_emu_Japan_JR_Shinkansen_Series_E1_Max, 8065) {}
+TRAIN_BADGES(item_emu_Japan_JR_Shinkansen_Series_E1_Max, JP, "electric/ac", "standard")
 TRAIN_BADGES(item_emu_Australia_Queensland_Rail_Tilt_Train, AU, "electric/ac", "narrow/cape")
 // item(FEAT_TRAINS, item_emu_USA_Amtrak_Acela_Express, 8067) {}
 // item(FEAT_TRAINS, item_emu_Russia_RZD_ES1_Lastochka, 8068) {}
-// item(FEAT_TRAINS, item_emu_Austria_WESTbahn_4010_KISS, 8069) {}
-// item(FEAT_TRAINS, item_emu_Croatia_HZ_6112, 8070) {}
-// item(FEAT_TRAINS, item_emu_China_Railways_CHR380A, 8071) {}
-// item(FEAT_TRAINS, item_emu_Europe_Sureot, 8072) {}
-// // Narrow
+TRAIN_BADGES(item_emu_Austria_WESTbahn_4010_KISS, AT, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Croatia_HZ_6112, HR, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_China_Railways_CHR380A, CN, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Europe_Sureot, europe, "electric/ac", "standard")
+// Narrow
 TRAIN_BADGES(item_emu_Spain_Euskotren_3500, ES, "electric/dc", "narrow/metre")
 TRAIN_BADGES(item_emu_Italy_EAV_ETR_200_Metrostar, IT, "electric/dc", "narrow/italian_metre")
 TRAIN_BADGES(item_emu_San_Marino_SVEFT_AB_01_04, SM, "electric/dc", "narrow/italian_metre")
