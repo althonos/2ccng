@@ -1,6 +1,15 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.5.1 (2026-03-30)
+-------------------
+
+Fixed
+^^^^^
+- ``OBB 4041`` being assigned to Australia instead of Austria.
+- Peru locomotives using the country code of Puerto Rico.
+
+
 v0.5.0 (2026-03-30)
 -------------------
 
