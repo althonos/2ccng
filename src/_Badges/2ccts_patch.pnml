@@ -64,7 +64,7 @@
 #define REGION_MM "asia/southeastern"
 #define REGION_MX "america/central"
 #define REGION_MY "asia/southeastern"
-#define REGION_MZ "africa/southern"
+#define REGION_MZ "africa/eastern"
 #define REGION_NA "africa/southern"
 #define REGION_NL "europe/western"
 #define REGION_NO "europe/northern"
@@ -86,7 +86,7 @@
 #define REGION_US "america/northern"
 #define REGION_UY "america/south"
 #define REGION_ZA "africa/southern"
-#define REGION_ZW "africa/southern"
+#define REGION_ZW "africa/eastern"
 
 #define TRAIN_BADGES(VEHIDCODE, COUNTRY, POWER, GAUGE)             \
     item(FEAT_TRAINS, VEHIDCODE) {                                 \
