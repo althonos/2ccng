@@ -641,7 +641,7 @@ TRAIN_BADGES(item_dmu_Cambodia_Royal_Railway_ZZ_800, KH, "diesel", "narrow/metre
 
 //EMU
 TRAIN_BADGES(item_emu_Netherlands_NS_Mat24, NL, "electric/dc", "standard")
-TRAIN_BADGES(item_emu_Austria_OBB_4041, AU, "electric/ac", "standard")
+TRAIN_BADGES(item_emu_Austria_OBB_4041, AT, "electric/ac", "standard")
 TRAIN_BADGES(item_emu_Italy_ATAC_ECD_21_30, IT, "electric/dc", "standard")
 TRAIN_BADGES(item_emu_Netherlands_NS_Mat36, NL, "electric/dc", "standard")
 TRAIN_BADGES(item_emu_Italy_FS_ETR200, IT, "electric/dc", "standard")
