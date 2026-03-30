@@ -1,6 +1,21 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.5.0 (2026-03-30)
+-------------------
+
+Added
+^^^^^
+- Badges with power type, country, and rail gauge for every train of 2ccNG and of 2ccNML.
+- ``Madagascar Railways BBB100`` diesel engine of Madagascar.
+- ``Burma Railways C`` steam locomotive of Myanmar.
+
+Fixed
+^^^^^
+- Several cargo classes for liquid cargo missing from tanker wagons, such as ``CHEM``, ``CHLO`` or ``O2__``.
+- Incorrect colors of Eritrean flag.
+
+
 v0.4.0 (2025-11-09)
 -------------------
 
