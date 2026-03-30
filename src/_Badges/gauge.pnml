@@ -116,3 +116,52 @@ item(FEAT_BADGES, badge_railgauge_narrow_600mm) {
         name: string(STR_BADGE_RAILGAUGE_NARROW_600MM);
     }
 }
+
+item(FEAT_BADGES, badge_railgauge_broad) {
+    property {
+        label: "railgauge/broad";
+        name: string(STR_BADGE_RAILGAUGE_BROAD);
+    }
+}
+
+item(FEAT_BADGES, badge_railgauge_broad_iberian) {
+    property {
+        label: "railgauge/broad/iberian";
+        name: string(STR_BADGE_RAILGAUGE_BROAD_IBERIAN);
+    }
+}
+
+item(FEAT_BADGES, badge_railgauge_broad_irish) {
+    property {
+        label: "railgauge/broad/irish";
+        name: string(STR_BADGE_RAILGAUGE_BROAD_IRISH);
+    }
+}
+
+item(FEAT_BADGES, badge_railgauge_broad_indian) {
+    property {
+        label: "railgauge/broad/indian";
+        name: string(STR_BADGE_RAILGAUGE_BROAD_INDIAN);
+    }
+}
+
+item(FEAT_BADGES, badge_railgauge_broad_russian) {
+    property {
+        label: "railgauge/broad/russian";
+        name: string(STR_BADGE_RAILGAUGE_BROAD_RUSSIAN);
+    }
+}
+
+item(FEAT_BADGES, badge_railgauge_broad_dutch) {
+    property {
+        label: "railgauge/broad/dutch";
+        name: string(STR_BADGE_RAILGAUGE_BROAD_DUTCH);
+    }
+}
+
+item(FEAT_BADGES, badge_railgauge_broad_brunel) {
+    property {
+        label: "railgauge/broad/brunel";
+        name: string(STR_BADGE_RAILGAUGE_BROAD_BRUNEL);
+    }
+}
