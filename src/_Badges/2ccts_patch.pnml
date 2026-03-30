@@ -71,7 +71,7 @@
 #define REGION_NZ "oceania/australia_and_new_zealand"
 #define REGION_PA "america/central"
 #define REGION_PL "europe/eastern"
-#define REGION_PR "america/south"
+#define REGION_PE "america/south"
 #define REGION_PT "europe/southern"
 #define REGION_RO "europe/eastern"
 #define REGION_RS "europe/southern"
@@ -412,12 +412,12 @@ TRAIN_BADGES(item_diesel_Algeria_SNTF_040_DG, DZ, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Tunisia_SNCFT_040_DF, TN, "diesel", "narrow/metre")
 TRAIN_BADGES(item_diesel_Chile_EFE_GE_U5B, CL, "diesel", "narrow/metre")
 TRAIN_BADGES(item_diesel_Ukraine_UZ_TEP10L, UA, "diesel", "broad/russian")
-TRAIN_BADGES(item_diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39, PR, "diesel", "standard")
+TRAIN_BADGES(item_diesel_Peru_Ferrocarril_Central_Andino_Alco_RSD_39, PE, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Brazil_EFVM_EMD_DDM45, BR, "diesel", "narrow/metre")
 TRAIN_BADGES(item_diesel_Egypt_ENR_TE114E, EG, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Tunisia_SNCFT_040_DJ, TN, "diesel", "narrow/metre")
 TRAIN_BADGES(item_diesel_Belarus_BCh_2TE10M, BY, "diesel", "broad/russian")
-TRAIN_BADGES(item_diesel_Peru_Ferrocarril_Central_Andino_GE_C39_8, PR, "diesel", "standard")
+TRAIN_BADGES(item_diesel_Peru_Ferrocarril_Central_Andino_GE_C39_8, PE, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Poland_PKP_SP32, PL, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Ukraine_UZ_2TE126, UA, "diesel", "broad/russian")
 TRAIN_BADGES(item_diesel_Morocco_ONCF_DF_100, MA, "diesel", "standard") 
