@@ -588,7 +588,7 @@ TRAIN_BADGES(item_dmu_Germany_DB_VT_040_Flying_Hamburger, DE, "diesel", "standar
 TRAIN_BADGES(item_dmu_Australia_NSWGR_Silver_City_Comet, AU, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Czech_Republic_CD_M131, CZ, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Germany_DB_VT_085, DE, "diesel", "standard")
-TRAIN_BADGES(item_dmu_Australia_Queensland_Rail_400, AU, "diesel", "broad/irish") // FIXME! probably a https://en.wikipedia.org/wiki/South_Australian_Railways_Redhen_railcar
+TRAIN_BADGES(item_dmu_Australia_Queensland_Rail_400, AU, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Germany_DB_VT_115, DE, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Netherlands_NS_Plan_U_DE_III, NL, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Canada_CNR_Turbo_Train, CA, "turbine", "standard")
