@@ -6,107 +6,35 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+#define GEN1_TANKER_LIVERY(NAME, L, OFFSET) \
+	spriteset(spriteset_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen1/Gen1_Tanker_%s.xpm", #NAME)) { \
+		template_2cc_wagons(OFFSET, 1) \
+	} \
+	spritegroup spritegroup_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L { \
+		loading: [spriteset_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L ## _S1]; \
+		loaded: [spriteset_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L ## _S1]; \
+	}
+
+#define GEN1_TANKER_WAGON(NAME) \
+	GEN1_TANKER_LIVERY(NAME, L1, 1) \
+	GEN1_TANKER_LIVERY(NAME, L2, 179) \
+	GEN1_TANKER_LIVERY(NAME, L3, 357) \
+	GEN1_TANKER_LIVERY(NAME, L4, 535) \
+	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Tanker_ ## NAME ## _livery) { \
+		7: spritegroup_wagon_Narrow_Gen1_Tanker_ ## NAME ## _L1; \
+		1: spritegroup_wagon_Narrow_Gen1_Tanker_ ## NAME ## _L2; \
+		1: spritegroup_wagon_Narrow_Gen1_Tanker_ ## NAME ## _L3; \
+		1: spritegroup_wagon_Narrow_Gen1_Tanker_ ## NAME ## _L4; \
+	}
+
+GEN1_TANKER_WAGON(Standard)
+
 /*
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_purchase, "gfx/Wagons/Gen1/Gen1_Tanker_Purchase.png") {
+spriteset(spriteset_wagon_Narrow_Gen1_Tanker_purchase, "gfx/Wagons/Gen1/Gen1_Tanker_Purchase.xpm") {
 	template_purchase_wagon(1, 1)
-}
-
-/*
-* Standard
-*/
-
-//Livery 1 - Loading State 1 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S1, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(1, 1)
-}
-
-//Livery 1 - Loading State 2 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S2, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(1, 32)
-}
-
-//Livery 1 - Loading State 3 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S3, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(1, 64)
-}
-
-//Livery 1 Spritegroup - Standard
-spritegroup spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L1 {
-	loading: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L1_S3];
-}
-
-//Livery 2 - Loading State 1 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S1, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(179, 1)
-}
-
-//Livery 2 - Loading State 2 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S2, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(179, 32)
-}
-
-//Livery 2 - Loading State 3 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S3, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(179, 64)
-}
-
-//Livery 2 Spritegroup - Standard
-spritegroup spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L2 {
-	loading: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L2_S3];	
-}
-
-//Livery 3 - Loading State 1 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S1, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(357, 1)
-}
-
-//Livery 3 - Loading State 2 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S2, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(357, 32)
-}
-
-//Livery 3 - Loading State 3 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S3, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(357, 64)
-}
-
-//Livery 3 Spritegroup - Standard
-spritegroup spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L3 {
-	loading: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L3_S3];	
-}
-
-//Livery 4 - Loading State 1 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S1, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(535, 1)
-}
-
-//Livery 4 - Loading State 2 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S2, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(535, 32)
-}
-
-//Livery 4 - Loading State 3 - Standard
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S3, "gfx/Wagons/Gen1/Gen1_Tanker_Standard.png") {
-	template_2cc_wagons(535, 64)
-}
-
-//Livery 4 Spritegroup - Standard
-spritegroup spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L4 {
-	loading: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S3];
-	loaded: [spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S1, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S2, spriteset_wagon_Narrow_Gen1_Tanker_Standard_L4_S3];	
-}
-
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Tanker_Standard_livery) {
-	7: spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L1;
-	1: spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L2;
-	1: spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L3;
-	1: spritegroup_wagon_Narrow_Gen1_Tanker_Standard_L4;
 }
 
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection) {
@@ -115,13 +43,15 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Tanker_Oil_livery_sele
 }
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Tanker_cargo_selection, cargo_type_in_veh) {
-	// OIL_: switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection;
-	// PETR: switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection;
-	// RFPR: switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection;
+	/* Oil & Fuel */
+	OIL_: switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection;
+	PETR: switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection;
+	RFPR: switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection;
+
 	switch_wagon_Narrow_Gen1_Tanker_Standard_livery; //GOOD, RUBR, WATR, COLA, PLST, BEER, DYES, MILK, PLAS
 }
 
-//Add defined switches 
+//Add defined switches
 
 ENGINECAPACITYSWITCH(VEHIDCODE)
 
