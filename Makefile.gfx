@@ -1,10 +1,11 @@
-GFX_FILES = \
+# --- Gen1 Flat Wagon ----------------------------------------------------------
+
+GEN1_FLAT_WAGON_FILES = \
 	$(BUILD_DIR)/gfx/Gen1_Flat_Wagon_Crates.png \
 	$(BUILD_DIR)/gfx/Gen1_Flat_Wagon_Planks.png \
 	$(BUILD_DIR)/gfx/Gen1_Flat_Wagon_Wood.png \
 	$(BUILD_DIR)/gfx/Gen1_Flat_Wagon_Steel.png \
 	$(BUILD_DIR)/gfx/Gen1_Flat_Wagon_Horse.png
-
 
 $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/%_1x3.png: gfx/Wagons/Gen1/Flat_Wagon/%.png
 	@echo [GFX] $@
@@ -17,3 +18,34 @@ $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Cargo/%_4x1.png: gfx/Wagons/Gen1/Flat_Wagon/Car
 $(BUILD_DIR)/gfx/Gen1_Flat_Wagon_%.png: $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Layer1_1x3.png $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Cargo/%_4x1.png $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Layer2_1x3.png
 	@echo [GFX] $@
 	@$(PYTHON) tools/stack.py --output $@ $^
+
+
+# --- Gen1 Open Wagon ----------------------------------------------------------
+
+GEN1_OPEN_WAGON_FILES = \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Coal.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Gravel.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Ore.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Salt.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Sand.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Lemon.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Beans.png
+
+$(BUILD_DIR)/gfx/Gen1/Open_Wagon/%_1x3.png: gfx/Wagons/Gen1/Open_Wagon/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 1 $< $< $<
+
+$(BUILD_DIR)/gfx/Gen1/Open_Wagon/Cargo/%_4x1.png: gfx/Wagons/Gen1/Open_Wagon/Cargo/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 0 $< $< $< $<
+
+$(BUILD_DIR)/gfx/Gen1_Open_Wagon_%.png: $(BUILD_DIR)/gfx/Gen1/Open_Wagon/Layer1_1x3.png $(BUILD_DIR)/gfx/Gen1/Open_Wagon/Cargo/%_4x1.png # $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Layer2_1x3.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/stack.py --output $@ $^
+
+
+# --- GFX ----------------------------------------------------------------------
+
+GFX_FILES = \
+	$(GEN1_FLAT_WAGON_FILES) \
+	$(GEN1_OPEN_WAGON_FILES)
