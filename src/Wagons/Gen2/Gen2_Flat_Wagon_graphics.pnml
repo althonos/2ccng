@@ -41,9 +41,10 @@ GEN2_FLAT_WAGON(Planks)
 GEN2_FLAT_WAGON(Machinery)
 GEN2_FLAT_WAGON(Wood)
 GEN2_FLAT_WAGON(Paper)
-GEN2_FLAT_WAGON(Coil)
-GEN2_FLAT_WAGON(Wheels)
-GEN2_FLAT_WAGON(Steel)
+GEN2_FLAT_WAGON(Steel_Coil)
+GEN2_FLAT_WAGON(Steel_Wire)
+GEN2_FLAT_WAGON(Steel_Sheets)
+GEN2_FLAT_WAGON(Tyres)
 
 /*
 * PURCHASE
@@ -55,9 +56,9 @@ spriteset(spriteset_wagon_Narrow_Gen2_Flat_Wagon_purchase, "gfx/Wagons/Gen2/Flat
 
 // Steel has multiple liveries
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery) {
-	2: switch_wagon_Narrow_Gen2_Flat_Wagon_Coil_livery;
-	2: switch_wagon_Narrow_Gen2_Flat_Wagon_Wheels_livery;
-	2: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery;
+	2: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Coil_livery;
+	2: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Wire_livery;
+	2: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Sheets_livery;
 }
 
 // Goods and Engineering/Farming Supplies have multiple liveries
@@ -77,12 +78,25 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_cargo_selection, c
 	GOOD: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
 	ENSP: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
 	FMSP: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
+	
 	WOOD: switch_wagon_Narrow_Gen2_Flat_Wagon_Wood_livery;
-	STEL: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery;
+	
 	COPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Copper_livery;
+	
 	BDMT: switch_wagon_Narrow_Gen2_Flat_Wagon_Building_Materials_livery;
+	
 	WDPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Planks_livery;
+	
 	PAPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Paper_livery;
+	
+	TYRE: switch_wagon_Narrow_Gen2_Flat_Wagon_Tyres_livery;
+	TYRE: switch_wagon_Narrow_Gen2_Flat_Wagon_Tyres_livery;
+	
+	STEL: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery;
+	STAL: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery;
+	STSH: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Sheets_livery;
+	STWR: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Wire_livery;
+
 	switch_wagon_Narrow_Gen2_Flat_Wagon_Crates_livery; 
 }
 
