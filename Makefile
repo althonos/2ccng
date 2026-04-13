@@ -8,7 +8,6 @@
 SHELL := /bin/bash
 
 -include Makefile.config
--include Makefile.local
 
 ##################################################################
 #
@@ -60,7 +59,7 @@ MAIN_SRC_FILE       ?= $(BASE_FILENAME).pnml
 # grf file: the above defined grf file, usualls $(GRF_FILE)
 # Add any additional, not usual files here, too, including
 # their relative path to the root of the repository
-BUNDLE_FILES           ?= $(GRF_FILE) $(DOC_FILES)
+BUNDLE_FILES           ?= $(GRF_FILE) $(DOC_FILES) $(GFX_FILES)
 
 # Replacement strings in the source and in the documentation
 # You may only change the values, not add new definitions
@@ -255,7 +254,9 @@ maintainer-clean::
 	$(_V) rm -rf Makefile_gfx
 	$(_V) for j in $(GFX_SCRIPT_LIST_FILES); do for i in `cat $$j | grep "\([pP][cCnN][xXgG]\)" | cut -d\  -f1 | sed "s/\.\([pP][cCnN][xXgG]\)//"`; do rm -rf $$i.scm; rm -rf $$i.png; done; done
 else
-gfx:
+-include Makefile.gfx
+.PHONY: gfx
+gfx: $(GFX_FILES)
 endif
 
 #####################################################
