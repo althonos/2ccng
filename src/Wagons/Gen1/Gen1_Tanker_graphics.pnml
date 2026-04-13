@@ -7,7 +7,7 @@
 */
 
 #define GEN1_TANKER_LIVERY(NAME, L, OFFSET) \
-	spriteset(spriteset_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen1/Gen1_Tanker_%s.xpm", #NAME)) { \
+	spriteset(spriteset_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("build/gfx/Gen1_Tanker_%s.png", #NAME)) { \
 		template_2cc_wagons(OFFSET, 1) \
 	} \
 	spritegroup spritegroup_wagon_Narrow_Gen1_Tanker_ ## NAME ## _ ## L { \
@@ -33,7 +33,7 @@ GEN1_TANKER_WAGON(Standard)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_purchase, "gfx/Wagons/Gen1/Gen1_Tanker_Purchase.xpm") {
+spriteset(spriteset_wagon_Narrow_Gen1_Tanker_purchase, "gfx/Wagons/Gen1/Tanker/Purchase.png") {
 	template_purchase_wagon(1, 1)
 }
 

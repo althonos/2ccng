@@ -58,9 +58,24 @@ $(BUILD_DIR)/gfx/Gen1_Boxcar_%.png: $(BUILD_DIR)/gfx/Gen1/Boxcar/%_1x3.png
 	@$(PYTHON) tools/stack.py --output $@ $^
 
 
+# --- Gen1 Tanker --------------------------------------------------------------
+
+GEN1_TANKER_FILES = \
+	$(BUILD_DIR)/gfx/Gen1_Tanker_Standard.png
+
+$(BUILD_DIR)/gfx/Gen1/Tanker/%_1x3.png: gfx/Wagons/Gen1/Tanker/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 1 $< $< $<
+
+$(BUILD_DIR)/gfx/Gen1_Tanker_%.png: $(BUILD_DIR)/gfx/Gen1/Tanker/%_1x3.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/stack.py --output $@ $^
+
+
 # --- GFX ----------------------------------------------------------------------
 
 GFX_FILES = \
 	$(GEN1_FLAT_WAGON_FILES) \
 	$(GEN1_OPEN_WAGON_FILES) \
-	$(GEN1_BOXCAR_FILES)
+	$(GEN1_BOXCAR_FILES) \
+	$(GEN1_TANKER_FILES)
