@@ -38,6 +38,9 @@
 */
 
 GEN1_BOXCAR(Standard)
+// GEN1_BOXCAR(Armoured)
+// GEN1_BOXCAR(Livestock)
+// GEN1_BOXCAR(Reefer)
 
 /*
 * PURCHASE
@@ -46,22 +49,6 @@ GEN1_BOXCAR(Standard)
 spriteset(spriteset_wagon_Narrow_Gen1_Boxcar_purchase, "gfx/Wagons/Gen1/Boxcar/Purchase.png") {
 	template_purchase_wagon(1, 1)
 }
-
-/*
-* Armoured
-*/
-
-/*
-* Livestock
-*/
-
-/*
-* Reefer
-*/
-
-/*
-* Standard
-*/
 
 // //Goods have multiple liveries
 // random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Boxcar_Goods_livery) {

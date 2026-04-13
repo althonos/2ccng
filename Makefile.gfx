@@ -72,10 +72,20 @@ $(BUILD_DIR)/gfx/Gen1_Tanker_%.png: $(BUILD_DIR)/gfx/Gen1/Tanker/%_1x3.png
 	@$(PYTHON) tools/stack.py --output $@ $^
 
 
+# --- Gen2 Boxcar --------------------------------------------------------------
+
+GEN2_BOXCAR_FILES = \
+	$(BUILD_DIR)/gfx/Gen2_Boxcar_Standard.png
+
+$(BUILD_DIR)/gfx/Gen2_Boxcar_%.png: gfx/Wagons/Gen2/Boxcar/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/stack.py --output $@ $^
+
 # --- GFX ----------------------------------------------------------------------
 
 GFX_FILES = \
 	$(GEN1_FLAT_WAGON_FILES) \
 	$(GEN1_OPEN_WAGON_FILES) \
 	$(GEN1_BOXCAR_FILES) \
-	$(GEN1_TANKER_FILES)
+	$(GEN1_TANKER_FILES) \
+	$(GEN2_BOXCAR_FILES)
