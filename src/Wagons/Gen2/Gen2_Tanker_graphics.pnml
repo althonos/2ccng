@@ -8,7 +8,7 @@
 */
 
 #define GEN2_TANKER_LIVERY(NAME, L, OFFSET) \
-	spriteset(spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen2/Gen2_Tanker_%s.png", #NAME)) { \
+	spriteset(spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen2/Tanker/%s.png", #NAME)) { \
 		template_2cc_wagons(OFFSET, 1) \
 	} \
 	spritegroup spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L { \
@@ -32,7 +32,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen2_Tanker_purchase, "gfx/Wagons/Gen2/Gen2_Tanker_Purchase.png") {
+spriteset(spriteset_wagon_Narrow_Gen2_Tanker_purchase, "gfx/Wagons/Gen2/Tanker/Purchase.png") {
 	template_purchase_wagon(1, 1)
 }
 
@@ -61,10 +61,10 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_cargo_selection, cargo
 	WATR: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Water
 	BEER: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Alcohol / Water
 	COLA: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cola
-	CHSE: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cheese
 
 	/* Milk */
 	// MILK: switch_wagon_Narrow_Gen2_Tanker_Milk_livery;  // Milk
+	// CHSE: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cheese
 
 	/* Oil & Fuel */
 	OIL_: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil
