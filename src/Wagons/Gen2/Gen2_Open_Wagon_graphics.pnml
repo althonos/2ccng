@@ -130,12 +130,12 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	// // RCYC: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Recyclables
 	
 	/* Crate cargo */
-	SUGR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Sugar
-	CTCD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Candyfloss
-	FURN: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Furniture
+	SUGR: switch_wagon_Narrow_Gen2_Open_Wagon_Crates_livery;  // Sugar
+	CTCD: switch_wagon_Narrow_Gen2_Open_Wagon_Crates_livery;  // Candyfloss
+	FURN: switch_wagon_Narrow_Gen2_Open_Wagon_Crates_livery;  // Furniture
 
-	// FICR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Fibre Crop
-	// OLSD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Oil Seed
+	// FICR: switch_wagon_Narrow_Gen2_Open_Wagon_Crates_livery;  // Fibre Crop
+	// OLSD: switch_wagon_Narrow_Gen2_Open_Wagon_Crates_livery;  // Oil Seed
 
 	/* Sand cargo */
 	PHOS: switch_wagon_Narrow_Gen2_Open_Wagon_Sand_livery;  // Phosphate
