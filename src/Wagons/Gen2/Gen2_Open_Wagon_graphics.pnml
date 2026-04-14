@@ -8,37 +8,37 @@
 */
 
 #define GEN2_OPEN_LIVERY(NAME, L, OFFSET) \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
+	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
 		template_2cc_wagons(OFFSET, 1) \
 	} \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
-		template_2cc_wagons(OFFSET, 32) \
+	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 27) \
 	} \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
-		template_2cc_wagons(OFFSET, 64) \
+	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 53) \
 	} \
 	spritegroup spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L { \
 		loading: [spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
 		loaded: [spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
 	}
 
-#define GEN2_OPEN_LIVERY_COVERED(NAME, L, OFFSET) \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
-		template_2cc_wagons(OFFSET, 1) \
-	} \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
-		template_2cc_wagons(OFFSET, 32) \
-	} \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
-		template_2cc_wagons(OFFSET, 64) \
-	} \
-	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S4, format_string("gfx/Wagons/Gen2/Gen2_Open_Wagon_%s.png", #NAME)) { \
-		template_2cc_wagons(OFFSET, 96) \
-	} \
-	spritegroup spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L { \
-		loading: [spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
-		loaded: [spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S4, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S4]; \
-	}
+// #define GEN2_OPEN_LIVERY_COVERED(NAME, L, OFFSET) \
+// 	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
+// 		template_2cc_wagons(OFFSET, 1) \
+// 	} \
+// 	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
+// 		template_2cc_wagons(OFFSET, 32) \
+// 	} \
+// 	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
+// 		template_2cc_wagons(OFFSET, 64) \
+// 	} \
+// 	spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S4, format_string("build/gfx/Gen2_Open_Wagon_%s.png", #NAME)) { \
+// 		template_2cc_wagons(OFFSET, 96) \
+// 	} \
+// 	spritegroup spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L { \
+// 		loading: [spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S3]; \
+// 		loaded: [spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S4, spriteset_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _ ## L ## _S4]; \
+// 	}
 
 #define GEN2_OPEN_WAGON(NAME) \
 	GEN2_OPEN_LIVERY(NAME, L1, 1) \
@@ -52,47 +52,53 @@
 		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L4; \
 	}
 
-#define GEN2_OPEN_WAGON_COVERED(NAME) \
-	GEN2_OPEN_LIVERY_COVERED(NAME, L1, 1) \
-	GEN2_OPEN_LIVERY_COVERED(NAME, L2, 179) \
-	GEN2_OPEN_LIVERY_COVERED(NAME, L3, 357) \
-	GEN2_OPEN_LIVERY_COVERED(NAME, L4, 535) \
-	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _livery) { \
-		7: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L1; \
-		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L2; \
-		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L3; \
-		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L4; \
-	}
+// #define GEN2_OPEN_WAGON_COVERED(NAME) \
+// 	GEN2_OPEN_LIVERY_COVERED(NAME, L1, 1) \
+// 	GEN2_OPEN_LIVERY_COVERED(NAME, L2, 179) \
+// 	GEN2_OPEN_LIVERY_COVERED(NAME, L3, 357) \
+// 	GEN2_OPEN_LIVERY_COVERED(NAME, L4, 535) \
+// 	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _livery) { \
+// 		7: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L1; \
+// 		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L2; \
+// 		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L3; \
+// 		1: spritegroup_wagon_Narrow_Gen2_Open_Wagon_ ## NAME ## _L4; \
+// 	}
 
 /*
 * CARGO VARIATIONS
 */
 
+GEN2_OPEN_WAGON(Beans)
 GEN2_OPEN_WAGON(Coal)
-GEN2_OPEN_WAGON(Gray)
+GEN2_OPEN_WAGON(Crates)
+GEN2_OPEN_WAGON(Gravel)
 GEN2_OPEN_WAGON(Maize)
+GEN2_OPEN_WAGON(Nickel)
+GEN2_OPEN_WAGON(Oranges)
 GEN2_OPEN_WAGON(Ore)
+GEN2_OPEN_WAGON(Peat)
 GEN2_OPEN_WAGON(Sand)
 GEN2_OPEN_WAGON(Salt)
-GEN2_OPEN_WAGON(Peat)
-GEN2_OPEN_WAGON(Crate)
-GEN2_OPEN_WAGON(Fruit)
-GEN2_OPEN_WAGON(Nickel)
-// GEN2_OPEN_WAGON(Wood)
+GEN2_OPEN_WAGON(Wood)
 
-GEN2_OPEN_WAGON_COVERED(Carbon)
-GEN2_OPEN_WAGON_COVERED(Sulphur)
-GEN2_OPEN_WAGON_COVERED(Kaolin)
-GEN2_OPEN_WAGON_COVERED(Cement)
-GEN2_OPEN_WAGON_COVERED(Grain)
-GEN2_OPEN_WAGON_COVERED(Clay)
+// GEN2_OPEN_WAGON_COVERED(Carbon)
+// GEN2_OPEN_WAGON_COVERED(Sulphur)
+// GEN2_OPEN_WAGON_COVERED(Kaolin)
+// GEN2_OPEN_WAGON_COVERED(Cement)
+// GEN2_OPEN_WAGON_COVERED(Grain)
+// GEN2_OPEN_WAGON_COVERED(Clay)
 
 /*
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_purchase, "gfx/Wagons/Gen2/Gen2_Open_Wagon_Purchase.png") {
+spriteset(spriteset_wagon_Narrow_Gen2_Open_Wagon_purchase, "gfx/Wagons/Gen2/Open_Wagon/Purchase.png") {
 	template_purchase_wagon(1, 1)
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery) {
+	2: switch_wagon_Narrow_Gen2_Open_Wagon_Oranges_livery;
+	1: switch_wagon_Narrow_Gen2_Open_Wagon_Beans_livery;
 }
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, cargo_type_in_veh) {
@@ -101,8 +107,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	SLAG: switch_wagon_Narrow_Gen2_Open_Wagon_Coal_livery;	// Slag
 	COKE: switch_wagon_Narrow_Gen2_Open_Wagon_Coal_livery;	// Coke
 
-	/* Black cargo, carbon */
-	CBLK: switch_wagon_Narrow_Gen2_Open_Wagon_Carbon_livery;  // Carbon black
+	// /* Black cargo, carbon */
+	// CBLK: switch_wagon_Narrow_Gen2_Open_Wagon_Carbon_livery;  // Carbon black
 
 	/* Ore cargo */
 	IORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Iron ore
@@ -117,50 +123,51 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	NKOR: switch_wagon_Narrow_Gen2_Open_Wagon_Nickel_livery;	// Nickel ore
 
 	/* Wood cargo */
-	// WOOD: switch_wagon_Narrow_Gen2_Open_Wagon_Wood_livery;  // Wood
+	WOOD: switch_wagon_Narrow_Gen2_Open_Wagon_Wood_livery;  // Wood
 
-	/* Metal cargo */
-	// SCMT: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Scrap metal
-	// RCYC: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Recyclables
+	// /* Metal cargo */
+	// // SCMT: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Scrap metal
+	// // RCYC: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Recyclables
 	
 	/* Crate cargo */
 	SUGR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Sugar
 	CTCD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Candyfloss
-	FICR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Fibre Crop
-	OLSD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Oil Seed
 	FURN: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Furniture
+
+	// FICR: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Fibre Crop
+	// OLSD: switch_wagon_Narrow_Gen2_Open_Wagon_Crate_livery;  // Oil Seed
 
 	/* Sand cargo */
 	PHOS: switch_wagon_Narrow_Gen2_Open_Wagon_Sand_livery;  // Phosphate
 	SAND: switch_wagon_Narrow_Gen2_Open_Wagon_Sand_livery;	// Sand
 	LIME: switch_wagon_Narrow_Gen2_Open_Wagon_Sand_livery;	// Limestone
 	
-	/* Gray cargo */
-	GRVL: switch_wagon_Narrow_Gen2_Open_Wagon_Gray_livery;	// Gravel / Stone
+	// /* Gray cargo */
+	GRVL: switch_wagon_Narrow_Gen2_Open_Wagon_Gravel_livery;	// Gravel / Stone
 
-	/* Gray cargo, covered */
-	CMNT: switch_wagon_Narrow_Gen2_Open_Wagon_Cement_livery;  // Cement
+	// /* Gray cargo, covered */
+	// CMNT: switch_wagon_Narrow_Gen2_Open_Wagon_Cement_livery;  // Cement
 
-	/* White cargo */
+	// /* White cargo */
 	SALT: switch_wagon_Narrow_Gen2_Open_Wagon_Salt_livery;	// Salt
 	NITR: switch_wagon_Narrow_Gen2_Open_Wagon_Salt_livery;	// Nitrate
 	NHNO: switch_wagon_Narrow_Gen2_Open_Wagon_Salt_livery;	// Ammonium nitrate
 
-	/* White cargo, covered */
-	KAOL: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Kaolin
-	BAKE: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Flour
-	QLME: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Quicklime
-	SASH: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Soda Ash
+	// /* White cargo, covered */
+	// KAOL: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Kaolin
+	// BAKE: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Flour
+	// QLME: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Quicklime
+	// SASH: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Soda Ash
 
 	/* Fruit cargo */
 	FRUT: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;	// Fruit
 	FRVG: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;	// Fruit & Vegetables
 
-	/* Light brown & green cargo, covered */
-	// SGCN: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar cane
-	// SGBT: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar beet
-	// CASS: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Cassava
-	// BEAN: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Beans
+	// /* Light brown & green cargo, covered */
+	// // SGCN: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar cane
+	// // SGBT: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar beet
+	// // CASS: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Cassava
+	BEAN: switch_wagon_Narrow_Gen2_Open_Wagon_Beans_livery;  // Beans
 
 	/* Brown cargo */
 	PEAT: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Peat
@@ -168,22 +175,22 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	TBCO: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Tobacco
 	TOFF: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Toffee
 
-	/* Brown cargo, covered */
-	CLAY: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Clay
-	POTA: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Potash
-	WSTE: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Waste
+	// /* Brown cargo, covered */
+	// CLAY: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Clay
+	// POTA: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Potash
+	// WSTE: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Waste
 
-	/* Light-brown cargo, covered */
-	GRAI: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Grains
-	WHEA: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Wheat
-	SEED: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Seed
-	CERE: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Cereals
+	// /* Light-brown cargo, covered */
+	// GRAI: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Grains
+	// WHEA: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Wheat
+	// SEED: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Seed
+	// CERE: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Cereals
 	
-	/* Yellow cargo */
+	// /* Yellow cargo */
 	MAIZ: switch_wagon_Narrow_Gen2_Open_Wagon_Maize_livery;	 // Maize
 
-	/* Yellow cargo, covered */
-	SULP: switch_wagon_Narrow_Gen2_Open_Wagon_Sulphur_livery;  // Sulphur
+	// /* Yellow cargo, covered */
+	// SULP: switch_wagon_Narrow_Gen2_Open_Wagon_Sulphur_livery;  // Sulphur
 	
 	/* Default */
 	switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery; 

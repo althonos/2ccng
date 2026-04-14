@@ -72,7 +72,7 @@ $(BUILD_DIR)/gfx/Gen1_Tanker_%.png: $(BUILD_DIR)/gfx/Gen1/Tanker/%_1x3.png
 	@$(PYTHON) tools/stack.py --output $@ $^
 
 
-# --- Gen1 Flat Wagon ----------------------------------------------------------
+# --- Gen2 Flat Wagon ----------------------------------------------------------
 
 GEN2_FLAT_WAGON_FILES = \
 	$(BUILD_DIR)/gfx/Gen2_Flat_Wagon_Crates.png      \
@@ -98,6 +98,34 @@ $(BUILD_DIR)/gfx/Gen2_Flat_Wagon_%.png: $(BUILD_DIR)/gfx/Gen2/Flat_Wagon/Layer1_
 	@echo [GFX] $@
 	@$(PYTHON) tools/stack.py --output $@ $^
 
+# --- Gen1 Open Wagon ----------------------------------------------------------
+
+GEN2_OPEN_WAGON_FILES = \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Beans.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Coal.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Crates.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Gravel.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Maize.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Nickel.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Oranges.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Ore.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Peat.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Salt.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Sand.png \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Wood.png \
+
+$(BUILD_DIR)/gfx/Gen2/Open_Wagon/%_1x3.png: gfx/Wagons/Gen2/Open_Wagon/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 1 $< $< $<
+
+$(BUILD_DIR)/gfx/Gen2/Open_Wagon/Cargo/%_4x1.png: gfx/Wagons/Gen2/Open_Wagon/Cargo/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 0 $< $< $< $<
+
+$(BUILD_DIR)/gfx/Gen2_Open_Wagon_%.png: $(BUILD_DIR)/gfx/Gen2/Open_Wagon/Layer1_1x3.png $(BUILD_DIR)/gfx/Gen2/Open_Wagon/Cargo/%_4x1.png # $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Layer2_1x3.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/stack.py --output $@ $^
+
 # --- Gen2 Boxcar --------------------------------------------------------------
 
 GEN2_BOXCAR_FILES = \
@@ -115,4 +143,5 @@ GFX_FILES = \
 	$(GEN1_BOXCAR_FILES) \
 	$(GEN1_TANKER_FILES) \
 	$(GEN2_FLAT_WAGON_FILES) \
+	$(GEN2_OPEN_WAGON_FILES) \
 	$(GEN2_BOXCAR_FILES)
