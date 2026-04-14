@@ -6,6 +6,11 @@
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Flat_Wagon_capacity, hasbit(cargo_classes, CC_LIQUID) | hasbit(cargo_classes, CC_HAZARDOUS)) {
+	1: HEAD_CAPACITY / 4;
+	HEAD_CAPACITY;
+}
+
 item(FEAT_TRAINS, ITEM ) {
 	property {
 		name: NAME;
@@ -44,7 +49,7 @@ item(FEAT_TRAINS, ITEM ) {
 	graphics {
 		purchase: spriteset_wagon_Narrow_Gen1_Flat_Wagon_purchase;
 		//Add calls to defined switches below
-		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
+		cargo_capacity: switch_wagon_Narrow_Gen1_Flat_Wagon_capacity;
 		RUNNINGCOSTENGINESWITCHCALL
 		PURCHASETEXTSWITCHCALL
 		default: switch_wagon_Narrow_Gen1_Flat_Wagon_cargo_selection;
