@@ -69,18 +69,18 @@
 */
 
 GEN3_OPEN_WAGON(Bauxite)
-// GEN3_OPEN_WAGON(Beans)
+GEN3_OPEN_WAGON(Beans)
 GEN3_OPEN_WAGON(Coal)
 GEN3_OPEN_WAGON(Copper)
 // GEN3_OPEN_WAGON(Crates)
 GEN3_OPEN_WAGON(Gravel)
+GEN3_OPEN_WAGON(Lemons)
 // GEN3_OPEN_WAGON(Maize)
 // GEN3_OPEN_WAGON(Nickel)
-// GEN3_OPEN_WAGON(Oranges)
 GEN3_OPEN_WAGON(Ore)
 // GEN3_OPEN_WAGON(Peat)
-GEN3_OPEN_WAGON(Sand)
 GEN3_OPEN_WAGON(Salt)
+GEN3_OPEN_WAGON(Sand)
 GEN3_OPEN_WAGON(Wood)
 
 // GEN3_OPEN_WAGON_COVERED(Carbon)
@@ -98,10 +98,10 @@ spriteset(spriteset_wagon_Narrow_Gen3_Open_Wagon_purchase, "gfx/Wagons/Gen3/Open
 	template_purchase_wagon(1, 1)
 }
 
-// random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery) {
-// 	2: switch_wagon_Narrow_Gen3_Open_Wagon_Oranges_livery;
-// 	1: switch_wagon_Narrow_Gen3_Open_Wagon_Beans_livery;
-// }
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery) {
+	2: switch_wagon_Narrow_Gen3_Open_Wagon_Lemons_livery;
+	1: switch_wagon_Narrow_Gen3_Open_Wagon_Beans_livery;
+}
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_cargo_selection, cargo_type_in_veh) {
 	/* Black cargo */
@@ -166,14 +166,16 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_cargo_selection, c
 	// SASH: switch_wagon_Narrow_Gen3_Open_Wagon_Kaolin_livery;  // Soda Ash
 
 	/* Fruit cargo */
-	// FRUT: switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery;	// Fruit
-	// FRVG: switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery;	// Fruit & Vegetables
+	FRUT: switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery;	// Fruit
+	FRVG: switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery;	// Fruit & Vegetables
 
 	/* Light brown & green cargo, covered */
 	// SGCN: switch_wagon_Narrow_Gen3_Open_Wagon_Beet_livery;	// Sugar cane
 	// SGBT: switch_wagon_Narrow_Gen3_Open_Wagon_Beet_livery;	// Sugar beet
 	// CASS: switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery;  // Cassava
-	// BEAN: switch_wagon_Narrow_Gen3_Open_Wagon_Beans_livery;  // Beans
+
+	/* Light brown & green cargo */
+	BEAN: switch_wagon_Narrow_Gen3_Open_Wagon_Beans_livery;  // Beans
 
 	/* Brown cargo */
 	// PEAT: switch_wagon_Narrow_Gen3_Open_Wagon_Peat_livery;  // Peat

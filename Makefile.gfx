@@ -29,7 +29,7 @@ GEN1_OPEN_WAGON_FILES = \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Ore.png \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Salt.png \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Sand.png \
-	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Lemon.png \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Lemons.png \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Beans.png
 
 $(BUILD_DIR)/gfx/Gen1/Open_Wagon/%_1x3.png: gfx/Wagons/Gen1/Open_Wagon/%.png
@@ -160,9 +160,11 @@ $(BUILD_DIR)/gfx/Gen3_Flat_Wagon_%.png: $(BUILD_DIR)/gfx/Gen3/Flat_Wagon/Layer1_
 
 GEN3_OPEN_WAGON_FILES = \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Bauxite.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Beans.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Coal.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Copper.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Gravel.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Lemons.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Ore.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Salt.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Sand.png \
