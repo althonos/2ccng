@@ -2,7 +2,6 @@ import argparse
 import glob
 import os
 
-import numpy
 from PIL import Image
 
 parser = argparse.ArgumentParser()
