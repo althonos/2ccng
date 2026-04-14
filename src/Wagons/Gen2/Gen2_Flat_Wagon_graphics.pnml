@@ -35,6 +35,7 @@
 	}
 
 
+GEN2_FLAT_WAGON(Barrels)
 GEN2_FLAT_WAGON(Crates)
 GEN2_FLAT_WAGON(Copper)
 GEN2_FLAT_WAGON(Planks)
@@ -75,6 +76,7 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_Building_Ma
 }
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_cargo_selection, cargo_type_in_veh) {
+	/* Goods */
 	GOOD: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
 	ENSP: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
 	FMSP: switch_wagon_Narrow_Gen2_Flat_Wagon_Goods_livery;
@@ -87,15 +89,20 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_cargo_selection, c
 	
 	WDPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Planks_livery;
 	
-	PAPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Paper_livery;
+	PAPR: switch_wagon_Narrow_Gen2_Flat_Wagon_Paper_livery;		// Paper
+	PACK: switch_wagon_Narrow_Gen2_Flat_Wagon_Paper_livery;  	// Packaging
 	
-	TYRE: switch_wagon_Narrow_Gen2_Flat_Wagon_Tyres_livery;
-	TYRE: switch_wagon_Narrow_Gen2_Flat_Wagon_Tyres_livery;
+	TYRE: switch_wagon_Narrow_Gen2_Flat_Wagon_Tyres_livery;		// Rubber Parts, Tyres
 	
 	STEL: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery;
 	STAL: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery;
 	STSH: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Sheets_livery;
 	STWR: switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_Wire_livery;
+
+	/* Chemicals / Liquids */
+	ACID: switch_wagon_Narrow_Gen2_Flat_Wagon_Barrels_livery;  // Acid
+	CHLO: switch_wagon_Narrow_Gen2_Flat_Wagon_Barrels_livery;  // Chlorine
+	COAT: switch_wagon_Narrow_Gen2_Flat_Wagon_Barrels_livery;  // Paints & Coatings
 
 	switch_wagon_Narrow_Gen2_Flat_Wagon_Crates_livery; 
 }
