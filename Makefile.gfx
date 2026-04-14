@@ -159,7 +159,14 @@ $(BUILD_DIR)/gfx/Gen3_Flat_Wagon_%.png: $(BUILD_DIR)/gfx/Gen3/Flat_Wagon/Layer1_
 # --- Gen3 Open Wagon ----------------------------------------------------------
 
 GEN3_OPEN_WAGON_FILES = \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Bauxite.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Coal.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Copper.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Gravel.png \
 	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Ore.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Salt.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Sand.png \
+	$(BUILD_DIR)/gfx/Gen3_Open_Wagon_Wood.png \
 
 $(BUILD_DIR)/gfx/Gen3/Open_Wagon/%_1x3.png: gfx/Wagons/Gen3/Open_Wagon/%.png
 	@echo [GFX] $@
