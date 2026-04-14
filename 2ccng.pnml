@@ -544,6 +544,9 @@
 // #include "src/Wagons/Gen2/Gen2_Silo_property.pnml"
 // #include "src/Wagons/Gen2/Gen2_Silo_graphics.pnml"
 // #include "src/Wagons/Gen2/Gen2_Silo_item.pnml"
+#include "src/Wagons/Gen3/Gen3_Tanker_property.pnml"
+#include "src/Wagons/Gen3/Gen3_Tanker_graphics.pnml"
+#include "src/Wagons/Gen3/Gen3_Tanker_item.pnml"
 
 //obsolete vehicles
 

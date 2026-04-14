@@ -802,7 +802,8 @@ item_wagon_Narrow_Gen1_Tanker, /*Year: 1660*/ \
 item_wagon_Narrow_Gen2_Boxcar, /*Year: 1890*/ \
 item_wagon_Narrow_Gen2_Flat_Wagon, /*Year: 1890*/ \
 item_wagon_Narrow_Gen2_Open_Wagon, /*Year: 1890*/ \
-item_wagon_Narrow_Gen2_Tanker, /*Year: 1890*/
+item_wagon_Narrow_Gen2_Tanker, /*Year: 1890*/ \
+item_wagon_Narrow_Gen3_Tanker, /*Year: 1930*/
 
 #define SORTING_SPECIAL \
 item_mu_wagon_unpowered, \
