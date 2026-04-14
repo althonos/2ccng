@@ -23,6 +23,7 @@ $(BUILD_DIR)/gfx/Gen1_Flat_Wagon_%.png: $(BUILD_DIR)/gfx/Gen1/Flat_Wagon/Layer1_
 # --- Gen1 Open Wagon ----------------------------------------------------------
 
 GEN1_OPEN_WAGON_FILES = \
+	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Bauxite.png \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Coal.png \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Gravel.png \
 	$(BUILD_DIR)/gfx/Gen1_Open_Wagon_Ore.png \
@@ -102,6 +103,7 @@ $(BUILD_DIR)/gfx/Gen2_Flat_Wagon_%.png: $(BUILD_DIR)/gfx/Gen2/Flat_Wagon/Layer1_
 # --- Gen2 Open Wagon ----------------------------------------------------------
 
 GEN2_OPEN_WAGON_FILES = \
+	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Bauxite.png \
 	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Beans.png \
 	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Coal.png \
 	$(BUILD_DIR)/gfx/Gen2_Open_Wagon_Crates.png \

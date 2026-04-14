@@ -68,6 +68,7 @@
 * CARGO VARIATIONS
 */
 
+GEN1_OPEN_WAGON(Bauxite)
 GEN1_OPEN_WAGON(Coal)
 GEN1_OPEN_WAGON(Ore)
 GEN1_OPEN_WAGON(Gravel)
@@ -111,9 +112,11 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_cargo_selection, c
 	IORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Iron ore
 	MNO2: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Manganese ore
 	CORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Copper ore
-	AORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Bauxite ore
 	PORE: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Pyrite ore
 	FECR: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Ferrochrome
+
+	/* Ore (pinkish) cargo */
+	AORE: switch_wagon_Narrow_Gen1_Open_Wagon_Bauxite_livery;	// Bauxite ore
 
 	/* Ore (greenish) cargo */
 	URAN: switch_wagon_Narrow_Gen1_Open_Wagon_Ore_livery;	// Uranium ore
