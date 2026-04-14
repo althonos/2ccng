@@ -939,6 +939,7 @@ str_wagon_Narrow_Gen2_Hopper     		:2nd Gen Hopper (Narrow)
 str_wagon_Narrow_Gen2_Silo       		:2nd Gen Silo (Narrow)
 
 str_wagon_Narrow_Gen3_Tanker 		    :3rd Gen Tanker (Narrow)
+str_wagon_Narrow_Gen3_Flat_Wagon	    :3rd Gen Flat Wagon (Narrow)
 
 
 #coaches
