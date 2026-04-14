@@ -804,6 +804,7 @@ item_wagon_Narrow_Gen2_Flat_Wagon, /*Year: 1890*/ \
 item_wagon_Narrow_Gen2_Open_Wagon, /*Year: 1890*/ \
 item_wagon_Narrow_Gen2_Tanker, /*Year: 1890*/ \
 item_wagon_Narrow_Gen3_Flat_Wagon, /*Year: 1930*/ \
+item_wagon_Narrow_Gen3_Open_Wagon, /*Year: 1930*/ \
 item_wagon_Narrow_Gen3_Tanker, /*Year: 1930*/
 
 #define SORTING_SPECIAL \
