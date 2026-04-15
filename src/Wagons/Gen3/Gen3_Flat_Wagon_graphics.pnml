@@ -47,6 +47,7 @@ GEN3_FLAT_WAGON(Wood)
 // GEN3_FLAT_WAGON(Steel_Wire)
 GEN3_FLAT_WAGON(Steel_Sheets)
 // GEN3_FLAT_WAGON(Tyres)
+GEN3_FLAT_WAGON(Tractor)
 
 /*
 * PURCHASE
@@ -64,9 +65,9 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Flat_Wagon_Steel_liver
 }
 
 // Goods and Engineering/Farming Supplies have multiple liveries
-random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Flat_Wagon_Goods_livery) {
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Flat_Wagon_Supplies_livery) {
 	7: switch_wagon_Narrow_Gen3_Flat_Wagon_Crates_livery;
-// 	3: switch_wagon_Narrow_Gen3_Flat_Wagon_Machinery_livery;
+	3: switch_wagon_Narrow_Gen3_Flat_Wagon_Tractor_livery;
 }
 
 // Building materials can be planks, steel or copper
@@ -85,8 +86,10 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Flat_Wagon_Default_livery, ha
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Flat_Wagon_cargo_selection, cargo_type_in_veh) {
 	/* Goods */
 	// GOOD: switch_wagon_Narrow_Gen3_Flat_Wagon_Goods_livery;
-	// ENSP: switch_wagon_Narrow_Gen3_Flat_Wagon_Goods_livery;
-	// FMSP: switch_wagon_Narrow_Gen3_Flat_Wagon_Goods_livery;
+
+	/* Farming / Engineering supplies */
+	ENSP: switch_wagon_Narrow_Gen3_Flat_Wagon_Supplies_livery;
+	FMSP: switch_wagon_Narrow_Gen3_Flat_Wagon_Supplies_livery;
 	
 	WOOD: switch_wagon_Narrow_Gen3_Flat_Wagon_Wood_livery;
 	BOOM: switch_wagon_Narrow_Gen3_Flat_Wagon_Explosives_livery;

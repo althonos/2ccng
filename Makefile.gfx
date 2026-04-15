@@ -145,6 +145,7 @@ GEN3_FLAT_WAGON_FILES = \
 	$(BUILD_DIR)/gfx/Gen3_Flat_Wagon_Explosives.png	\
 	$(BUILD_DIR)/gfx/Gen3_Flat_Wagon_Planks.png	\
 	$(BUILD_DIR)/gfx/Gen3_Flat_Wagon_Steel_Sheets.png	\
+	$(BUILD_DIR)/gfx/Gen3_Flat_Wagon_Tractor.png	\
 	$(BUILD_DIR)/gfx/Gen3_Flat_Wagon_Wood.png	\
 
 $(BUILD_DIR)/gfx/Gen3/Flat_Wagon/%_1x3.png: gfx/Wagons/Gen3/Flat_Wagon/%.png
