@@ -511,6 +511,9 @@
 #include "src/Coaches/Gen5/Glacier_Express_Service_Coach_property.pnml"
 #include "src/Coaches/Gen5/Glacier_Express_Service_Coach_graphics.pnml"
 #include "src/Coaches/Gen5/Glacier_Express_Service_Coach_item.pnml"
+#include "src/Coaches/Gen6/PNR_8300_Coach_property.pnml"
+#include "src/Coaches/Gen6/PNR_8300_Coach_graphics.pnml"
+#include "src/Coaches/Gen6/PNR_8300_Coach_item.pnml"
 
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"

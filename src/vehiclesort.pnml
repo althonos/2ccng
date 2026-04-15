@@ -744,6 +744,7 @@ item_coach_Narrow_Gen4_Vietnamese_Mail_Coach, /* Year: 1976*/ \
 item_coach_Narrow_Gen4_MetroBlitz_Coach, /*Year: 1984*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, /*Year: 2006*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, /*Year: 2006*/ \
+item_coach_Narrow_Gen6_PNR_8300_Coach, /*Year: 2020*/ \
 
 #define SORTING_WAGONS \
 item_wagon_Gen1_Flat_Wagon, /*Year: 1660*/ \
