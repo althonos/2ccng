@@ -185,6 +185,15 @@ $(BUILD_DIR)/gfx/Gen3_Open_Wagon_%.png: $(BUILD_DIR)/gfx/Gen3/Open_Wagon/Layer1_
 	@echo [GFX] $@
 	@$(PYTHON) tools/stack.py --output $@ $^
 
+# --- Gen3 Boxcar --------------------------------------------------------------
+
+GEN3_BOXCAR_FILES = \
+	$(BUILD_DIR)/gfx/Gen3_Boxcar_Standard.png
+
+$(BUILD_DIR)/gfx/Gen3_Boxcar_%.png: gfx/Wagons/Gen3/Boxcar/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/stack.py --output $@ $^
+
 # --- GFX ----------------------------------------------------------------------
 
 GFX_FILES = \
@@ -196,4 +205,5 @@ GFX_FILES = \
 	$(GEN2_OPEN_WAGON_FILES) \
 	$(GEN2_BOXCAR_FILES) \
 	$(GEN3_FLAT_WAGON_FILES) \
-	$(GEN3_OPEN_WAGON_FILES)
+	$(GEN3_OPEN_WAGON_FILES) \
+	$(GEN3_BOXCAR_FILES)

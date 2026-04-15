@@ -940,7 +940,8 @@ str_wagon_Narrow_Gen2_Silo       		:2nd Gen Silo (Narrow)
 
 str_wagon_Narrow_Gen3_Tanker 		    :3rd Gen Tanker (Narrow)
 str_wagon_Narrow_Gen3_Flat_Wagon	    :3rd Gen Flat Wagon (Narrow)
-str_wagon_Narrow_Gen3_Open_Wagon	    :3rd Gen Open Wagon (Narrow)
+str_wagon_Narrow_Gen3_Open_Wagon        :3rd Gen Open Wagon (Narrow)
+str_wagon_Narrow_Gen3_Boxcar            :3rd Gen Boxcar (Narrow)
 
 
 #coaches
