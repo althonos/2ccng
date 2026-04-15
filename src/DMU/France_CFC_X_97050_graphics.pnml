@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_France_CFC_X_97050_purchase, "gfx/DMU/France_CFC_X_97050.png") {
+spriteset(spriteset_dmu_France_CFC_X_97050_purchase, "gfx/DMU/France_CFC_X_97050.xpm") {
 	template_purchase_dualheaded(1, 128)
 }
 
@@ -19,21 +19,21 @@ spriteset(spriteset_dmu_France_CFC_X_97050_purchase, "gfx/DMU/France_CFC_X_97050
 */
 
 //Front
-spriteset(spriteset_dmu_France_CFC_X_97050_front, "gfx/DMU/France_CFC_X_97050.png") {
+spriteset(spriteset_dmu_France_CFC_X_97050_front, "gfx/DMU/France_CFC_X_97050.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
 //Back
-spriteset(spriteset_dmu_France_CFC_X_97050_back, "gfx/DMU/France_CFC_X_97050.png") {
+spriteset(spriteset_dmu_France_CFC_X_97050_back, "gfx/DMU/France_CFC_X_97050.xpm") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Middle - Forward
-spriteset(spriteset_dmu_France_CFC_X_97050_forward, "gfx/DMU/France_CFC_X_97050.png") {
+spriteset(spriteset_dmu_France_CFC_X_97050_forward, "gfx/DMU/France_CFC_X_97050.xpm") {
 	template_2cc_engines_general(1, 64)
 }
 //Middle - Backward
-spriteset(spriteset_dmu_France_CFC_X_97050_backward, "gfx/DMU/France_CFC_X_97050.png") {
+spriteset(spriteset_dmu_France_CFC_X_97050_backward, "gfx/DMU/France_CFC_X_97050.xpm") {
 	template_2cc_engines_general(1, 96)
 }
 
