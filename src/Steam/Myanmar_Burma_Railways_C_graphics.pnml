@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Myanmar_Burma_Railways_C_purchase, "gfx/Steam/Myanmar_Burma_Railways_C.xpm") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Myanmar_Burma_Railways_C, "gfx/Steam/Myanmar_Burma_Railways_C.xpm", 1, 96)
 
 /*
 * VEHICLE

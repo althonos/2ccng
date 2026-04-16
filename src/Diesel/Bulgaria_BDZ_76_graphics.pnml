@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Bulgaria_BDZ_76_purchase, "gfx/Diesel/Bulgaria_BDZ_76.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Bulgaria_BDZ_76, "gfx/Diesel/Bulgaria_BDZ_76.png", 1, 64)
 
 /*
 * VEHICLE

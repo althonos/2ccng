@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbs_South_Africa_CSAR_Railmotor_purchase, "gfx/Railbus-steam/South_Africa_CSAR_Railmotor.png") {
-	template_purchase(1, 128)
-}
+PURCHASE_SPRITESET(rbs_South_Africa_CSAR_Railmotor, "gfx/Railbus-steam/South_Africa_CSAR_Railmotor.png", 1, 128)
 
 /*
 * VEHICLE

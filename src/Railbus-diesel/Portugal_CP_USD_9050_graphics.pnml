@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Portugal_CP_USD_9050_purchase, "gfx/Railbus-diesel/Portugal_CP_USD_9050.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_Portugal_CP_USD_9050, "gfx/Railbus-diesel/Portugal_CP_USD_9050.png", 1, 32)
 
 /*
 * VEHICLE

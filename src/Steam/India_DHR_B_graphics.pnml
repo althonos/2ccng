@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_India_DHR_B_purchase, "gfx/Steam/India_DHR_B.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_India_DHR_B, "gfx/Steam/India_DHR_B.png", 1, 96)
 
 /*
 * VEHICLE

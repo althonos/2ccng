@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_Japan_Odakyu_10000_Series_Romance_purchase, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 128)
 
 /*
 * VEHICLE

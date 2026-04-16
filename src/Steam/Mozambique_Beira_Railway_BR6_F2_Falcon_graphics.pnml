@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Mozambique_Beira_Railway_BR6_F2_Falcon_purchase, "gfx/Steam/Mozambique_Beira_Railway_BR6_F2_Falcon.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Mozambique_Beira_Railway_BR6_F2_Falcon, "gfx/Steam/Mozambique_Beira_Railway_BR6_F2_Falcon.png", 1, 96)
 
 /*
 * VEHICLE

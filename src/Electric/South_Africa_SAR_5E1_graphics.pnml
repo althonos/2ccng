@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_South_Africa_SAR_5E1_purchase, "gfx/Electric/South_Africa_SAR_5E1.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_South_Africa_SAR_5E1, "gfx/Electric/South_Africa_SAR_5E1.png", 1, 64)
 
 /*
 * VEHICLE

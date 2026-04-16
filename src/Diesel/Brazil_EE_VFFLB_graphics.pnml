@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Brazil_EE_VFFLB_purchase, "gfx/Diesel/Brazil_EE_VFFLB.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Brazil_EE_VFFLB, "gfx/Diesel/Brazil_EE_VFFLB.png", 1, 64)
 
 /*
 * VEHICLE

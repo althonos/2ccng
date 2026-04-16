@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbe_Slovakia_ZSSK_490_purchase, "gfx/Railbus-electric/Slovakia_ZSSK_490.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbe_Slovakia_ZSSK_490, "gfx/Railbus-electric/Slovakia_ZSSK_490.png", 1, 32)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_purchase, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_Italy_EAV_ETR_200_Metrostar, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png", 1, 128)
 
 /*
 * VEHICLE

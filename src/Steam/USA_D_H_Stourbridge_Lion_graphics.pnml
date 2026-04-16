@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_USA_D_H_Stourbridge_Lion_purchase, "gfx/Steam/USA_D_H_Stourbridge_Lion.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_USA_D_H_Stourbridge_Lion, "gfx/Steam/USA_D_H_Stourbridge_Lion.png", 1, 96)
 
 /*
 * VEHICLE

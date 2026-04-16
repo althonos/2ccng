@@ -37,9 +37,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen2_Boxcar_purchase, "gfx/Wagons/Gen2/Boxcar/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Boxcar, "gfx/Wagons/Gen2/Boxcar/Purchase.png", 1, 1)
 
 /*
 * CARGO VARIATIONS

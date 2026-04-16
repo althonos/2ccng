@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Switzerland_RhB_G_3_4_purchase, "gfx/Steam/Switzerland_RhB_G_3_4.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Switzerland_RhB_G_3_4, "gfx/Steam/Switzerland_RhB_G_3_4.png", 1, 96)
 
 /*
 * VEHICLE

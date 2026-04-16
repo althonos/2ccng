@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_South_Africa_SAR_ES_Class_purchase, "gfx/Electric/South_Africa_SAR_ES_Class.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_South_Africa_SAR_ES_Class, "gfx/Electric/South_Africa_SAR_ES_Class.png", 1, 64)
 
 /*
 * VEHICLE

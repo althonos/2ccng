@@ -46,9 +46,7 @@ GEN1_BOXCAR(Standard)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen1_Boxcar_purchase, "gfx/Wagons/Gen1/Boxcar/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen1_Boxcar, "gfx/Wagons/Gen1/Boxcar/Purchase.png", 1, 1)
 
 // //Goods have multiple liveries
 // random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Boxcar_Goods_livery) {

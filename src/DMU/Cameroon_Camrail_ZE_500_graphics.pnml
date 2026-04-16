@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Cameroon_Camrail_ZE_500_purchase, "gfx/DMU/Cameroon_Camrail_ZE_500.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Cameroon_Camrail_ZE_500, "gfx/DMU/Cameroon_Camrail_ZE_500.png", 1, 128)
 
 /*
 * VEHICLE

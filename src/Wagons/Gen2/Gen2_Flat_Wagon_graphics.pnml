@@ -51,9 +51,8 @@ GEN2_FLAT_WAGON(Tyres)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen2_Flat_Wagon_purchase, "gfx/Wagons/Gen2/Flat_Wagon/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Flat_Wagon, "gfx/Wagons/Gen2/Flat_Wagon/Purchase.png", 1, 1)
+
 
 // Steel has multiple liveries
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Flat_Wagon_Steel_livery) {

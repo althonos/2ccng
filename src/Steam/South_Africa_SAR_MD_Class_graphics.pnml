@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_South_Africa_SAR_MD_Class_purchase, "gfx/Steam/South_Africa_SAR_MD_Class.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_South_Africa_SAR_MD_Class, "gfx/Steam/South_Africa_SAR_MD_Class.png", 1, 96)
 
 /*
 * VEHICLE

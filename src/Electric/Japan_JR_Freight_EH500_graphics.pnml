@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Japan_JR_Freight_EH500_purchase, "gfx/Electric/Japan_JR_Freight_EH500.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_Japan_JR_Freight_EH500, "gfx/Electric/Japan_JR_Freight_EH500.png", 1, 64)
 
 /*
 * VEHICLE

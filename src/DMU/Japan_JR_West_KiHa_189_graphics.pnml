@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Japan_JR_West_KiHa_189_purchase, "gfx/DMU/Japan_JR_West_KiHa_189.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Japan_JR_West_KiHa_189, "gfx/DMU/Japan_JR_West_KiHa_189.png", 1, 128)
 
 /*
 * VEHICLE

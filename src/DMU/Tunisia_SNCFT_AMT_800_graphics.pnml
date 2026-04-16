@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Tunisia_SNCFT_AMT_800_purchase, "gfx/DMU/Tunisia_SNCFT_AMT_800.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Tunisia_SNCFT_AMT_800, "gfx/DMU/Tunisia_SNCFT_AMT_800.png", 1, 128)
 
 /*
 * VEHICLE

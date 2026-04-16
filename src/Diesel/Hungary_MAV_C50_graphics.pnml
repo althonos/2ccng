@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Hungary_MAV_C50_purchase, "gfx/Diesel/Hungary_MAV_C50.xpm") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Hungary_MAV_C50, "gfx/Diesel/Hungary_MAV_C50.xpm", 1, 64)
 
 /*
 * VEHICLE

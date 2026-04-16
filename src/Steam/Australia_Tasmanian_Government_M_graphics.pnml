@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Australia_Tasmanian_Government_M_purchase, "gfx/Steam/Australia_Tasmanian_Government_M.xpm") {
-	template_purchase(1, 160)
-}
+PURCHASE_SPRITESET(steam_Australia_Tasmanian_Government_M, "gfx/Steam/Australia_Tasmanian_Government_M.xpm", 1, 160)
 
 /*
 * VEHICLE

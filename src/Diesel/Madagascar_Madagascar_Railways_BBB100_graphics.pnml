@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Madagascar_Madagascar_Railways_BBB100_purchase, "gfx/Diesel/Madagascar_Madagascar_Railways_BBB100.xpm") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Madagascar_Madagascar_Railways_BBB100, "gfx/Diesel/Madagascar_Madagascar_Railways_BBB100.xpm", 1, 64)
 
 /*
 * VEHICLE

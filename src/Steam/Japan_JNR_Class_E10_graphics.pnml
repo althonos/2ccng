@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Japan_JNR_Class_E10_purchase, "gfx/Steam/Japan_JNR_Class_E10.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Japan_JNR_Class_E10, "gfx/Steam/Japan_JNR_Class_E10.png", 1, 96)
 
 /*
 * VEHICLE

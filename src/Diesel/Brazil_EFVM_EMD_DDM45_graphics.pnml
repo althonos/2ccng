@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Brazil_EFVM_EMD_DDM45_purchase, "gfx/Diesel/Brazil_EFVM_EMD_DDM45.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Brazil_EFVM_EMD_DDM45, "gfx/Diesel/Brazil_EFVM_EMD_DDM45.png", 1, 64)
 
 /*
 * VEHICLE

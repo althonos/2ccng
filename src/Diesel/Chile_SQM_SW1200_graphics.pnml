@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Chile_SQM_SW1200_purchase, "gfx/Diesel/Chile_SQM_SW1200.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Chile_SQM_SW1200, "gfx/Diesel/Chile_SQM_SW1200.png", 1, 64)
 
 /*
 * VEHICLE

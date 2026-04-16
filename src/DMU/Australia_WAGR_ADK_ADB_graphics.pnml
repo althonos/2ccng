@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Australia_WAGR_ADK_ADB_purchase, "gfx/DMU/Australia_WAGR_ADK_ADB.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Australia_WAGR_ADK_ADB, "gfx/DMU/Australia_WAGR_ADK_ADB.png", 1, 128)
 
 /*
 * VEHICLE

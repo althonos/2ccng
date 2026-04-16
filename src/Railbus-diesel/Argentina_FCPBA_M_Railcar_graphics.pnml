@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Argentina_FCPBA_M_Railcar_purchase, "gfx/Railbus-diesel/Argentina_FCPBA_M_Railcar.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_Argentina_FCPBA_M_Railcar, "gfx/Railbus-diesel/Argentina_FCPBA_M_Railcar.png", 1, 32)
 
 /*
 * VEHICLE

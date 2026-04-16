@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_Malaysia_KTM_Class_93_purchase, "gfx/EMU/Malaysia_KTM_Class_93.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_Malaysia_KTM_Class_93, "gfx/EMU/Malaysia_KTM_Class_93.png", 1, 128)
 
 /*
 * VEHICLE

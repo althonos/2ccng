@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_USA_D_RGW_K_27_Mudhen_purchase, "gfx/Steam/USA_D_RGW_K_27_Mudhen.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_USA_D_RGW_K_27_Mudhen, "gfx/Steam/USA_D_RGW_K_27_Mudhen.png", 1, 96)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Namibia_South_West_African_2_8_0_purchase, "gfx/Steam/Namibia_South_West_African_2_8_0.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Namibia_South_West_African_2_8_0, "gfx/Steam/Namibia_South_West_African_2_8_0.png", 1, 96)
 
 /*
 * VEHICLE

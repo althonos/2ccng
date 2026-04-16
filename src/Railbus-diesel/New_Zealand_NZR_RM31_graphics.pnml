@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_New_Zealand_NZR_RM31_purchase, "gfx/Railbus-diesel/New_Zealand_NZR_RM31.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_New_Zealand_NZR_RM31, "gfx/Railbus-diesel/New_Zealand_NZR_RM31.png", 1, 32)
 
 /*
 * VEHICLE

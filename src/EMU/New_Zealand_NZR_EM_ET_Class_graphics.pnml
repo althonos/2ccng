@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_New_Zealand_NZR_EM_ET_Class_purchase, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 128)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Barbados_Barbados_2_6_0T_purchase, "gfx/Steam/Barbados_Barbados_2_6_0T.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Barbados_Barbados_2_6_0T, "gfx/Steam/Barbados_Barbados_2_6_0T.png", 1, 96)
 
 /*
 * VEHICLE

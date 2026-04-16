@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Japan_JNR_DF50_purchase, "gfx/Diesel/Japan_JNR_DF50.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Japan_JNR_DF50, "gfx/Diesel/Japan_JNR_DF50.png", 1, 64)
 
 /*
 * VEHICLE

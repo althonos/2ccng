@@ -94,9 +94,7 @@ GEN3_OPEN_WAGON(Wood)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen3_Open_Wagon_purchase, "gfx/Wagons/Gen3/Open_Wagon/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen3_Open_Wagon, "gfx/Wagons/Gen3/Open_Wagon/Purchase.png", 1, 1)
 
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_livery) {
 	2: switch_wagon_Narrow_Gen3_Open_Wagon_Lemons_livery;

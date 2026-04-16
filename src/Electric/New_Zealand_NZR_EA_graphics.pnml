@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_New_Zealand_NZR_EA_purchase, "gfx/Electric/New_Zealand_NZR_EA.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_New_Zealand_NZR_EA, "gfx/Electric/New_Zealand_NZR_EA.png", 1, 64)
 
 /*
 * VEHICLE

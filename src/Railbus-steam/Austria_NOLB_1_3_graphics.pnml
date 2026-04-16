@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbs_Austria_NOLB_1_3_purchase, "gfx/Railbus-steam/Austria_NOLB_1_3.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbs_Austria_NOLB_1_3, "gfx/Railbus-steam/Austria_NOLB_1_3.png", 1, 32)
 
 /*
 * VEHICLE

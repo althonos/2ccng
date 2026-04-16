@@ -47,9 +47,7 @@ GEN1_FLAT_WAGON(Wood)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen1_Flat_Wagon_purchase, "gfx/Wagons/Gen1/Flat_Wagon/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen1_Flat_Wagon, "gfx/Wagons/Gen1/Flat_Wagon/Purchase.png", 1, 1)
 
 
 //Goods and Engineering Supplies have multiple liveries

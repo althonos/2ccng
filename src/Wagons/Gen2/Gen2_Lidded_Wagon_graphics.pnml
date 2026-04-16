@@ -47,9 +47,8 @@ GEN2_LIDDED_WAGON(Grain)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen2_Lidded_Wagon_purchase, "gfx/Wagons/Gen2/Lidded_Wagon/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Lidded_Wagon, "gfx/Wagons/Gen2/Lidded_Wagon/Purchase.png", 1, 1)
+
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Lidded_Wagon_cargo_selection, cargo_type_in_veh) {
 	/* Default */

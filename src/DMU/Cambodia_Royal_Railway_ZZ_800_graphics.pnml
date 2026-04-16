@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Cambodia_Royal_Railway_ZZ_800_purchase, "gfx/DMU/Cambodia_Royal_Railway_ZZ_800.xpm") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Cambodia_Royal_Railway_ZZ_800, "gfx/DMU/Cambodia_Royal_Railway_ZZ_800.xpm", 1, 128)
 
 /*
 * VEHICLE

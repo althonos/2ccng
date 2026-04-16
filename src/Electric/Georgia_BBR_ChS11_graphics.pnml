@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Georgia_BBR_ChS11_purchase, "gfx/Electric/Georgia_BBR_ChS11.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_Georgia_BBR_ChS11, "gfx/Electric/Georgia_BBR_ChS11.png", 1, 64)
 
 /*
 * VEHICLE

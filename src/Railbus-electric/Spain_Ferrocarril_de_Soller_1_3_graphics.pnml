@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbe_Spain_Ferrocarril_de_Soller_1_3_purchase, "gfx/Railbus-electric/Spain_Ferrocarril_de_Soller_1_3.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbe_Spain_Ferrocarril_de_Soller_1_3, "gfx/Railbus-electric/Spain_Ferrocarril_de_Soller_1_3.png", 1, 32)
 
 /*
 * VEHICLE

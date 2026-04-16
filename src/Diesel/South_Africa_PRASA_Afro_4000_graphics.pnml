@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_South_Africa_PRASA_Afro_4000_purchase, "gfx/Diesel/South_Africa_PRASA_Afro_4000.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_South_Africa_PRASA_Afro_4000, "gfx/Diesel/South_Africa_PRASA_Afro_4000.png", 1, 64)
 
 /*
 * VEHICLE

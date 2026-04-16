@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_UK_Padarn_Railway_Fire_Queen_purchase, "gfx/Steam/UK_Padarn_Railway_Fire_Queen.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_UK_Padarn_Railway_Fire_Queen, "gfx/Steam/UK_Padarn_Railway_Fire_Queen.png", 1, 96)
 
 /*
 * VEHICLE

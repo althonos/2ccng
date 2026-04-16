@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_New_Zealand_NZR_WAB_purchase, "gfx/Steam/New_Zealand_NZR_WAB.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_New_Zealand_NZR_WAB, "gfx/Steam/New_Zealand_NZR_WAB.png", 1, 96)
 
 /*
 * VEHICLE

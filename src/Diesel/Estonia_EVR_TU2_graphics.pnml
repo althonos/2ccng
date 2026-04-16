@@ -11,9 +11,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Estonia_EVR_TU2_purchase, "gfx/Diesel/Estonia_EVR_TU2.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.png", 1, 64)
 
 /*
 * VEHICLE

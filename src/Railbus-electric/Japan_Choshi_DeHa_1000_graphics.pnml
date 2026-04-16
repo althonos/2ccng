@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbe_Japan_Choshi_DeHa_1000_purchase, "gfx/Railbus-electric/Japan_Choshi_DeHa_1000.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbe_Japan_Choshi_DeHa_1000, "gfx/Railbus-electric/Japan_Choshi_DeHa_1000.png", 1, 32)
 
 /*
 * VEHICLE

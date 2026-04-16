@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_Sweden_SL_X15p_purchase, "gfx/EMU/Sweden_SL_X15p.xpm") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 128)
 
 /*
 * VEHICLE

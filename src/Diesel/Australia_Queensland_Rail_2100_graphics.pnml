@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Australia_Queensland_Rail_2100_purchase, "gfx/Diesel/Australia_Queensland_Rail_2100.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Australia_Queensland_Rail_2100, "gfx/Diesel/Australia_Queensland_Rail_2100.png", 1, 64)
 
 /*
 * VEHICLE

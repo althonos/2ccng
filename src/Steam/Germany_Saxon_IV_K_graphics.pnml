@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Germany_Saxon_IV_K_purchase, "gfx/Steam/Germany_Saxon_IV_K.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Germany_Saxon_IV_K, "gfx/Steam/Germany_Saxon_IV_K.png", 1, 96)
 
 /*
 * VEHICLE

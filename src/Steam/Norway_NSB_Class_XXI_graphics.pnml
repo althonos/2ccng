@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Norway_NSB_Class_XXI_purchase, "gfx/Steam/Norway_NSB_Class_XXI.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Norway_NSB_Class_XXI, "gfx/Steam/Norway_NSB_Class_XXI.png", 1, 96)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Bangladesh_Bangladesh_Railway_2600_purchase, "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Bangladesh_Bangladesh_Railway_2600, "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm", 1, 64)
 
 /*
 * VEHICLE

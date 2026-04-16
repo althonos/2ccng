@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Germany_DB_VT_133_purchase, "gfx/Railbus-diesel/Germany_DB_VT_133.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_Germany_DB_VT_133, "gfx/Railbus-diesel/Germany_DB_VT_133.png", 1, 32)
 
 /*
 * VEHICLE

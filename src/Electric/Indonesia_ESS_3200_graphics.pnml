@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Indonesia_ESS_3200_purchase, "gfx/Electric/Indonesia_ESS_3200.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_Indonesia_ESS_3200, "gfx/Electric/Indonesia_ESS_3200.png", 1, 64)
 
 /*
 * VEHICLE

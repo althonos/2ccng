@@ -10,9 +10,8 @@
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Service_Car_Type2_purchase, "gfx/Wagons/Service_Car/Service_Car_Type2_purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Service_Car_Type2, "gfx/Wagons/Service_Car/Service_Car_Type2_purchase.png", 1, 1)
+
 
 /*
 * Livery

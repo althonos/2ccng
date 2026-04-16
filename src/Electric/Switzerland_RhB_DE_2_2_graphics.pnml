@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_electric_Switzerland_RhB_DE_2_2_purchase, "gfx/Electric/Switzerland_RhB_DE_2_2.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(electric_Switzerland_RhB_DE_2_2, "gfx/Electric/Switzerland_RhB_DE_2_2.png", 1, 64)
 
 /*
 * VEHICLE

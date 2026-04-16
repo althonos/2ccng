@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_Spain_Euskotren_3500_purchase, "gfx/EMU/Spain_Euskotren_3500.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.png", 1, 128)
 
 /*
 * VEHICLE

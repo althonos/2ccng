@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Spain_FEVE_2400_Apollos_purchase, "gfx/DMU/Spain_FEVE_2400_Apollos.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Spain_FEVE_2400_Apollos, "gfx/DMU/Spain_FEVE_2400_Apollos.png", 1, 128)
 
 /*
 * VEHICLE

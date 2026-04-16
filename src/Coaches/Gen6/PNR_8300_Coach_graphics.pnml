@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_coach_Narrow_Gen6_PNR_8300_Coach_purchase, "gfx/Coaches/Gen6/PNR_8300_Coach_Purchase.xpm") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(coach_Narrow_Gen6_PNR_8300_Coach, "gfx/Coaches/Gen6/PNR_8300_Coach_Purchase.xpm", 1, 1)
 
 /*
 * Vehicle

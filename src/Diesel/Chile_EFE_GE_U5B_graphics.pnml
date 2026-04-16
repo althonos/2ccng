@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Chile_EFE_GE_U5B_purchase, "gfx/Diesel/Chile_EFE_GE_U5B.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Chile_EFE_GE_U5B, "gfx/Diesel/Chile_EFE_GE_U5B.png", 1, 64)
 
 /*
 * VEHICLE

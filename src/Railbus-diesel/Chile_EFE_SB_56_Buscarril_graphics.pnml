@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Chile_EFE_SB_56_Buscarril_purchase, "gfx/Railbus-diesel/Chile_EFE_SB_56_Buscarril.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_Chile_EFE_SB_56_Buscarril, "gfx/Railbus-diesel/Chile_EFE_SB_56_Buscarril.png", 1, 32)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Tunisia_SNCFT_040_DJ_purchase, "gfx/Diesel/Tunisia_SNCFT_040_DJ.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Tunisia_SNCFT_040_DJ, "gfx/Diesel/Tunisia_SNCFT_040_DJ.png", 1, 64)
 
 /*
 * VEHICLE

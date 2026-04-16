@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_coach_Narrow_Gen3_56_Foot_Suburban_Coach_purchase, "gfx/Coaches/Gen3/56_Foot_Suburban_Coach_Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(coach_Narrow_Gen3_56_Foot_Suburban_Coach, "gfx/Coaches/Gen3/56_Foot_Suburban_Coach_Purchase.png", 1, 1)
 
 /*
 * Vehicle

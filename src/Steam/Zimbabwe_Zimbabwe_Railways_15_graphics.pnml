@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Zimbabwe_Zimbabwe_Railways_15_purchase, "gfx/Steam/Zimbabwe_Zimbabwe_Railways_15.png") {
-	template_purchase(1, 160)
-}
+PURCHASE_SPRITESET(steam_Zimbabwe_Zimbabwe_Railways_15, "gfx/Steam/Zimbabwe_Zimbabwe_Railways_15.png", 1, 160)
 
 /*
 * VEHICLE

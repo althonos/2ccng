@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Australia_Queensland_Railways_A10_purchase, "gfx/Steam/Australia_Queensland_Railways_A10.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Australia_Queensland_Railways_A10, "gfx/Steam/Australia_Queensland_Railways_A10.png", 1, 96)
 
 /*
 * VEHICLE

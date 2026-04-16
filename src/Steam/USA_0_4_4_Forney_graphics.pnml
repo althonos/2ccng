@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_USA_0_4_4_Forney_purchase, "gfx/Steam/USA_0_4_4_Forney.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_USA_0_4_4_Forney, "gfx/Steam/USA_0_4_4_Forney.png", 1, 96)
 
 /*
 * VEHICLE

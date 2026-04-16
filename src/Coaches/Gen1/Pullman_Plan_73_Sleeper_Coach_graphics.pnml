@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach_purchase, "gfx/Coaches/Gen1/Pullman_Plan_73_Sleeper_Coach_Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(coach_Narrow_Gen1_Pullman_Plan_73_Sleeper_Coach, "gfx/Coaches/Gen1/Pullman_Plan_73_Sleeper_Coach_Purchase.png", 1, 1)
 
 /*
 * Vehicle

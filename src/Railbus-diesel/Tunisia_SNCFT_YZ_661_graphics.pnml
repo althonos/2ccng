@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Tunisia_SNCFT_YZ_661_purchase, "gfx/Railbus-diesel/Tunisia_SNCFT_YZ_661.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_Tunisia_SNCFT_YZ_661, "gfx/Railbus-diesel/Tunisia_SNCFT_YZ_661.png", 1, 32)
 
 /*
 * VEHICLE

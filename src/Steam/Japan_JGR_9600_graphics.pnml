@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Japan_JGR_9600_purchase, "gfx/Steam/Japan_JGR_9600.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Japan_JGR_9600, "gfx/Steam/Japan_JGR_9600.png", 1, 96)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_dmu_Ghana_Ghana_Railways_DEMU_purchase, "gfx/DMU/Ghana_Ghana_Railways_DEMU.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(dmu_Ghana_Ghana_Railways_DEMU, "gfx/DMU/Ghana_Ghana_Railways_DEMU.png", 1, 128)
 
 /*
 * VEHICLE

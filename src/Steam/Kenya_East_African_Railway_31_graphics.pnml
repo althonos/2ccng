@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Kenya_East_African_Railway_31_purchase, "gfx/Steam/Kenya_East_African_Railway_31.png") {
-	template_purchase(1, 96)
-}
+PURCHASE_SPRITESET(steam_Kenya_East_African_Railway_31, "gfx/Steam/Kenya_East_African_Railway_31.png", 1, 96)
 
 /*
 * VEHICLE

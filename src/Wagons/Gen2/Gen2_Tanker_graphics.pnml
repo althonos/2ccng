@@ -32,9 +32,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen2_Tanker_purchase, "gfx/Wagons/Gen2/Tanker/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Tanker, "gfx/Wagons/Gen2/Tanker/Purchase.png", 1, 1)
 
 GEN2_TANKER_WAGON(Oil)
 GEN2_TANKER_WAGON(Alcohol)

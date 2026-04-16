@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_rbd_Japan_JR_Shikoku_1000_purchase, "gfx/Railbus-diesel/Japan_JR_Shikoku_1000.png") {
-	template_purchase(1, 32)
-}
+PURCHASE_SPRITESET(rbd_Japan_JR_Shikoku_1000, "gfx/Railbus-diesel/Japan_JR_Shikoku_1000.png", 1, 32)
 
 /*
 * VEHICLE

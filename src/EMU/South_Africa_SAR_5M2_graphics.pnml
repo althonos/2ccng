@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_emu_South_Africa_SAR_5M2_purchase, "gfx/EMU/South_Africa_SAR_5M2.png") {
-	template_purchase_dualheaded(1, 128)
-}
+PURCHASE_SPRITESET_DUALHEADED(emu_South_Africa_SAR_5M2, "gfx/EMU/South_Africa_SAR_5M2.png", 1, 128)
 
 /*
 * VEHICLE

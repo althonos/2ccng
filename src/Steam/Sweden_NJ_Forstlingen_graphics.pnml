@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_steam_Sweden_NJ_Forstlingen_purchase, "gfx/Steam/Sweden_NJ_Forstlingen.png") {
-	template_purchase(1, 128)
-}
+PURCHASE_SPRITESET(steam_Sweden_NJ_Forstlingen, "gfx/Steam/Sweden_NJ_Forstlingen.png", 1, 128)
 
 /*
 * VEHICLE

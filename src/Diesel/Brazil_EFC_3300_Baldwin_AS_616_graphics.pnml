@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Brazil_EFC_3300_Baldwin_AS_616_purchase, "gfx/Diesel/Brazil_EFC_3300_Baldwin_AS_616.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Brazil_EFC_3300_Baldwin_AS_616, "gfx/Diesel/Brazil_EFC_3300_Baldwin_AS_616.png", 1, 64)
 
 /*
 * VEHICLE

@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Argentina_SOFSE_3193_purchase, "gfx/Diesel/Argentina_SOFSE_3193.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Argentina_SOFSE_3193, "gfx/Diesel/Argentina_SOFSE_3193.png", 1, 64)
 
 /*
 * VEHICLE

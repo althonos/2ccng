@@ -10,9 +10,7 @@
 * PURCHASE
 */
 
-spriteset(spriteset_diesel_Zimbabwe_Zimbabwe_Railways_DH_1_purchase, "gfx/Diesel/Zimbabwe_Zimbabwe_Railways_DH_1.png") {
-	template_purchase(1, 64)
-}
+PURCHASE_SPRITESET(diesel_Zimbabwe_Zimbabwe_Railways_DH_1, "gfx/Diesel/Zimbabwe_Zimbabwe_Railways_DH_1.png", 1, 64)
 
 /*
 * VEHICLE

@@ -33,9 +33,7 @@ GEN1_TANKER_WAGON(Standard)
 * PURCHASE
 */
 
-spriteset(spriteset_wagon_Narrow_Gen1_Tanker_purchase, "gfx/Wagons/Gen1/Tanker/Purchase.png") {
-	template_purchase_wagon(1, 1)
-}
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen1_Tanker, "gfx/Wagons/Gen1/Tanker/Purchase.png", 1, 1)
 
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Tanker_Oil_livery_selection) {
 	// 7: switch_wagon_Narrow_Gen1_Tanker_Oil_livery;
