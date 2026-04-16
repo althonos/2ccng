@@ -68,9 +68,11 @@
 * CARGO VARIATIONS
 */
 
+GEN2_OPEN_WAGON(Biomass)
 GEN2_OPEN_WAGON(Bauxite)
 GEN2_OPEN_WAGON(Beans)
 GEN2_OPEN_WAGON(Coal)
+GEN2_OPEN_WAGON(Copper_Ore)
 GEN2_OPEN_WAGON(Crates)
 GEN2_OPEN_WAGON(Gravel)
 GEN2_OPEN_WAGON(Maize)
@@ -78,8 +80,9 @@ GEN2_OPEN_WAGON(Nickel)
 GEN2_OPEN_WAGON(Oranges)
 GEN2_OPEN_WAGON(Ore)
 GEN2_OPEN_WAGON(Peat)
-GEN2_OPEN_WAGON(Sand)
 GEN2_OPEN_WAGON(Salt)
+GEN2_OPEN_WAGON(Sand)
+GEN2_OPEN_WAGON(Scrap_Metal)
 GEN2_OPEN_WAGON(Wood)
 
 // GEN2_OPEN_WAGON_COVERED(Carbon)
@@ -100,6 +103,12 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_liver
 	1: switch_wagon_Narrow_Gen2_Open_Wagon_Beans_livery;
 }
 
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_Recyclables_livery) {
+	2: switch_wagon_Narrow_Gen2_Open_Wagon_Scrap_Metal_livery;
+	2: switch_wagon_Narrow_Gen2_Open_Wagon_Biomass_livery;
+	1: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, cargo_type_in_veh) {
 	/* Black cargo */
 	COAL: switch_wagon_Narrow_Gen2_Open_Wagon_Coal_livery;	// Coal
@@ -112,9 +121,11 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	/* Ore cargo */
 	IORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Iron ore
 	MNO2: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Manganese ore
-	CORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Copper ore
-	PORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Pyrite ore
 	FECR: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Ferrochrome
+
+	/* Copper ore cargo */
+	PORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Pyrite ore
+	CORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Copper ore
 
 	/* Ore (pinkish) cargo */
 	AORE: switch_wagon_Narrow_Gen2_Open_Wagon_Bauxite_livery;	// Bauxite ore
@@ -126,9 +137,10 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	/* Wood cargo */
 	WOOD: switch_wagon_Narrow_Gen2_Open_Wagon_Wood_livery;  // Wood
 
-	// /* Metal cargo */
-	// // SCMT: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Scrap metal
-	// // RCYC: switch_wagon_Narrow_Gen2_Open_Wagon_Metal_livery; // Recyclables
+	/* Metal cargo */
+	SCRP: switch_wagon_Narrow_Gen2_Open_Wagon_Scrap_Metal_livery; // Scrap metal
+	SCMT: switch_wagon_Narrow_Gen2_Open_Wagon_Scrap_Metal_livery; // Scrap metal
+	RCYC: switch_wagon_Narrow_Gen2_Open_Wagon_Recyclables_livery; // Recyclables
 	
 	/* Crate cargo */
 	SUGR: switch_wagon_Narrow_Gen2_Open_Wagon_Crates_livery;  // Sugar
@@ -146,15 +158,15 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	// /* Gray cargo */
 	GRVL: switch_wagon_Narrow_Gen2_Open_Wagon_Gravel_livery;	// Gravel / Stone
 
-	// /* Gray cargo, covered */
+	/* Gray cargo, covered */
 	// CMNT: switch_wagon_Narrow_Gen2_Open_Wagon_Cement_livery;  // Cement
 
-	// /* White cargo */
+	/* White cargo */
 	SALT: switch_wagon_Narrow_Gen2_Open_Wagon_Salt_livery;	// Salt
 	NITR: switch_wagon_Narrow_Gen2_Open_Wagon_Salt_livery;	// Nitrate
 	NHNO: switch_wagon_Narrow_Gen2_Open_Wagon_Salt_livery;	// Ammonium nitrate
 
-	// /* White cargo, covered */
+	/* White cargo, covered */
 	// KAOL: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Kaolin
 	// BAKE: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Flour
 	// QLME: switch_wagon_Narrow_Gen2_Open_Wagon_Kaolin_livery;  // Quicklime
@@ -164,24 +176,26 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	FRUT: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;	// Fruit
 	FRVG: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;	// Fruit & Vegetables
 
-	// /* Light brown & green cargo, covered */
+	/* Light brown & green cargo, covered */
 	// // SGCN: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar cane
 	// // SGBT: switch_wagon_Narrow_Gen2_Open_Wagon_Beet_livery;	// Sugar beet
 	// // CASS: switch_wagon_Narrow_Gen2_Open_Wagon_Fruit_livery;  // Cassava
 	BEAN: switch_wagon_Narrow_Gen2_Open_Wagon_Beans_livery;  // Beans
 
 	/* Brown cargo */
-	PEAT: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Peat
-	FERT: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Fertilizer
 	TBCO: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Tobacco
 	TOFF: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Toffee
+	PEAT: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Peat / Biomass
 
-	// /* Brown cargo, covered */
+	/* Brown-ish cargo */
+	WSTE: switch_wagon_Narrow_Gen2_Open_Wagon_Biomass_livery;  // Waste
+	FERT: switch_wagon_Narrow_Gen2_Open_Wagon_Biomass_livery;  // Fertilizer
+
+	/* Brown cargo, covered */
 	// CLAY: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Clay
 	// POTA: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Potash
-	// WSTE: switch_wagon_Narrow_Gen2_Open_Wagon_Clay_livery;  // Waste
 
-	// /* Light-brown cargo, covered */
+	/* Light-brown cargo, covered */
 	// GRAI: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Grains
 	// WHEA: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Wheat
 	// SEED: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Seed

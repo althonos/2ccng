@@ -69,6 +69,7 @@ cargotable {
 	RFPR, 
 	SAND, 
 	SCMT, 
+	SCRP, // Deprecated in favour of SCMT
 	SULP, 
 	TOUR, 
 	TYRE,
