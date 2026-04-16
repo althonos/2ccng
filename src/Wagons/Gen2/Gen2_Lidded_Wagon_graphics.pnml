@@ -41,7 +41,15 @@
 * CARGO VARIATIONS
 */
 
+GEN2_LIDDED_WAGON(Biomass)
+GEN2_LIDDED_WAGON(Carbon)
+GEN2_LIDDED_WAGON(Cement)
+GEN2_LIDDED_WAGON(Clay)
 GEN2_LIDDED_WAGON(Grain)
+GEN2_LIDDED_WAGON(Limestone)
+GEN2_LIDDED_WAGON(Nitrate)
+GEN2_LIDDED_WAGON(Potash)
+GEN2_LIDDED_WAGON(Salt)
 
 /*
 * PURCHASE
@@ -51,6 +59,48 @@ PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Lidded_Wagon, "gfx/Wagons/Gen2/Lidded
 
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Lidded_Wagon_cargo_selection, cargo_type_in_veh) {
+	/* Black cargo */
+	COAL: switch_wagon_Narrow_Gen2_Lidded_Wagon_Carbon_livery;	// Coal
+	SLAG: switch_wagon_Narrow_Gen2_Lidded_Wagon_Carbon_livery;	// Slag
+	COKE: switch_wagon_Narrow_Gen2_Lidded_Wagon_Carbon_livery;	// Coke
+	CBLK: switch_wagon_Narrow_Gen2_Lidded_Wagon_Carbon_livery;	// Carbon Black
+
+	/* Gray cargo */
+	CMNT: switch_wagon_Narrow_Gen2_Lidded_Wagon_Cement_livery;  // Cement
+
+	/* White cargo */
+	SALT: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;  // Salt
+	KAOL: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;  // Kaolin
+	BAKE: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;  // Flour
+	QLME: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;  // Quicklime
+	SASH: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;  // Soda Ash
+	
+	/* Limestone */
+	SAND: switch_wagon_Narrow_Gen2_Lidded_Wagon_Limestone_livery;	// Sand
+	LIME: switch_wagon_Narrow_Gen2_Lidded_Wagon_Limestone_livery;	// Limestone
+
+	/* Nitrates */
+	NITR: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;	// Nitrate
+	NHNO: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;	// Ammonium nitrate
+
+	/* Grain */
+	GRAI: switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery;  // Grains
+	WHEA: switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery;  // Wheat
+	SEED: switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery;  // Seed
+	CERE: switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery;  // Cereals
+
+	/* Potash */
+	POTA: switch_wagon_Narrow_Gen2_Lidded_Wagon_Potash_livery;  // Potash
+
+	/* Brown-ish cargo */
+	CLAY: switch_wagon_Narrow_Gen2_Lidded_Wagon_Clay_livery;  // Clay
+	POTA: switch_wagon_Narrow_Gen2_Lidded_Wagon_Clay_livery;  // Potash
+	
+	/* Brown-green cargo */
+	PEAT: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Biomass / Peat
+	WSTE: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Waste
+	FERT: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Fertilizer
+
 	/* Default */
 	switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery; 
 }
