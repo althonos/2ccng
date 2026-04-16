@@ -83,6 +83,7 @@ cargotable {
 	ACID,
 	ALUM,
 	BAKE,
+	BIOM,
 	CASS,
 	CHEM,
 	CHLO,

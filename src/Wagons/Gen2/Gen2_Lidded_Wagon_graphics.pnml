@@ -94,9 +94,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Lidded_Wagon_cargo_selection,
 
 	/* Brown-ish cargo */
 	CLAY: switch_wagon_Narrow_Gen2_Lidded_Wagon_Clay_livery;  // Clay
-	POTA: switch_wagon_Narrow_Gen2_Lidded_Wagon_Clay_livery;  // Potash
 	
 	/* Brown-green cargo */
+	BIOM: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Biomass / Peat
 	PEAT: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Biomass / Peat
 	WSTE: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Waste
 	FERT: switch_wagon_Narrow_Gen2_Lidded_Wagon_Biomass_livery;  // Fertilizer

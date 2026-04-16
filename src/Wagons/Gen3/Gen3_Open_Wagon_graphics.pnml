@@ -70,17 +70,19 @@
 
 GEN3_OPEN_WAGON(Bauxite)
 GEN3_OPEN_WAGON(Beans)
+GEN3_OPEN_WAGON(Biomass)
 GEN3_OPEN_WAGON(Coal)
-GEN3_OPEN_WAGON(Copper)
+GEN3_OPEN_WAGON(Copper_Ore)
 // GEN3_OPEN_WAGON(Crates)
 GEN3_OPEN_WAGON(Gravel)
 GEN3_OPEN_WAGON(Lemons)
-// GEN3_OPEN_WAGON(Maize)
-// GEN3_OPEN_WAGON(Nickel)
+GEN3_OPEN_WAGON(Maize)
+GEN3_OPEN_WAGON(Nickel)
 GEN3_OPEN_WAGON(Ore)
 // GEN3_OPEN_WAGON(Peat)
 GEN3_OPEN_WAGON(Salt)
 GEN3_OPEN_WAGON(Sand)
+GEN3_OPEN_WAGON(Scrap_Metal)
 GEN3_OPEN_WAGON(Wood)
 
 // GEN3_OPEN_WAGON_COVERED(Carbon)
@@ -101,6 +103,12 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_Fruit_liver
 	1: switch_wagon_Narrow_Gen3_Open_Wagon_Beans_livery;
 }
 
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_Recyclables_livery) {
+	2: switch_wagon_Narrow_Gen3_Open_Wagon_Scrap_Metal_livery;
+	2: switch_wagon_Narrow_Gen3_Open_Wagon_Biomass_livery;
+	// 1: switch_wagon_Narrow_Gen3_Open_Wagon_Peat_livery;
+}
+
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_cargo_selection, cargo_type_in_veh) {
 	/* Black cargo */
 	COAL: switch_wagon_Narrow_Gen3_Open_Wagon_Coal_livery;	// Coal
@@ -113,31 +121,33 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_cargo_selection, c
 	/* Ore cargo */
 	IORE: switch_wagon_Narrow_Gen3_Open_Wagon_Ore_livery;	// Iron ore
 	MNO2: switch_wagon_Narrow_Gen3_Open_Wagon_Ore_livery;	// Manganese ore
-	PORE: switch_wagon_Narrow_Gen3_Open_Wagon_Ore_livery;	// Pyrite ore
 	FECR: switch_wagon_Narrow_Gen3_Open_Wagon_Ore_livery;	// Ferrochrome
 
 	/* Bauxite */
 	AORE: switch_wagon_Narrow_Gen3_Open_Wagon_Bauxite_livery;	// Bauxite ore
 
 	/* Copper */
-	CORE: switch_wagon_Narrow_Gen3_Open_Wagon_Copper_livery;	// Copper ore
+	CORE: switch_wagon_Narrow_Gen3_Open_Wagon_Copper_Ore_livery;	// Copper ore
+	PORE: switch_wagon_Narrow_Gen3_Open_Wagon_Copper_Ore_livery;	// Pyrite ore
 
 	/* Ore (greenish) cargo */
-	// URAN: switch_wagon_Narrow_Gen3_Open_Wagon_Nickel_livery;	// Uranium ore
-	// NKOR: switch_wagon_Narrow_Gen3_Open_Wagon_Nickel_livery;	// Nickel ore
+	URAN: switch_wagon_Narrow_Gen3_Open_Wagon_Nickel_livery;	// Uranium ore
+	NKOR: switch_wagon_Narrow_Gen3_Open_Wagon_Nickel_livery;	// Nickel ore
 
 	/* Wood cargo */
 	WOOD: switch_wagon_Narrow_Gen3_Open_Wagon_Wood_livery;  // Wood
 
 	/* Metal cargo */
-	// SCMT: switch_wagon_Narrow_Gen3_Open_Wagon_Metal_livery; // Scrap metal
-	// RCYC: switch_wagon_Narrow_Gen3_Open_Wagon_Metal_livery; // Recyclables
+	SCRP: switch_wagon_Narrow_Gen3_Open_Wagon_Scrap_Metal_livery; // Scrap metal
+	SCMT: switch_wagon_Narrow_Gen3_Open_Wagon_Scrap_Metal_livery; // Scrap metal
+
+	/* Recyclables */
+	RCYC: switch_wagon_Narrow_Gen3_Open_Wagon_Recyclables_livery; // Recyclables
 	
 	/* Crate cargo */
 	// SUGR: switch_wagon_Narrow_Gen3_Open_Wagon_Crates_livery;  // Sugar
 	// CTCD: switch_wagon_Narrow_Gen3_Open_Wagon_Crates_livery;  // Candyfloss
 	// FURN: switch_wagon_Narrow_Gen3_Open_Wagon_Crates_livery;  // Furniture
-
 	// FICR: switch_wagon_Narrow_Gen3_Open_Wagon_Crates_livery;  // Fibre Crop
 	// OLSD: switch_wagon_Narrow_Gen3_Open_Wagon_Crates_livery;  // Oil Seed
 
@@ -176,10 +186,14 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_cargo_selection, c
 	BEAN: switch_wagon_Narrow_Gen3_Open_Wagon_Beans_livery;  // Beans
 
 	/* Brown cargo */
-	// PEAT: switch_wagon_Narrow_Gen3_Open_Wagon_Peat_livery;  // Peat
-	// FERT: switch_wagon_Narrow_Gen3_Open_Wagon_Peat_livery;  // Fertilizer
 	// TBCO: switch_wagon_Narrow_Gen3_Open_Wagon_Peat_livery;  // Tobacco
 	// TOFF: switch_wagon_Narrow_Gen3_Open_Wagon_Peat_livery;  // Toffee
+
+	/* Brown-ish cargo */
+	BIOM: switch_wagon_Narrow_Gen3_Open_Wagon_Biomass_livery;  // Biomass
+	PEAT: switch_wagon_Narrow_Gen3_Open_Wagon_Biomass_livery;  // Peat / Biomass
+	WSTE: switch_wagon_Narrow_Gen3_Open_Wagon_Biomass_livery;  // Waste
+	FERT: switch_wagon_Narrow_Gen3_Open_Wagon_Biomass_livery;  // Fertilizer
 
 	/* Brown cargo, covered */
 	// CLAY: switch_wagon_Narrow_Gen3_Open_Wagon_Clay_livery;  // Clay
@@ -193,10 +207,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Open_Wagon_cargo_selection, c
 	// CERE: switch_wagon_Narrow_Gen3_Open_Wagon_Grain_livery;  // Cereals
 	
 	/* Yellow cargo */
-	// MAIZ: switch_wagon_Narrow_Gen3_Open_Wagon_Maize_livery;	 // Maize
-
-	/* Yellow cargo, covered */
-	// SULP: switch_wagon_Narrow_Gen3_Open_Wagon_Sulphur_livery;  // Sulphur
+	MAIZ: switch_wagon_Narrow_Gen3_Open_Wagon_Maize_livery;	 // Maize
+	SULP: switch_wagon_Narrow_Gen3_Open_Wagon_Maize_livery;  // Sulphur
 	
 	/* Default */
 	switch_wagon_Narrow_Gen3_Open_Wagon_Ore_livery; 

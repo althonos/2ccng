@@ -124,8 +124,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	FECR: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Ferrochrome
 
 	/* Copper ore cargo */
-	PORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Pyrite ore
-	CORE: switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery;	// Copper ore
+	PORE: switch_wagon_Narrow_Gen2_Open_Wagon_Copper_Ore_livery;	// Pyrite ore
+	CORE: switch_wagon_Narrow_Gen2_Open_Wagon_Copper_Ore_livery;	// Copper ore
 
 	/* Ore (pinkish) cargo */
 	AORE: switch_wagon_Narrow_Gen2_Open_Wagon_Bauxite_livery;	// Bauxite ore
@@ -140,6 +140,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	/* Metal cargo */
 	SCRP: switch_wagon_Narrow_Gen2_Open_Wagon_Scrap_Metal_livery; // Scrap metal
 	SCMT: switch_wagon_Narrow_Gen2_Open_Wagon_Scrap_Metal_livery; // Scrap metal
+
+	/* Recyclables */
 	RCYC: switch_wagon_Narrow_Gen2_Open_Wagon_Recyclables_livery; // Recyclables
 	
 	/* Crate cargo */
@@ -188,6 +190,7 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	PEAT: switch_wagon_Narrow_Gen2_Open_Wagon_Peat_livery;  // Peat / Biomass
 
 	/* Brown-ish cargo */
+	BIOM: switch_wagon_Narrow_Gen2_Open_Wagon_Biomass_livery;  // Biomass
 	WSTE: switch_wagon_Narrow_Gen2_Open_Wagon_Biomass_livery;  // Waste
 	FERT: switch_wagon_Narrow_Gen2_Open_Wagon_Biomass_livery;  // Fertilizer
 
@@ -201,11 +204,9 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Open_Wagon_cargo_selection, c
 	// SEED: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Seed
 	// CERE: switch_wagon_Narrow_Gen2_Open_Wagon_Grain_livery;  // Cereals
 	
-	// /* Yellow cargo */
+	/* Yellow cargo */
 	MAIZ: switch_wagon_Narrow_Gen2_Open_Wagon_Maize_livery;	 // Maize
-
-	// /* Yellow cargo, covered */
-	// SULP: switch_wagon_Narrow_Gen2_Open_Wagon_Sulphur_livery;  // Sulphur
+	SULP: switch_wagon_Narrow_Gen2_Open_Wagon_Maize_livery;  // Sulphur
 	
 	/* Default */
 	switch_wagon_Narrow_Gen2_Open_Wagon_Ore_livery; 
