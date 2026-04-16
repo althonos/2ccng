@@ -1,0 +1,65 @@
+/*
+ *  Copyright (C) 2025 althonos
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+#define GEN2_LIDDED_LIVERY_COVERED(NAME, L, OFFSET) \
+	spriteset(spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S1, format_string("build/gfx/Gen2_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 1) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S2, format_string("build/gfx/Gen2_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 27) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S3, format_string("build/gfx/Gen2_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 53) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S4, format_string("build/gfx/Gen2_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 79) \
+	} \
+	spritegroup spritegroup_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L { \
+		loading: [spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S3]; \
+		loaded: spriteset_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _ ## L ## _S4; \
+	}
+
+#define GEN2_LIDDED_WAGON(NAME) \
+	GEN2_LIDDED_LIVERY_COVERED(NAME, L1, 1) \
+	GEN2_LIDDED_LIVERY_COVERED(NAME, L2, 179) \
+	GEN2_LIDDED_LIVERY_COVERED(NAME, L3, 357) \
+	GEN2_LIDDED_LIVERY_COVERED(NAME, L4, 535) \
+	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _livery) { \
+		7: spritegroup_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _L1; \
+		/*1: spritegroup_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _L2;*/ \
+		/*1: spritegroup_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _L3;*/ \
+		/*1: spritegroup_wagon_Narrow_Gen2_Lidded_Wagon_ ## NAME ## _L4;*/ \
+	}
+
+/*
+* CARGO VARIATIONS
+*/
+
+GEN2_LIDDED_WAGON(Grain)
+
+/*
+* PURCHASE
+*/
+
+spriteset(spriteset_wagon_Narrow_Gen2_Lidded_Wagon_purchase, "gfx/Wagons/Gen2/Lidded_Wagon/Purchase.png") {
+	template_purchase_wagon(1, 1)
+}
+
+switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Lidded_Wagon_cargo_selection, cargo_type_in_veh) {
+	/* Default */
+	switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery; 
+}
+
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH
