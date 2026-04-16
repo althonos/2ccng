@@ -56,6 +56,14 @@ STR_PARAM_LOADINGSPEED_NORMAL			:Normal (default)
 STR_PARAM_LOADINGSPEED_FAST				:Fast
 STR_PARAM_LOADINGSPEED_ULTRA			:As fast as possible
 
+#purchase info badge parameter
+STR_PARAM_PURCHASEINFO                  :Purchase menu
+STR_PARAM_PURCHASEINFO_DESC             :Set badges to show in purchase menu
+STR_PARAM_LOADINGSPEED_NONE             :None
+STR_PARAM_LOADINGSPEED_FLAG             :Flag
+STR_PARAM_LOADINGSPEED_FLAG_AND_POWER   :Flag & Power
+
+
 #BADGES
 #rail gauges
 STR_BADGE_RAILGAUGE                      :Track Gauge

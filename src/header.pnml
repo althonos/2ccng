@@ -152,6 +152,21 @@ grf {
 				};
 		}
 	}
+	param {
+		param_purchaseinfo {
+				type:	int;
+				name:	string(STR_PARAM_PURCHASEINFO);
+				desc:	string(STR_PARAM_PURCHASEINFO_DESC);
+				min_value: 0;
+				max_value: 2;
+				def_value: 2;
+				names: {
+							0: string(STR_PARAM_LOADINGSPEED_NONE);
+							1: string(STR_PARAM_LOADINGSPEED_FLAG);
+							2: string(STR_PARAM_LOADINGSPEED_FLAG_AND_POWER);
+				};
+		}
+	}
 }
 
 //disable original rail vehicles
