@@ -246,13 +246,17 @@ $(BUILD_DIR)/gfx/Gen3_Open_Wagon_%.png: $(BUILD_DIR)/gfx/Gen3/Open_Wagon/Layer1_
 GEN3_BOXCAR_FILES = \
 	$(BUILD_DIR)/gfx/Gen3_Boxcar_Standard.png
 
-$(BUILD_DIR)/gfx/Gen3_Boxcar_%.png: gfx/Wagons/Gen3/Boxcar/%.png
+$(BUILD_DIR)/gfx/Gen3/Boxcar/Standard.png: gfx/Wagons/Gen3/Boxcar/Standard/Closed.png gfx/Wagons/Gen3/Boxcar/Standard/Open.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 1 $< $^
+
+$(BUILD_DIR)/gfx/Gen3_Boxcar_%.png: $(BUILD_DIR)/gfx/Gen3/Boxcar/%.png
 	@echo [GFX] $@
 	@$(PYTHON) tools/stack.py --output $@ $^
 
 # --- Gen2 Tanker --------------------------------------------------------------
 
-GEN2_TANKER_FILES = \
+GEN3_TANKER_FILES = \
 	$(BUILD_DIR)/gfx/Gen3_Tanker_Standard.png \
 	$(BUILD_DIR)/gfx/Gen3_Tanker_Milk.png \
 	$(BUILD_DIR)/gfx/Gen3_Tanker_Oil.png \
