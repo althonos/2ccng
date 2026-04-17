@@ -8,7 +8,7 @@
 */
 
 #define GEN3_TANKER_LIVERY(NAME, L, OFFSET) \
-	spriteset(spriteset_wagon_Narrow_Gen3_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen3/Tanker/%s.png", #NAME)) { \
+	spriteset(spriteset_wagon_Narrow_Gen3_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("build/gfx/Gen3_Tanker_%s.png", #NAME)) { \
 		template_2cc_wagons(OFFSET, 1) \
 	} \
 	spritegroup spritegroup_wagon_Narrow_Gen3_Tanker_ ## NAME ## _ ## L { \
@@ -36,8 +36,8 @@ PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen3_Tanker, "gfx/Wagons/Gen3/Tanker/Purch
 
 
 GEN3_TANKER_WAGON(Standard)
-// GEN3_TANKER_WAGON(Alcohol)
-// GEN3_TANKER_WAGON(Rubber)
+GEN3_TANKER_WAGON(Milk)
+GEN3_TANKER_WAGON(Oil)
 
 
 
@@ -62,14 +62,14 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Tanker_cargo_selection, cargo
 	// COLA: switch_wagon_Narrow_Gen3_Tanker_Alcohol_livery;  // Cola
 	// CHSE: switch_wagon_Narrow_Gen3_Tanker_Alcohol_livery;  // Cheese
 
-	// /* Milk */
-	// // MILK: switch_wagon_Narrow_Gen3_Tanker_Milk_livery;  // Milk
+	/* Milk */
+	MILK: switch_wagon_Narrow_Gen3_Tanker_Milk_livery;  // Milk
 
 	// /* Oil & Fuel */
-	// OIL_: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Oil
-	// OILI: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Oil (imported)
-	// OILD: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Oil (domestic)
-	// PETR: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Petrol
+	OIL_: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Oil
+	OILI: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Oil (imported)
+	OILD: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Oil (domestic)
+	PETR: switch_wagon_Narrow_Gen3_Tanker_Oil_livery;	// Petrol / Fuel
 
 	/* Plastic */
 	PLST: switch_wagon_Narrow_Gen3_Tanker_Plastic_livery;	// Plastic
