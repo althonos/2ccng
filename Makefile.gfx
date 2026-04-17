@@ -162,7 +162,11 @@ $(BUILD_DIR)/gfx/Gen2_Lidded_Wagon_%.png: $(BUILD_DIR)/gfx/Gen2/Lidded_Wagon/Lay
 GEN2_BOXCAR_FILES = \
 	$(BUILD_DIR)/gfx/Gen2_Boxcar_Standard.png
 
-$(BUILD_DIR)/gfx/Gen2_Boxcar_%.png: gfx/Wagons/Gen2/Boxcar/%.png
+$(BUILD_DIR)/gfx/Gen2/Boxcar/Standard.png: gfx/Wagons/Gen2/Boxcar/Standard/Closed.png gfx/Wagons/Gen2/Boxcar/Standard/Open.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 1 $< $^
+
+$(BUILD_DIR)/gfx/Gen2_Boxcar_%.png: $(BUILD_DIR)/gfx/Gen2/Boxcar/%.png
 	@echo [GFX] $@
 	@$(PYTHON) tools/stack.py --output $@ $^
 

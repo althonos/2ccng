@@ -77,7 +77,7 @@ GEN1_OPEN_WAGON(Salt)
 GEN1_OPEN_WAGON(Maize)
 // GEN1_OPEN_WAGON(Wood)
 GEN1_OPEN_WAGON(Beans)
-GEN1_OPEN_WAGON(Lemon)
+GEN1_OPEN_WAGON(Lemons)
 
 // GEN1_OPEN_WAGON_COVERED(Grain)
 // GEN1_OPEN_WAGON_COVERED(Sulphur)
@@ -94,7 +94,7 @@ PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen1_Open_Wagon, "gfx/Wagons/Gen1/Open_Wag
 
 
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen1_Open_Wagon_Fruit_livery) {
-	2: switch_wagon_Narrow_Gen1_Open_Wagon_Lemon_livery;
+	2: switch_wagon_Narrow_Gen1_Open_Wagon_Lemons_livery;
 	1: switch_wagon_Narrow_Gen1_Open_Wagon_Beans_livery;
 }
 
