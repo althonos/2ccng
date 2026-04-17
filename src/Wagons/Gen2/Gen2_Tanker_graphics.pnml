@@ -34,28 +34,37 @@
 
 PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Tanker, "gfx/Wagons/Gen2/Tanker/Purchase.png", 1, 1)
 
-GEN2_TANKER_WAGON(Acid)
 GEN2_TANKER_WAGON(CC1)
 GEN2_TANKER_WAGON(CC2)
-GEN2_TANKER_WAGON(Fuel)
+GEN2_TANKER_WAGON(Metal_CC1)
+GEN2_TANKER_WAGON(Metal_CC2)
 GEN2_TANKER_WAGON(Milk)
 GEN2_TANKER_WAGON(Oil)
 GEN2_TANKER_WAGON(Wine)
+GEN2_TANKER_WAGON(White_CC1)
+GEN2_TANKER_WAGON(White_CC2)
 
-//Rubber is full-colored, either company color
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Rubber_livery) {
 	3: switch_wagon_Narrow_Gen2_Tanker_CC1_livery;
 	1: switch_wagon_Narrow_Gen2_Tanker_CC2_livery;
 }
 
-//Goods can have multiple liveries
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Goods_livery) {
 	1: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;
 	1: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;
 	1: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;
 }
 
-//Plastic can have multiple liveries
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery) {
+	3: switch_wagon_Narrow_Gen2_Tanker_White_CC1_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_White_CC2_livery;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Products_livery) {
+	3: switch_wagon_Narrow_Gen2_Tanker_Metal_CC1_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_Metal_CC2_livery;
+}
+
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Plastic_livery) {
 	1: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;
 	1: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;
@@ -76,33 +85,31 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_cargo_selection, cargo
 	OIL_: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil
 	OILI: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil (imported)
 	OILD: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil (domestic)
-
-	/* Refined oil */
-	PETR: switch_wagon_Narrow_Gen2_Tanker_Fuel_livery;	// Petrol / Fuel Oil
+	PETR: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Petrol / Fuel Oil
 
 	/* Plastic */
-	PLST: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Plastic
-	PLAS: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Plastic
+	PLST: switch_wagon_Narrow_Gen2_Tanker_Plastic_livery;	// Plastic
+	PLAS: switch_wagon_Narrow_Gen2_Tanker_Plastic_livery;	// Plastic
+
+	/* Rubber */
+	RUBR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Rubber
 
 	/* Products */
-	DYES: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Dyes
-	RUBR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Rubber
-	RFPR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Refined products
-	CTAR: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Coal tar
-	KAOL: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Kaolin
-	COAT: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Paint & Coating
-	MOLS: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Molasses
-	SOAP: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Cleaning Agent
+	DYES: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Dyes
+	RFPR: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Refined products
+	CTAR: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Coal tar
+	KAOL: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Kaolin
+	COAT: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Paint & Coating
+	MOLS: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Molasses
+	SOAP: switch_wagon_Narrow_Gen2_Tanker_Products_livery;	// Cleaning Agent
 
 	/* Chemicals */
-	ACID: switch_wagon_Narrow_Gen2_Tanker_Acid_livery;	// Acid
-	CHEM: switch_wagon_Narrow_Gen2_Tanker_Acid_livery;	// Chemicals
-
-	/* Misc */
-	SULP: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Sulphur
-	NH3_: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Ammonia
-	LYE_: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Sodium hydroxide
-	O2__: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Oxygen
+	ACID: switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery;	// Acid
+	CHEM: switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery;	// Chemicals
+	SULP: switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery;	// Sulphur
+	NH3_: switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery;	// Ammonia
+	LYE_: switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery;	// Sodium hydroxide
+	O2__: switch_wagon_Narrow_Gen2_Tanker_Chemicals_livery;	// Oxygen
 
 	/* Goods */
 	GOOD: switch_wagon_Narrow_Gen2_Tanker_Goods_livery;  // Goods
