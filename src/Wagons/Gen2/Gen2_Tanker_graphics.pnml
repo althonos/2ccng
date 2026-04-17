@@ -8,7 +8,7 @@
 */
 
 #define GEN2_TANKER_LIVERY(NAME, L, OFFSET) \
-	spriteset(spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("gfx/Wagons/Gen2/Tanker/%s.png", #NAME)) { \
+	spriteset(spriteset_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L ## _S1 , format_string("build/gfx/Gen2_Tanker_%s.png", #NAME)) { \
 		template_2cc_wagons(OFFSET, 1) \
 	} \
 	spritegroup spritegroup_wagon_Narrow_Gen2_Tanker_ ## NAME ## _ ## L { \
@@ -34,17 +34,25 @@
 
 PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen2_Tanker, "gfx/Wagons/Gen2/Tanker/Purchase.png", 1, 1)
 
+GEN2_TANKER_WAGON(Acid)
+GEN2_TANKER_WAGON(CC1)
+GEN2_TANKER_WAGON(CC2)
+GEN2_TANKER_WAGON(Fuel)
+GEN2_TANKER_WAGON(Milk)
 GEN2_TANKER_WAGON(Oil)
-GEN2_TANKER_WAGON(Alcohol)
-GEN2_TANKER_WAGON(Rubber)
+GEN2_TANKER_WAGON(Wine)
 
-
+//Rubber is full-colored, either company color
+random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Rubber_livery) {
+	3: switch_wagon_Narrow_Gen2_Tanker_CC1_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_CC2_livery;
+}
 
 //Goods can have multiple liveries
 random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Goods_livery) {
 	1: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;
 	1: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;
-	1: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;
+	1: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;
 }
 
 //Plastic can have multiple liveries
@@ -55,20 +63,22 @@ random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_Plastic_livery)
 
 switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_cargo_selection, cargo_type_in_veh) {
 	/* Drinkable liquid */
-	EOIL: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Edible Oil
-	WATR: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Water
-	BEER: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Alcohol / Water
-	COLA: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cola
+	EOIL: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;  // Edible Oil
+	WATR: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;  // Water
+	BEER: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;  // Alcohol / Water
+	CHSE: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;  // Cheese
+	COLA: switch_wagon_Narrow_Gen2_Tanker_Wine_livery;  // Cola
 
 	/* Milk */
-	// MILK: switch_wagon_Narrow_Gen2_Tanker_Milk_livery;  // Milk
-	// CHSE: switch_wagon_Narrow_Gen2_Tanker_Alcohol_livery;  // Cheese
+	MILK: switch_wagon_Narrow_Gen2_Tanker_Milk_livery;  // Milk
 
-	/* Oil & Fuel */
+	/* Oil */
 	OIL_: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil
 	OILI: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil (imported)
 	OILD: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Oil (domestic)
-	PETR: switch_wagon_Narrow_Gen2_Tanker_Oil_livery;	// Petrol
+
+	/* Refined oil */
+	PETR: switch_wagon_Narrow_Gen2_Tanker_Fuel_livery;	// Petrol / Fuel Oil
 
 	/* Plastic */
 	PLST: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Plastic
@@ -85,13 +95,16 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Tanker_cargo_selection, cargo
 	SOAP: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Cleaning Agent
 
 	/* Chemicals */
+	ACID: switch_wagon_Narrow_Gen2_Tanker_Acid_livery;	// Acid
+	CHEM: switch_wagon_Narrow_Gen2_Tanker_Acid_livery;	// Chemicals
+
+	/* Misc */
 	SULP: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Sulphur
-	ACID: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Acid
 	NH3_: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Ammonia
 	LYE_: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Sodium hydroxide
 	O2__: switch_wagon_Narrow_Gen2_Tanker_Rubber_livery;	// Oxygen
 
-	/* Misc */
+	/* Goods */
 	GOOD: switch_wagon_Narrow_Gen2_Tanker_Goods_livery;  // Goods
 
 	/* Default */
