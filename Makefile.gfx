@@ -284,7 +284,6 @@ $(BUILD_DIR)/gfx/Gen3_Boxcar_%.png: $(BUILD_DIR)/gfx/Gen3/Boxcar/%.png
 # --- Gen2 Tanker --------------------------------------------------------------
 
 GEN3_TANKER_FILES = \
-	$(BUILD_DIR)/gfx/Gen3_Tanker_Fuel.png \
 	$(BUILD_DIR)/gfx/Gen3_Tanker_Metal_CC1.png \
 	$(BUILD_DIR)/gfx/Gen3_Tanker_Metal_CC2.png \
 	$(BUILD_DIR)/gfx/Gen3_Tanker_Milk.png \
