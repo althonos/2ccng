@@ -1,0 +1,114 @@
+/*
+ *  Copyright (C) 2025 althonos
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+#define GEN3_LIDDED_LIVERY_COVERED(NAME, L, OFFSET) \
+	spriteset(spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S1, format_string("build/gfx/Gen3_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 1) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S2, format_string("build/gfx/Gen3_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 27) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S3, format_string("build/gfx/Gen3_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 53) \
+	} \
+	spriteset(spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S4, format_string("build/gfx/Gen3_Lidded_Wagon_%s.png", #NAME)) { \
+		template_2cc_wagons(OFFSET, 79) \
+	} \
+	spritegroup spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L { \
+		loading: [spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S1, spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S2, spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S3]; \
+		loaded: spriteset_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _ ## L ## _S4; \
+	}
+
+#define GEN3_LIDDED_WAGON(NAME) \
+	GEN3_LIDDED_LIVERY_COVERED(NAME, L1, 1) \
+	GEN3_LIDDED_LIVERY_COVERED(NAME, L2, 179) \
+	GEN3_LIDDED_LIVERY_COVERED(NAME, L3, 357) \
+	GEN3_LIDDED_LIVERY_COVERED(NAME, L4, 535) \
+	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _livery) { \
+		7: spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _L1; \
+		/*1: spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _L2;*/ \
+		/*1: spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _L3;*/ \
+		/*1: spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _L4;*/ \
+	}
+
+/*
+* CARGO VARIATIONS
+*/
+
+GEN3_LIDDED_WAGON(Biomass)
+GEN3_LIDDED_WAGON(Carbon)
+GEN3_LIDDED_WAGON(Cement)
+GEN3_LIDDED_WAGON(Clay)
+GEN3_LIDDED_WAGON(Grain)
+GEN3_LIDDED_WAGON(Limestone)
+GEN3_LIDDED_WAGON(Nitrate)
+GEN3_LIDDED_WAGON(Potash)
+GEN3_LIDDED_WAGON(Salt)
+
+/*
+* PURCHASE
+*/
+
+PURCHASE_SPRITESET_WAGON(wagon_Narrow_Gen3_Lidded_Wagon, "gfx/Wagons/Gen3/Lidded_Wagon/Purchase.png", 1, 1)
+
+
+switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Lidded_Wagon_cargo_selection, cargo_type_in_veh) {
+	/* Black cargo */
+	COAL: switch_wagon_Narrow_Gen3_Lidded_Wagon_Carbon_livery;	// Coal
+	SLAG: switch_wagon_Narrow_Gen3_Lidded_Wagon_Carbon_livery;	// Slag
+	COKE: switch_wagon_Narrow_Gen3_Lidded_Wagon_Carbon_livery;	// Coke
+	CBLK: switch_wagon_Narrow_Gen3_Lidded_Wagon_Carbon_livery;	// Carbon Black
+
+	/* Gray cargo */
+	CMNT: switch_wagon_Narrow_Gen3_Lidded_Wagon_Cement_livery;  // Cement
+
+	/* White cargo */
+	SALT: switch_wagon_Narrow_Gen3_Lidded_Wagon_Salt_livery;  // Salt
+	KAOL: switch_wagon_Narrow_Gen3_Lidded_Wagon_Salt_livery;  // Kaolin
+	BAKE: switch_wagon_Narrow_Gen3_Lidded_Wagon_Salt_livery;  // Flour
+	QLME: switch_wagon_Narrow_Gen3_Lidded_Wagon_Salt_livery;  // Quicklime
+	SASH: switch_wagon_Narrow_Gen3_Lidded_Wagon_Salt_livery;  // Soda Ash
+	
+	/* Limestone */
+	SAND: switch_wagon_Narrow_Gen3_Lidded_Wagon_Limestone_livery;	// Sand
+	LIME: switch_wagon_Narrow_Gen3_Lidded_Wagon_Limestone_livery;	// Limestone
+
+	/* Nitrates */
+	NITR: switch_wagon_Narrow_Gen3_Lidded_Wagon_Nitrate_livery;	// Nitrate
+	NHNO: switch_wagon_Narrow_Gen3_Lidded_Wagon_Nitrate_livery;	// Ammonium nitrate
+
+	/* Grain */
+	GRAI: switch_wagon_Narrow_Gen3_Lidded_Wagon_Grain_livery;  // Grains
+	WHEA: switch_wagon_Narrow_Gen3_Lidded_Wagon_Grain_livery;  // Wheat
+	SEED: switch_wagon_Narrow_Gen3_Lidded_Wagon_Grain_livery;  // Seed
+	CERE: switch_wagon_Narrow_Gen3_Lidded_Wagon_Grain_livery;  // Cereals
+
+	/* Potash */
+	POTA: switch_wagon_Narrow_Gen3_Lidded_Wagon_Potash_livery;  // Potash
+
+	/* Brown-ish cargo */
+	CLAY: switch_wagon_Narrow_Gen3_Lidded_Wagon_Clay_livery;  // Clay
+	
+	/* Brown-green cargo */
+	BIOM: switch_wagon_Narrow_Gen3_Lidded_Wagon_Biomass_livery;  // Biomass / Peat
+	PEAT: switch_wagon_Narrow_Gen3_Lidded_Wagon_Biomass_livery;  // Biomass / Peat
+	WSTE: switch_wagon_Narrow_Gen3_Lidded_Wagon_Biomass_livery;  // Waste
+	FERT: switch_wagon_Narrow_Gen3_Lidded_Wagon_Biomass_livery;  // Fertilizer
+
+	/* Default */
+	switch_wagon_Narrow_Gen3_Lidded_Wagon_Grain_livery; 
+}
+
+//Add defined switches 
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+RUNNINGCOSTENGINESWITCH
+
+PURCHASETEXTSWITCH

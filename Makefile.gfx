@@ -243,6 +243,31 @@ $(BUILD_DIR)/gfx/Gen3_Open_Wagon_%.png: $(BUILD_DIR)/gfx/Gen3/Open_Wagon/Layer1_
 	@echo [GFX] $@
 	@$(PYTHON) tools/stack.py --output $@ $^
 
+# --- Gen3 Lidded Wagon --------------------------------------------------------
+
+GEN3_LIDDED_WAGON_FILES = \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Biomass.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Carbon.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Cement.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Clay.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Grain.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Limestone.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Nitrate.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Potash.png \
+	$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_Salt.png
+
+$(BUILD_DIR)/gfx/Gen3/Lidded_Wagon/Layer1.png: gfx/Wagons/Gen3/Lidded_Wagon/Open.png gfx/Wagons/Gen3/Lidded_Wagon/Closed.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 1 $< $< $^
+
+$(BUILD_DIR)/gfx/Gen3/Lidded_Wagon/%_4x1.png: gfx/Wagons/Gen3/Lidded_Wagon/Cargo/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/concat.py --output $@ --axis 0 $< $< $< $<
+
+$(BUILD_DIR)/gfx/Gen3_Lidded_Wagon_%.png: $(BUILD_DIR)/gfx/Gen3/Lidded_Wagon/Layer1.png gfx/Wagons/Gen3/Lidded_Wagon/Cargo/%.png
+	@echo [GFX] $@
+	@$(PYTHON) tools/stack.py --output $@ $^
+
 # --- Gen3 Boxcar --------------------------------------------------------------
 
 GEN3_BOXCAR_FILES = \
@@ -290,5 +315,6 @@ GFX_FILES = \
 	$(GEN2_TANKER_FILES) \
 	$(GEN3_FLAT_WAGON_FILES) \
 	$(GEN3_OPEN_WAGON_FILES) \
+	$(GEN3_LIDDED_WAGON_FILES) \
 	$(GEN3_BOXCAR_FILES) \
 	$(GEN3_TANKER_FILES)
