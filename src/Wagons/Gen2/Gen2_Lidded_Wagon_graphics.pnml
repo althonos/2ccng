@@ -80,8 +80,8 @@ switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen2_Lidded_Wagon_cargo_selection,
 	LIME: switch_wagon_Narrow_Gen2_Lidded_Wagon_Limestone_livery;	// Limestone
 
 	/* Nitrates */
-	NITR: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;	// Nitrate
-	NHNO: switch_wagon_Narrow_Gen2_Lidded_Wagon_Salt_livery;	// Ammonium nitrate
+	NITR: switch_wagon_Narrow_Gen2_Lidded_Wagon_Nitrate_livery;	// Nitrate
+	NHNO: switch_wagon_Narrow_Gen2_Lidded_Wagon_Nitrate_livery;	// Ammonium nitrate
 
 	/* Grain */
 	GRAI: switch_wagon_Narrow_Gen2_Lidded_Wagon_Grain_livery;  // Grains
