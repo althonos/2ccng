@@ -1,6 +1,32 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.6.0 (2026-04-19)
+-------------------
+
+Added
+^^^^^
+- ``Tasmanian Government Railways M`` steam engine of Australia.
+- ``PNR 8300 Coach`` modern Filipino coach of 2020.
+- Gen2 lidded wagon for the transport of covered bulk cargo.
+- Various cargo recolors for Gen1 and Gen2 wagons.
+- Gen3 cargo wagons introduced in 1930.
+- NewGRF parameter to crop the purchase menu sprites.
+
+Changed
+^^^^^^^
+- Redo side-view sprites of Gen1 and Gen2 Tanker wagons for more consistency.
+- Use FRAX cargo classes for wagons.
+- Reduce speed of Gen2 wagons from 65 to 55km/h for better historical accuracy and gameplay balance.
+
+Fixed
+^^^^^
+- Incorrect georegion assigned to Zimbabwe and Mozambique.
+- ``DSB MO`` being assigned to Germany instead of Denmark.
+- Inconsistent side spride of ``GEX 2006 Panorama Coach``.
+- Purchase icon of ``CFC X 97050`` being misaligned.
+
+
 v0.5.1 (2026-03-30)
 -------------------
 
