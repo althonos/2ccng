@@ -53,6 +53,7 @@ badgetable {
     "power/battery",
     "power/petrol",
     "power/diesel",
+    "power/dual",
     "power/electric",
     "power/electric/ac",
     "power/electric/dc",
