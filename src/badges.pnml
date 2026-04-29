@@ -136,7 +136,6 @@ badgetable {
 
 #include "_Badges/flags.pnml"
 #include "_Badges/gauge.pnml"
-#include "_Badges/2ccts_patch.pnml"
 
 #else
 #define BADGESPROPERTY
