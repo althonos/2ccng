@@ -24,9 +24,9 @@
 
 #define GEN3_FLAT_WAGON(NAME) \
 	GEN3_FLAT_LIVERY(NAME, L1, 1) \
-	GEN3_FLAT_LIVERY(NAME, L2, 179) \
-	GEN3_FLAT_LIVERY(NAME, L3, 357) \
-	GEN3_FLAT_LIVERY(NAME, L4, 535) \
+	/*GEN3_FLAT_LIVERY(NAME, L2, 179)*/ \
+	/*GEN3_FLAT_LIVERY(NAME, L3, 357)*/ \
+	/*GEN3_FLAT_LIVERY(NAME, L4, 535)*/ \
 	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Flat_Wagon_ ## NAME ## _livery) { \
 		7: spritegroup_wagon_Narrow_Gen3_Flat_Wagon_ ## NAME ## _L1; \
 		/*1: spritegroup_wagon_Narrow_Gen3_Flat_Wagon_ ## NAME ## _L2;*/ \

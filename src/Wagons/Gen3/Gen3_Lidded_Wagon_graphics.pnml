@@ -27,9 +27,9 @@
 
 #define GEN3_LIDDED_WAGON(NAME) \
 	GEN3_LIDDED_LIVERY_COVERED(NAME, L1, 1) \
-	GEN3_LIDDED_LIVERY_COVERED(NAME, L2, 179) \
-	GEN3_LIDDED_LIVERY_COVERED(NAME, L3, 357) \
-	GEN3_LIDDED_LIVERY_COVERED(NAME, L4, 535) \
+	/*GEN3_LIDDED_LIVERY_COVERED(NAME, L2, 179)*/ \
+	/*GEN3_LIDDED_LIVERY_COVERED(NAME, L3, 357)*/ \
+	/*GEN3_LIDDED_LIVERY_COVERED(NAME, L4, 535)*/ \
 	random_switch(FEAT_TRAINS, SELF, switch_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _livery) { \
 		7: spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _L1; \
 		/*1: spritegroup_wagon_Narrow_Gen3_Lidded_Wagon_ ## NAME ## _L2;*/ \
