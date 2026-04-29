@@ -172,6 +172,15 @@ grf {
 //disable original rail vehicles
 disable_item(FEAT_TRAINS, 0, 115);
 
+//override 2ccNML if loaded
+if(grf_future_status("VN\01\01") == 1) {
+	engine_override("TN\01\01", "VN\01\01");
+}
+
+if(grf_future_status("TM\01\01") == 1) {
+	engine_override("TN\01\01", "TM\01\01");
+}
+
 //set base cost multiplier for this set
 basecost {
 	PR_BUILD_VEHICLE_TRAIN:    1 + param_purchase_cost - 4;

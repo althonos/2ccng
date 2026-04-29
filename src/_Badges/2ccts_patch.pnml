@@ -21,7 +21,10 @@
 #define REGION_BR "america/south"
 #define REGION_BY "europe/eastern"
 #define REGION_CA "america/northern"
+#define REGION_CD "africa/middle"
+#define REGION_CG "africa/middle"
 #define REGION_CH "europe/western"
+#define REGION_CI "africa/western"
 #define REGION_CL "america/south"
 #define REGION_CN "asia/eastern"
 #define REGION_CM "africa/middle"
@@ -35,8 +38,10 @@
 #define REGION_ES "europe/southern"
 #define REGION_FI "europe/northern"
 #define REGION_FR "europe/western"
+#define REGION_GA "africa/middle"
 #define REGION_GB "europe/northern"
 #define REGION_GE "asia/western"
+#define REGION_GH "africa/western"
 #define REGION_GR "europe/southern"
 #define REGION_GH "africa/western"
 #define REGION_HU "europe/eastern"
@@ -79,9 +84,11 @@
 #define REGION_SA "asia/western"
 #define REGION_SE "europe/northern"
 #define REGION_SK "europe/eastern"
+#define REGION_SL "africa/western"
 #define REGION_SM "europe/southern"
 #define REGION_TN "africa/northern"
 #define REGION_TR "asia/western"
+#define REGION_TZ "africa/eastern"
 #define REGION_UA "europe/eastern"
 #define REGION_US "america/northern"
 #define REGION_UY "america/south"
@@ -101,14 +108,16 @@
     }                                                              \
 
 //Railbus-Steam
-TRAIN_BADGES(item_rbs_Austria_NOLB_1_3, AT, "steam", "narrow/cape")
+TRAIN_BADGES(item_rbs_Austria_NOLB_1_3, AT, "steam", "narrow/bosnian")
 TRAIN_BADGES(item_rbs_Italy_FS_86, IT, "steam", "standard")
 TRAIN_BADGES(item_rbs_Australia_Victorian_Railways_Rowan_Railmotor, AU, "steam", "broad/irish")
 TRAIN_BADGES(item_rbs_Switzerland_UeBB_Czm_1_2, CH, "steam", "standard")
 TRAIN_BADGES(item_rbs_Germany_Bavarian_MCCi, DE, "steam", "standard")
-TRAIN_BADGES(item_rbs_Austria_NOLB_1_3, ZA, "steam", "narrow/metre")
+TRAIN_BADGES(item_rbs_South_Africa_CSAR_Railmotor, ZA, "steam", "narrow/cape")
 TRAIN_BADGES(item_rbs_Australia_Victorian_Railways_Motor_Car_3, AU, "steam", "broad/irish")
 TRAIN_BADGES(item_rbs_Austria_kkStB_4_0, AT, "steam", "standard")
+TRAIN_BADGES(item_rbs_Germany_Hessian_Ludwig_Thomas, DE, "steam", "standard")
+TRAIN_BADGES(item_rbs_Austria_NOLB_30_33, AT, "steam", "standard")
 
 //Railbus-Diesel
 TRAIN_BADGES(item_rbd_Australia_Victorian_Railways_AEC_RM1, AU, "petrol", "broad/irish")
@@ -297,6 +306,9 @@ TRAIN_BADGES(item_steam_Australia_NSWGR_C35, AU, "steam", "standard")
 TRAIN_BADGES(item_steam_Belgium_NMBS_SNCB_Type_29, BE, "steam", "standard")
 TRAIN_BADGES(item_steam_Chile_FCAB_4_8_2, CL, "steam", "narrow/metre")
 TRAIN_BADGES(item_steam_China_Railways_QJ, CN, "steam", "standard")
+TRAIN_BADGES(item_steam_South_Africa_Katanga_Mikado_2_8_2, CD, "steam", "narrow/cape")
+TRAIN_BADGES(item_steam_Mozambique_Mozambique_Railways_101_104, MZ, "steam", "narrow/cape")
+TRAIN_BADGES(item_steam_Ivory_Coast_Golwe_2_6_0_0_6_2T, CI, "steam", "narrow/metre")
 // Narrow-Gauge
 TRAIN_BADGES(item_steam_USA_D_H_Stourbridge_Lion, US, "steam", "narrow/4ft")
 TRAIN_BADGES(item_steam_USA_0_4_4_Forney, US, "steam", "narrow/2ft")
@@ -400,7 +412,7 @@ TRAIN_BADGES(item_diesel_Saudi_Arabia_Saudi_Railways_4000_EMD_SD70ACS, SA, "dies
 TRAIN_BADGES(item_diesel_Ireland_IE_201, IE, "diesel", "broad/irish")
 TRAIN_BADGES(item_diesel_USA_Metrolink_EMD_F59PH, US, "diesel", "standard")
 TRAIN_BADGES(item_diesel_France_SNCF_461000, FR, "diesel", "standard")
-TRAIN_BADGES(item_diesel_Italy_ACT_D_200, IT, "electric/dc", "standard")
+TRAIN_BADGES(item_diesel_Italy_ACT_D_200, IT, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Canada_GO_Transit_MP40PH_3C, CA, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Spain_RENFE_Class_334, ES, "diesel", "broad/iberian")
 TRAIN_BADGES(item_diesel_Indonesia_KAI_CC300, ID, "diesel", "narrow/cape")
@@ -438,6 +450,12 @@ TRAIN_BADGES(item_diesel_Egypt_ENR_2400_GE_ES40ACi, EG, "diesel", "standard")
 TRAIN_BADGES(item_diesel_UK_BR_68, GB, "diesel", "standard")
 TRAIN_BADGES(item_diesel_South_Africa_PRASA_Afro_4000, ZA, "diesel", "narrow/cape")
 TRAIN_BADGES(item_diesel_USA_Amtrak_Charger, US, "diesel", "standard")
+TRAIN_BADGES(item_diesel_Gabon_Alsthom_AD30B, GA, "diesel", "standard")
+TRAIN_BADGES(item_diesel_Ghana_Ghana_Railway_Corporation_TT12, GH, "diesel", "narrow/cape")
+TRAIN_BADGES(item_diesel_Sierra_Leone_LAMCO_301_Series, SL, "diesel", "narrow/cape")
+TRAIN_BADGES(item_diesel_Congo_Congo_Ocean_BB_BB_300, CG, "diesel", "narrow/cape")
+TRAIN_BADGES(item_diesel_Zimbabwe_Sorefame_DE8, ZW, "diesel", "narrow/cape") 
+TRAIN_BADGES(item_diesel_Ivory_Coast_Abidjan_Niger_GMD_GT22LC_2, CI, "diesel", "narrow/metre") 
 // Narrow-Gauge
 TRAIN_BADGES(item_diesel_Chile_SQM_SW1200, CL, "diesel", "narrow/cape")
 TRAIN_BADGES(item_diesel_Indonesia_KAI_CC203, ID, "diesel", "narrow/cape")
@@ -577,6 +595,9 @@ TRAIN_BADGES(item_electric_USA_Amtrak_HHP_8, US, "electric/dc", "standard")
 TRAIN_BADGES(item_electric_Brasil_MRS_He_4_4, BR, "electric/dc", "broad/irish")
 TRAIN_BADGES(item_electric_Russia_RZD_VL11, RU, "electric/dc", "broad/russian")
 TRAIN_BADGES(item_electric_Germany_Prussian_ES_6, DE, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_Congo_Zaire_Electric_Type_2450, CD, "electric/ac", "narrow/cape")
+TRAIN_BADGES(item_electric_Tanzania_TRC_E6800, TZ, "electric/ac", "standard")
+TRAIN_BADGES(item_electric_Hungary_MAV_V63, HU, "electric/ac", "standard")
 // Narrow
 TRAIN_BADGES(item_electric_Slovakia_ZSSK_HGem_2_2, SK, "electric/dc", "narrow/metre")
 TRAIN_BADGES(item_electric_Georgia_BBR_ChS11, GE, "electric/dc", "narrow/900mm")
@@ -638,6 +659,8 @@ TRAIN_BADGES(item_dmu_Argentina_FCGU_CMM_400_2, AR, "diesel", "standard")
 TRAIN_BADGES(item_dmu_France_CFC_X_97050, FR, "diesel", "narrow/metre")
 TRAIN_BADGES(item_dmu_Cambodia_Royal_Railway_ZZ_800, KH, "diesel", "narrow/metre")
 
+//Cargo DMU
+TRAIN_BADGES(item_cargodmu_Germany_DB_691_CargoSprinter, DE, "diesel", "standard")
 
 //EMU
 TRAIN_BADGES(item_emu_Netherlands_NS_Mat24, NL, "electric/dc", "standard")
@@ -719,3 +742,6 @@ TRAIN_BADGES(item_emu_Italy_EAV_ETR_200_Metrostar, IT, "electric/dc", "narrow/it
 TRAIN_BADGES(item_emu_San_Marino_SVEFT_AB_01_04, SM, "electric/dc", "narrow/italian_metre")
 TRAIN_BADGES(item_emu_Malaysia_KTM_Class_93, MY, "electric/ac", "narrow/metre")
 TRAIN_BADGES(item_emu_Sweden_SL_X15p, SE, "electric/dc", "narrow/swedish_3ft")
+
+//Cargo EMU
+TRAIN_BADGES(item_cargoemu_Japan_JR_Freight_M250, JP, "electric/dc", "narrow/cape")

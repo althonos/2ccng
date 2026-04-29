@@ -568,11 +568,5 @@
 
 //obsolete vehicles
 
-// override 2cc Trains in NML
-engine_override("TM\01\01");
-
-// override 2cc Trains in NML (revival)
-engine_override("VN\01\01");
-
 //sort vehicles in purchase list
 #include "src/vehiclesort.pnml"
