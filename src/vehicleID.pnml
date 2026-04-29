@@ -18,6 +18,8 @@ item(FEAT_TRAINS, item_rbs_Germany_Bavarian_MCCi, 1004) {}
 item(FEAT_TRAINS, item_rbs_South_Africa_CSAR_Railmotor, 1005) {}
 item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Motor_Car_3, 1006) {}
 item(FEAT_TRAINS, item_rbs_Austria_kkStB_4_0, 1007) {}
+item(FEAT_TRAINS, item_rbs_Germany_Hessian_Ludwig_Thomas, 1008) {}
+item(FEAT_TRAINS, item_rbs_Austria_NOLB_30_33, 1009) {}
 
 //Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
 #define ID_RANGE_RBD 0x07D0..0x09C3
@@ -217,6 +219,9 @@ item(FEAT_TRAINS, item_steam_Australia_NSWGR_C35, 4113) {}
 item(FEAT_TRAINS, item_steam_Belgium_NMBS_SNCB_Type_29, 4114) {}
 item(FEAT_TRAINS, item_steam_Chile_FCAB_4_8_2, 4115) {}
 item(FEAT_TRAINS, item_steam_China_Railways_QJ, 4116) {}
+item(FEAT_TRAINS, item_steam_South_Africa_Katanga_Mikado_2_8_2, 4117) {}
+item(FEAT_TRAINS, item_steam_Mozambique_Mozambique_Railways_101_104, 4118) {}
+item(FEAT_TRAINS, item_steam_Ivory_Coast_Golwe_2_6_0_0_6_2T, 4119) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_steam_USA_D_H_Stourbridge_Lion, 4801) {}
 item(FEAT_TRAINS, item_steam_USA_0_4_4_Forney, 4802) {}
@@ -365,6 +370,12 @@ item(FEAT_TRAINS, item_diesel_Egypt_ENR_2400_GE_ES40ACi, 5130) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_68, 5131) {}
 item(FEAT_TRAINS, item_diesel_South_Africa_PRASA_Afro_4000, 5132) {}
 item(FEAT_TRAINS, item_diesel_USA_Amtrak_Charger, 5133) {}
+item(FEAT_TRAINS, item_diesel_Gabon_Alsthom_AD30B, 5134) {}
+item(FEAT_TRAINS, item_diesel_Ghana_Ghana_Railway_Corporation_TT12, 5135) {}
+item(FEAT_TRAINS, item_diesel_Sierra_Leone_LAMCO_301_Series, 5136) {}
+item(FEAT_TRAINS, item_diesel_Congo_Congo_Ocean_BB_BB_300, 5137) {}
+item(FEAT_TRAINS, item_diesel_Zimbabwe_Sorefame_DE8, 5138) {}
+item(FEAT_TRAINS, item_diesel_Ivory_Coast_Abidjan_Niger_GMD_GT22LC_2, 5139) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_diesel_Chile_SQM_SW1200, 5800) {}
 item(FEAT_TRAINS, item_diesel_Indonesia_KAI_CC203, 5801) {}
@@ -513,6 +524,9 @@ item(FEAT_TRAINS, item_electric_USA_Amtrak_HHP_8, 6132) {}
 item(FEAT_TRAINS, item_electric_Brasil_MRS_He_4_4, 6133) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL11, 6134) {}
 item(FEAT_TRAINS, item_electric_Germany_Prussian_ES_6, 6135) {}
+item(FEAT_TRAINS, item_electric_Congo_Zaire_Electric_Type_2450, 6136) {}
+item(FEAT_TRAINS, item_electric_Tanzania_TRC_E6800, 6137) {}
+item(FEAT_TRAINS, item_electric_Hungary_MAV_V63, 6138) {}
 // Narrow
 item(FEAT_TRAINS, item_electric_Slovakia_ZSSK_HGem_2_2, 6800) {}
 item(FEAT_TRAINS, item_electric_Georgia_BBR_ChS11, 6801) {}
@@ -718,6 +732,7 @@ item(FEAT_TRAINS, item_mtro_Italy_Rome_S_300, 9052) {}
 item(FEAT_TRAINS, item_mtro_Algeria_Algiers_CAF_2011_Stock, 9053) {}
 item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_IK, 9054) {}
 item(FEAT_TRAINS, item_mtro_USA_Chicago_L_6000, 9055) {}
+item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car, 9056) {}
 
 //Multi Unit Maglev, available ID range: 10000-10499 (hex 0x2710..0x2903)
 #define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
@@ -797,6 +812,8 @@ item(FEAT_TRAINS, item_coach_Gen6_Metropolis_Coach, 11067) {}
 item(FEAT_TRAINS, item_coach_Gen6_Speedmail_Coach, 11068) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Regio_Coach, 11069) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
+item(FEAT_TRAINS, item_coach_Gen5_CityNightline_Sleeper, 11071) {}
+item(FEAT_TRAINS, item_coach_Gen4_Trans_Euro_Night_Sleeper, 11072) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_coach_Narrow_Gen0_Early_Passenger_Coach, 11800) {}
 item(FEAT_TRAINS, item_coach_Narrow_Gen0_Early_Baggage_Coach, 11801) {}
@@ -866,6 +883,27 @@ item(FEAT_TRAINS, item_wagon_Service_Car_Type1, 12045) {}
 item(FEAT_TRAINS, item_wagon_Service_Car_Type2, 12046) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type2, 12047) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
+item(FEAT_TRAINS, item_wagon_Gen6_flatcar, 12049) {}
+item(FEAT_TRAINS, item_wagon_Gen6_heavy_flatcar, 12050) {}
+item(FEAT_TRAINS, item_wagon_Gen6_boxcar_type1, 12051) {}
+item(FEAT_TRAINS, item_wagon_Gen6_tanker, 12052) {}
+item(FEAT_TRAINS, item_wagon_Gen6_gondola, 12053) {}
+item(FEAT_TRAINS, item_wagon_Gen6_silo_type1, 12054) {}
+item(FEAT_TRAINS, item_wagon_Gen6_hopper_type1, 12055) {}
+item(FEAT_TRAINS, item_wagon_Gen6_car_transporter, 12056) {}
+item(FEAT_TRAINS, item_wagon_Gen6_container_carrier, 12057) {}
+item(FEAT_TRAINS, item_wagon_Gen6_centerbeam, 12058) {}
+item(FEAT_TRAINS, item_wagon_Gen6_container_doublestack, 12059) {}
+item(FEAT_TRAINS, item_wagon_Gen6_superheavy_flatcar, 12060) {}
+item(FEAT_TRAINS, item_wagon_Gen6_boxcar_type2, 12061) {}
+item(FEAT_TRAINS, item_wagon_Gen6_silo_type2, 12062) {}
+item(FEAT_TRAINS, item_wagon_Gen6_hopper_type2, 12063) {}
+item(FEAT_TRAINS, item_wagon_Gen1_livestock_van, 12064) {}
+item(FEAT_TRAINS, item_wagon_Gen2_livestock_van, 12065) {}
+item(FEAT_TRAINS, item_wagon_Gen3_livestock_van, 12066) {}
+item(FEAT_TRAINS, item_wagon_Gen4_livestock_van, 12067) {}
+item(FEAT_TRAINS, item_wagon_Gen5_livestock_van, 12068) {}
+item(FEAT_TRAINS, item_wagon_Gen6_livestock_van, 12069) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_wagon_Narrow_Gen1_Tanker, 12800) {}
 item(FEAT_TRAINS, item_wagon_Narrow_Gen1_Flat_Wagon, 12801) {}
@@ -916,10 +954,33 @@ item(FEAT_TRAINS, item_singlemtro_Germany_Berlin_U_Bahn_C_II, 14003) {}
 #define ID_RANGE_CARGODMU 0x3C8C..0x3E7F
 item(FEAT_TRAINS, item_cargodmu_Germany_DB_691_CargoSprinter, 15501) {}
 
+// Cargo EMU, available ID range: 19000-19500 (hex 0x4A38..0x4C2C)
+#define ID_RANGE_CARGOEMU 0x4A38..0x4C2C
+item(FEAT_TRAINS, item_cargoemu_Japan_JR_Freight_M250, 19000) {}
+
 //Railbus-Maglev, available ID range: 16000-16499 (hex 0x3E80..0x4073)
 #define ID_RANGE_RBM 0x3E80..0x4073
 item(FEAT_TRAINS, item_rbm_World_Turbobus, 16000) {}
 
-//Single Unit Maglevs, available ID range: 15000-15499 (hex 0x3A98..0x3C8B)
-#define ID_RANGE_SINGLEMAGLEV 0x3A98..0x3C8B
-//Currently has no vehicles, range reserved
+// Maglev, available ID range: 15000-15499 (hex 0x3A98..0x3C8B)
+#define ID_RANGE_MAGLEV 0x3A98..0x3C8B
+item(FEAT_TRAINS, item_mglv_Germany_DB_182_ES64UM_Mutus, 15001) {}
+
+// Maglev Wagons, available ID range: 18000-18999 (hex 0x4650..0x4A37)
+#define ID_RANGE_WAGONS_MGLV 0x4650..0x4A37
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_flatcar, 18001) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_heavy_flatcar, 18002) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_boxcar_type1, 18003) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_tanker, 18004) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_gondola, 18005) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_silo_type1, 18006) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_hopper_type1, 18007) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_car_transporter, 18008) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_container_carrier, 18009) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_centerbeam, 18010) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_container_doublestack, 18011) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_superheavy_flatcar, 18012) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_boxcar_type2, 18013) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_silo_type2, 18014) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_hopper_type2, 18015) {}
+item(FEAT_TRAINS, item_mglv_wagon_Gen7m_livestock_van, 18016) {}

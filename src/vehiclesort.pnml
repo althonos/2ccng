@@ -14,11 +14,13 @@
  
 #define SORTING_RBS \
 item_rbs_Austria_kkStB_4_0,  /*Year: 1880*/ \
+item_rbs_Germany_Hessian_Ludwig_Thomas, /*Year: 1880*/ \
 item_rbs_Australia_Victorian_Railways_Rowan_Railmotor, /*Year: 1883*/ \
 item_rbs_Switzerland_UeBB_Czm_1_2, /*Year: 1902*/ \
 item_rbs_Austria_NOLB_1_3, /*Year: 1903*/ \
-item_rbs_Germany_Bavarian_MCCi, /*Year: 1906*/ \
+item_rbs_Austria_NOLB_30_33, /*Year: 1905*/ \
 item_rbs_Italy_FS_86, /*Year: 1906*/ \
+item_rbs_Germany_Bavarian_MCCi, /*Year: 1906*/ \
 item_rbs_South_Africa_CSAR_Railmotor, /*Year: 1906*/ \
 item_rbs_Australia_Victorian_Railways_Motor_Car_3, /*Year: 1912*/
 
@@ -27,16 +29,16 @@ item_rbd_Austria_kkStB_19, /*Year: 1902*/ \
 item_rbd_USA_Virginia_Truckee_Motor_Car_22, /*Year: 1909*/ \
 item_rbd_Germany_Saxon_DET_1_2, /*Year: 1914*/ \
 item_rbd_UK_WC_PR_Drewry_Railcar, /*Year: 1921*/ \
-item_rbd_France_Pithiviers_Toury_AT1, /*Year: 1922*/ \
 item_rbd_Australia_Victorian_Railways_AEC_RM1, /*Year: 1922*/ \
 item_rbd_Germany_BSt_6001, /*Year: 1922*/ \
+item_rbd_France_Pithiviers_Toury_AT1, /*Year: 1922*/ \
 item_rbd_Australia_Victorian_Railways_DERM, /*Year: 1928*/ \
 item_rbd_Czech_Republic_CD_M120, /*Year: 1930*/ \
 item_rbd_Germany_Schienenzeppelin, /*Year: 1930*/ \
 item_rbd_Germany_DB_VT_133, /*Year: 1932*/ \
 item_rbd_United_Kingdom_GWR_AEC_Railcar, /*Year: 1933*/ \
-item_rbd_Denmark_DSB_MO, /*Year: 1935*/ \
 item_rbd_Austria_OBB_5042, /*Year: 1935*/ \
+item_rbd_Denmark_DSB_MO, /*Year: 1935*/ \
 item_rbd_Norway_NSB_Cmb_17, /*Year: 1935*/ \
 item_rbd_Argentina_FCPBA_M_Railcar, /*Year: 1935*/ \
 item_rbd_Czech_Republic_CD_M290, /*Year: 1936*/ \
@@ -48,11 +50,11 @@ item_rbd_Portugal_CP_USD_9050, /*Year: 1941*/ \
 item_rbd_Portugal_CP_0100, /*Year: 1948*/ \
 item_rbd_USA_Amtrak_Budd_RDC, /*Year: 1949*/ \
 item_rbd_Germany_DB_VT_989, /*Year: 1953*/ \
-item_rbd_Germany_OHE_520_GDT, /*Year: 1953*/ \
 item_rbd_Belgium_SNCB_Class_42, /*Year: 1954*/ \
 item_rbd_Netherlands_NS_20_Kameel, /*Year: 1954*/ \
 item_rbd_Finland_VR_Dm7, /*Year: 1955*/ \
 item_rbd_Italy_FS_ALn_668, /*Year: 1956*/ \
+item_rbd_Germany_OHE_520_GDT, /*Year: 1959*/ \
 item_rbd_Bulgaria_BDZ_19, /*Year: 1960*/ \
 item_rbd_Chile_EFE_SB_56_Buscarril, /*Year: 1961*/ \
 item_rbd_Greece_OSE_AA71, /*Year: 1962*/ \
@@ -94,6 +96,9 @@ item_rbe_Switzerland_MVR_Beh_2_4, /*Year: 1998*/ \
 item_rbe_Austria_MBS_ET_10109, /*Year: 2001*/ \
 item_rbe_Poland_PKP_EN81, /*Year: 2005*/ \
 item_rbe_USA_SEPTA_Silverliner_V, /*Year: 2010*/
+
+#define SORTING_RBM \
+item_rbm_World_Turbobus, /*Year: 2040*/
 
 #define SORTING_STEAM \
 item_steam_USA_D_H_Stourbridge_Lion, /*Year: 1829 */ \
@@ -159,6 +164,7 @@ item_steam_Australia_NSWGR_C35, /*Year: 1914*/ \
 item_steam_Croatia_HZ_51, /*Year: 1914*/ \
 item_steam_UK_LNER_N7, /*Year: 1915*/ \
 item_steam_Italy_FS_880, /*Year: 1916*/ \
+item_steam_South_Africa_Katanga_Mikado_2_8_2, /*Year: 1917*/ \
 item_steam_Germany_Saxon_XX_HV, /*Year: 1918*/ \
 item_steam_Israel_Israel_Railways_H, /*Year: 1918*/ \
 item_steam_Argentina_FCNEA_11B_2_8_0, /*Year: 1920*/ \
@@ -173,6 +179,7 @@ item_steam_Kenya_East_African_Railway_23, /*Year: 1923*/ \
 item_steam_Italy_FS_480, /*Year: 1923*/ \
 item_steam_New_Zealand_NZR_WAB, /*Year: 1923*/ \
 item_steam_Poland_PKP_Ok22, /*Year: 1923*/ \
+item_steam_Mozambique_Mozambique_Railways_101_104, /*Year: 1923*/ \
 item_steam_Croatia_HZ_11, /*Year: 1924*/ \
 item_steam_UK_GWR_4900, /*Year: 1924*/ \
 item_steam_India_Indian_Railways_XB_Class, /*Year: 1927*/ \
@@ -183,6 +190,7 @@ item_steam_UK_GWR_5700, /*Year: 1929*/ \
 item_steam_Netherlands_NS_6300, /*Year: 1930*/ \
 item_steam_Argentina_FCCA_PS11, /*Year: 1930*/ \
 item_steam_USA_AT_SF_5000, /*Year: 1930*/ \
+item_steam_Ivory_Coast_Golwe_2_6_0_0_6_2T, /*Year: 1930*/ \
 item_steam_France_SNCF_150B, /*Year: 1933*/ \
 item_steam_Germany_Prussian_S10, /*Year: 1934*/ \
 item_steam_UK_LMS_5MT_Black_Five, /*Year: 1934*/ \
@@ -276,6 +284,7 @@ item_diesel_Czech_Republic_CD_720_ChME2, /*Year: 1958*/ \
 item_diesel_Finland_VR_Dr12, /*Year: 1959*/ \
 item_diesel_Romania_CFR_060_DA, /*Year: 1959*/ \
 item_diesel_Zimbabwe_Zimbabwe_Railways_DH_1, /*Year: 1959*/ \
+item_diesel_Ghana_Ghana_Railway_Corporation_TT12, /*Year: 1959*/ \
 item_diesel_Brazil_BF_EMD_GL8, /*Year: 1960*/ \
 item_diesel_Brazil_EFVM_ML4000, /*Year: 1960*/ \
 item_diesel_Russia_RZD_TEP60, /*Year: 1960*/ \
@@ -285,6 +294,7 @@ item_diesel_Chile_EFE_GE_U5B, /*Year: 1961*/ \
 item_diesel_Belgium_NMBS_SNCB_62, /*Year: 1961*/ \
 item_diesel_Ireland_Bord_na_Mona_LM200, /*Year: 1962*/ \
 item_diesel_Denmark_DSB_MaK_100, /*Year: 1962*/ \
+item_diesel_Sierra_Leone_LAMCO_301_Series, /*Year: 1962*/ \
 item_diesel_India_Indian_Railways_WDM_2, /*Year: 1963*/ \
 item_diesel_UK_BR_14, /*Year: 1964*/ \
 item_diesel_Russia_RZD_ChME3, /*Year: 1964*/ \
@@ -299,19 +309,23 @@ item_diesel_Egypt_ENR_G22W, /*Year: 1969*/ \
 item_diesel_USA_UP_EMD_DDA40X, /*Year: 1969*/ \
 item_diesel_Australia_Queensland_Rail_2100, /*Year: 1970*/ \
 item_diesel_Brazil_EFVM_EMD_DDM45, /*Year: 1970*/ \
+item_diesel_Congo_Congo_Ocean_BB_BB_300, /*Year: 1970*/ \
 item_diesel_Italy_FS_D345, /*Year: 1971*/ \
 item_diesel_Croatia_HZ_2062, /*Year: 1972*/ \
 item_diesel_Sweden_SJ_V4, /*Year: 1972*/ \
 item_diesel_Canada_CNR_MLW_M420W, /*Year: 1973*/ \
 item_diesel_USA_GNR_SDP_40F, /*Year: 1973*/ \
 item_diesel_Egypt_ENR_TE114E, /*Year: 1974*/ \
+item_diesel_Zimbabwe_Sorefame_DE8, /*Year: 1974*/ \
 item_diesel_Bulgaria_BDZ_76, /*Year: 1976*/ \
 item_diesel_China_China_Railways_DFH3, /*Year: 1976*/ \
 item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH, /*Year: 1977*/ \
 item_diesel_Tunisia_SNCFT_040_DJ, /*Year: 1977*/ \
+item_diesel_Gabon_Alsthom_AD30B, /*Year: 1978*/ \
 item_diesel_Norway_NSB_Di4, /*Year: 1980*/ \
 item_diesel_Portugal_CP_1900, /*Year: 1981*/ \
 item_diesel_Belarus_BCh_2TE10M, /*Year: 1981*/ \
+item_diesel_Ivory_Coast_Abidjan_Niger_GMD_GT22LC_2, /*Year: 1981*/ \
 item_diesel_Peru_Ferrocarril_Central_Andino_GE_C39_8, /*Year: 1984*/ \
 item_diesel_Australia_Pacific_National_G_Class, /*Year: 1984*/ \
 item_diesel_China_China_Railways_DF8, /*Year: 1984*/ \
@@ -420,6 +434,7 @@ item_electric_Brasil_RFFSA_GE_C_C_4400, /*Year: 1962*/ \
 item_electric_Poland_PKP_EU06, /*Year: 1962*/ \
 item_electric_Hungary_MAV_Class_V43, /*Year: 1963*/ \
 item_electric_Russia_RZD_VL41, /*Year: 1963*/ \
+item_electric_Congo_Zaire_Electric_Type_2450, /*Year: 1963*/ \
 item_electric_France_SNCF_BB_25500, /*Year: 1964*/ \
 item_electric_France_SNCF_CC_40100, /*Year: 1964*/ \
 item_electric_Japan_JNR_EF64, /*Year: 1964*/ \
@@ -437,6 +452,7 @@ item_electric_Chile_EFE_E_17, /*Year: 1974*/ \
 item_electric_Austria_OBB_1044, /*Year: 1974*/ \
 item_electric_Portugal_CP_2600, /*Year: 1974*/ \
 item_electric_Russia_RZD_VL11, /*Year: 1974*/ \
+item_electric_Hungary_MAV_V63, /*Year: 1974*/ \
 item_electric_France_SNCF_BB_22200, /*Year: 1976*/ \
 item_electric_Poland_PKP_ET41, /*Year: 1977*/ \
 item_electric_USA_Amtrak_EMD_AEM_7, /*Year: 1978*/ \
@@ -490,6 +506,10 @@ item_electric_Switzerland_SBB_Eem_923, /*Year: 2012*/ \
 item_electric_South_Africa_TFR_20E, /*Year: 2013*/ \
 item_electric_Kazakhstan_KTZ_KZ8A, /*Year: 2014*/ \
 item_electric_Slovakia_ZSSK_HGem_2_2, /*Year: 2016*/ \
+item_electric_Tanzania_TRC_E6800, /*Year: 2024*/
+
+#define SORTING_MAGLEV \
+item_mglv_Germany_DB_182_ES64UM_Mutus, /*Year: 2005*/
 
 #define SORTING_DMU \
 item_dmu_Australia_NSWGR_Silver_City_Comet, /*Year: 1937*/ \
@@ -590,13 +610,21 @@ item_emu_Malaysia_KTM_Class_93, /*Year: 2016*/ \
 item_emu_Sweden_SL_X15p, /*Year: 2017*/ \
 item_emu_Europe_Sureot, /*Year: 2030*/
 
+#define SORTING_CARGOEMU \
+item_cargoemu_Japan_JR_Freight_M250, /* Year: 2003*/
+
+#define SORTING_MAGLEVMU \
+item_mglv_China_Transrapid, /*Year: 2004*/ \
+item_mglv_Japan_MLX01_901, /*Year: 2025*/
+
 #define SORTING_SINGLE_METRO \
 item_singlemtro_USA_Brooklyn_Union_Gate_Car, /*Year: 1880*/ \
 item_singlemtro_Hungary_Budapest_1894_Stock, /*Year: 1894*/ \
 item_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, /*Year: 1907*/ \
-item_singlemtro_Germany_Berlin_U_Bahn_C_II, /*Year: 1929*/ \
+item_singlemtro_Germany_Berlin_U_Bahn_C_II, /*Year: 1929*/
 
 #define SORTING_METRO \
+item_mtro_USA_Brooklyn_Union_Gate_Car, /*Year: 1880*/ \
 item_mtro_Germany_Berlin_U_Bahn_A_I, /*Year: 1901*/ \
 item_mtro_UK_London_1903_Stock, /*Year: 1903*/ \
 item_mtro_USA_NY_Hedley_Hi_V, /*Year: 1910*/ \
@@ -649,13 +677,6 @@ item_mtro_Singapore_Singapore_C151A, /*Year: 2012*/ \
 item_mtro_USA_Washington_7000, /*Year: 2013*/ \
 item_mtro_Greece_Thessaloniki_2014, /*Year: 2014*/ \
 item_mtro_Germany_Berlin_U_Bahn_IK, /*Year: 2015*/
-
-#define SORTING_SINGLE_MAGLEV \
-item_rbm_World_Turbobus, /*Year 2040 */
-
-#define SORTING_MAGLEV \
-item_mglv_China_Transrapid, /*Year: 2004*/ \
-item_mglv_Japan_MLX01_901, /*Year: 2025*/
 
 #define SORTING_COACHES \
 item_coach_Gen1_Wooden_2_axle_Compartment_Coach, /*Year: 1650*/ \
@@ -715,6 +736,8 @@ item_coach_Gen4_Comet_Commuter_Coach, /*Year: 1970*/ \
 item_coach_Gen4_Horizon_Regional_Coach, /*Year: 1970*/ \
 item_coach_Gen4_Horizon_Baggage_Coach, /*Year: 1970*/ \
 item_coach_Gen4_Bombardier_Bi_level, /*Year: 1970*/ \
+item_coach_Gen4_Trans_Euro_Night_Sleeper, /*Year: 1970*/ \
+item_coach_Gen5_CityNightline_Sleeper, /*Year: 1995*/ \
 item_coach_Gen5_High_Speed_Coach, /*Year: 2000*/ \
 item_coach_Gen5_Modern_Regional_Coach, /*Year: 2000*/ \
 item_coach_Gen5_Modern_Commuter_Coach, /*Year: 2000*/ \
@@ -744,16 +767,18 @@ item_coach_Narrow_Gen4_Vietnamese_Mail_Coach, /* Year: 1976*/ \
 item_coach_Narrow_Gen4_MetroBlitz_Coach, /*Year: 1984*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, /*Year: 2006*/ \
 item_coach_Narrow_Gen5_Glacier_Express_Service_Coach, /*Year: 2006*/ \
-item_coach_Narrow_Gen6_PNR_8300_Coach, /*Year: 2020*/ \
+item_coach_Narrow_Gen6_PNR_8300_Coach, /*Year: 2020*/
 
 #define SORTING_WAGONS \
 item_wagon_Gen1_Flat_Wagon, /*Year: 1660*/ \
 item_wagon_Gen1_Tanker, /*Year: 1660*/ \
 item_wagon_Gen1_Open_Wagon, /*Year: 1660*/ \
 item_wagon_Gen1_Boxcar, /*Year: 1660*/ \
+item_wagon_Gen1_livestock_van, /*Year: 1660*/ \
 item_wagon_Gen2_Flat_Wagon, /*Year: 1900*/ \
 item_wagon_Gen2_Boxcar_Type1, /*Year: 1890*/ \
 item_wagon_Gen2_Boxcar_Type2, /*Year: 1890*/ \
+item_wagon_Gen2_livestock_van, /*Year: 1890*/ \
 item_wagon_Gen2_Tanker, /*Year: 1900*/ \
 item_wagon_Gen2_Open_Wagon, /*Year: 1890*/ \
 item_wagon_Gen2_Silo, /*Year: 1900*/ \
@@ -761,6 +786,7 @@ item_wagon_Gen2_Hopper, /*Year: 1890*/ \
 item_wagon_Gen3_Flat_Wagon, /*Year: 1930*/ \
 item_wagon_Gen3_Boxcar_Type1, /*Year: 1920*/ \
 item_wagon_Gen3_Boxcar_Type2, /*Year: 1920*/ \
+item_wagon_Gen3_livestock_van, /*Year: 1920*/ \
 item_wagon_Gen3_Tanker, /*Year: 1930*/ \
 item_wagon_Gen3_Open_Wagon, /*Year: 1920*/ \
 item_wagon_Gen3_Silo_Type1, /*Year: 1930*/ \
@@ -770,6 +796,7 @@ item_wagon_Gen4_Flatcar, /*Year: 1960*/ \
 item_wagon_Gen4_Heavy_Flatcar, /*Year: 1960*/ \
 item_wagon_Gen4_Boxcar_Type1, /*Year: 1950*/ \
 item_wagon_Gen4_Boxcar_Type2, /*Year: 1950*/ \
+item_wagon_Gen4_livestock_van, /*Year: 1950*/ \
 item_wagon_Gen4_Tanker, /*Year: 1950*/ \
 item_wagon_Gen4_Gondola, /*Year: 1950*/ \
 item_wagon_Gen4_Silo_Type1, /*Year: 1950*/ \
@@ -783,6 +810,7 @@ item_wagon_Gen5_Flatcar, /*Year: 1990*/ \
 item_wagon_Gen5_Heavy_Flatcar, /*Year: 2000*/ \
 item_wagon_Gen5_Boxcar_Type1, /*Year: 1990*/ \
 item_wagon_Gen5_Boxcar_Type2, /*Year: 1990*/ \
+item_wagon_Gen5_livestock_van, /*Year: 1990*/ \
 item_wagon_Gen5_Tanker, /*Year: 2000*/ \
 item_wagon_Gen5_Gondola, /*Year: 1990*/ \
 item_wagon_Gen5_Silo_Type1, /*Year: 2000*/ \
@@ -794,6 +822,22 @@ item_wagon_Gen5_Container_Carrier, /*Year: 1990*/ \
 item_wagon_Gen5_Centerbeam, /*Year: 1990*/ \
 item_wagon_Gen5_Container_Doublestack, /*Year: 1980*/ \
 item_wagon_Gen5_Superheavy_Flatcar, /*Year: 1990*/ \
+item_wagon_Gen6_flatcar, /*Year: 2030*/ \
+item_wagon_Gen6_heavy_flatcar, /*Year: 2030*/ \
+item_wagon_Gen6_boxcar_type1, /*Year: 2030*/ \
+item_wagon_Gen6_boxcar_type2, /*Year: 2030*/ \
+item_wagon_Gen6_livestock_van, /*Year: 2030*/ \
+item_wagon_Gen6_tanker, /*Year: 2030*/ \
+item_wagon_Gen6_gondola, /*Year: 2030*/ \
+item_wagon_Gen6_silo_type1, /*Year: 2030*/ \
+item_wagon_Gen6_hopper_type1, /*Year: 2030*/ \
+item_wagon_Gen6_car_transporter, /*Year: 2030*/ \
+item_wagon_Gen6_container_carrier, /*Year: 2030*/ \
+item_wagon_Gen6_centerbeam, /*Year: 2030*/ \
+item_wagon_Gen6_container_doublestack, /*Year: 2030*/ \
+item_wagon_Gen6_superheavy_flatcar, /*Year: 2030*/ \
+item_wagon_Gen6_silo_type2, /*Year: 2030*/ \
+item_wagon_Gen6_hopper_type2, /*Year: 2030*/ \
 item_wagon_Service_Car_Type1, /*Year: 1660*/ \
 item_wagon_Service_Car_Type2, /*Year: 1660*/ \
 item_wagon_Narrow_Gen1_Boxcar, /*Year: 1660*/ \
@@ -811,6 +855,24 @@ item_wagon_Narrow_Gen3_Open_Wagon, /*Year: 1930*/ \
 item_wagon_Narrow_Gen3_Lidded_Wagon, /*Year: 1930*/ \
 item_wagon_Narrow_Gen3_Tanker, /*Year: 1930*/
 
+#define SORTING_WAGONS_MGLV \
+item_mglv_wagon_Gen7m_container_doublestack, /*Year: 2000*/ \
+item_mglv_wagon_Gen7m_flatcar, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_boxcar_type1, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_gondola, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_container_carrier, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_centerbeam, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_superheavy_flatcar, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_boxcar_type2, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_livestock_van, /*Year: 2010*/ \
+item_mglv_wagon_Gen7m_heavy_flatcar, /*Year: 2020*/ \
+item_mglv_wagon_Gen7m_tanker, /*Year: 2020*/ \
+item_mglv_wagon_Gen7m_silo_type1, /*Year: 2020*/ \
+item_mglv_wagon_Gen7m_hopper_type1, /*Year: 2020*/ \
+item_mglv_wagon_Gen7m_car_transporter, /*Year: 2020*/ \
+item_mglv_wagon_Gen7m_silo_type2, /*Year: 2020*/ \
+item_mglv_wagon_Gen7m_hopper_type2, /*Year: 2020*/
+
 #define SORTING_SPECIAL \
 item_mu_wagon_unpowered, \
 item_mu_wagon_powered, \
@@ -824,20 +886,22 @@ item_mu_narrow_wagon_unpowered, \
 item_mu_narrow_wagon_powered, 
 
 sort(FEAT_TRAINS, [
-	SORTING_RBS
 	SORTING_RBD
 	SORTING_RBE
+	SORTING_RBM
 	SORTING_STEAM 
 	SORTING_DIESEL
 	SORTING_ELECTRIC
+	SORTING_MAGLEV
 	SORTING_DMU
 	SORTING_CARGODMU
 	SORTING_EMU
+	SORTING_CARGOEMU
+	SORTING_MAGLEVMU
 	SORTING_SINGLE_METRO
 	SORTING_METRO
-	SORTING_SINGLE_MAGLEV
-	SORTING_MAGLEV
 	SORTING_SPECIAL
 	SORTING_COACHES
 	SORTING_WAGONS
+    SORTING_WAGONS_MGLV 
 ]);
