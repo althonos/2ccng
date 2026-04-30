@@ -675,6 +675,9 @@ str_electric_China_China_Railways_6K :China Railways 6K (Electric)
 str_electric_Slovakia_ZSSK_HGem_2_2 :ZSSK HGem 2/2 (Electric)
 str_electric_Georgia_BBR_ChS11 :Borjomi-Bakuriani ChS11 (Electric)
 
+#Dual Mode
+str_dual_Ecuador_FEEP_TD2000   :FEEP TD2000 (Dual Mode)
+
 #DMU
 str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DB VT 04.0 'Flying Hamburger' (DMU)
 str_dmu_Australia_NSWGR_Silver_City_Comet 	:NSWGR 'Silver City Comet' (DMU)

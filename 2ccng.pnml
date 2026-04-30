@@ -395,6 +395,12 @@
 #include "src/Electric/Switzerland_RhB_Ge_6_6_Krokodil_graphics.pnml"
 #include "src/Electric/Switzerland_RhB_Ge_6_6_Krokodil_item.pnml"
 
+//Dual-Mode
+#include "src/_CodeSupport/TypeInitialization/init_type_Dual.pnml"
+#include "src/Dual/Ecuador_FEEP_TD2000_property.pnml"
+#include "src/Dual/Ecuador_FEEP_TD2000_graphics.pnml"
+#include "src/Dual/Ecuador_FEEP_TD2000_item.pnml"
+
 //DMU
 #include "src/_CodeSupport/TypeInitialization/init_type_DMU.pnml"
 #include "src/DMU/Australia_Queensland_Rail_Diesel_Tilt_Train_property.pnml"
