@@ -120,7 +120,7 @@ TRAIN_BADGES(item_rbs_Germany_Hessian_Ludwig_Thomas, DE, "steam", "standard")
 TRAIN_BADGES(item_rbs_Austria_NOLB_30_33, AT, "steam", "standard")
 
 //Railbus-Diesel
-TRAIN_BADGES(item_rbd_Australia_Victorian_Railways_AEC_RM1, AU, "petrol", "broad/irish")
+TRAIN_BADGES(item_rbd_Australia_Victorian_Railways_AEC_RM1, AU, "gasoline", "broad/irish")
 TRAIN_BADGES(item_rbd_Germany_DB_VT_133, DE, "diesel", "narrow/metre")
 TRAIN_BADGES(item_rbd_United_Kingdom_GWR_AEC_Railcar, GB, "diesel", "standard")
 TRAIN_BADGES(item_rbd_Austria_OBB_5042, AT, "diesel", "standard")
@@ -142,14 +142,14 @@ TRAIN_BADGES(item_rbd_USA_Virginia_Truckee_Motor_Car_22, US, "diesel", "standard
 TRAIN_BADGES(item_rbd_Germany_Saxon_DET_1_2, DE, "diesel", "standard")
 TRAIN_BADGES(item_rbd_UK_WC_PR_Drewry_Railcar, GB, "diesel", "standard")
 TRAIN_BADGES(item_rbd_Germany_BSt_6001, DE, "diesel", "standard")
-TRAIN_BADGES(item_rbd_Australia_Victorian_Railways_DERM, AU, "petrol", "broad/irish")
-TRAIN_BADGES(item_rbd_Czech_Republic_CD_M120, CZ, "petrol", "standard")
-TRAIN_BADGES(item_rbd_Germany_Schienenzeppelin, DE, "petrol", "standard")
+TRAIN_BADGES(item_rbd_Australia_Victorian_Railways_DERM, AU, "gasoline", "broad/irish")
+TRAIN_BADGES(item_rbd_Czech_Republic_CD_M120, CZ, "gasoline", "standard")
+TRAIN_BADGES(item_rbd_Germany_Schienenzeppelin, DE, "gasoline", "standard")
 TRAIN_BADGES(item_rbd_Denmark_DSB_MO, DK, "diesel", "standard")
-TRAIN_BADGES(item_rbd_Norway_NSB_Cmb_17, NO, "petrol", "standard")
+TRAIN_BADGES(item_rbd_Norway_NSB_Cmb_17, NO, "gasoline", "standard")
 TRAIN_BADGES(item_rbd_Czech_Republic_CD_M290, CZ, "diesel", "standard")
 TRAIN_BADGES(item_rbd_Netherlands_NS_omBC, NL, "diesel", "standard")
-TRAIN_BADGES(item_rbd_Australia_NSWGR_Class_400, AU, "petrol", "standard")
+TRAIN_BADGES(item_rbd_Australia_NSWGR_Class_400, AU, "gasoline", "standard")
 TRAIN_BADGES(item_rbd_Portugal_CP_USD_9050, PT, "diesel", "narrow/metre")
 TRAIN_BADGES(item_rbd_Belgium_SNCB_Class_42, BE, "diesel", "standard")
 TRAIN_BADGES(item_rbd_Bulgaria_BDZ_19, BG, "diesel", "standard")
@@ -167,7 +167,7 @@ TRAIN_BADGES(item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, ER, "diesel", "
 TRAIN_BADGES(item_rbd_Italy_FS_ALn_668, IT, "diesel", "standard")
 // Narrow-Gauge
 TRAIN_BADGES(item_rbd_Tunisia_SNCFT_YZ_661, TN, "diesel", "narrow/metre")
-TRAIN_BADGES(item_rbd_France_Pithiviers_Toury_AT1, FR, "petrol", "narrow/600mm")
+TRAIN_BADGES(item_rbd_France_Pithiviers_Toury_AT1, FR, "gasoline", "narrow/600mm")
 TRAIN_BADGES(item_rbd_Cambodia_Royal_Railway_AS1000, KH, "diesel", "narrow/metre")
 
 //Railbus-Electric

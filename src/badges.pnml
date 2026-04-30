@@ -51,12 +51,13 @@ badgetable {
     /* Power */
     "power",
     "power/battery",
-    "power/petrol",
+    "power/gasoline",
     "power/diesel",
     "power/dual",
     "power/electric",
     "power/electric/ac",
     "power/electric/dc",
+    "power/hydrogen",
     "power/steam",
     "power/turbine",
 
@@ -137,6 +138,7 @@ badgetable {
 
 #include "_Badges/flags.pnml"
 #include "_Badges/gauge.pnml"
+#include "_Badges/power.pnml"
 
 #else
 #define BADGESPROPERTY

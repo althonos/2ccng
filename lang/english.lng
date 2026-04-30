@@ -91,6 +91,20 @@ STR_BADGE_RAILGAUGE_BROAD_RUSSIAN        :Russian {LTBROWN}(1,520mm)
 STR_BADGE_RAILGAUGE_BROAD_DUTCH          :Dutch {GRAY}(1,945mm)
 STR_BADGE_RAILGAUGE_BROAD_BRUNEL         :Brunel {GRAY}(2,140mm)
 
+#power
+STR_BADGE_POWER                             :Propulsion
+STR_BADGE_POWER_STEAM                       :Steam
+STR_BADGE_POWER_DUAL                        :Dual-mode
+STR_BADGE_POWER_DIESEL                      :Diesel
+STR_BADGE_POWER_ELECTRIC                    :Electric
+STR_BADGE_POWER_ELECTRIC_AC                 :Electric (AC)
+STR_BADGE_POWER_ELECTRIC_DC                 :Electric (DC)
+STR_BADGE_POWER_TURBINE                     :Gas Turbine
+STR_BADGE_POWER_BATTERY                     :Battery
+STR_BADGE_POWER_GASOLINE                    :Petrol
+STR_BADGE_POWER_NATURAL_GAS                 :Natural Gas
+STR_BADGE_POWER_HYDROGEN                    :Hydrogen
+
 #EXTRA PURCHASE TEXTDARKGREEN
 #track gauges
 STR_EXTRA_GAUGE_UNKNOWN                 :Track Gauge: {GRAY}Unknown{BLACK}{}{STRING}

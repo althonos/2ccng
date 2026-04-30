@@ -1,0 +1,76 @@
+item(FEAT_BADGES, badge_power) {
+    property {
+        label: "power";
+        name: string(STR_BADGE_POWER);
+    }
+}
+
+item(FEAT_BADGES, badge_power_battery) {
+    property {
+        label: "power/battery";
+        name: string(STR_BADGE_POWER_BATTERY);
+    }
+}
+
+item(FEAT_BADGES, badge_power_gasoline) {
+    property {
+        label: "power/gasoline";
+        name: string(STR_BADGE_POWER_GASOLINE);
+    }
+}
+
+item(FEAT_BADGES, badge_power_diesel) {
+    property {
+        label: "power/diesel";
+        name: string(STR_BADGE_POWER_DIESEL);
+    }
+}
+
+item(FEAT_BADGES, badge_power_dual) {
+    property {
+        label: "power/dual";
+        name: string(STR_BADGE_POWER_DUAL);
+    }
+}
+
+item(FEAT_BADGES, badge_power_electric) {
+    property {
+        label: "power/electric";
+        name: string(STR_BADGE_POWER_ELECTRIC);
+    }
+}
+
+item(FEAT_BADGES, badge_power_electric_ac) {
+    property {
+        label: "power/electric/ac";
+        name: string(STR_BADGE_POWER_ELECTRIC_AC);
+    }
+}
+
+item(FEAT_BADGES, badge_power_electric_dc) {
+    property {
+        label: "power/electric/dc";
+        name: string(STR_BADGE_POWER_ELECTRIC_DC);
+    }
+}
+
+item(FEAT_BADGES, badge_power_hydrogen) {
+    property {
+        label: "power/hydrogen";
+        name: string(STR_BADGE_POWER_HYDROGEN);
+    }
+}
+
+item(FEAT_BADGES, badge_power_steam) {
+    property {
+        label: "power/steam";
+        name: string(STR_BADGE_POWER_STEAM);
+    }
+}
+
+item(FEAT_BADGES, badge_power_turbine) {
+    property {
+        label: "power/turbine";
+        name: string(STR_BADGE_POWER_TURBINE);
+    }
+}
