@@ -371,7 +371,7 @@ item(FEAT_TRAINS, item_diesel_UK_BR_68, 5131) {}
 item(FEAT_TRAINS, item_diesel_South_Africa_PRASA_Afro_4000, 5132) {}
 item(FEAT_TRAINS, item_diesel_USA_Amtrak_Charger, 5133) {}
 item(FEAT_TRAINS, item_diesel_Gabon_Alsthom_AD30B, 5134) {}
-item(FEAT_TRAINS, item_diesel_Ghana_Ghana_Railway_Corporation_TT12, 5135) {}
+item(FEAT_TRAINS, item_diesel_Ghana_Ghana_Railways_1400_EMD_TT12, 5135) {}
 item(FEAT_TRAINS, item_diesel_Sierra_Leone_LAMCO_301_Series, 5136) {}
 item(FEAT_TRAINS, item_diesel_Congo_Congo_Ocean_BB_BB_300, 5137) {}
 item(FEAT_TRAINS, item_diesel_Zimbabwe_Sorefame_DE8, 5138) {}
