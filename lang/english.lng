@@ -289,7 +289,7 @@ str_rbe_Switzerland_MVR_Beh_2_4 :MVR Beh 2/4 (Electric Railbus)
 str_rbe_Austria_MBS_ET_10109 :MBS ET 10.109 (Electric Railbus)
 str_rbe_Poland_PKP_EN81 :PKP EN81 (Electric Railbus)
 str_rbe_USA_SEPTA_Silverliner_V :SEPTA Silverliner V (Electric Railbus)
-str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn Nr. 1-3 (Electric Railbus)
+str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn 1-3 (Electric Railbus)
 str_rbe_Germany_DB_4792: DB 479.2 (Electric Railbus)
 
 #Steam
@@ -690,6 +690,7 @@ str_electric_Germany_Prussian_ES_6 :K.P.St.E. ES 6 (Electric)
 str_electric_China_China_Railways_6K :China Railways 6K (Electric)
 str_electric_Slovakia_ZSSK_HGem_2_2 :ZSSK HGem 2/2 (Electric)
 str_electric_Georgia_BBR_ChS11 :Borjomi-Bakuriani ChS11 (Electric)
+str_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127 :Ferrocarril al Pacifico No. 127 (Electric)
 
 #Dual Mode
 str_dual_Ecuador_FEEP_TD2000   :FEEP TD2000 (Dual Mode)
