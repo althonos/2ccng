@@ -808,6 +808,7 @@ TRAIN_BADGES(item_emu_Australia_Melbourne_Hitachi, AU, "electric/dc", "broad/iri
 TRAIN_BADGES(item_emu_Australia_Melbourne_Harris, AU, "electric/dc", "broad/irish") 
 TRAIN_BADGES(item_emu_Australia_Melbourne_Nexas, AU, "electric/dc", "broad/irish") 
 TRAIN_BADGES(item_emu_Australia_Melbourne_Tait, AU, "electric/dc", "broad/irish") 
+TRAIN_BADGES(item_emu_Chile_EFE_AEZ_Railcar, CL, "electric/dc", "broad/indian")
 // Narrow
 TRAIN_BADGES(item_emu_Spain_Euskotren_3500, ES, "electric/dc", "narrow/metre")
 TRAIN_BADGES(item_emu_Italy_EAV_ETR_200_Metrostar, IT, "electric/dc", "narrow/italian_metre")

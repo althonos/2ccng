@@ -741,6 +741,7 @@ item(FEAT_TRAINS, item_emu_Australia_Melbourne_Hitachi, 8075) {}
 item(FEAT_TRAINS, item_emu_Australia_Melbourne_Harris, 8076) {}
 item(FEAT_TRAINS, item_emu_Australia_Melbourne_Nexas, 8077) {}
 item(FEAT_TRAINS, item_emu_Australia_Melbourne_Tait, 8078) {}
+item(FEAT_TRAINS, item_emu_Chile_EFE_AEZ_Railcar, 8079) {}
 // Narrow
 item(FEAT_TRAINS, item_emu_Spain_Euskotren_3500, 8800) {}
 item(FEAT_TRAINS, item_emu_Italy_EAV_ETR_200_Metrostar, 8801) {}
