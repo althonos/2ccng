@@ -22,6 +22,8 @@
 #undef CARGODEF 
 #undef SPEED 
 #undef POWER 
+#undef POWER_DIESEL
+#undef POWER_ELECTRIC
 #undef WEIGHT 
 #undef TE_COEFFICIENT 
 #undef AIR_DRAG_COEFFICIENT 

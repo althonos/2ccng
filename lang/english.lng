@@ -693,6 +693,7 @@ str_electric_Georgia_BBR_ChS11 :Borjomi-Bakuriani ChS11 (Electric)
 
 #Dual Mode
 str_dual_Ecuador_FEEP_TD2000   :FEEP TD2000 (Dual Mode)
+str_dual_Spain_FGC_257         :FGC 257 (Dual Mode)
 
 #DMU
 str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DB VT 04.0 'Flying Hamburger' (DMU)
