@@ -28,6 +28,7 @@
 #define REGION_CL "america/south"
 #define REGION_CN "asia/eastern"
 #define REGION_CM "africa/middle"
+#define REGION_CR "america/central"
 #define REGION_CZ "europe/eastern"
 #define REGION_DE "europe/western"
 #define REGION_DK "europe/northern"
@@ -78,6 +79,7 @@
 #define REGION_PL "europe/eastern"
 #define REGION_PE "america/south"
 #define REGION_PT "europe/southern"
+#define REGION_PY "america/south"
 #define REGION_RO "europe/eastern"
 #define REGION_RS "europe/southern"
 #define REGION_RU "europe/eastern"
@@ -321,6 +323,15 @@ TRAIN_BADGES(item_steam_Australia_JA_Brown_ROD_280, AU, "steam", "standard")
 TRAIN_BADGES(item_steam_Australia_SAR_600, AU, "steam", "broad/irish")
 TRAIN_BADGES(item_steam_Australia_SMR_10, AU, "steam", "standard")
 TRAIN_BADGES(item_steam_Australia_VR_H, AU, "steam", "broad/irish")
+TRAIN_BADGES(item_steam_Brazil_Baroneza, BR, "steam", "broad/indian")
+TRAIN_BADGES(item_steam_Argentina_La_Portena, AR, "steam", "broad/indian")
+TRAIN_BADGES(item_steam_Brazil_Dom_Pedro_Segundo_119, BR, "steam", "broad/irish")
+TRAIN_BADGES(item_steam_Peru_No8_Monsefu, PE, "steam", "standard")
+TRAIN_BADGES(item_steam_Paraguay_FCCP_Q_Class, PY, "steam", "standard")
+TRAIN_BADGES(item_steam_Argentina_FCCA_PS10_Class, AR, "steam", "broad/indian")
+TRAIN_BADGES(item_steam_Chile_Anglo_Chilean_Nitrate_No_97, CL, "steam", "standard")
+TRAIN_BADGES(item_steam_Chile_La_Copiapo, CL, "steam", "standard")
+TRAIN_BADGES(item_steam_Brazil_Sao_Paulo_Railway_13, BR, "steam", "broad/irish")
 // Narrow-Gauge
 TRAIN_BADGES(item_steam_USA_D_H_Stourbridge_Lion, US, "steam", "narrow/4ft")
 TRAIN_BADGES(item_steam_USA_0_4_4_Forney, US, "steam", "narrow/2ft")
@@ -649,6 +660,9 @@ TRAIN_BADGES(item_electric_Australia_QR_3500, AU, "electric/ac", "narrow/cape")
 TRAIN_BADGES(item_electric_Australia_NSW_85, AU, "electric/dc", "standard")
 TRAIN_BADGES(item_electric_Australia_SRA_8650, AU, "electric/dc", "standard")
 TRAIN_BADGES(item_electric_Australia_NSW_46, AU, "electric/dc", "standard") 
+TRAIN_BADGES(item_electric_Brazil_SLM_Winterthur_BBC_1D1, BR, "electric/dc", "standard")
+TRAIN_BADGES(item_electric_Brazil_GE_2CC2, BR, "electric/dc", "broad/irish")
+TRAIN_BADGES(item_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127, CR, "electric/ac", "narrow/cape")
 // Narrow
 TRAIN_BADGES(item_electric_Slovakia_ZSSK_HGem_2_2, SK, "electric/dc", "narrow/metre")
 TRAIN_BADGES(item_electric_Georgia_BBR_ChS11, GE, "electric/dc", "narrow/900mm")
@@ -706,6 +720,7 @@ TRAIN_BADGES(item_dmu_Ghana_Ghana_Railways_DEMU, GH, "diesel", "narrow/cape")
 TRAIN_BADGES(item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, AU, "diesel", "narrow/cape")
 TRAIN_BADGES(item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, CA, "diesel", "standard")
 TRAIN_BADGES(item_dmu_Argentina_FCGU_CMM_400_2, AR, "diesel", "standard")
+TRAIN_BADGES(item_dmu_Argentina_Ganz_ARPAD_CMU_4701_Transandino, AR, "diesel", "narrow/metre")
 // Narrow
 TRAIN_BADGES(item_dmu_France_CFC_X_97050, FR, "diesel", "narrow/metre")
 TRAIN_BADGES(item_dmu_Cambodia_Royal_Railway_ZZ_800, KH, "diesel", "narrow/metre")

@@ -234,6 +234,15 @@ item(FEAT_TRAINS, item_steam_Australia_JA_Brown_ROD_280, 4128) {}
 item(FEAT_TRAINS, item_steam_Australia_SAR_600, 4129) {}
 item(FEAT_TRAINS, item_steam_Australia_SMR_10, 4130) {}
 item(FEAT_TRAINS, item_steam_Australia_VR_H, 4131) {}
+item(FEAT_TRAINS, item_steam_Brazil_Baroneza, 4132) {}
+item(FEAT_TRAINS, item_steam_Argentina_La_Portena, 4133) {}
+item(FEAT_TRAINS, item_steam_Brazil_Dom_Pedro_Segundo_119, 4134) {}
+item(FEAT_TRAINS, item_steam_Peru_No8_Monsefu, 4135) {}
+item(FEAT_TRAINS, item_steam_Paraguay_FCCP_Q_Class, 4136) {}
+item(FEAT_TRAINS, item_steam_Argentina_FCCA_PS10_Class, 4137) {}
+item(FEAT_TRAINS, item_steam_Chile_Anglo_Chilean_Nitrate_No_97, 4138) {}
+item(FEAT_TRAINS, item_steam_Chile_La_Copiapo, 4139) {}
+item(FEAT_TRAINS, item_steam_Brazil_Sao_Paulo_Railway_13, 4140) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_steam_USA_D_H_Stourbridge_Lion, 4801) {}
 item(FEAT_TRAINS, item_steam_USA_0_4_4_Forney, 4802) {}
@@ -581,10 +590,12 @@ item(FEAT_TRAINS, item_electric_Australia_QR_3500, 6139) {}
 item(FEAT_TRAINS, item_electric_Australia_NSW_85, 6140) {}
 item(FEAT_TRAINS, item_electric_Australia_SRA_8650, 6141) {}
 item(FEAT_TRAINS, item_electric_Australia_NSW_46, 6142) {}
+item(FEAT_TRAINS, item_electric_Brazil_SLM_Winterthur_BBC_1D1, 6143) {}
+item(FEAT_TRAINS, item_electric_Brazil_GE_2CC2, 6144) {}
+item(FEAT_TRAINS, item_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127, 6145) {}
 // Narrow
 item(FEAT_TRAINS, item_electric_Slovakia_ZSSK_HGem_2_2, 6800) {}
 item(FEAT_TRAINS, item_electric_Georgia_BBR_ChS11, 6801) {}
-item(FEAT_TRAINS, item_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127, 6802) {}
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
 #define ID_RANGE_DMU 0x1B58..0x1F3F
@@ -642,6 +653,7 @@ item(FEAT_TRAINS, item_dmu_Ghana_Ghana_Railways_DEMU, 7050) {}
 item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, 7051) {}
 item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, 7052) {}
 item(FEAT_TRAINS, item_dmu_Argentina_FCGU_CMM_400_2, 7053) {}
+item(FEAT_TRAINS, item_dmu_Argentina_Ganz_ARPAD_CMU_4701_Transandino, 7054) {}
 // Narrow
 item(FEAT_TRAINS, item_dmu_France_CFC_X_97050, 7800) {}
 item(FEAT_TRAINS, item_dmu_Cambodia_Royal_Railway_ZZ_800, 7801) {}

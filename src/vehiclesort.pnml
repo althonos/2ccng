@@ -107,14 +107,18 @@ item_steam_Netherlands_NRS_11, /*Year: 1844*/ \
 item_steam_UK_GWR_Iron_DUKe_Class, /*Year: 1846*/ \
 item_steam_UK_Padarn_Railway_Fire_Queen, /*Year: 1848 */ \
 item_steam_USA_4_4_0_American, /*Year: 1848*/ \
+item_steam_Chile_La_Copiapo, /*Year: 1850*/ \
+item_steam_Brazil_Baroneza, /*Year: 1852*/ \
 item_steam_Sweden_NJ_Forstlingen, /*Year: 1853*/ \
 item_steam_Switzerland_SBB_Ec_2_5, /*Year: 1854*/ \
 item_steam_Australia_Sidney_Railway_Locomotive_No1, /*Year: 1855*/ \
 item_steam_India_Fairy_Queen, /*Year: 1855*/ \
+item_steam_Argentina_La_Portena, /*Year: 1857*/ \
 item_steam_USA_Central_Pacific_4_2_2, /*Year: 1863*/ \
 item_steam_Australia_Queensland_Railways_A10, /*Year: 1865*/ \
 item_steam_Netherlands_NS_700, /*Year: 1865*/ \
 item_steam_Ireland_GS_WR_101, /*Year: 1866*/ \
+item_steam_Brazil_Sao_Paulo_Railway_13, /*Year: 1867*/ \
 item_steam_Egypt_Stephenson_Class_192, /*Year: 1867*/ \
 item_steam_South_Africa_Natal_Government_Railways_2_6_0T, /*Year: 1876*/ \
 item_steam_USA_4_6_0_Ten_wheeler, /*Year: 1869*/ \
@@ -128,6 +132,7 @@ item_steam_Australia_NSW_Z19, /*Year: 1879*/ \
 item_steam_Sweden_Gotland_1_3, /*Year: 1878*/ \
 item_steam_Japan_Horonai_Railway_7100, /*Year: 1880*/ \
 item_steam_Australia_NSWGR_Z25_Class, /*Year: 1881*/ \
+item_steam_Brazil_Dom_Pedro_Segundo_119, /*Year: 1885*/ \
 item_steam_Hungary_MAV_377, /*Year: 1885*/ \
 item_steam_Canada_Canadian_Pacific_374, /*Year: 1886*/ \
 item_steam_South_Africa_PPR_35_tonner_4_6_0T, /*Year: 1887*/ \
@@ -157,6 +162,7 @@ item_steam_Austria_KkStB_299, /*Year: 1904*/ \
 item_steam_Russia_RZD_U, /*Year: 1906*/ \
 item_steam_New_Zealand_NZR_X_Class, /*Year: 1908*/ \
 item_steam_Italy_FS_895, /*Year: 1908*/ \
+item_steam_Peru_No8_Monsefu, /*Year: 1910*/ \
 item_steam_South_Africa_SAR_MD_Class, /*Year: 1910*/ \
 item_steam_Uruguay_AFE_N1_2_6_0, /*Year: 1910*/ \
 item_steam_Czech_Republic_CD_5341, /*Year: 1910*/ \
@@ -168,6 +174,8 @@ item_steam_Russia_RZD_E, /*Year: 1912*/ \
 item_steam_Australia_Tasmanian_Government_M, /*Year: 1912*/ \
 item_steam_Japan_JGR_9600, /*Year: 1913*/ \
 item_steam_Switzerland_SBB_C_5_6, /*Year: 1913*/ \
+item_steam_Paraguay_FCCP_Q_Class, /*Year: 1914*/ \
+item_steam_Argentina_FCCA_PS10_Class, /*Year: 1914*/ \
 item_steam_USA_NYC_H_6A_Light_Mikado, /*Year: 1914*/ \
 item_steam_Australia_NSWGR_C35, /*Year: 1914*/ \
 item_steam_Croatia_HZ_51, /*Year: 1914*/ \
@@ -189,6 +197,7 @@ item_steam_Italy_FS_480, /*Year: 1923*/ \
 item_steam_New_Zealand_NZR_WAB, /*Year: 1923*/ \
 item_steam_Poland_PKP_Ok22, /*Year: 1923*/ \
 item_steam_Mozambique_Mozambique_Railways_101_104, /*Year: 1923*/ \
+item_steam_Chile_Anglo_Chilean_Nitrate_No_97, /*Year: 1924*/ \
 item_steam_Croatia_HZ_11, /*Year: 1924*/ \
 item_steam_UK_GWR_4900, /*Year: 1924*/ \
 item_steam_Australia_SAR_600, /*Year: 1925*/ \
@@ -447,6 +456,7 @@ item_electric_Morocco_ONCFM_E_500, /*Year: 1926*/ \
 item_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127, /*Year: 1926*/ \
 item_electric_Austria_OBB_1161, /*Year: 1928*/ \
 item_electric_India_Indian_Railways_WCG_1, /*Year: 1928*/ \
+item_electric_Brazil_SLM_Winterthur_BBC_1D1, /*Year: 1929*/ \
 item_electric_Germany_DB_169, /*Year: 1930*/ \
 item_electric_Japan_Aichi_Railroad_DeKi_400, /*Year: 1930*/ \
 item_electric_Japan_JNR_EB10, /*Year: 1931*/ \
@@ -456,6 +466,7 @@ item_electric_Italy_FS_E428, /*Year: 1934*/ \
 item_electric_USA_Pennsylvania_Railroad_GG_1, /*Year: 1935*/ \
 item_electric_Japan_JNR_EF55, /*Year: 1936*/ \
 item_electric_South_Africa_SAR_ES_Class, /*Year: 1936*/ \
+item_electric_Brazil_GE_2CC2, /*Year: 1940*/ \
 item_electric_Austria_OBB_1020_Crocodile, /*Year: 1940*/ \
 item_electric_Sweden_SJ_F_Class, /*Year: 1942*/ \
 item_electric_Italy_FS_E424, /*Year: 1943*/ \
@@ -569,6 +580,7 @@ item_mglv_Germany_DB_182_ES64UM_Mutus, /*Year: 2005*/
 #define SORTING_DMU \
 item_dmu_Australia_NSWGR_Silver_City_Comet, /*Year: 1937*/ \
 item_dmu_Australia_Queensland_Rail_400, /*Year: 1955*/ \
+item_dmu_Argentina_Ganz_ARPAD_CMU_4701_Transandino, /*Year: 1960*/ \
 item_dmu_Australia_WAGR_ADK_ADB, /*Year: 1967*/ \
 item_dmu_Japan_JNR_KiHa_181, /*Year: 1968*/ \
 item_dmu_Cambodia_Royal_Railway_ZZ_800, /*Year: 1969*/ \
