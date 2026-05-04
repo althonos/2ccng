@@ -1,0 +1,60 @@
+/*
+ *  Copyright (C) 2026 Martin Larralde
+ *  This file is part of the 2cc Narrow Gauge in NML, and is based on the 2cc Trains In NML by Transportman
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+* PURCHASE
+*/
+
+PURCHASE_SPRITESET(diesel_Ecuador_ENFE_BBB_151, "gfx/Diesel/Ecuador_ENFE_BBB_151.xpm", 1, 64)
+
+/*
+* VEHICLE
+*/
+
+// Engine
+spriteset(spriteset_diesel_Ecuador_ENFE_BBB_151_front, "gfx/Diesel/Ecuador_ENFE_BBB_151.xpm") {
+	template_2cc_engines_general(1, 1)
+}
+
+spriteset(spriteset_diesel_Ecuador_ENFE_BBB_151_back, "gfx/Diesel/Ecuador_ENFE_BBB_151.xpm") {
+	template_2cc_engines_general(1, 32)
+}
+
+switch(FEAT_TRAINS, SELF, switch_diesel_Ecuador_ENFE_BBB_151_position, position_in_vehid_chain % 2) {
+	0: spriteset_diesel_Ecuador_ENFE_BBB_151_front;
+	spriteset_diesel_Ecuador_ENFE_BBB_151_back;
+}
+
+/*
+* Visual effect
+*/
+
+switch(FEAT_TRAINS, SELF, switch_diesel_Ecuador_ENFE_BBB_151_EMD_TT12_visual_effect, position_in_vehid_chain % 2) {
+	0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 4, DISABLE_WAGON_POWER);
+	1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -4, DISABLE_WAGON_POWER);
+	return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_diesel_Ecuador_ENFE_BBB_151_length, position_in_vehid_chain % 2) {
+	5;
+}
+
+/*
+* Articulated part
+*/
+
+switch(FEAT_TRAINS, SELF, switch_diesel_Ecuador_ENFE_BBB_151_articulated, extra_callback_info1) {
+	1: return item_diesel_Ecuador_ENFE_BBB_151;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)
