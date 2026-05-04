@@ -41,7 +41,7 @@ switch(FEAT_TRAINS, SELF, switch_dual_Spain_FGC_257_visual_effect, tile_powers_r
 
 //Add defined switches
 
-RUNNINGCOSTENGINESWITCH
+// RUNNINGCOSTENGINESWITCH
 
 EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)
 
