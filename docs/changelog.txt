@@ -1,6 +1,32 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.6.1 (2026-05-05)
+-------------------
+
+Added
+^^^^^
+- Integration of new 2cc Trains in NML 'revival' locomotives.
+- Dedicated logic for switching power mode and costs for dual-mode locomotives.
+- ``TD2000`` dual-mode locomotive of 2018 exported to Ecuador.
+- ``EMD TT12`` of Ghana with new sprites from ``2ccts_revival``.
+- Stadler ``SALi`` diesel locomotive of Bolivia.
+- ``FGC 257`` dual-model locomotive of Spain.
+- ``Ferrocarril al Pacifico No. 127`` electric locomotive of Costa-Rica.
+- ``ENFE BBB 151-157`` diesel locomotive of Ecuador.
+- ``FCMU No. 20 & 22`` diesel locomotive of Bolivia.
+
+Changed
+^^^^^^^
+- Use cargo decay to increase cargo payout on sleeper cars.
+- Improve proportions in sprites of ``KAI CC203``.
+
+Fixed
+^^^^^
+- Incorrect handling of multiple engine overrides.
+- Add badge text for propulsion modes.
+
+
 v0.6.0 (2026-04-19)
 -------------------
 
