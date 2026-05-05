@@ -445,6 +445,7 @@ item(FEAT_TRAINS, item_dual_Ecuador_FEEP_TD2000, 5808) {}
 item(FEAT_TRAINS, item_diesel_Bolivia_Ferroviaria_Andina_2500_SALi, 5809) {}
 item(FEAT_TRAINS, item_dual_Spain_FGC_257, 5810) {}
 item(FEAT_TRAINS, item_diesel_Ecuador_ENFE_BBB_151, 5811) {}
+item(FEAT_TRAINS, item_diesel_Bolivia_FCMU_Nr_20_22, 5812) {}
 
 //Electric, available ID range: 6000-6999 (hex 0x1770..0x1B57)
 #define ID_RANGE_ELECTRIC 0x1770..0x1B57
