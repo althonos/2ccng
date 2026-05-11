@@ -10,37 +10,46 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Malaysia_KTM_Class_93, "gfx/EMU/Malaysia_KTM_Class_93.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(emu_Malaysia_KTM_Class_93, "gfx/EMU/Malaysia_KTM_Class_93.xpm", 1, 128)
 
 /*
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Malaysia_KTM_Class_93_front, "gfx/EMU/Malaysia_KTM_Class_93.png") {
-	template_2cc_engines_general(1, 1)
-}
+#define REVERSED_SPRITESET(id, y) \
+	spriteset(spriteset_emu_Malaysia_KTM_Class_93_ ## id ## _fwd, "gfx/EMU/Malaysia_KTM_Class_93.xpm") {		\
+		template_2cc_engines_general(1, y)																		\
+	} 																											\
+	spriteset(spriteset_emu_Malaysia_KTM_Class_93_ ## id ## _rev, "gfx/EMU/Malaysia_KTM_Class_93.xpm") 		 {  \
+		template_2cc_engines_general(179, y)																	\
+	}																											\
+	switch(FEAT_TRAINS, PARENT, switch_emu_Malaysia_KTM_Class_93_ ## id, vehicle_is_reversed) { 				\
+		1: spriteset_emu_Malaysia_KTM_Class_93_ ## id ## _rev;													\
+		0: spriteset_emu_Malaysia_KTM_Class_93_ ## id ## _fwd;													\
+	}
 
-//Back
-spriteset(spriteset_emu_Malaysia_KTM_Class_93_back, "gfx/EMU/Malaysia_KTM_Class_93.png") {
-	template_2cc_engines_general(1, 32)
-}
+//Power car and driving car
+
+REVERSED_SPRITESET(front, 1)
+REVERSED_SPRITESET(back, 32)
+
+#undef REVERSED_SPRITESET
 
 //Middle - PAX
-spriteset(spriteset_emu_Malaysia_KTM_Class_93_middlepass, "gfx/EMU/Malaysia_KTM_Class_93.png") {
+spriteset(spriteset_emu_Malaysia_KTM_Class_93_middlepass, "gfx/EMU/Malaysia_KTM_Class_93.xpm") {
 	template_2cc_engines_general(1, 64)
 }
 
 //Middle - MAIL
-spriteset(spriteset_emu_Malaysia_KTM_Class_93_middlemail, "gfx/EMU/Malaysia_KTM_Class_93.png") {
+spriteset(spriteset_emu_Malaysia_KTM_Class_93_middlemail, "gfx/EMU/Malaysia_KTM_Class_93.xpm") {
 	template_2cc_engines_general(1, 96)
 }
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Malaysia_KTM_Class_93_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Malaysia_KTM_Class_93_back;
-   	0xFF: spriteset_emu_Malaysia_KTM_Class_93_back; 
-	spriteset_emu_Malaysia_KTM_Class_93_front;
+	0xFE: switch_emu_Malaysia_KTM_Class_93_back;
+   	0xFF: switch_emu_Malaysia_KTM_Class_93_back; 
+	switch_emu_Malaysia_KTM_Class_93_front;
 }
 
 
