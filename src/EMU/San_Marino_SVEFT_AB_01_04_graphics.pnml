@@ -10,28 +10,28 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(emu_San_Marino_SVEFT_AB_01_04, "gfx/EMU/San_Marino_SVEFT_AB_01_04.png", 1, 128)
+PURCHASE_SPRITESET(emu_San_Marino_SVEFT_AB_01_04, "gfx/EMU/San_Marino_SVEFT_AB_01_04.xpm", 1, 128)
 
 /*
 * VEHICLE
 */
 
 //Front
-spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_front, "gfx/EMU/San_Marino_SVEFT_AB_01_04.png") {
+spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_front, "gfx/EMU/San_Marino_SVEFT_AB_01_04.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
 //Back
-spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_back, "gfx/EMU/San_Marino_SVEFT_AB_01_04.png") {
+spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_back, "gfx/EMU/San_Marino_SVEFT_AB_01_04.xpm") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Middle - PAX
-spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_middlepass, "gfx/EMU/San_Marino_SVEFT_AB_01_04.png") {
+spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_middlepass, "gfx/EMU/San_Marino_SVEFT_AB_01_04.xpm") {
 	template_2cc_engines_general(1, 64)
 }
 //Middle - MAIL
-// spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_middlemail, "gfx/EMU/San_Marino_SVEFT_AB_01_04.png") {
+// spriteset(spriteset_emu_San_Marino_SVEFT_AB_01_04_middlemail, "gfx/EMU/San_Marino_SVEFT_AB_01_04.xpm") {
 // 	template_2cc_engines_general(1, 96)
 // }
 

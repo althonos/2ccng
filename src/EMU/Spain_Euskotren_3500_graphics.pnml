@@ -10,28 +10,28 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 128)
 
 /*
 * VEHICLE
 */
 
 //Front
-spriteset(spriteset_emu_Spain_Euskotren_3500_front, "gfx/EMU/Spain_Euskotren_3500.png") {
+spriteset(spriteset_emu_Spain_Euskotren_3500_front, "gfx/EMU/Spain_Euskotren_3500.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
 //Back
-spriteset(spriteset_emu_Spain_Euskotren_3500_back, "gfx/EMU/Spain_Euskotren_3500.png") {
+spriteset(spriteset_emu_Spain_Euskotren_3500_back, "gfx/EMU/Spain_Euskotren_3500.xpm") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Middle - PAX
-spriteset(spriteset_emu_Spain_Euskotren_3500_middlepass, "gfx/EMU/Spain_Euskotren_3500.png") {
+spriteset(spriteset_emu_Spain_Euskotren_3500_middlepass, "gfx/EMU/Spain_Euskotren_3500.xpm") {
 	template_2cc_engines_general(1, 64)
 }
 //Middle - MAIL
-// spriteset(spriteset_emu_Spain_Euskotren_3500_middlemail, "gfx/EMU/Spain_Euskotren_3500.png") {
+// spriteset(spriteset_emu_Spain_Euskotren_3500_middlemail, "gfx/EMU/Spain_Euskotren_3500.xpm") {
 // 	template_2cc_engines_general(1, 96)
 // }
 
