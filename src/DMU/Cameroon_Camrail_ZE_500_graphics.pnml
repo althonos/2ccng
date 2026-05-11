@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(dmu_Cameroon_Camrail_ZE_500, "gfx/DMU/Cameroon_Cam
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_dmu_Cameroon_Camrail_ZE_500_front, "gfx/DMU/Cameroon_Camrail_ZE_500.png") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_dmu_Cameroon_Camrail_ZE_500_back, "gfx/DMU/Cameroon_Camrail_ZE_500.png") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(dmu_Cameroon_Camrail_ZE_500, "gfx/DMU/Cameroon_Camrail_ZE_500.png", 1, 1)
+BACKWARD_SPRITESET(dmu_Cameroon_Camrail_ZE_500, "gfx/DMU/Cameroon_Camrail_ZE_500.png", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_dmu_Cameroon_Camrail_ZE_500_middlepass, "gfx/DMU/Cameroon_Camrail_ZE_500.png") {
@@ -37,9 +30,9 @@ spriteset(spriteset_dmu_Cameroon_Camrail_ZE_500_middlemail, "gfx/DMU/Cameroon_Ca
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_dmu_Cameroon_Camrail_ZE_500_reversed, var[0xC8]) {
-	0xFE: spriteset_dmu_Cameroon_Camrail_ZE_500_back;
-    0xFF: spriteset_dmu_Cameroon_Camrail_ZE_500_back; 
-    spriteset_dmu_Cameroon_Camrail_ZE_500_front;
+	0xFE: switch_dmu_Cameroon_Camrail_ZE_500_bwd;
+    0xFF: switch_dmu_Cameroon_Camrail_ZE_500_bwd; 
+    switch_dmu_Cameroon_Camrail_ZE_500_fwd;
 }
 
 //Visual effect, for DMU this is done on the front engine

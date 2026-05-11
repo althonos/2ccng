@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zeal
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_New_Zealand_NZR_EM_ET_Class_front, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_emu_New_Zealand_NZR_EM_ET_Class_back, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 1)
+BACKWARD_SPRITESET(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_emu_New_Zealand_NZR_EM_ET_Class_middlepass, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png") {
@@ -37,9 +30,9 @@ spriteset(spriteset_emu_New_Zealand_NZR_EM_ET_Class_middlemail, "gfx/EMU/New_Zea
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_New_Zealand_NZR_EM_ET_Class_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_New_Zealand_NZR_EM_ET_Class_back;
-    0xFF: spriteset_emu_New_Zealand_NZR_EM_ET_Class_back; 
-    spriteset_emu_New_Zealand_NZR_EM_ET_Class_front;
+	0xFE: switch_emu_New_Zealand_NZR_EM_ET_Class_bwd;
+    0xFF: switch_emu_New_Zealand_NZR_EM_ET_Class_bwd; 
+    switch_emu_New_Zealand_NZR_EM_ET_Class_fwd;
 }
 
 //Visual effect, for DMU this is done on the front engine

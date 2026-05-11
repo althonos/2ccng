@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(emu_Japan_Odakyu_3100_Series_Romance, "gfx/EMU/Jap
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Japan_Odakyu_3100_Series_Romance_front, "gfx/EMU/Japan_Odakyu_3100_Series_Romance.png") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_emu_Japan_Odakyu_3100_Series_Romance_back, "gfx/EMU/Japan_Odakyu_3100_Series_Romance.png") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(emu_Japan_Odakyu_3100_Series_Romance, "gfx/EMU/Japan_Odakyu_3100_Series_Romance.png", 1, 1)
+BACKWARD_SPRITESET(emu_Japan_Odakyu_3100_Series_Romance, "gfx/EMU/Japan_Odakyu_3100_Series_Romance.png", 1, 32)
 
 //Middle - PAX-L1
 spriteset(spriteset_emu_Japan_Odakyu_3100_Series_Romance_middlepass_L1, "gfx/EMU/Japan_Odakyu_3100_Series_Romance.png") {

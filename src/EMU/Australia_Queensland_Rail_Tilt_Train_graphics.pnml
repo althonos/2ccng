@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(emu_Australia_Queensland_Rail_Tilt_Train, "gfx/EMU
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Australia_Queensland_Rail_Tilt_Train_front, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_emu_Australia_Queensland_Rail_Tilt_Train_back, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(emu_Australia_Queensland_Rail_Tilt_Train, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 1)
+BACKWARD_SPRITESET(emu_Australia_Queensland_Rail_Tilt_Train, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 32)
 
 //Middle - PAX-L1
 spriteset(spriteset_emu_Australia_Queensland_Rail_Tilt_Train_middlepass_L1, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png") {
@@ -48,9 +41,9 @@ spriteset(spriteset_emu_Australia_Queensland_Rail_Tilt_Train_middlemail_L2, "gfx
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Australia_Queensland_Rail_Tilt_Train_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Australia_Queensland_Rail_Tilt_Train_back;
-    0xFF: spriteset_emu_Australia_Queensland_Rail_Tilt_Train_back; 
-    spriteset_emu_Australia_Queensland_Rail_Tilt_Train_front;
+	0xFE: switch_emu_Australia_Queensland_Rail_Tilt_Train_bwd;
+    0xFF: switch_emu_Australia_Queensland_Rail_Tilt_Train_bwd; 
+    switch_emu_Australia_Queensland_Rail_Tilt_Train_fwd;
 }
 
 //Visual effect, for EMU this is done on the part with the pantograph

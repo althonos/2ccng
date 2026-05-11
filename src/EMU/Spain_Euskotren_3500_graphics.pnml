@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Spain_Euskotren_3500_front, "gfx/EMU/Spain_Euskotren_3500.xpm") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_emu_Spain_Euskotren_3500_back, "gfx/EMU/Spain_Euskotren_3500.xpm") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 1)
+BACKWARD_SPRITESET(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_emu_Spain_Euskotren_3500_middlepass, "gfx/EMU/Spain_Euskotren_3500.xpm") {
@@ -37,9 +30,9 @@ spriteset(spriteset_emu_Spain_Euskotren_3500_middlepass, "gfx/EMU/Spain_Euskotre
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Spain_Euskotren_3500_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Spain_Euskotren_3500_back;
-    0xFF: spriteset_emu_Spain_Euskotren_3500_back; 
-    spriteset_emu_Spain_Euskotren_3500_front;
+	0xFE: switch_emu_Spain_Euskotren_3500_bwd;
+    0xFF: switch_emu_Spain_Euskotren_3500_bwd; 
+    switch_emu_Spain_Euskotren_3500_fwd;
 }
 
 //Visual effect, for DMU this is done on the front engine

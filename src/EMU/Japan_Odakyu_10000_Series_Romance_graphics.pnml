@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Ja
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Japan_Odakyu_10000_Series_Romance_front, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_emu_Japan_Odakyu_10000_Series_Romance_back, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 1)
+BACKWARD_SPRITESET(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 32)
 
 //Middle - PAX-L1
 spriteset(spriteset_emu_Japan_Odakyu_10000_Series_Romance_middlepass_L1, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png") {
@@ -48,9 +41,9 @@ spriteset(spriteset_emu_Japan_Odakyu_10000_Series_Romance_middlemail_L2, "gfx/EM
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Japan_Odakyu_10000_Series_Romance_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Japan_Odakyu_10000_Series_Romance_back;
-    0xFF: spriteset_emu_Japan_Odakyu_10000_Series_Romance_back; 
-    spriteset_emu_Japan_Odakyu_10000_Series_Romance_front;
+	0xFE: switch_emu_Japan_Odakyu_10000_Series_Romance_bwd;
+    0xFF: switch_emu_Japan_Odakyu_10000_Series_Romance_bwd; 
+    switch_emu_Japan_Odakyu_10000_Series_Romance_fwd;
 }
 
 //Visual effect, for EMU this is done on the part with the pantograph

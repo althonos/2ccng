@@ -16,25 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Sweden_SL_X15p_front, "gfx/EMU/Sweden_SL_X15p.xpm") {
-	template_2cc_engines_general(1, 1)
-}
-
-switch(FEAT_TRAINS, PARENT, switch_emu_Sweden_SL_X15p_fwd, vehicle_is_reversed) {
-	1: spriteset_emu_Sweden_SL_X15p_back;
-	0: spriteset_emu_Sweden_SL_X15p_front;
-}
-
-//Back
-spriteset(spriteset_emu_Sweden_SL_X15p_back, "gfx/EMU/Sweden_SL_X15p.xpm") {
-	template_2cc_engines_general(1, 32)
-}
-
-switch(FEAT_TRAINS, PARENT, switch_emu_Sweden_SL_X15p_bwd, vehicle_is_reversed) {
-	1: spriteset_emu_Sweden_SL_X15p_front;
-	0: spriteset_emu_Sweden_SL_X15p_back;
-}
+FORWARD_SPRITESET(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 1)
+BACKWARD_SPRITESET(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_emu_Sweden_SL_X15p_middlepass, "gfx/EMU/Sweden_SL_X15p.xpm") {

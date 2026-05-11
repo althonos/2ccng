@@ -16,15 +16,8 @@ PURCHASE_SPRITESET_DUALHEADED(dmu_Japan_JNR_KiHa_181, "gfx/DMU/Japan_JNR_KiHa_18
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_dmu_Japan_JNR_KiHa_181_front, "gfx/DMU/Japan_JNR_KiHa_181.png") {
-	template_2cc_engines_general(1, 1)
-}
-
-//Back
-spriteset(spriteset_dmu_Japan_JNR_KiHa_181_back, "gfx/DMU/Japan_JNR_KiHa_181.png") {
-	template_2cc_engines_general(1, 32)
-}
+FORWARD_SPRITESET(dmu_Japan_JNR_KiHa_181, "gfx/DMU/Japan_JNR_KiHa_181.png", 1, 1)
+BACKWARD_SPRITESET(dmu_Japan_JNR_KiHa_181, "gfx/DMU/Japan_JNR_KiHa_181.png", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_dmu_Japan_JNR_KiHa_181_middlepass, "gfx/DMU/Japan_JNR_KiHa_181.png") {
@@ -37,9 +30,9 @@ spriteset(spriteset_dmu_Japan_JNR_KiHa_181_middlemail, "gfx/DMU/Japan_JNR_KiHa_1
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_dmu_Japan_JNR_KiHa_181_reversed, var[0xC8]) {
-	0xFE: spriteset_dmu_Japan_JNR_KiHa_181_back;
-    0xFF: spriteset_dmu_Japan_JNR_KiHa_181_back; 
-    spriteset_dmu_Japan_JNR_KiHa_181_front;
+	0xFE: switch_dmu_Japan_JNR_KiHa_181_bwd;
+    0xFF: switch_dmu_Japan_JNR_KiHa_181_bwd; 
+    switch_dmu_Japan_JNR_KiHa_181_fwd;
 }
 
 //Visual effect, for DMU this is done on the front engine
