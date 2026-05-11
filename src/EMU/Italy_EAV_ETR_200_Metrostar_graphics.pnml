@@ -10,36 +10,41 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Italy_EAV_ETR_200_Metrostar, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(emu_Italy_EAV_ETR_200_Metrostar, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.xpm", 1, 128)
 
 /*
 * VEHICLE
 */
 
-//Front
-spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_front, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png") {
-	template_2cc_engines_general(1, 1)
-}
+#define REVERSED_SPRITESET(id, y) \
+	spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_ ## id ## _fwd, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.xpm") {			\
+		template_2cc_engines_general(1, y)																									\
+	} 																																		\
+	spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_ ## id ## _rev, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.xpm") 		 {  \
+		template_2cc_engines_general(179, y)																								\
+	}																																		\
+	switch(FEAT_TRAINS, PARENT, switch_emu_Italy_EAV_ETR_200_Metrostar_ ## id, vehicle_is_reversed) { 								    \
+		1: spriteset_emu_Italy_EAV_ETR_200_Metrostar_ ## id ## _rev;																	\
+		0: spriteset_emu_Italy_EAV_ETR_200_Metrostar_ ## id ## _fwd;																	\
+	}
 
-//Back
-spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_back, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png") {
-	template_2cc_engines_general(1, 32)
-}
+// Power car and driving car
+
+REVERSED_SPRITESET(front, 1)
+REVERSED_SPRITESET(back, 32)
+
+#undef REVERSED_SPRITESET
 
 //Middle - PAX
-spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_middlepass, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png") {
+spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_middlepass, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.xpm") {
 	template_2cc_engines_general(1, 64)
 }
-//Middle - MAIL
-// spriteset(spriteset_emu_Italy_EAV_ETR_200_Metrostar_middlemail, "gfx/EMU/Italy_EAV_ETR_200_Metrostar.png") {
-// 	template_2cc_engines_general(1, 96)
-// }
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Italy_EAV_ETR_200_Metrostar_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Italy_EAV_ETR_200_Metrostar_back;
-    0xFF: spriteset_emu_Italy_EAV_ETR_200_Metrostar_back; 
-    spriteset_emu_Italy_EAV_ETR_200_Metrostar_front;
+	0xFE: switch_emu_Italy_EAV_ETR_200_Metrostar_back;
+    0xFF: switch_emu_Italy_EAV_ETR_200_Metrostar_back; 
+    switch_emu_Italy_EAV_ETR_200_Metrostar_front;
 }
 
 //Visual effect, for DMU this is done on the front engine
