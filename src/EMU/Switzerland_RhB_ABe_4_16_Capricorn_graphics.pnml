@@ -1,0 +1,111 @@
+/*
+ *  Copyright (C) 2017 Transportman
+ *  This file is part of the 2cc Trains In NML
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*/
+
+/*
+* PURCHASE
+*/
+
+PURCHASE_SPRITESET_DUALHEADED(emu_Switzerland_RhB_ABe_4_16_Capricorn, "gfx/EMU/Switzerland_RhB_ABe_4_16_Capricorn.xpm", 1, 160)
+
+/*
+* VEHICLE
+*/
+
+#define REVERSED_SPRITESET(id, y) \
+	spriteset(spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_ ## id ## _fwd, "gfx/EMU/Switzerland_RhB_ABe_4_16_Capricorn.xpm") {			\
+		template_2cc_engines_general(1, y)																									\
+	} 																																		\
+	spriteset(spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_ ## id ## _rev, "gfx/EMU/Switzerland_RhB_ABe_4_16_Capricorn.xpm") 		 {  \
+		template_2cc_engines_general(179, y)																								\
+	}																																		\
+	switch(FEAT_TRAINS, PARENT, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_ ## id, vehicle_is_reversed) { 								    \
+		1: spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_ ## id ## _rev;																	\
+		0: spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_ ## id ## _fwd;																	\
+	}
+
+// Power car and driving car
+
+REVERSED_SPRITESET(front, 1)
+REVERSED_SPRITESET(back, 32)
+
+//Middle - Powered
+
+REVERSED_SPRITESET(middlepassA_powered, 64)
+REVERSED_SPRITESET(middlepassB_powered, 96)
+REVERSED_SPRITESET(middlemail_powered, 128)
+
+#undef REVERSED_SPRITESET
+
+// Middle - Unpowered 
+
+spriteset(spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepassA_unpowered, "gfx/EMU/Switzerland_RhB_ABe_4_16_Capricorn.xpm") {
+	template_2cc_engines_general(357, 64)
+}
+
+spriteset(spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepassB_unpowered, "gfx/EMU/Switzerland_RhB_ABe_4_16_Capricorn.xpm") {
+	template_2cc_engines_general(357, 96)
+}
+
+spriteset(spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlemail_unpowered, "gfx/EMU/Switzerland_RhB_ABe_4_16_Capricorn.xpm") {
+	template_2cc_engines_general(357, 128)
+}
+
+// Passenger
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepass_powered) {
+	3: switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepassA_powered;
+	1: switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepassB_powered;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepass_unpowered) {
+	3: spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepassA_unpowered;
+	1: spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepassB_unpowered;
+}
+
+//Dualheaded engines
+
+switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_reversed, var[0xC8]) {
+	0xFE: switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_back;
+    0xFF: switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_back; 
+    switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_front;
+}
+
+//Visual effect, for this EMU this is done on the back engine
+
+switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_visual_effect_and_powered, var[0xC8]) {
+	0xFE: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -4, DISABLE_WAGON_POWER);
+	0xFF: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -4, DISABLE_WAGON_POWER);
+	visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+}
+	
+/*
+* Cargo capacity
+*/
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+WAGONCAPACITYSWITCH(VEHIDCODE)
+
+//Graphics for the unit wagon based on cargo class
+switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_cargo_selection_powered, cargo_classes){
+	bitmask(CC_PASSENGERS): switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepass_powered;
+	switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlemail_powered;
+}
+
+switch(FEAT_TRAINS, SELF, switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_cargo_selection_unpowered, cargo_classes){
+	bitmask(CC_PASSENGERS): switch_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlepass_unpowered;
+	spriteset_emu_Switzerland_RhB_ABe_4_16_Capricorn_middlemail_unpowered;
+}
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+RUNNINGCOSTMUWAGONSWITCH
+
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)
