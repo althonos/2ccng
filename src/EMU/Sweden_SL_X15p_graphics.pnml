@@ -21,9 +21,19 @@ spriteset(spriteset_emu_Sweden_SL_X15p_front, "gfx/EMU/Sweden_SL_X15p.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
+switch(FEAT_TRAINS, PARENT, switch_emu_Sweden_SL_X15p_fwd, vehicle_is_reversed) {
+	1: spriteset_emu_Sweden_SL_X15p_back;
+	0: spriteset_emu_Sweden_SL_X15p_front;
+}
+
 //Back
 spriteset(spriteset_emu_Sweden_SL_X15p_back, "gfx/EMU/Sweden_SL_X15p.xpm") {
 	template_2cc_engines_general(1, 32)
+}
+
+switch(FEAT_TRAINS, PARENT, switch_emu_Sweden_SL_X15p_bwd, vehicle_is_reversed) {
+	1: spriteset_emu_Sweden_SL_X15p_front;
+	0: spriteset_emu_Sweden_SL_X15p_back;
 }
 
 //Middle - PAX
@@ -37,9 +47,9 @@ spriteset(spriteset_emu_Sweden_SL_X15p_middlemail, "gfx/EMU/Sweden_SL_X15p.xpm")
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Sweden_SL_X15p_reversed, var[0xC8]) {
-	0xFE: spriteset_emu_Sweden_SL_X15p_back;
-    0xFF: spriteset_emu_Sweden_SL_X15p_back; 
-    spriteset_emu_Sweden_SL_X15p_front;
+	0xFE: switch_emu_Sweden_SL_X15p_bwd;
+    0xFF: switch_emu_Sweden_SL_X15p_bwd; 
+    switch_emu_Sweden_SL_X15p_fwd;
 }
 
 //Visual effect, for this EMU this is done on the back engine
