@@ -1,33 +1,33 @@
 /*
- *  Copyright (C) 2017 Transportman
- *  This file is part of the 2cc Trains In NML
- *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+ *  Copyright (C) 2025 Martin Larralde
+ *  This file is part of the 2cc Narrow Gauge in NML, and is based on the 2cc Trains In NML by Transportman
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
  *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
  *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-*/
+ */
 
 /*
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Australia_Queensland_Railways_A10, "gfx/Steam/Australia_Queensland_Railways_A10.png", 1, 96)
+PURCHASE_SPRITESET(steam_Australia_Queensland_Railways_A10, "gfx/Steam/Australia_Queensland_Railways_A10.xpm", 1, 96)
 
 /*
 * VEHICLE
 */
 
 //Engine
-spriteset(spriteset_steam_Australia_Queensland_Railways_A10_engine1, "gfx/Steam/Australia_Queensland_Railways_A10.png") {
+spriteset(spriteset_steam_Australia_Queensland_Railways_A10_engine1, "gfx/Steam/Australia_Queensland_Railways_A10.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
 
-spriteset(spriteset_steam_Australia_Queensland_Railways_A10_engine2, "gfx/Steam/Australia_Queensland_Railways_A10.png") {
+spriteset(spriteset_steam_Australia_Queensland_Railways_A10_engine2, "gfx/Steam/Australia_Queensland_Railways_A10.xpm") {
 	template_2cc_engines_general(1, 32)
 }
 
 //Tender
-spriteset(switch_steam_Australia_Queensland_Railways_A10_tender, "gfx/Steam/Australia_Queensland_Railways_A10.png") {
+spriteset(switch_steam_Australia_Queensland_Railways_A10_tender, "gfx/Steam/Australia_Queensland_Railways_A10.xpm") {
 	template_2cc_engines_general(1, 64)
 }
 

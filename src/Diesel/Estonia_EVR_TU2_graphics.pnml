@@ -11,14 +11,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.png", 1, 64)
+PURCHASE_SPRITESET(diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.xpm", 1, 64)
 
 /*
 * VEHICLE
 */
 
 //Engine
-spriteset(spriteset_diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.png") {
+spriteset(spriteset_diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

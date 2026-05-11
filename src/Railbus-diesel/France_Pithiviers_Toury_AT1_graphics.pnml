@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(rbd_France_Pithiviers_Toury_AT1, "gfx/Railbus-diesel/France_Pithiviers_Toury_AT1.png", 1, 32)
+PURCHASE_SPRITESET(rbd_France_Pithiviers_Toury_AT1, "gfx/Railbus-diesel/France_Pithiviers_Toury_AT1.xpm", 1, 32)
 
 /*
 * VEHICLE
 */
 
 //Only one spriteset needed for this set
-spriteset(spriteset_rbd_France_Pithiviers_Toury_AT1, "gfx/Railbus-diesel/France_Pithiviers_Toury_AT1.png") {
+spriteset(spriteset_rbd_France_Pithiviers_Toury_AT1, "gfx/Railbus-diesel/France_Pithiviers_Toury_AT1.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

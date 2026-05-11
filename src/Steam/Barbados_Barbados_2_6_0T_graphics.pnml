@@ -10,18 +10,18 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Barbados_Barbados_2_6_0T, "gfx/Steam/Barbados_Barbados_2_6_0T.png", 1, 96)
+PURCHASE_SPRITESET(steam_Barbados_Barbados_2_6_0T, "gfx/Steam/Barbados_Barbados_2_6_0T.xpm", 1, 96)
 
 /*
 * VEHICLE
 */
 
 //Engine
-spriteset(spriteset_steam_Barbados_Barbados_2_6_0T_engine1, "gfx/Steam/Barbados_Barbados_2_6_0T.png") {
+spriteset(spriteset_steam_Barbados_Barbados_2_6_0T_engine1, "gfx/Steam/Barbados_Barbados_2_6_0T.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 
-spriteset(spriteset_steam_Barbados_Barbados_2_6_0T_engine2, "gfx/Steam/Barbados_Barbados_2_6_0T.png") {
+spriteset(spriteset_steam_Barbados_Barbados_2_6_0T_engine2, "gfx/Steam/Barbados_Barbados_2_6_0T.xpm") {
 	template_2cc_engines_general(1, 32)
 }
 
