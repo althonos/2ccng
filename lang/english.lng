@@ -1069,6 +1069,8 @@ str_coach_Narrow_Gen4_Vietnamese_Mail_Coach             :Vietnamese Mail Coach (
 str_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach    :GEX 2006 Panorama Coach (Narrow)
 str_coach_Narrow_Gen5_Glacier_Express_Service_Coach     :GEX 2006 Service Coach (Narrow)
 str_coach_Narrow_Gen6_PNR_8300_Coach                    :PNR 8300 Coach (Narrow)
+str_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach :GPX Panorama Coach (Narrow)
+str_coach_Narrow_Gen6_GoldenPass_Express_Control_Coach  :GPX Control Coach (Narrow)
 
 #special wagons
 str_mu_wagon_unpowered			:Multiple Unit Wagon (Unpowered)

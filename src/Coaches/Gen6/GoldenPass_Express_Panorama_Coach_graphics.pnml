@@ -1,0 +1,47 @@
+/*
+ *  Copyright (C) 2026 althonos
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition.
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+* PURCHASE
+*/
+
+PURCHASE_SPRITESET_WAGON(coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach, "gfx/Coaches/Gen6/GoldenPass_Express_Panorama_Coach_Purchase.xpm", 1, 1)
+
+/*
+* Vehicle
+*/
+
+spriteset(spriteset_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_L1, "gfx/Coaches/Gen6/GoldenPass_Express_Panorama_Coach.xpm") {
+	template_2cc_wagons(1, 1)
+}
+
+spriteset(spriteset_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_L2, "gfx/Coaches/Gen6/GoldenPass_Express_Panorama_Coach.xpm") {
+	template_2cc_wagons(179, 1)
+}
+
+spriteset(spriteset_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_L3, "gfx/Coaches/Gen6/GoldenPass_Express_Panorama_Coach.xpm") {
+	template_2cc_wagons(357, 1)
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_livery) {
+	3: spriteset_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_L1;
+	1: spriteset_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_L2;
+	1: spriteset_coach_Narrow_Gen6_GoldenPass_Express_Panorama_Coach_L3;
+}
+
+/*
+* Cargo capacity
+*/
+
+ENGINECAPACITYSWITCH(VEHIDCODE)
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

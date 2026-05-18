@@ -551,6 +551,14 @@
 #include "src/Coaches/Gen6/PNR_8300_Coach_graphics.pnml"
 #include "src/Coaches/Gen6/PNR_8300_Coach_item.pnml"
 
+#include "src/Coaches/Gen6/GoldenPass_Express_Control_Coach_property.pnml"
+#include "src/Coaches/Gen6/GoldenPass_Express_Control_Coach_graphics.pnml"
+#include "src/Coaches/Gen6/GoldenPass_Express_Control_Coach_item.pnml"
+
+#include "src/Coaches/Gen6/GoldenPass_Express_Panorama_Coach_property.pnml"
+#include "src/Coaches/Gen6/GoldenPass_Express_Panorama_Coach_graphics.pnml"
+#include "src/Coaches/Gen6/GoldenPass_Express_Panorama_Coach_item.pnml"
+
 //wagons
 #include "src/_CodeSupport/TypeInitialization/init_type_Wagon.pnml"
 #include "src/Wagons/Gen1/Gen1_Flat_Wagon_property.pnml"
