@@ -24,8 +24,6 @@ spriteset(spriteset_coach_Narrow_Gen6_PNR_8300_Coach, "gfx/Coaches/Gen6/PNR_8300
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH(VEHIDCODE)
-
 //Add defined switches
 
 RUNNINGCOSTENGINESWITCH

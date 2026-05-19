@@ -1,0 +1,8 @@
+#define TRAIN_NAME(VEHIDCODE, NAME)    \
+    item(FEAT_TRAINS, VEHIDCODE) {     \
+        property {                     \
+            name: str(NAME);           \
+        }                              \
+    }
+
+TRAIN_NAME(item_steam_Germany_Prussian_S10, str_steam_Germany_Prussian_S10)

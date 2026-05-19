@@ -51,9 +51,11 @@
 // Cleanup
 #include "src/undefine_properties.pnml"
 
-//Patches for compatibility
+//Patches for compatibility & consistency
+#include "src/_Patches/disable.pnml"
 #include "src/_Patches/badges.pnml"
 #include "src/_Patches/railtype.pnml"
+#include "src/_Patches/names.pnml"
 
 /*
 * VEHICLES

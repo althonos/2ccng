@@ -24,8 +24,6 @@ spriteset(spriteset_coach_Narrow_Gen5_Glacier_Express_Panorama_Coach, "gfx/Coach
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH(VEHIDCODE)
-
 //Add defined switches
 
 RUNNINGCOSTENGINESWITCH

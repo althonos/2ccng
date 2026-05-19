@@ -38,8 +38,6 @@ random_switch(FEAT_TRAINS, SELF, switch_coach_Narrow_Gen6_GoldenPass_Express_Pan
 * Cargo capacity
 */
 
-ENGINECAPACITYSWITCH(VEHIDCODE)
-
 //Add defined switches
 
 RUNNINGCOSTENGINESWITCH

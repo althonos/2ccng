@@ -1,0 +1,25 @@
+//disable original rail vehicles
+disable_item(FEAT_TRAINS, 0, 115);
+
+//disable some 2ccNML revival items
+disable_item(FEAT_TRAINS, 1008);		  // Hessian Ludwig Thomas (duplicate sprite)
+disable_item(FEAT_TRAINS, 1009);		  // NOLB 30-39 (duplicate sprite)
+disable_item(FEAT_TRAINS, 4120);		  // Stephenson 192 (duplicated sprite)
+disable_item(FEAT_TRAINS, 4132);		  // Baroneza (duplicated sprite)
+disable_item(FEAT_TRAINS, 4133);		  // La Portena (duplicated sprite)
+disable_item(FEAT_TRAINS, 4140);		  // Sao Paulo 13-14 (duplicated sprite)
+disable_item(FEAT_TRAINS, 4126);		  // NSWGR Z19 (duplicate sprite)
+disable_item(FEAT_TRAINS, 4124);		  // NSWGR D50 (duplicated sprite)
+disable_item(FEAT_TRAINS, 4135);		  // No8 Monsefu (duplicated sprite)
+disable_item(FEAT_TRAINS, 4139);		  // Chile La Copiapo (duplicated sprite)
+disable_item(FEAT_TRAINS, 4143);		  // Egypt Kitson 2-2-2 (duplicated sprite)
+disable_item(FEAT_TRAINS, 4144);		  // Egypt Kitson 2-2-2 (duplicated sprite)
+disable_item(FEAT_TRAINS, 4145);		  // Egypt Kitson 2-2-2 (duplicated sprite)
+disable_item(FEAT_TRAINS, 5037);		  // Egypt ENR G22W (duplicated sprite)
+disable_item(FEAT_TRAINS, 5142);		  // AC6000CW (duplicate item)
+disable_item(FEAT_TRAINS, 5171); 		  // NSWGR 49 (too close to NSWGR 48) 
+disable_item(FEAT_TRAINS, 5152); 		  // PTC 73 (too close to NSWGR 80) 
+disable_item(FEAT_TRAINS, 5156);		  // NSWGR 82 (too close to NSWGR 80)
+disable_item(FEAT_TRAINS, 5151); 		  // EMD NR (graphics)
+disable_item(FEAT_TRAINS, 6149);		  // CR HXD2B (duplicated graphics)
+disable_item(FEAT_TRAINS, 11073, 11096);  // Narrow-gauge coaches
