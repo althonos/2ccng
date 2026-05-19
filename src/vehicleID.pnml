@@ -599,6 +599,7 @@ item(FEAT_TRAINS, item_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127, 6145) {}
 item(FEAT_TRAINS, item_electric_Slovakia_ZSSK_HGem_2_2, 6800) {}
 item(FEAT_TRAINS, item_electric_Georgia_BBR_ChS11, 6801) {}
 item(FEAT_TRAINS, item_electric_Switzerland_MOB_Ge_4_4_8000, 6802) {}
+item(FEAT_TRAINS, item_electric_Chile_SQM_600_GE_289A, 6803) {}
 
 //DMU, available ID range: 7000-7999 (hex 0x1B58..0x1F3F)
 #define ID_RANGE_DMU 0x1B58..0x1F3F

@@ -1,0 +1,31 @@
+/*
+ *  Copyright (C) 2026 althonos
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition.
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+* PURCHASE
+*/
+
+PURCHASE_SPRITESET(electric_Chile_SQM_600_GE_289A, "gfx/Electric/Chile_SQM_600_GE_289A.xpm", 1, 32)
+
+/*
+* VEHICLE
+*/
+
+FORWARD_SPRITESET(electric_Chile_SQM_600_GE_289A, "gfx/Electric/Chile_SQM_600_GE_289A.xpm", 1, 1)
+BACKWARD_SPRITESET(electric_Chile_SQM_600_GE_289A, "gfx/Electric/Chile_SQM_600_GE_289A.xpm", 179, 1)
+
+switch(FEAT_TRAINS, SELF, switch_electric_Chile_SQM_600_GE_289A_default, vehicle_is_flipped) {
+    1: switch_electric_Chile_SQM_600_GE_289A_bwd;
+    0: switch_electric_Chile_SQM_600_GE_289A_fwd;
+}
+
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)
