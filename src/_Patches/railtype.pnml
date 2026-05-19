@@ -5,11 +5,14 @@
         }                                \
     }
 
+// Diesel
+TRAIN_TRACK(item_diesel_Sierra_Leone_LAMCO_301_Series, RAIL)
+TRAIN_TRACK(item_diesel_Argentina_MF_GE_U20C, RAIL)
+
 // EMU
 TRAIN_TRACK(item_emu_Finland_VR_Sm2, ELRL)
 TRAIN_TRACK(item_emu_Finland_VR_Sm4, ELRL)
 TRAIN_TRACK(item_electric_Australia_NSWGR_71, ELRL)
-TRAIN_TRACK(item_diesel_Argentina_MF_GE_U20C, RAIL)
 
 // Coaches
 TRAIN_TRACK(item_coach_Gen1_Wooden_2_axle_Compartment_Coach, RAIL)

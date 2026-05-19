@@ -475,7 +475,7 @@ TRAIN_BADGES(item_diesel_South_Africa_PRASA_Afro_4000, ZA, "diesel", "narrow/cap
 TRAIN_BADGES(item_diesel_USA_Amtrak_Charger, US, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Gabon_Alsthom_AD30B, GA, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Ghana_Ghana_Railway_Corporation_TT12, GH, "diesel", "narrow/cape")
-TRAIN_BADGES(item_diesel_Sierra_Leone_LAMCO_301_Series, SL, "diesel", "narrow/cape")
+TRAIN_BADGES(item_diesel_Sierra_Leone_LAMCO_301_Series, LR, "diesel", "standard")
 TRAIN_BADGES(item_diesel_Congo_Congo_Ocean_BB_BB_300, CG, "diesel", "narrow/cape")
 TRAIN_BADGES(item_diesel_Zimbabwe_Sorefame_DE8, ZW, "diesel", "narrow/cape") 
 TRAIN_BADGES(item_diesel_Ivory_Coast_Abidjan_Niger_GMD_GT22LC_2, CI, "diesel", "narrow/metre") 
