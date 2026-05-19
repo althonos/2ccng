@@ -8,6 +8,7 @@
 // Diesel
 TRAIN_TRACK(item_diesel_Sierra_Leone_LAMCO_301_Series, RAIL)
 TRAIN_TRACK(item_diesel_Argentina_MF_GE_U20C, RAIL)
+TRAIN_TRACK(item_diesel_USA_GE_ES44, RAIL)
 
 // EMU
 TRAIN_TRACK(item_emu_Finland_VR_Sm2, ELRL)
