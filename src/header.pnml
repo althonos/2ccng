@@ -174,6 +174,7 @@ disable_item(FEAT_TRAINS, 0, 115);
 
 //disable some 2ccNML revival items
 disable_item(FEAT_TRAINS, 1008);		  // Hessian Ludwig Thomas (duplicate sprite)
+disable_item(FEAT_TRAINS, 1009);		  // NOLB 30-39 (duplicate sprite)
 disable_item(FEAT_TRAINS, 4120);		  // Stephenson 192 (duplicated sprite)
 disable_item(FEAT_TRAINS, 4132);		  // Baroneza (duplicated sprite)
 disable_item(FEAT_TRAINS, 4133);		  // La Portena (duplicated sprite)
@@ -186,6 +187,7 @@ disable_item(FEAT_TRAINS, 4143);		  // Egypt Kitson 2-2-2 (duplicated sprite)
 disable_item(FEAT_TRAINS, 4144);		  // Egypt Kitson 2-2-2 (duplicated sprite)
 disable_item(FEAT_TRAINS, 4145);		  // Egypt Kitson 2-2-2 (duplicated sprite)
 disable_item(FEAT_TRAINS, 5037);		  // Egypt ENR G22W (duplicated sprite)
+disable_item(FEAT_TRAINS, 5142);		  // AC6000CW (duplicate item)
 disable_item(FEAT_TRAINS, 5171); 		  // NSWGR 49 (too close to NSWGR 48) 
 disable_item(FEAT_TRAINS, 5152); 		  // PTC 73 (too close to NSWGR 80) 
 disable_item(FEAT_TRAINS, 5156);		  // NSWGR 82 (too close to NSWGR 80)
