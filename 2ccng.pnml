@@ -243,9 +243,6 @@
 
 //Diesel
 #include "src/_CodeSupport/TypeInitialization/init_type_Diesel.pnml"
-#include "src/Diesel/Argentina_SOFSE_3193_property.pnml"
-#include "src/Diesel/Argentina_SOFSE_3193_graphics.pnml"
-#include "src/Diesel/Argentina_SOFSE_3193_item.pnml"
 #include "src/Diesel/Australia_Queensland_Rail_2100_property.pnml"
 #include "src/Diesel/Australia_Queensland_Rail_2100_graphics.pnml"
 #include "src/Diesel/Australia_Queensland_Rail_2100_item.pnml"
