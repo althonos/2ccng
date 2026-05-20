@@ -417,6 +417,9 @@
 #include "src/Electric/Switzerland_RhB_Ge_6_6_Krokodil_property.pnml"
 #include "src/Electric/Switzerland_RhB_Ge_6_6_Krokodil_graphics.pnml"
 #include "src/Electric/Switzerland_RhB_Ge_6_6_Krokodil_item.pnml"
+#include "src/Electric/Venezuela_La_Guaira_Caracas_19_23_property.pnml"
+#include "src/Electric/Venezuela_La_Guaira_Caracas_19_23_graphics.pnml"
+#include "src/Electric/Venezuela_La_Guaira_Caracas_19_23_item.pnml"
 
 //Dual-Mode
 #include "src/_CodeSupport/TypeInitialization/init_type_Dual.pnml"

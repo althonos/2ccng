@@ -103,6 +103,7 @@
         MAKER_MAV_NORTHERN:       return string(STR_EXTRA_MAKER_MAV_NORTHERN);       \
         MAKER_FERROVIAS_DEL_BAJIO:return string(STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO);\
         MAKER_UERDINGEN:          return string(STR_EXTRA_MAKER_UERDINGEN);          \
+        MAKER_BROWN_BOWERI:       return string(STR_EXTRA_MAKER_BROWN_BOWERI);       \
         default:                  return string(STR_EXTRA_MAKER_UNKNOWN);            \
     }
 

@@ -206,6 +206,7 @@ STR_EXTRA_MAKER_COMENG                  :Constructor: {GOLD}Commonwealth Enginee
 STR_EXTRA_MAKER_MAV_NORTHERN            :Constructor: {GOLD}MÁV Northern Repair Works{BLACK}{}{STRING}
 STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO     :Constructor: {GOLD}Ferrovías del Bajío, S.A. de C.V.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_UERDINGEN               :Constructor: {GOLD}Waggon-Fabrik AG Uerdingen{BLACK}{}{STRING}
+STR_EXTRA_MAKER_BROWN_BOWERI            :Constructor: {GOLD}Brown, Boweri & Cie.{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -695,6 +696,7 @@ str_electric_Georgia_BBR_ChS11 :Borjomi-Bakuriani ChS11 (Electric)
 str_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127 :Ferrocarril al Pacifico No. 127 (Electric)
 str_electric_Switzerland_MOB_Ge_4_4_8000    :MOB Ge 4/4 8000 (Electric)
 str_electric_Chile_SQM_600_GE_289A  :SQM 600 GE 289A (Electric)
+str_electric_Venezuela_La_Guaira_Caracas_19_23  :La Guaira & Caracas 19-23 (Electric)
 
 #Dual Mode
 str_dual_Ecuador_FEEP_TD2000   :FEEP TD2000 (Dual Mode)

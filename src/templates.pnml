@@ -151,6 +151,9 @@ spriteset(spriteset_empty) {
 
 #define EMPTY_SPRITESET spriteset_empty;
 
+#define _PASTE3(x, y, z) x ## y ## z
+#define PURCHASE_SPRITESET_NAME(ITEM) _PASTE3(spriteset_, ITEM, _purchase)
+
 #define PURCHASE_SPRITESET(ITEM, filename, x, y) \
     spriteset(spriteset_ ## ITEM ## _purchase_flag_and_power, filename) { \
         template_purchase_flag_and_power(x, y)                  \
@@ -161,7 +164,7 @@ spriteset(spriteset_empty) {
     spriteset(spriteset_ ## ITEM ## _purchase_none, filename) { \
         template_purchase_none(x, y)                            \
     }                                                           \
-    switch(FEAT_TRAINS, SELF, spriteset_ ## ITEM ## _purchase, param_purchaseinfo) { \
+    switch(FEAT_TRAINS, SELF, PURCHASE_SPRITESET_NAME(ITEM), param_purchaseinfo) { \
         0: spriteset_ ## ITEM ## _purchase_none;                                     \
         1: spriteset_ ## ITEM ## _purchase_flag_only;                                \
         2: spriteset_ ## ITEM ## _purchase_flag_and_power;                           \
