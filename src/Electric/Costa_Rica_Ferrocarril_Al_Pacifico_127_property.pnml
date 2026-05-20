@@ -24,7 +24,7 @@
     "railgauge/narrow/cape"
 
 #define INTRODUCTION_YEAR 1926
-#define MODEL_LIFE VEHICLE_NEVER_EXPIRES
+#define MODEL_LIFE 45
 #define RETIRE_EARLY DEFAULT_RETIRE_EARLY
 #define VEHICLE_LIFE 40
 
