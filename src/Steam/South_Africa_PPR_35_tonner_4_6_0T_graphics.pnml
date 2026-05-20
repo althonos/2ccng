@@ -26,7 +26,7 @@ spriteset(spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_engine2, "gfx/Steam/
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_South_Africa_PPR_35_tonner_4_6_0T_animation, motion_counter % 2){
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), motion_counter % 2){
 	0: spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_engine1;
 	spriteset_steam_South_Africa_PPR_35_tonner_4_6_0T_engine2;
 }

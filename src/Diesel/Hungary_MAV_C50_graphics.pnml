@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Hungary_MAV_C50.xpm", 1, 64)
 */
 
 //Engine
-spriteset(spriteset_diesel_Hungary_MAV_C50, "gfx/Diesel/Hungary_MAV_C50.xpm") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Hungary_MAV_C50.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

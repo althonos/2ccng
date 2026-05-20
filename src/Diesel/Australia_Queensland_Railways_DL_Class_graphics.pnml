@@ -26,7 +26,7 @@ spriteset(spriteset_diesel_Australia_Queensland_Railways_DL_Class_engine2, "gfx/
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_diesel_Australia_Queensland_Railways_DL_Class_animation, motion_counter % 2){
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), motion_counter % 2){
 	0: spriteset_diesel_Australia_Queensland_Railways_DL_Class_engine1;
 	spriteset_diesel_Australia_Queensland_Railways_DL_Class_engine2;
 }

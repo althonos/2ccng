@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Indonesia_KAI_CC300.png", 1, 64)
 */
 
 //Engine
-spriteset(spriteset_diesel_Indonesia_KAI_CC300, "gfx/Diesel/Indonesia_KAI_CC300.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Indonesia_KAI_CC300.png") {
 	template_2cc_engines_general(1, 1)
 }
 

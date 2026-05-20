@@ -34,7 +34,7 @@ spriteset(spriteset_steam_Sweden_NJ_Forstlingen_engine4, "gfx/Steam/Sweden_NJ_Fo
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_Sweden_NJ_Forstlingen_animation, motion_counter % 4){
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), motion_counter % 4){
 	0: spriteset_steam_Sweden_NJ_Forstlingen_engine1;
 	1: spriteset_steam_Sweden_NJ_Forstlingen_engine2;
 	2: spriteset_steam_Sweden_NJ_Forstlingen_engine3;

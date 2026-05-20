@@ -18,7 +18,7 @@ PURCHASE_SPRITESET(diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.xpm", 1, 
 */
 
 //Engine
-spriteset(spriteset_diesel_Estonia_EVR_TU2, "gfx/Diesel/Estonia_EVR_TU2.xpm") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Estonia_EVR_TU2.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

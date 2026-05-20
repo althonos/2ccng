@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Madagascar_Madagascar_Railways_BBB100.
 */
 
 //Engine
-spriteset(spriteset_diesel_Madagascar_Madagascar_Railways_BBB100, "gfx/Diesel/Madagascar_Madagascar_Railways_BBB100.xpm") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Madagascar_Madagascar_Railways_BBB100.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

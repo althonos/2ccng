@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Chile_EFE_GE_U5B.png", 1, 64)
 */
 
 //Engine
-spriteset(spriteset_diesel_Chile_EFE_GE_U5B, "gfx/Diesel/Chile_EFE_GE_U5B.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Chile_EFE_GE_U5B.png") {
 	template_2cc_engines_general(1, 1)
 }
 

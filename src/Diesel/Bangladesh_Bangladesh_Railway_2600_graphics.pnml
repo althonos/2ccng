@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm
 */
 
 //Engine
-spriteset(spriteset_diesel_Bangladesh_Bangladesh_Railway_2600, "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

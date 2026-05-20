@@ -26,7 +26,7 @@ spriteset(spriteset_steam_Norway_NSB_Class_XXI_engine2, "gfx/Steam/Norway_NSB_Cl
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_steam_Norway_NSB_Class_XXI_animation, motion_counter % 2){
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), motion_counter % 2){
 	0: spriteset_steam_Norway_NSB_Class_XXI_engine1;
 	spriteset_steam_Norway_NSB_Class_XXI_engine2;
 }

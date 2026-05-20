@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(diesel_Tunisia_SNCFT_040_DF, "gfx/Diesel/Tunisia_SNCFT_040_DF.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Tunisia_SNCFT_040_DF.png", 1, 64)
 
 /*
 * VEHICLE
 */
 
 //Engine
-spriteset(spriteset_diesel_Tunisia_SNCFT_040_DF, "gfx/Diesel/Tunisia_SNCFT_040_DF.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Tunisia_SNCFT_040_DF.png") {
 	template_2cc_engines_general(1, 1)
 }
 

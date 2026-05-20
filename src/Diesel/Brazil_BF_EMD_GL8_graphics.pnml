@@ -27,7 +27,7 @@ spriteset(spriteset_diesel_Brazil_BF_EMD_GL8_B, "gfx/Diesel/Brazil_BF_EMD_GL8.pn
 }
 
 //Switch for B-unit
-switch(FEAT_TRAINS, SELF, switch_diesel_Brazil_BF_EMD_GL8_position, position_in_vehid_chain % 2) {
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), position_in_vehid_chain % 2) {
 	1: spriteset_diesel_Brazil_BF_EMD_GL8_B;
 	spriteset_diesel_Brazil_BF_EMD_GL8_engine;
 }
