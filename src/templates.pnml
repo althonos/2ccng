@@ -153,6 +153,7 @@ spriteset(spriteset_empty) {
 
 #define _PASTE3(x, y, z) x ## y ## z
 #define PURCHASE_SPRITESET_NAME(ITEM) _PASTE3(spriteset_, ITEM, _purchase)
+#define DEFAULT_SPRITESET_NAME(ITEM)  _PASTE3(spriteset_, ITEM, _default)
 
 #define PURCHASE_SPRITESET(ITEM, filename, x, y) \
     spriteset(_PASTE3(spriteset_, ITEM, _purchase_flag_and_power), filename) { \

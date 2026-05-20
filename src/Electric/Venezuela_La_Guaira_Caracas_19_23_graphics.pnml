@@ -19,7 +19,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Venezuela_La_Guaira_Caracas_19_23.xp
 FORWARD_SPRITESET(electric_Venezuela_La_Guaira_Caracas_19_23, "gfx/Electric/Venezuela_La_Guaira_Caracas_19_23.xpm", 1, 1)
 BACKWARD_SPRITESET(electric_Venezuela_La_Guaira_Caracas_19_23, "gfx/Electric/Venezuela_La_Guaira_Caracas_19_23.xpm", 179, 1)
 
-switch(FEAT_TRAINS, SELF, switch_electric_Venezuela_La_Guaira_Caracas_19_23_default, vehicle_is_flipped) {
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), vehicle_is_flipped) {
     1: switch_electric_Venezuela_La_Guaira_Caracas_19_23_bwd;
     0: switch_electric_Venezuela_La_Guaira_Caracas_19_23_fwd;
 }

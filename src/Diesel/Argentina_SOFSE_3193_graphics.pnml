@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Argentina_SOFSE_3193.png", 1, 64)
 */
 
 //Engine
-spriteset(spriteset_diesel_Argentina_SOFSE_3193, "gfx/Diesel/Argentina_SOFSE_3193.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Diesel/Argentina_SOFSE_3193.png") {
 	template_2cc_engines_general(1, 1)
 }
 
@@ -25,4 +25,4 @@ spriteset(spriteset_diesel_Argentina_SOFSE_3193, "gfx/Diesel/Argentina_SOFSE_319
 
 RUNNINGCOSTENGINESWITCH
 
-PURCHASETEXTSWITCH
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

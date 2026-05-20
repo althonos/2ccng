@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Switzerland_RhB_Ge_4_4_I.png", 1, 64
 */
 
 //Engine
-spriteset(spriteset_electric_Switzerland_RhB_Ge_4_4_I, "gfx/Electric/Switzerland_RhB_Ge_4_4_I.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Electric/Switzerland_RhB_Ge_4_4_I.png") {
 	template_2cc_engines_general(1, 1)
 }
 

@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Australia_Aurizon_E40_AG_V1.png", 1,
 */
 
 //Engine
-spriteset(spriteset_electric_Australia_Aurizon_E40_AG_V1, "gfx/Electric/Australia_Aurizon_E40_AG_V1.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Electric/Australia_Aurizon_E40_AG_V1.png") {
 	template_2cc_engines_general(1, 1)
 }
 

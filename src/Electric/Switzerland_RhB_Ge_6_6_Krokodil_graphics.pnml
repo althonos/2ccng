@@ -26,7 +26,7 @@ spriteset(spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine2, "gfx/Elect
 }
 
 //Animation states
-switch(FEAT_TRAINS, SELF, switch_electric_Switzerland_RhB_Ge_6_6_Krokodil_animation, motion_counter % 2){
+switch(FEAT_TRAINS, SELF, DEFAULT_SPRITESET_NAME(VEHIDCODE), motion_counter % 2){
 	0: spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine1;
 	spriteset_electric_Switzerland_RhB_Ge_6_6_Krokodil_engine2;
 }	

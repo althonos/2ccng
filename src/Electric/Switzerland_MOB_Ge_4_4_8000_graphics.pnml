@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Switzerland_MOB_Ge_4_4_8000.xpm", 1,
 */
 
 //Engine
-spriteset(spriteset_electric_Switzerland_MOB_Ge_4_4_8000, "gfx/Electric/Switzerland_MOB_Ge_4_4_8000.xpm") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Electric/Switzerland_MOB_Ge_4_4_8000.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

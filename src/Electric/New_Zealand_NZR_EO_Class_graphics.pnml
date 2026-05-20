@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_New_Zealand_NZR_EO_Class, "gfx/Electric/New_Zealand_NZR_EO_Class.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/New_Zealand_NZR_EO_Class.png", 1, 64)
 
 /*
 * VEHICLE
 */
 
 //Engine
-spriteset(spriteset_electric_New_Zealand_NZR_EO_Class, "gfx/Electric/New_Zealand_NZR_EO_Class.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Electric/New_Zealand_NZR_EO_Class.png") {
 	template_2cc_engines_general(1, 1)
 }
 

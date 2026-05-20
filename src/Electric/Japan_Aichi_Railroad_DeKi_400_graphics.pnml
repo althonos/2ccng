@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Japan_Aichi_Railroad_DeKi_400.png", 
 */
 
 //Engine
-spriteset(spriteset_electric_Japan_Aichi_Railroad_DeKi_400, "gfx/Electric/Japan_Aichi_Railroad_DeKi_400.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Electric/Japan_Aichi_Railroad_DeKi_400.png") {
 	template_2cc_engines_general(1, 1)
 }
 

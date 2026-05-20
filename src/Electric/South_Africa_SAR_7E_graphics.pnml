@@ -17,7 +17,7 @@ PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/South_Africa_SAR_7E.png", 1, 64)
 */
 
 //Engine
-spriteset(spriteset_electric_South_Africa_SAR_7E, "gfx/Electric/South_Africa_SAR_7E.png") {
+spriteset(DEFAULT_SPRITESET_NAME(VEHIDCODE), "gfx/Electric/South_Africa_SAR_7E.png") {
 	template_2cc_engines_general(1, 1)
 }
 
