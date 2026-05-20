@@ -155,64 +155,64 @@ spriteset(spriteset_empty) {
 #define PURCHASE_SPRITESET_NAME(ITEM) _PASTE3(spriteset_, ITEM, _purchase)
 
 #define PURCHASE_SPRITESET(ITEM, filename, x, y) \
-    spriteset(spriteset_ ## ITEM ## _purchase_flag_and_power, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_flag_and_power), filename) { \
         template_purchase_flag_and_power(x, y)                  \
     }                                                           \
-    spriteset(spriteset_ ## ITEM ## _purchase_flag_only, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_flag_only), filename) { \
         template_purchase_flag_only(x, y)                       \
     }                                                           \
-    spriteset(spriteset_ ## ITEM ## _purchase_none, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_none), filename) { \
         template_purchase_none(x, y)                            \
     }                                                           \
     switch(FEAT_TRAINS, SELF, PURCHASE_SPRITESET_NAME(ITEM), param_purchaseinfo) { \
-        0: spriteset_ ## ITEM ## _purchase_none;                                     \
-        1: spriteset_ ## ITEM ## _purchase_flag_only;                                \
-        2: spriteset_ ## ITEM ## _purchase_flag_and_power;                           \
+        0: _PASTE3(spriteset_, ITEM, _purchase_none);                                     \
+        1: _PASTE3(spriteset_, ITEM, _purchase_flag_only);                                \
+        2: _PASTE3(spriteset_, ITEM, _purchase_flag_and_power);                           \
     }
 
 #define PURCHASE_SPRITESET_WAGON(ITEM, filename, x, y) \
-    spriteset(spriteset_ ## ITEM ## _purchase_wagon_flag_only, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_wagon_flag_only), filename) { \
         template_purchase_wagon_flag_only(x, y)                       \
     }                                                           \
-    spriteset(spriteset_ ## ITEM ## _purchase_wagon_none, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_wagon_none), filename) { \
         template_purchase_wagon_none(x, y)                            \
     }                                                           \
-    switch(FEAT_TRAINS, SELF, spriteset_ ## ITEM ## _purchase, param_purchaseinfo) { \
-        0: spriteset_ ## ITEM ## _purchase_wagon_none;                               \
-        1: spriteset_ ## ITEM ## _purchase_wagon_flag_only;                          \
-        2: spriteset_ ## ITEM ## _purchase_wagon_flag_only;                          \
+    switch(FEAT_TRAINS, SELF, PURCHASE_SPRITESET_NAME(ITEM), param_purchaseinfo) { \
+        0: _PASTE3(spriteset_, ITEM, _purchase_wagon_none);                               \
+        1: _PASTE3(spriteset_, ITEM, _purchase_wagon_flag_only);                          \
+        2: _PASTE3(spriteset_, ITEM, _purchase_wagon_flag_only);                          \
     }
 
 #define PURCHASE_SPRITESET_DUALHEADED(ITEM, filename, x, y) \
-    spriteset(spriteset_ ## ITEM ## _purchase_dualheaded_flag_and_power, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_dualheaded_flag_and_power), filename) { \
         template_purchase_dualheaded_flag_and_power(x, y)                  \
     }                                                           \
-    spriteset(spriteset_ ## ITEM ## _purchase_dualheaded_flag_only, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_dualheaded_flag_only), filename) { \
         template_purchase_dualheaded_flag_only(x, y)                       \
     }                                                           \
-    spriteset(spriteset_ ## ITEM ## _purchase_dualheaded_none, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _purchase_dualheaded_none), filename) { \
         template_purchase_dualheaded_none(x, y)                            \
     }                                                           \
-    switch(FEAT_TRAINS, SELF, spriteset_ ## ITEM ## _purchase, param_purchaseinfo) { \
-        0: spriteset_ ## ITEM ## _purchase_dualheaded_none;                          \
-        1: spriteset_ ## ITEM ## _purchase_dualheaded_flag_only;                     \
-        2: spriteset_ ## ITEM ## _purchase_dualheaded_flag_and_power;                \
+    switch(FEAT_TRAINS, SELF, PURCHASE_SPRITESET_NAME(ITEM), param_purchaseinfo) { \
+        0: _PASTE3(spriteset_, ITEM, _purchase_dualheaded_none);                          \
+        1: _PASTE3(spriteset_, ITEM, _purchase_dualheaded_flag_only);                     \
+        2: _PASTE3(spriteset_, ITEM, _purchase_dualheaded_flag_and_power);                \
     }
 
 #define FORWARD_SPRITESET(ITEM, filename, x, y) \
-    spriteset(spriteset_ ## ITEM ## _front, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _front), filename) { \
         template_2cc_engines_general(x, y)              \
     }                                                   \
-    switch(FEAT_TRAINS, PARENT, switch_ ## ITEM ## _fwd, vehicle_is_reversed) { \
-        1: spriteset_ ## ITEM ## _back;                                         \
-        0: spriteset_ ## ITEM ## _front;                                        \
+    switch(FEAT_TRAINS, PARENT, _PASTE3(switch_, ITEM, _fwd), vehicle_is_reversed) { \
+        1: _PASTE3(spriteset_, ITEM, _back);                                    \
+        0: _PASTE3(spriteset_, ITEM, _front);                                   \
     }
 
 #define BACKWARD_SPRITESET(ITEM, filename, x, y) \
-    spriteset(spriteset_ ## ITEM ## _back, filename) { \
+    spriteset(_PASTE3(spriteset_, ITEM, _back), filename) { \
         template_2cc_engines_general(x, y)              \
     }                                                   \
-    switch(FEAT_TRAINS, PARENT, switch_ ## ITEM ## _bwd, vehicle_is_reversed) { \
-        1: spriteset_ ## ITEM ## _front;                                        \
-        0: spriteset_ ## ITEM ## _back;                                         \
+    switch(FEAT_TRAINS, PARENT, _PASTE3(switch_, ITEM, _bwd), vehicle_is_reversed) { \
+        1: _PASTE3(spriteset_, ITEM, _front);                                        \
+        0: _PASTE3(spriteset_, ITEM, _back);                                         \
     }

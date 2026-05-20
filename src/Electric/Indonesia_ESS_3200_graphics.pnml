@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_Indonesia_ESS_3200, "gfx/Electric/Indonesia_ESS_3200.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Indonesia_ESS_3200.png", 1, 64)
 
 /*
 * VEHICLE

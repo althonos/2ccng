@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(rbd_Argentina_FCPBA_M_Railcar, "gfx/Railbus-diesel/Argentina_FCPBA_M_Railcar.png", 1, 32)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Railbus-diesel/Argentina_FCPBA_M_Railcar.png", 1, 32)
 
 /*
 * VEHICLE

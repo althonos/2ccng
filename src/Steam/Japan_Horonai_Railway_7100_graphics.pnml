@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Japan_Horonai_Railway_7100, "gfx/Steam/Japan_Horonai_Railway_7100.png", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Japan_Horonai_Railway_7100.png", 1, 96)
 
 /*
 * VEHICLE

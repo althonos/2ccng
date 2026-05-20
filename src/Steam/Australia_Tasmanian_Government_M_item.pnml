@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_steam_Australia_Tasmanian_Government_M_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_steam_Australia_Tasmanian_Government_M_visual_effect;
 		length: switch_steam_Australia_Tasmanian_Government_M_length;
 		articulated_part: switch_steam_Australia_Tasmanian_Government_M_articulated;

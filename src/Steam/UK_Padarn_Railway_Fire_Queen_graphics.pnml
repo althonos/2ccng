@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_UK_Padarn_Railway_Fire_Queen, "gfx/Steam/UK_Padarn_Railway_Fire_Queen.xpm", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/UK_Padarn_Railway_Fire_Queen.xpm", 1, 96)
 
 /*
 * VEHICLE

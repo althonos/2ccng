@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_Australia_Aurizon_E40_AG_V1, "gfx/Electric/Australia_Aurizon_E40_AG_V1.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Australia_Aurizon_E40_AG_V1.png", 1, 64)
 
 /*
 * VEHICLE

@@ -44,7 +44,7 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		cargo_capacity: switch_rbs_South_Africa_CSAR_Railmotor_capacity_position;
-		purchase: spriteset_rbs_South_Africa_CSAR_Railmotor_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_rbs_South_Africa_CSAR_Railmotor_visual_effect;
 		articulated_part: switch_rbs_South_Africa_CSAR_Railmotor_articulated;
 		length: switch_rbs_South_Africa_CSAR_Railmotor_length;

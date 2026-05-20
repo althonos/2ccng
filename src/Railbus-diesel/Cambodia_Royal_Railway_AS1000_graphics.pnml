@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(rbd_Cambodia_Royal_Railways_AS1000, "gfx/Railbus-diesel/Cambodia_Royal_Railway_AS1000.xpm", 1, 32)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Railbus-diesel/Cambodia_Royal_Railway_AS1000.xpm", 1, 32)
 
 /*
 * VEHICLE
 */
 
 //Engine
-spriteset(spriteset_rbd_Cambodia_Royal_Railways_AS1000, "gfx/Railbus-diesel/Cambodia_Royal_Railway_AS1000.xpm") {
+spriteset(spriteset_rbd_Cambodia_Royal_Railway_AS1000, "gfx/Railbus-diesel/Cambodia_Royal_Railway_AS1000.xpm") {
 	template_2cc_engines_general(1, 1)
 }
 

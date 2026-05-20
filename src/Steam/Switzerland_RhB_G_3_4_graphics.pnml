@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Switzerland_RhB_G_3_4, "gfx/Steam/Switzerland_RhB_G_3_4.png", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Switzerland_RhB_G_3_4.png", 1, 96)
 
 /*
 * VEHICLE

@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_steam_Australia_Queensland_Railways_A10_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_steam_Australia_Queensland_Railways_A10_visual_effect;
 		length: switch_steam_Australia_Queensland_Railways_A10_length;
 		articulated_part: switch_steam_Australia_Queensland_Railways_A10_articulated;

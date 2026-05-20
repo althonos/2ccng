@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_steam_Mozambique_Beira_Railway_BR6_F2_Falcon_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_steam_Mozambique_Beira_Railway_BR6_F2_Falcon_visual_effect;
 		length: switch_steam_Mozambique_Beira_Railway_BR6_F2_Falcon_length;
 		articulated_part: switch_steam_Mozambique_Beira_Railway_BR6_F2_Falcon_articulated;

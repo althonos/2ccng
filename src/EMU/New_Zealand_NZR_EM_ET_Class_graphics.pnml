@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 128)
 
 /*
 * VEHICLE
 */
 
-FORWARD_SPRITESET(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 1)
-BACKWARD_SPRITESET(emu_New_Zealand_NZR_EM_ET_Class, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 32)
+FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 1)
+BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_emu_New_Zealand_NZR_EM_ET_Class_middlepass, "gfx/EMU/New_Zealand_NZR_EM_ET_Class.png") {

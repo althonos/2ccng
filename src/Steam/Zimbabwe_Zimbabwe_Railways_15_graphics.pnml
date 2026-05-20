@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Zimbabwe_Zimbabwe_Railways_15, "gfx/Steam/Zimbabwe_Zimbabwe_Railways_15.png", 1, 160)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Zimbabwe_Zimbabwe_Railways_15.png", 1, 160)
 
 /*
 * VEHICLE

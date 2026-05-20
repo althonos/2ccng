@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_USA_D_H_Stourbridge_Lion, "gfx/Steam/USA_D_H_Stourbridge_Lion.xpm", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/USA_D_H_Stourbridge_Lion.xpm", 1, 96)
 
 /*
 * VEHICLE

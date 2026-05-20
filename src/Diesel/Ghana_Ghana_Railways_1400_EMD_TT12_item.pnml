@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_diesel_Ghana_Ghana_Railways_1400_EMD_TT12_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_diesel_Ghana_Ghana_Railways_1400_EMD_TT12_visual_effect;
 		articulated_part: switch_diesel_Ghana_Ghana_Railways_1400_EMD_TT12_articulated;
 		length: switch_diesel_Ghana_Ghana_Railways_1400_EMD_TT12_length;

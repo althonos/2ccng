@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_emu_San_Marino_SVEFT_AB_01_04_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		can_attach_wagon: switch_can_attach_vehicle;
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		//Add calls to defined switches below

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Germany_Saxon_IV_K, "gfx/Steam/Germany_Saxon_IV_K.png", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Germany_Saxon_IV_K.png", 1, 96)
 
 /*
 * VEHICLE

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_Switzerland_MOB_Ge_4_4_8000, "gfx/Electric/Switzerland_MOB_Ge_4_4_8000.xpm", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Switzerland_MOB_Ge_4_4_8000.xpm", 1, 64)
 
 /*
 * VEHICLE

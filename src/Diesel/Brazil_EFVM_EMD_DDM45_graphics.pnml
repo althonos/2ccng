@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(diesel_Brazil_EFVM_EMD_DDM45, "gfx/Diesel/Brazil_EFVM_EMD_DDM45.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Brazil_EFVM_EMD_DDM45.png", 1, 64)
 
 /*
 * VEHICLE

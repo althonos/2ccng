@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(rbe_Japan_Choshi_DeHa_1000, "gfx/Railbus-electric/Japan_Choshi_DeHa_1000.png", 1, 32)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Railbus-electric/Japan_Choshi_DeHa_1000.png", 1, 32)
 
 /*
 * VEHICLE

@@ -44,7 +44,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_emu_Tunisia_SNCFT_YZ_E_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		can_attach_wagon: switch_can_attach_vehicle;
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
 		visual_effect_and_powered: switch_emu_Tunisia_SNCFT_YZ_E_visual_effect_and_powered_position;

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_South_Africa_SAR_6E, "gfx/Electric/South_Africa_SAR_6E.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/South_Africa_SAR_6E.png", 1, 64)
 
 /*
 * VEHICLE

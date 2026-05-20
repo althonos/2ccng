@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, "gfx/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina.xpm", 1, 32)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Railbus-diesel/Eritrea_Eritrean_Railway_A62_70_Littorina.xpm", 1, 32)
 
 /*
 * VEHICLE

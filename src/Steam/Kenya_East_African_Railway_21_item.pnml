@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_steam_Kenya_East_African_Railway_21_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_steam_Kenya_East_African_Railway_21_visual_effect;
 		length: switch_steam_Kenya_East_African_Railway_21_length;
 		articulated_part: switch_steam_Kenya_East_African_Railway_21_articulated;

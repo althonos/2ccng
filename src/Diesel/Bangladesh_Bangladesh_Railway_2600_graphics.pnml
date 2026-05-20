@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(diesel_Bangladesh_Bangladesh_Railway_2600, "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Bangladesh_Bangladesh_Railway_2600.xpm", 1, 64)
 
 /*
 * VEHICLE

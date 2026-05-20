@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 128)
 
 /*
 * VEHICLE
 */
 
-FORWARD_SPRITESET(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 1)
-BACKWARD_SPRITESET(emu_Japan_Odakyu_10000_Series_Romance, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 32)
+FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 1)
+BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png", 1, 32)
 
 //Middle - PAX-L1
 spriteset(spriteset_emu_Japan_Odakyu_10000_Series_Romance_middlepass_L1, "gfx/EMU/Japan_Odakyu_10000_Series_Romance.png") {

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(rbe_Switzerland_AB_CFe_3_3, "gfx/Railbus-electric/Switzerland_AB_CFe_3_3.png", 1, 32)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Railbus-electric/Switzerland_AB_CFe_3_3.png", 1, 32)
 
 /*
 * VEHICLE

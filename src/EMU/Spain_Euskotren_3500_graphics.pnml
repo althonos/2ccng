@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 128)
 
 /*
 * VEHICLE
 */
 
-FORWARD_SPRITESET(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 1)
-BACKWARD_SPRITESET(emu_Spain_Euskotren_3500, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 32)
+FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 1)
+BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_emu_Spain_Euskotren_3500_middlepass, "gfx/EMU/Spain_Euskotren_3500.xpm") {

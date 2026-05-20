@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_Costa_Rica_Ferrocarril_Al_Pacifico_127, "gfx/Electric/Costa_Rica_Ferrocarril_Al_Pacifico_127.xpm", 1, 32)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Costa_Rica_Ferrocarril_Al_Pacifico_127.xpm", 1, 32)
 
 /*
 * VEHICLE

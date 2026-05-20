@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_steam_Japan_Horonai_Railway_7100_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_steam_Japan_Horonai_Railway_7100_visual_effect;
 		length: switch_steam_Japan_Horonai_Railway_7100_length;
 		articulated_part: switch_steam_Japan_Horonai_Railway_7100_articulated;

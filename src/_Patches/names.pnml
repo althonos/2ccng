@@ -1,7 +1,7 @@
 #define TRAIN_NAME(VEHIDCODE, NAME)    \
     item(FEAT_TRAINS, VEHIDCODE) {     \
         property {                     \
-            name: str(NAME);           \
+            name: string(NAME);        \
         }                              \
     }
 

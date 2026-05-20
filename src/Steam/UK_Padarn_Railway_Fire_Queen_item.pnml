@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_steam_UK_Padarn_Railway_Fire_Queen_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_steam_UK_Padarn_Railway_Fire_Queen_visual_effect;
 		length: switch_steam_UK_Padarn_Railway_Fire_Queen_length;
 		articulated_part: switch_steam_UK_Padarn_Railway_Fire_Queen_articulated;

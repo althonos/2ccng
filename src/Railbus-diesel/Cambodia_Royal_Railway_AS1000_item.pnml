@@ -44,11 +44,11 @@ item(FEAT_TRAINS, ITEM ) {
 	}
 	graphics {
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
-		purchase: spriteset_rbd_Cambodia_Royal_Railways_AS1000_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		can_attach_wagon: switch_can_attach_vehicle;
 		//Add calls to defined switches below
 		RUNNINGCOSTENGINESWITCHCALL
 		EXPANDEDPURCHASETEXTSWITCHCALL(VEHIDCODE)
-		default: spriteset_rbd_Cambodia_Royal_Railways_AS1000;
+		default: spriteset_rbd_Cambodia_Royal_Railway_AS1000;
 	}
 }

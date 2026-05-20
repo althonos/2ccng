@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Malaysia_KTM_Class_93, "gfx/EMU/Malaysia_KTM_Class_93.xpm", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Malaysia_KTM_Class_93.xpm", 1, 128)
 
 /*
 * VEHICLE

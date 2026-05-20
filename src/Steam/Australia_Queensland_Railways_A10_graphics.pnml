@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Australia_Queensland_Railways_A10, "gfx/Steam/Australia_Queensland_Railways_A10.xpm", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Australia_Queensland_Railways_A10.xpm", 1, 96)
 
 /*
 * VEHICLE

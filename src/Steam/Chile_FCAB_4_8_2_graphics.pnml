@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Chile_FCAB_4_8_2, "gfx/Steam/Chile_FCAB_4_8_2.png", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Chile_FCAB_4_8_2.png", 1, 96)
 
 /*
 * VEHICLE

@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(diesel_Argentina_SOFSE_3193, "gfx/Diesel/Argentina_SOFSE_3193.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Argentina_SOFSE_3193.png", 1, 64)
 
 /*
 * VEHICLE

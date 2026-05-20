@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(electric_Switzerland_RhB_Ge_6_6_Krokodil, "gfx/Electric/Switzerland_RhB_Ge_6_6_Krokodil.png", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Switzerland_RhB_Ge_6_6_Krokodil.png", 1, 64)
 
 /*
 * VEHICLE

@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Tunisia_SNCFT_YZ_E, "gfx/EMU/Tunisia_SNCFT_YZ_E.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Tunisia_SNCFT_YZ_E.png", 1, 128)
 
 /*
 * VEHICLE
 */
 
-FORWARD_SPRITESET(emu_Tunisia_SNCFT_YZ_E, "gfx/EMU/Tunisia_SNCFT_YZ_E.png", 1, 1)
-BACKWARD_SPRITESET(emu_Tunisia_SNCFT_YZ_E, "gfx/EMU/Tunisia_SNCFT_YZ_E.png", 1, 32)
+FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Tunisia_SNCFT_YZ_E.png", 1, 1)
+BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Tunisia_SNCFT_YZ_E.png", 1, 32)
 
 //Middle - PAX-L1
 spriteset(spriteset_emu_Tunisia_SNCFT_YZ_E_middlepass_L1, "gfx/EMU/Tunisia_SNCFT_YZ_E.png") {

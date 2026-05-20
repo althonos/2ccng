@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_Namibia_South_West_African_2_8_0, "gfx/Steam/Namibia_South_West_African_2_8_0.png", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/Namibia_South_West_African_2_8_0.png", 1, 96)
 
 /*
 * VEHICLE

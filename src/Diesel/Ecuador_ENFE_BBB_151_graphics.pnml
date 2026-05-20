@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(diesel_Ecuador_ENFE_BBB_151, "gfx/Diesel/Ecuador_ENFE_BBB_151.xpm", 1, 64)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Diesel/Ecuador_ENFE_BBB_151.xpm", 1, 64)
 
 /*
 * VEHICLE

@@ -43,7 +43,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_electric_Japan_JNR_EH10_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		visual_effect_and_powered: switch_electric_Japan_JNR_EH10_visual_effect;
 		length: switch_electric_Japan_JNR_EH10_length;
 		articulated_part: switch_electric_Japan_JNR_EH10_articulated;

@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Australia_Queensland_Rail_Tilt_Train, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 128)
 
 /*
 * VEHICLE
 */
 
-FORWARD_SPRITESET(emu_Australia_Queensland_Rail_Tilt_Train, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 1)
-BACKWARD_SPRITESET(emu_Australia_Queensland_Rail_Tilt_Train, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 32)
+FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 1)
+BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png", 1, 32)
 
 //Middle - PAX-L1
 spriteset(spriteset_emu_Australia_Queensland_Rail_Tilt_Train_middlepass_L1, "gfx/EMU/Australia_Queensland_Rail_Tilt_Train.png") {

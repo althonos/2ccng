@@ -10,14 +10,14 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET_DUALHEADED(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 128)
+PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 128)
 
 /*
 * VEHICLE
 */
 
-FORWARD_SPRITESET(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 1)
-BACKWARD_SPRITESET(emu_Sweden_SL_X15p, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 32)
+FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 1)
+BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Sweden_SL_X15p.xpm", 1, 32)
 
 //Middle - PAX
 spriteset(spriteset_emu_Sweden_SL_X15p_middlepass, "gfx/EMU/Sweden_SL_X15p.xpm") {

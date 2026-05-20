@@ -10,7 +10,7 @@
 * PURCHASE
 */
 
-PURCHASE_SPRITESET(steam_South_Africa_PPR_35_tonner_4_6_0T, "gfx/Steam/South_Africa_PPR_35_tonner_4_6_0T.png", 1, 96)
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Steam/South_Africa_PPR_35_tonner_4_6_0T.png", 1, 96)
 
 /*
 * VEHICLE

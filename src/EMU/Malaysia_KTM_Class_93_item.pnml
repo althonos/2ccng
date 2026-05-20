@@ -44,7 +44,7 @@ item(FEAT_TRAINS, ITEM ) {
 		BADGESPROPERTY
 	}
 	graphics {
-		purchase: spriteset_emu_Malaysia_KTM_Class_93_purchase;
+		purchase: PURCHASE_SPRITESET_NAME(VEHIDCODE);
 		can_attach_wagon: switch_can_attach_vehicle;
 		visual_effect_and_powered: switch_emu_Malaysia_KTM_Class_93_visual_effect_and_powered;
 		ENGINECAPACITYSWITCHCALL(VEHIDCODE)
