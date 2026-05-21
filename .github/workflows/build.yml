@@ -44,6 +44,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Install pandoc
+        uses: pandoc/actions/setup@v1
       - name: Download bundle
         uses: actions/download-artifact@v4
         with:
@@ -51,8 +53,10 @@ jobs:
           path: bundle/*
       - name: Generate release text
         run: sh docs/release-text.sh > docs/release-text.rst
+      - name: Convert to markdown
+        run: pandoc -i docs/release-text.rst -o docs/release-text.md
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "bundle/*.tar.gz"
-          bodyFile: "docs/release-text.rst"
+          bodyFile: "docs/release-text.md"
