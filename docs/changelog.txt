@@ -1,6 +1,33 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+v0.6.2 (2026-05-21)
+-------------------
+
+Added
+^^^^^
+- ``RhB Capricorn`` 2019 EMU of Switzerland.
+- ``MOB Ge 4/4 8000`` 1995 electric locomotive of Switzerland.
+- ``GoldenPass Express`` 2022 coaches and control car.
+- ``SQM 600`` 1927 electric locomotive of Chile.
+- ``La Guaira & Caracas 19-23`` 1927 electric locomotive of Venezuela.
+- ``FCTC E-100`` 1925 electric locomotive of Chile.
+
+Changed
+^^^^^^^
+- Update most EMUs and DMUs to support push-pull operation.
+
+Fixed
+^^^^^
+- Some incorrect rail types from 2cc Trains in NML 'revival'.
+- Incorrect or unset model life of wagons and coaches.
+- Inconsistent properties of ``EAR 21``, ``ZR 15`` and ``EAR 23`` locomotives.
+
+Removed
+^^^^^^^
+- Broad gauge ``SOFSE 319.3`` locomotive.
+
+
 v0.6.1 (2026-05-05)
 -------------------
 
