@@ -30,7 +30,7 @@
 #define SPEED 40                // (1)
 #define POWER 1891              // (1) 1410 kW
 #define WEIGHT 86               // (1)
-#define TE_COEFFICIENT 0.14     // ???
+#define TE_COEFFICIENT 0.25     // ???
 
 #define LENGTH 5
 #define ACTUAL_LENGTH 10

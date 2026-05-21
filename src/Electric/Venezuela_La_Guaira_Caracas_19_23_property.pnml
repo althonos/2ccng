@@ -31,7 +31,7 @@
 #define SPEED 29                // (1)
 #define POWER 225               // (1) 2x 84 kW engines
 #define WEIGHT 33               // (1)
-#define TE_COEFFICIENT 0.120    // ???
+#define TE_COEFFICIENT 0.3      // ???
 
 #define LENGTH 5
 #define ACTUAL_LENGTH 5
