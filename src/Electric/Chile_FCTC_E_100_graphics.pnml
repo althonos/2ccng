@@ -1,0 +1,79 @@
+/*
+ *  Copyright (C) 2026 althonos
+ *  This file is part of the 2cc Trains In NML - Narrow Gauge edition.
+ *  This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+ *  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ *  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/*
+* PURCHASE
+*/
+
+PURCHASE_SPRITESET(VEHIDCODE, "gfx/Electric/Chile_FCTC_E_100.xpm", 1, 136)
+
+/*
+* VEHICLE
+*/
+
+#define REVERSABLE_SPRITESET(NAME, y) \
+	spriteset(spriteset_electric_Chile_FCTC_E_100_ ## NAME ## _fwd, "gfx/Electric/Chile_FCTC_E_100.xpm") { \
+		template_2cc_engines_general(1, y)	\
+	} \
+	spriteset(spriteset_electric_Chile_FCTC_E_100_ ## NAME ## _bwd, "gfx/Electric/Chile_FCTC_E_100.xpm") { \
+		template_2cc_engines_general(179, y)	\
+	} \
+	switch(FEAT_TRAINS, PARENT, spriteset_electric_Chile_FCTC_E_100_ ## NAME, vehicle_is_reversed) { \
+		0: spriteset_electric_Chile_FCTC_E_100_ ## NAME ## _fwd; \
+		1: spriteset_electric_Chile_FCTC_E_100_ ## NAME ## _bwd; \
+	} 
+
+REVERSABLE_SPRITESET(front_S1, 1)
+REVERSABLE_SPRITESET(back_S1,  32)
+REVERSABLE_SPRITESET(front_S2, 64)
+REVERSABLE_SPRITESET(back_S2,  96)
+
+#undef REVERSABLE_SPRITESET
+
+// NB: Need PARENT instead of SELF for scope here or each half of the locomotive
+//	   will be animated separately -- with PARENT scope, the motion counter is
+//	   shared so the animation is synchronized.
+
+switch(FEAT_TRAINS, PARENT, switch_electric_Chile_FCTC_E_100_front_animation, motion_counter % 2) {
+	0: spriteset_electric_Chile_FCTC_E_100_front_S1;
+	1: spriteset_electric_Chile_FCTC_E_100_front_S2;
+}
+
+switch(FEAT_TRAINS, PARENT, switch_electric_Chile_FCTC_E_100_back_animation, motion_counter % 2) {
+	0: spriteset_electric_Chile_FCTC_E_100_back_S1;
+	1: spriteset_electric_Chile_FCTC_E_100_back_S2;
+}
+
+switch(FEAT_TRAINS, SELF, switch_electric_Chile_FCTC_E_100_position, position_in_vehid_chain % 2) {
+	0: switch_electric_Chile_FCTC_E_100_front_animation;
+	1: switch_electric_Chile_FCTC_E_100_back_animation;
+}
+
+/*
+* Visual effect
+*/
+
+switch(FEAT_TRAINS, SELF, switch_electric_Chile_FCTC_E_100_visual_effect, position_in_vehid_chain % 2) {
+	0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);
+	return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);
+}
+
+switch(FEAT_TRAINS, SELF, switch_electric_Chile_FCTC_E_100_length, position_in_vehid_chain % 2) {
+	0: 5;
+	5;
+}
+
+switch(FEAT_TRAINS, SELF, switch_electric_Chile_FCTC_E_100_articulated, extra_callback_info1) {
+	1: return item_electric_Chile_FCTC_E_100;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+//Add defined switches
+
+RUNNINGCOSTENGINESWITCH
+
+EXPANDEDPURCHASETEXTSWITCH(VEHIDCODE)

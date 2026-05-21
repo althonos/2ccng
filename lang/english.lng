@@ -697,6 +697,7 @@ str_electric_Costa_Rica_Ferrocarril_Al_Pacifico_127 :Ferrocarril al Pacifico No.
 str_electric_Switzerland_MOB_Ge_4_4_8000    :MOB Ge 4/4 8000 (Electric)
 str_electric_Chile_SQM_600_GE_289A  :SQM 600 GE 289A (Electric)
 str_electric_Venezuela_La_Guaira_Caracas_19_23  :La Guaira & Caracas 19-23 (Electric)
+str_electric_Chile_FCTC_E_100   :FCTC E-100 (Electric)
 
 #Dual Mode
 str_dual_Ecuador_FEEP_TD2000   :FEEP TD2000 (Dual Mode)
