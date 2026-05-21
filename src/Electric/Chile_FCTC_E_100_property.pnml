@@ -26,11 +26,12 @@
 #define VEHICLE_LIFE 40
 
 // Some info from: (1) https://de.wikipedia.org/wiki/FCTC-Baureihe_E-100
+//                 (2) https://library.e.abb.com/public/e08909aef17f437d871ca873c6a2a9aa/bbc_mitteilungen_1929_e_04.pdf
 
-#define SPEED 40                // (1)
-#define POWER 1891              // (1) 1410 kW
-#define WEIGHT 86               // (1)
-#define TE_COEFFICIENT 0.25     // ???
+#define SPEED 40                // (1, 2)
+#define POWER 1260              // (2) 235 kW * 4 adhesion motors
+#define WEIGHT 86               // (1, 2)
+#define TE_COEFFICIENT 0.244    // (2) Tractive effort of 21t ~= 209 kN
 
 #define LENGTH 5
 #define ACTUAL_LENGTH 10
