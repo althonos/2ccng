@@ -18,6 +18,7 @@ item(FEAT_TRAINS, item_rbs_Germany_Bavarian_MCCi, 1004) {}
 item(FEAT_TRAINS, item_rbs_South_Africa_CSAR_Railmotor, 1005) {}
 item(FEAT_TRAINS, item_rbs_Australia_Victorian_Railways_Motor_Car_3, 1006) {}
 item(FEAT_TRAINS, item_rbs_Austria_kkStB_4_0, 1007) {}
+// Revival
 item(FEAT_TRAINS, item_rbs_Germany_Hessian_Ludwig_Thomas, 1008) {}
 item(FEAT_TRAINS, item_rbs_Austria_NOLB_30_33, 1009) {}
 
@@ -70,6 +71,7 @@ item(FEAT_TRAINS, item_rbd_Argentina_FCPBA_M_Railcar, 2043) {}
 item(FEAT_TRAINS, item_rbd_Germany_DB_VT_989, 2044) {}
 item(FEAT_TRAINS, item_rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, 2045) {}
 item(FEAT_TRAINS, item_rbd_Italy_FS_ALn_668, 2046) {} 
+// Revival
 item(FEAT_TRAINS, item_rbd_Hungary_MAV_Ikarus_260, 2047) {}
 // Narrow-Gauge
 item(FEAT_TRAINS, item_rbd_Tunisia_SNCFT_YZ_661, 2401) {}
@@ -220,6 +222,7 @@ item(FEAT_TRAINS, item_steam_Australia_NSWGR_C35, 4113) {}
 item(FEAT_TRAINS, item_steam_Belgium_NMBS_SNCB_Type_29, 4114) {}
 item(FEAT_TRAINS, item_steam_Chile_FCAB_4_8_2, 4115) {}
 item(FEAT_TRAINS, item_steam_China_Railways_QJ, 4116) {}
+// Revival
 item(FEAT_TRAINS, item_steam_South_Africa_Katanga_Mikado_2_8_2, 4117) {}
 item(FEAT_TRAINS, item_steam_Mozambique_Mozambique_Railways_101_104, 4118) {}
 item(FEAT_TRAINS, item_steam_Ivory_Coast_Golwe_2_6_0_0_6_2T, 4119) {}
@@ -397,6 +400,7 @@ item(FEAT_TRAINS, item_diesel_Egypt_ENR_2400_GE_ES40ACi, 5130) {}
 item(FEAT_TRAINS, item_diesel_UK_BR_68, 5131) {}
 item(FEAT_TRAINS, item_diesel_South_Africa_PRASA_Afro_4000, 5132) {}
 item(FEAT_TRAINS, item_diesel_USA_Amtrak_Charger, 5133) {}
+// Revival
 item(FEAT_TRAINS, item_diesel_Gabon_Alsthom_AD30B, 5134) {}
 item(FEAT_TRAINS, item_diesel_Ghana_Ghana_Railways_1400_EMD_TT12, 5135) {}
 item(FEAT_TRAINS, item_diesel_Sierra_Leone_LAMCO_301_Series, 5136) {}
@@ -602,6 +606,7 @@ item(FEAT_TRAINS, item_electric_USA_Amtrak_HHP_8, 6132) {}
 item(FEAT_TRAINS, item_electric_Brasil_MRS_He_4_4, 6133) {}
 item(FEAT_TRAINS, item_electric_Russia_RZD_VL11, 6134) {}
 item(FEAT_TRAINS, item_electric_Germany_Prussian_ES_6, 6135) {}
+// Revival
 item(FEAT_TRAINS, item_electric_Congo_Zaire_Electric_Type_2450, 6136) {}
 item(FEAT_TRAINS, item_electric_Tanzania_TRC_E6800, 6137) {}
 item(FEAT_TRAINS, item_electric_Hungary_MAV_V63, 6138) {}
@@ -681,6 +686,7 @@ item(FEAT_TRAINS, item_dmu_Ghana_Ghana_Railways_DEMU, 7050) {}
 item(FEAT_TRAINS, item_dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, 7051) {}
 item(FEAT_TRAINS, item_dmu_Canada_UP_Express_Nippon_Sharyo_DMU, 7052) {}
 item(FEAT_TRAINS, item_dmu_Argentina_FCGU_CMM_400_2, 7053) {}
+// Revival
 item(FEAT_TRAINS, item_dmu_Argentina_Ganz_ARPAD_CMU_4701_Transandino, 7054) {}
 item(FEAT_TRAINS, item_dmu_Australia_NSW_1100, 7056) {}
 item(FEAT_TRAINS, item_dmu_Thailand_Comeng_XPT_Concept, 7057) {}
@@ -768,6 +774,7 @@ item(FEAT_TRAINS, item_emu_Austria_WESTbahn_4010_KISS, 8069) {}
 item(FEAT_TRAINS, item_emu_Croatia_HZ_6112, 8070) {}
 item(FEAT_TRAINS, item_emu_China_Railways_CHR380A, 8071) {}
 item(FEAT_TRAINS, item_emu_Europe_Sureot, 8072) {}
+// Revival
 item(FEAT_TRAINS, item_emu_Australia_Comeng_EMU, 8073) {}
 item(FEAT_TRAINS, item_emu_Australia_Melbourne_HCMT_Munnel, 8074) {}
 item(FEAT_TRAINS, item_emu_Australia_Melbourne_Hitachi, 8075) {}
@@ -853,6 +860,7 @@ item(FEAT_TRAINS, item_mtro_Italy_Rome_S_300, 9052) {}
 item(FEAT_TRAINS, item_mtro_Algeria_Algiers_CAF_2011_Stock, 9053) {}
 item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_IK, 9054) {}
 item(FEAT_TRAINS, item_mtro_USA_Chicago_L_6000, 9055) {}
+// Revival
 item(FEAT_TRAINS, item_mtro_USA_Brooklyn_Union_Gate_Car, 9056) {}
 item(FEAT_TRAINS, item_mtro_UK_London_1992_Stock, 9057) {}
 item(FEAT_TRAINS, item_mtro_UK_London_S_Stock, 9058) {}
@@ -869,6 +877,7 @@ item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ganz_Hunslet_G2, 9066) {}
 #define ID_RANGE_MULTIMAGLEV 0x2710..0x2903
 item(FEAT_TRAINS, item_mglv_China_Transrapid, 10000) {}
 item(FEAT_TRAINS, item_mglv_Japan_MLX01_901, 10001) {}
+// Revival
 item(FEAT_TRAINS, item_mglv_World_Chimaera, 10002) {}
 
 //Coaches, available ID range: 11000-11999 (hex 0x2AF8..0x2EDF)
@@ -944,6 +953,7 @@ item(FEAT_TRAINS, item_coach_Gen6_Metropolis_Coach, 11067) {}
 item(FEAT_TRAINS, item_coach_Gen6_Speedmail_Coach, 11068) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Regio_Coach, 11069) {}
 item(FEAT_TRAINS, item_coach_Gen6_Super_Voyager_Coach, 11070) {}
+// Revival
 item(FEAT_TRAINS, item_coach_Gen5_CityNightline_Sleeper, 11071) {}
 item(FEAT_TRAINS, item_coach_Gen4_Trans_Euro_Night_Sleeper, 11072) {}
 item(FEAT_TRAINS, item_coach_Gen1_American_style_NZAUS_coach, 11073) {}
@@ -1041,6 +1051,7 @@ item(FEAT_TRAINS, item_wagon_Service_Car_Type1, 12045) {}
 item(FEAT_TRAINS, item_wagon_Service_Car_Type2, 12046) {}
 item(FEAT_TRAINS, item_wagon_Gen3_Boxcar_Type2, 12047) {}
 item(FEAT_TRAINS, item_wagon_Gen4_Boxcar_Type2, 12048) {}
+// Revival
 item(FEAT_TRAINS, item_wagon_Gen6_flatcar, 12049) {}
 item(FEAT_TRAINS, item_wagon_Gen6_heavy_flatcar, 12050) {}
 item(FEAT_TRAINS, item_wagon_Gen6_boxcar_type1, 12051) {}
@@ -1122,11 +1133,13 @@ item(FEAT_TRAINS, item_rbm_World_Turbobus, 16000) {}
 
 // Maglev, available ID range: 15000-15499 (hex 0x3A98..0x3C8B)
 #define ID_RANGE_MAGLEV 0x3A98..0x3C8B
+// Revival
 item(FEAT_TRAINS, item_mglv_Germany_DB_182_ES64UM_Mutus, 15001) {}
 item(FEAT_TRAINS, item_mglv_World_Pegasus, 15002) {}
 
 // Maglev Wagons, available ID range: 18000-18999 (hex 0x4650..0x4A37)
 #define ID_RANGE_WAGONS_MGLV 0x4650..0x4A37
+// Revival
 item(FEAT_TRAINS, item_mglv_wagon_Gen7m_flatcar, 18001) {}
 item(FEAT_TRAINS, item_mglv_wagon_Gen7m_heavy_flatcar, 18002) {}
 item(FEAT_TRAINS, item_mglv_wagon_Gen7m_boxcar_type1, 18003) {}
