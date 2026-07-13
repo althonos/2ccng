@@ -20,6 +20,7 @@
 #define CARGODEF_NONE            refittable_cargo_classes: 0;
 #define CARGODEF_PASSENGERS      refittable_cargo_classes: bitmask(CC_PASSENGERS, CC_MAIL, CC_ARMOURED); non_refittable_cargo_classes: 0;
 #define CARGODEF_PASSENGERS_ONLY refittable_cargo_classes: bitmask(CC_PASSENGERS); non_refittable_cargo_classes: 0;
+#define CARGODEF_EXPRESS         refittable_cargo_classes: bitmask(CC_MAIL, CC_EXPRESS); non_refittable_cargo_classes: 0;
 #define CARGODEF_MAIL_ONLY       refittable_cargo_classes: bitmask(CC_MAIL); non_refittable_cargo_classes: 0;
 
 // -- Boxcars --

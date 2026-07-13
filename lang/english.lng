@@ -207,6 +207,7 @@ STR_EXTRA_MAKER_MAV_NORTHERN            :Constructor: {GOLD}MÁV Northern Repair
 STR_EXTRA_MAKER_FERROVIAS_DEL_BAJIO     :Constructor: {GOLD}Ferrovías del Bajío, S.A. de C.V.{BLACK}{}{STRING}
 STR_EXTRA_MAKER_UERDINGEN               :Constructor: {GOLD}Waggon-Fabrik AG Uerdingen{BLACK}{}{STRING}
 STR_EXTRA_MAKER_BROWN_BOWERI            :Constructor: {GOLD}Brown, Boweri & Cie.{BLACK}{}{STRING}
+STR_EXTRA_MAKER_ROBATEL_BUFFAUD         :Constructor: {GOLD}Ateliers Robatel & Buffaud{BLACK}{}{STRING}
 
 #VEHICLE NAMES
 #Railbus-steam
@@ -218,6 +219,7 @@ str_rbs_Germany_Bavarian_MCCi :K.Bay.Sts.B. MCCi (Steam Railbus)
 str_rbs_South_Africa_CSAR_Railmotor :CSAR Railmotor (Steam Railbus)
 str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3 (Steam Railbus)
 str_rbs_Austria_kkStB_4_0	:kkStB 4.0 (Steam Goods Railbus)
+str_rbs_Mali_Kayes_Niger_No_1   :Kayes-Niger No. 1 (Steam Railbus)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1 	:Victorian Railways AEC RM1 (Diesel Railbus)

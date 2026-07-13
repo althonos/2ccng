@@ -21,6 +21,9 @@ item(FEAT_TRAINS, item_rbs_Austria_kkStB_4_0, 1007) {}
 // Revival
 item(FEAT_TRAINS, item_rbs_Germany_Hessian_Ludwig_Thomas, 1008) {}
 item(FEAT_TRAINS, item_rbs_Austria_NOLB_30_33, 1009) {}
+// Narrow-Gauge
+item(FEAT_TRAINS, item_rbs_Mali_Kayes_Niger_No_1, 1401) {}
+item(FEAT_TRAINS, item_rbs_Mali_Kayes_Niger_No_1_trailer, 1402) {}
 
 //Railbus-Diesel, available ID range: 2000-2499 (hex 0x07D0..0x09C3)
 #define ID_RANGE_RBD 0x07D0..0x09C3
