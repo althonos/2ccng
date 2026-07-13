@@ -116,12 +116,15 @@ item_steam_Switzerland_SBB_Ec_2_5, /*Year: 1854*/ \
 item_steam_Australia_Sidney_Railway_Locomotive_No1, /*Year: 1855*/ \
 item_steam_India_Fairy_Queen, /*Year: 1855*/ \
 item_steam_Argentina_La_Portena, /*Year: 1857*/ \
+item_steam_Italy_LVCI_Class_1, /*Year: 1857*/ \
 item_steam_USA_Central_Pacific_4_2_2, /*Year: 1863*/ \
 item_steam_Australia_Queensland_Railways_A10, /*Year: 1865*/ \
 item_steam_Netherlands_NS_700, /*Year: 1865*/ \
 item_steam_Ireland_GS_WR_101, /*Year: 1866*/ \
 item_steam_Brazil_Sao_Paulo_Railway_13, /*Year: 1867*/ \
 item_steam_Egypt_Stephenson_Class_192, /*Year: 1867*/ \
+item_steam_Bulgaria_BDZ_142_150, /*Year: 1868*/ \
+item_steam_Spain_RENFE_030, /*Year: 1870*/ \
 item_steam_South_Africa_Natal_Government_Railways_2_6_0T, /*Year: 1876*/ \
 item_steam_USA_4_6_0_Ten_wheeler, /*Year: 1869*/ \
 item_steam_Argentina_FCGR_315, /*Year: 1871*/ \
@@ -162,6 +165,7 @@ item_steam_USA_D_RGW_K_27_Mudhen, /*Year: 1903*/ \
 item_steam_Australia_NSW_C30, /*Year: 1903*/ \
 item_steam_Austria_KkStB_299, /*Year: 1904*/ \
 item_steam_Russia_RZD_U, /*Year: 1906*/ \
+item_steam_Hungary_MAV_Class_203, /*Year: 1906*/ \
 item_steam_New_Zealand_NZR_X_Class, /*Year: 1908*/ \
 item_steam_Italy_FS_895, /*Year: 1908*/ \
 item_steam_Peru_No8_Monsefu, /*Year: 1910*/ \
@@ -175,9 +179,11 @@ item_steam_Australia_SMR_10, /*Year: 1911*/ \
 item_steam_Russia_RZD_E, /*Year: 1912*/ \
 item_steam_Australia_Tasmanian_Government_M, /*Year: 1912*/ \
 item_steam_Japan_JGR_9600, /*Year: 1913*/ \
+item_steam_Spain_RENFE_240, /*Year: 1913*/ \
 item_steam_Switzerland_SBB_C_5_6, /*Year: 1913*/ \
 item_steam_Paraguay_FCCP_Q_Class, /*Year: 1914*/ \
 item_steam_Argentina_FCCA_PS10_Class, /*Year: 1914*/ \
+item_steam_Hungary_MAV_Class_601, /*Year: 1914*/ \
 item_steam_USA_NYC_H_6A_Light_Mikado, /*Year: 1914*/ \
 item_steam_Australia_NSWGR_C35, /*Year: 1914*/ \
 item_steam_Croatia_HZ_51, /*Year: 1914*/ \
@@ -213,6 +219,7 @@ item_steam_Netherlands_NS_6300, /*Year: 1930*/ \
 item_steam_Argentina_FCCA_PS11, /*Year: 1930*/ \
 item_steam_USA_AT_SF_5000, /*Year: 1930*/ \
 item_steam_Ivory_Coast_Golwe_2_6_0_0_6_2T, /*Year: 1930*/ \
+item_steam_Spain_RENFE_462, /*Year: 1931*/ \
 item_steam_France_SNCF_150B, /*Year: 1933*/ \
 item_steam_Germany_Prussian_S10, /*Year: 1934*/ \
 item_steam_UK_LMS_5MT_Black_Five, /*Year: 1934*/ \
@@ -265,7 +272,9 @@ item_diesel_Germany_DB_270, /*Year: 1936*/ \
 item_diesel_USA_Rock_Island_EMC_TA, /*Year: 1937*/ \
 item_diesel_Switzerland_SBB_Am_4_6, /*Year: 1938*/ \
 item_diesel_Brazil_EE_VFFLB, /*Year: 1938*/ \
+item_diesel_USA_EMC_E3, /*Year: 1938*/ \
 item_diesel_South_Africa_SAR_DS, /*Year: 1939*/ \
+item_diesel_USA_EMD_FT, /*Year: 1939*/ \
 item_diesel_Australia_Queensland_Railways_DL_Class, /*Year: 1939*/ \
 item_diesel_UK_BR_Class_D3_7, /*Year: 1939*/ \
 item_diesel_USA_NYC_Baldwin_VO_660, /*Year: 1939*/ \
@@ -313,6 +322,7 @@ item_diesel_Ecuador_ENFE_BBB_151, /*Year: 1956*/ \
 item_diesel_Germany_DB_220, /*Year: 1956*/ \
 item_diesel_USA_Amtrak_FL9, /*Year: 1956*/ \
 item_diesel_Australia_NSWGR_44, /*Year: 1957*/ \
+item_diesel_Yugoslavia_JZ_D66, /*Year: 1957*/ \
 item_diesel_Italy_FS_D341, /*Year: 1957*/ \
 item_diesel_Japan_JNR_DF50, /*Year: 1957*/ \
 item_diesel_Czech_Republic_CD_720_ChME2, /*Year: 1958*/ \
@@ -360,6 +370,7 @@ item_diesel_Australia_NSW_47, /*Year: 1972*/ \
 item_diesel_New_Zealand_DX_Class, /*Year: 1972*/ \
 item_diesel_Australia_TGR_Z, /*Year: 1973*/ \
 item_diesel_Australia_QR_2350, /*Year: 1973*/ \
+item_diesel_Germany_DR_132_DBAG_234, /*Year: 1973*/ \
 item_diesel_Canada_CNR_MLW_M420W, /*Year: 1973*/ \
 item_diesel_USA_GNR_SDP_40F, /*Year: 1973*/ \
 item_diesel_Germany_DR_130_DBAG_230, /*Year: 1973*/ \
@@ -370,6 +381,7 @@ item_diesel_Bulgaria_BDZ_76, /*Year: 1976*/ \
 item_diesel_China_China_Railways_DFH3, /*Year: 1976*/ \
 item_diesel_China_China_Railways_DF5, /*Year: 1976*/ \
 item_diesel_USA_GE_C30_7, /*Year: 1976*/ \
+item_diesel_Ireland_CIE_071, /*Year: 1976*/ \
 item_diesel_Australia_NSW_PTC_73, /*Year: 1977*/ \
 item_diesel_Panama_Panama_Canal_Railway_EMD_F40PH, /*Year: 1977*/ \
 item_diesel_Tunisia_SNCFT_040_DJ, /*Year: 1977*/ \
@@ -442,6 +454,7 @@ item_diesel_Germany_DB_261_Gravita_10BB, /*Year: 2010*/ \
 item_diesel_Germany_HVLE_V490, /*Year: 2010*/ \
 item_diesel_Indonesia_KAI_CC300, /*Year: 2011*/ \
 item_diesel_Russia_RZD_GT1, /*Year: 2011*/ \
+item_diesel_Poland_PKP_SU160, /*Year: 2012*/ \
 item_diesel_Argentina_SOFSE_CNR_CKD8, /*Year: 2013*/ \
 item_diesel_UK_BR_68, /*Year: 2014*/ \
 item_diesel_South_Africa_PRASA_Afro_4000, /*Year: 2014*/ \
@@ -482,9 +495,13 @@ item_electric_Germany_DB_169, /*Year: 1930*/ \
 item_electric_Japan_Aichi_Railroad_DeKi_400, /*Year: 1930*/ \
 item_electric_Japan_JNR_EB10, /*Year: 1931*/ \
 item_electric_Norway_NSB_EL10, /*Year: 1931*/ \
+item_electric_Hungary_MAV_Class_V40, /*Year: 1932*/ \
+item_electric_Germany_DRG_E44, /*Year: 1932*/ \
+item_electric_Russia_RZD_VL19, /*Year: 1932*/ \
 item_electric_Germany_DB_104, /*Year: 1933*/ \
 item_electric_Italy_FS_E428, /*Year: 1934*/ \
 item_electric_USA_Pennsylvania_Railroad_GG_1, /*Year: 1935*/ \
+item_electric_Germany_DRG_E18, /*Year: 1935*/ \
 item_electric_Japan_JNR_EF55, /*Year: 1936*/ \
 item_electric_South_Africa_SAR_ES_Class, /*Year: 1936*/ \
 item_electric_Brazil_GE_2CC2, /*Year: 1940*/ \
@@ -597,6 +614,7 @@ item_electric_Brasil_MRS_He_4_4, /*Year: 2012*/ \
 item_electric_Switzerland_SBB_Eem_923, /*Year: 2012*/ \
 item_electric_South_Africa_TFR_20E, /*Year: 2013*/ \
 item_electric_Kazakhstan_KTZ_KZ8A, /*Year: 2014*/ \
+item_electric_Poland_PKP_PESA_111E, /*Year: 2016*/ \
 item_electric_Slovakia_ZSSK_HGem_2_2, /*Year: 2016*/ \
 item_electric_Tanzania_TRC_E6800, /*Year: 2024*/
 
@@ -606,6 +624,7 @@ item_mglv_Germany_DB_182_ES64UM_Mutus, /*Year: 2005*/
 #define SORTING_DMU \
 item_dmu_Germany_DB_VT_040_Flying_Hamburger, /*Year: 1932*/ \
 item_dmu_Australia_NSWGR_Silver_City_Comet, /*Year: 1937*/ \
+item_dmu_Hungary_MAV_Hargita_M440, /*Year: 1944*/ \
 item_dmu_Czech_Republic_CD_M131, /*Year: 1948*/ \
 item_dmu_Australia_NSW_600, /*Year: 1949*/ \
 item_dmu_Australia_NSW_900, /*Year: 1951*/ \
@@ -614,6 +633,7 @@ item_dmu_Italy_FS_ALn_442_448, /*Year: 1955*/ \
 item_dmu_Australia_Queensland_Rail_400, /*Year: 1955*/ \
 item_dmu_Germany_DB_VT_115, /*Year: 1957*/ \
 item_dmu_Argentina_Ganz_ARPAD_CMU_4701_Transandino, /*Year: 1960*/ \
+item_dmu_Lithuania_RVR_DR1A, /*Year: 1963*/ \
 item_dmu_Australia_WAGR_ADK_ADB, /*Year: 1967*/ \
 item_dmu_Japan_JNR_KiHa_181, /*Year: 1968*/ \
 item_dmu_Cambodia_Royal_Railway_ZZ_800, /*Year: 1969*/ \
@@ -682,6 +702,7 @@ item_emu_New_Zealand_EM_Ganz_Mavag, /*Year: 1982*/ \
 item_emu_Tunisia_SNCFT_YZ_E, /*Year: 1984*/ \
 item_emu_Switzerland_SBB_RBDe_560, /*Year: 1984*/ \
 item_emu_Morocco_ONCF_ZMC, /*Year: 1984*/ \
+item_emu_Japan_JNR_Shinkansen_Series_100, /*Year: 1985*/ \
 item_emu_Japan_Odakyu_10000_Series_Romance, /*Year: 1986*/ \
 item_emu_Hungary_MAV_BDVmot, /*Year: 1988*/ \
 item_emu_Australia_Tangara_V_Set_Hybrid, /*Year: 1988*/ \
@@ -728,6 +749,8 @@ item_emu_Sweden_SL_X15p, /*Year: 2017*/ \
 item_emu_Switzerland_RhB_ABe_4_16_Capricorn, /*Year: 2019*/ \
 item_emu_Australia_Melbourne_HCMT_Munnel, /*Year: 2020*/ \
 item_emu_Australia_Melbourne_Nexas, /*Year: 2023*/ \
+item_emu_Chile_Chilean_SFB500_DEMU, /*Year: 2024*/ \
+item_emu_UK_BR_Class_895, /*Year: 2027*/ \
 item_emu_Europe_Sureot, /*Year: 2030*/
 
 #define SORTING_CARGOEMU \
