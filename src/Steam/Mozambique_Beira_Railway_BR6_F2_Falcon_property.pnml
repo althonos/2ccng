@@ -18,7 +18,7 @@
 
 #define VEHICLE_BADGES \
     "flag/MZ", \
-    "region/africa/southern", \
+    "region/africa/eastern", \
     "power/steam", \
     "railgauge/narrow/2ft"
 

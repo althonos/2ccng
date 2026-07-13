@@ -18,7 +18,7 @@
 
 #define VEHICLE_BADGES \
     "flag/ZW", \
-    "region/africa/southern", \
+    "region/africa/eastern", \
     "power/diesel", \
     "railgauge/narrow/cape"
 

@@ -53,7 +53,7 @@
 #define REGION_IL "asia/western"
 #define REGION_IN "asia/southern"
 #define REGION_IQ "asia/western"
-#define REGION_IR "asia/western"
+#define REGION_IR "asia/southern"
 #define REGION_IT "europe/southern"
 #define REGION_JP "asia/eastern"
 #define REGION_KE "africa/eastern"
