@@ -111,6 +111,19 @@
         }                                                          \
     }                                                              \
 
+#define TRAIN_BADGES2(VEHIDCODE, COUNTRY, POWER, GAUGE, BUILDER)    \
+    item(FEAT_TRAINS, VEHIDCODE) {                                 \
+        property {                                                 \
+            badges: [                                              \
+                format_string("flag/%s",      #COUNTRY),           \
+                format_string("region/%s",    REGION_ ## COUNTRY), \
+                format_string("power/%s",     POWER),              \
+                format_string("railgauge/%s", GAUGE),              \
+                format_string("builder/%s",   BUILDER),            \
+            ];                                                     \
+        }                                                          \
+    }                                                              \
+
 //Railbus-Steam
 TRAIN_BADGES(item_rbs_Austria_NOLB_1_3, AT, "steam", "narrow/bosnian")
 TRAIN_BADGES(item_rbs_Italy_FS_86, IT, "steam", "standard")
@@ -555,7 +568,7 @@ TRAIN_BADGES(item_diesel_Ireland_Bord_na_Mona_LM200, IE, "diesel", "narrow/3ft")
 TRAIN_BADGES(item_diesel_Bulgaria_BDZ_76, BG, "diesel", "narrow/bosnian")
 TRAIN_BADGES(item_diesel_Bangladesh_Bangladesh_Railway_2600, BD, "diesel", "narrow/metre")
 TRAIN_BADGES(item_diesel_Hungary_MAV_C50, HU, "diesel", "narrow/bosnian")
-TRAIN_BADGES(item_diesel_Madagascar_Madagascar_Railways_BBB100, MG, "diesel", "narrow/metre")
+TRAIN_BADGES2(item_diesel_Madagascar_Madagascar_Railways_BBB100, MG, "diesel", "narrow/metre", "alsthom")
 
 //Electric
 TRAIN_BADGES(item_electric_Switzerland_RhB_DE_2_2, CH, "electric/dc", "narrow/metre")

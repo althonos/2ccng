@@ -20,7 +20,8 @@
     "flag/NZ", \
     "region/oceania/australia_and_new_zealand",  \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/ganz_mavag"
 
 #define INTRODUCTION_YEAR 1979
 #define MODEL_LIFE 45

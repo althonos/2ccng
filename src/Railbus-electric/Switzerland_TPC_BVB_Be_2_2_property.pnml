@@ -20,7 +20,8 @@
     "flag/CH", \
     "region/europe/western", \
     "power/electric/dc", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/sws"
 
 #define INTRODUCTION_YEAR 1907
 #define MODEL_LIFE 45

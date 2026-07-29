@@ -19,7 +19,8 @@
     "flag/SM", \
     "region/europe/southern",  \
     "power/electric/dc", \
-    "railgauge/narrow/italian_metre"
+    "railgauge/narrow/italian_metre", \
+    "builder/carminati_toselli"
 
 #define INTRODUCTION_YEAR 1932
 #define MODEL_LIFE 45

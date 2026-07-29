@@ -20,7 +20,8 @@
     "flag/BG", \
     "region/europe/eastern", \
     "power/diesel", \
-    "railgauge/narrow/bosnian"
+    "railgauge/narrow/bosnian", \
+    "builder/23_august"
     
 #define INTRODUCTION_YEAR 1976
 #define MODEL_LIFE 40

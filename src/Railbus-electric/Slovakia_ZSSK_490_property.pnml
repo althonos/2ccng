@@ -20,7 +20,8 @@
     "flag/SK", \
     "region/europe/eastern", \
     "power/electric/dc", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/ringhoffer"
 
 #define INTRODUCTION_YEAR 1930
 #define MODEL_LIFE 45

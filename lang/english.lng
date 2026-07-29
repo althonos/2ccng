@@ -105,6 +105,14 @@ STR_BADGE_POWER_GASOLINE                    :Petrol
 STR_BADGE_POWER_NATURAL_GAS                 :Natural Gas
 STR_BADGE_POWER_HYDROGEN                    :Hydrogen
 
+#builder
+STR_BADGE_BUILDER                           :Builder
+STR_BADGE_BUILDER_23_AUGUST                 :'23 August' Bucharest Locomotive Works
+STR_BADGE_BUILDER_ALSTHOM                   :Alsthom
+STR_BADGE_BUILDER_AEG                       :Allgemeine Elektricitäts-Gesellschaft 'AEG'
+STR_BADGE_BUILDER_CAF                       :Construcciones y Auxiliar de Ferrocarriles 'CAF'
+STR_BADGE_BUILDER_STADLER                   :Stadler Rail
+
 #EXTRA PURCHASE TEXTDARKGREEN
 #track gauges
 STR_EXTRA_GAUGE_UNKNOWN                 :Track Gauge: {GRAY}Unknown{BLACK}{}{STRING}

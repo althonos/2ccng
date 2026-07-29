@@ -1,0 +1,27 @@
+item(FEAT_BADGES, badge_builder) {
+    property {
+        label: "builder";
+        name: string(STR_BADGE_BUILDER);
+    }
+}
+
+item(FEAT_BADGES, badge_builder_alsthom) {
+    property {
+        label: "builder/alsthom";
+        name: string(STR_BADGE_BUILDER_ALSTHOM);
+    }
+}
+
+item(FEAT_BADGES, badge_builder_caf) {
+    property {
+        label: "builder/caf";
+        name: string(STR_BADGE_BUILDER_CAF);
+    }
+}
+
+item(FEAT_BADGES, badge_builder_stadler) {
+    property {
+        label: "builder/stadler";
+        name: string(STR_BADGE_BUILDER_STADLER);
+    }
+}

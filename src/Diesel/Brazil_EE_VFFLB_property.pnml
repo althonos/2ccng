@@ -20,7 +20,8 @@
     "flag/BR", \
     "region/america/south", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/ee"
     
 #define INTRODUCTION_YEAR 1938
 #define MODEL_LIFE 45

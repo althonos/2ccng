@@ -18,7 +18,8 @@
     "flag/ZA", \
     "region/africa/southern", \
     "power/electric/ac", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/gm"
 
 #define INTRODUCTION_YEAR 1985
 #define MODEL_LIFE 45

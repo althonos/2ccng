@@ -20,7 +20,8 @@
     "flag/NZ", \
     "region/oceania/australia_and_new_zealand", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/nzr/hutt"
 
 #define INTRODUCTION_YEAR 1940
 #define MODEL_LIFE 45

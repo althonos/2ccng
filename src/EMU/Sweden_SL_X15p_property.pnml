@@ -19,7 +19,8 @@
     "flag/SE", \
     "region/europe/northern", \
     "power/electric/dc", \
-    "railgauge/narrow/swedish_3ft"
+    "railgauge/narrow/swedish_3ft", \
+    "builder/stadler"
 
 #define INTRODUCTION_YEAR 2017
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

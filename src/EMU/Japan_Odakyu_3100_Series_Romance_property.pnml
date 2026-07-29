@@ -20,7 +20,8 @@
     "flag/JP", \
     "region/asia/eastern",  \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/nippon_sharyo"
 
 #define INTRODUCTION_YEAR 1962
 #define MODEL_LIFE 45

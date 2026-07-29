@@ -18,7 +18,8 @@
     "flag/ZA", \
     "region/africa/southern", \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/siemens"
 
 #define INTRODUCTION_YEAR 1992
 #define MODEL_LIFE 45

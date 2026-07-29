@@ -20,7 +20,8 @@
     "flag/JP", \
     "region/asia/eastern",  \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/fuji"
 
 #define INTRODUCTION_YEAR 1968
 #define MODEL_LIFE 45

@@ -20,7 +20,8 @@
     "flag/ES", \
     "region/europe/southern", \
     "power/dual", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/stadler"
     
 #define INTRODUCTION_YEAR 2022
 #define MODEL_LIFE 40

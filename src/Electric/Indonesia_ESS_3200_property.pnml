@@ -18,7 +18,8 @@
     "flag/ID", \
     "region/asia/southeastern", \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/werkspoor"
 
 #define INTRODUCTION_YEAR 1925
 #define MODEL_LIFE 45

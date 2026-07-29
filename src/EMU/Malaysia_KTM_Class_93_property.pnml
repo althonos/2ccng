@@ -19,7 +19,8 @@
     "flag/MY", \
     "region/asia/southeastern",  \
     "power/electric/ac", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/crrc/zuzhou"
 
 #define INTRODUCTION_YEAR 2016
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

@@ -20,7 +20,8 @@
     "flag/ZA", \
     "region/africa/southern",  \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/metro_cammell"
 
 #define INTRODUCTION_YEAR 1958
 #define MODEL_LIFE 45

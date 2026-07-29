@@ -20,7 +20,8 @@
     "flag/EE", \
     "region/europe/eastern", \
     "power/diesel", \
-    "railgauge/narrow/750mm"
+    "railgauge/narrow/750mm", \
+    "builder/kaluga"
 
 #define INTRODUCTION_YEAR 1955
 #define MODEL_LIFE 45

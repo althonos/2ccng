@@ -20,7 +20,8 @@
     "flag/DE", \
     "region/europe/western", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/wismar"
 
 #define INTRODUCTION_YEAR 1932
 #define MODEL_LIFE 45

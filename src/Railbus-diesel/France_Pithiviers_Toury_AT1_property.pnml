@@ -20,7 +20,8 @@
     "flag/FR", \
     "region/europe/western", \
     "power/gasoline", \
-    "railgauge/narrow/600mm"
+    "railgauge/narrow/600mm", \
+    "builder/crochat"
 
 #define INTRODUCTION_YEAR 1922
 #define MODEL_LIFE 35

@@ -20,7 +20,8 @@
     "flag/CL", \
     "region/america/south", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/emd"
     
 #define INTRODUCTION_YEAR 1954
 #define MODEL_LIFE 45

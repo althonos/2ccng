@@ -19,7 +19,8 @@
     "flag/BD", \
     "region/asia/southern", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/emd"
 
 #define INTRODUCTION_YEAR 1988
 #define MODEL_LIFE 45

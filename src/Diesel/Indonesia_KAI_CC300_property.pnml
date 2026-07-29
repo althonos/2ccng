@@ -20,7 +20,8 @@
     "flag/ID", \
     "region/asia/southeastern", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/inka"
     
 #define INTRODUCTION_YEAR 2011
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

@@ -20,7 +20,8 @@
     "flag/TN", \
     "region/africa/northern",  \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/cfd"
 
 #define INTRODUCTION_YEAR 2008
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

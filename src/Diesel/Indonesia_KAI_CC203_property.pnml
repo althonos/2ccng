@@ -20,7 +20,8 @@
     "flag/ID", \
     "region/asia/southeastern", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/ge"
 
 #define INTRODUCTION_YEAR 1995
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

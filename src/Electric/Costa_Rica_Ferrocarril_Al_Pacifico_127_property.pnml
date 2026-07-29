@@ -19,7 +19,8 @@
     "flag/CR", \
     "region/america/central", \
     "power/electric/ac", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/aeg"
 
 #define INTRODUCTION_YEAR 1926
 #define MODEL_LIFE 45
