@@ -24,7 +24,7 @@
 
 #define SPEED 55
 #define POWER 0
-#define WEIGHT 11
+#define WEIGHT 6
 #define TE_COEFFICIENT 0.3
 #define AIR_DRAG_COEFFICIENT 0
 
