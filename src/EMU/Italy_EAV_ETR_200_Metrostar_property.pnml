@@ -19,7 +19,8 @@
     "flag/IT", \
     "region/europe/southern",  \
     "power/electric/dc", \
-    "railgauge/narrow/italian_metre"
+    "railgauge/narrow/italian_metre", \
+    "builder/ansaldo_breda"
 
 #define INTRODUCTION_YEAR 2004
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

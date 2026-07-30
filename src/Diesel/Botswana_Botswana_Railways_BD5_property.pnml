@@ -18,7 +18,8 @@
     "flag/BW", \
     "region/africa/southern", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/emd"
     
 #define INTRODUCTION_YEAR 2017
 #define MODEL_LIFE 45

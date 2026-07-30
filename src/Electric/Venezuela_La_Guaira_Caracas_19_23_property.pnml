@@ -19,7 +19,8 @@
     "flag/VE", \
     "region/america/south", \
     "power/electric/dc", \
-    "railgauge/narrow/3ft"
+    "railgauge/narrow/3ft", \
+    "builder/bbc"
 
 #define INTRODUCTION_YEAR 1927
 #define MODEL_LIFE 45

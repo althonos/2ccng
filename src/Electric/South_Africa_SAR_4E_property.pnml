@@ -18,7 +18,8 @@
     "flag/ZA", \
     "region/africa/southern", \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/north_british"
 
 #define INTRODUCTION_YEAR 1952
 #define MODEL_LIFE 45

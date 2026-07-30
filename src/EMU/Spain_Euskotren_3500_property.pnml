@@ -20,7 +20,8 @@
     "flag/ES", \
     "region/europe/southern",  \
     "power/electric/dc", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/caf"
 
 #define INTRODUCTION_YEAR 1977
 #define MODEL_LIFE 40

@@ -20,7 +20,8 @@
     "flag/AT", \
     "region/europe/western", \
     "power/steam", \
-    "railgauge/narrow/bosnian"
+    "railgauge/narrow/bosnian", \
+    "builder/komarek"
 
 #define INTRODUCTION_YEAR 1903
 #define MODEL_LIFE 45

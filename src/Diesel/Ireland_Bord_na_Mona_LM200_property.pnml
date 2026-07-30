@@ -20,7 +20,8 @@
     "flag/IE", \
     "region/europe/northern", \
     "power/diesel", \
-    "railgauge/narrow/3ft"
+    "railgauge/narrow/3ft", \
+    "builder/hunslet"
 
 #define INTRODUCTION_YEAR 1962
 #define MODEL_LIFE 50

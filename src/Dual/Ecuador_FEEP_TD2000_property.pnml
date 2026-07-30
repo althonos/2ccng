@@ -20,7 +20,8 @@
     "flag/EC", \
     "region/america/south", \
     "power/dual", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/cfd"
     
 #define INTRODUCTION_YEAR 2008
 #define MODEL_LIFE 40

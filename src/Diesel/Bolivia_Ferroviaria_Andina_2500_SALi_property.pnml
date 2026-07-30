@@ -20,7 +20,8 @@
     "flag/BO", \
     "region/america/south", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/stadler"
 
 #define INTRODUCTION_YEAR 2019
 #define MODEL_LIFE 45

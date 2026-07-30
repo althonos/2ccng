@@ -20,7 +20,8 @@
     "flag/ZW", \
     "region/africa/eastern", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/henschel"
 
 #define INTRODUCTION_YEAR 1959
 #define MODEL_LIFE 45

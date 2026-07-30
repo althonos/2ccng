@@ -20,7 +20,8 @@
     "flag/AU", \
     "region/oceania/australia_and_new_zealand",  \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/downer"
 
 #define INTRODUCTION_YEAR 2003
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

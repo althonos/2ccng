@@ -20,7 +20,8 @@
     "flag/GH", \
     "region/africa/western",  \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/crrc/tangshan"
     
 #define INTRODUCTION_YEAR 2009
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

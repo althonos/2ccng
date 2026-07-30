@@ -20,7 +20,8 @@
     "flag/KH", \
     "region/asia/southeastern", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/fv_del_bajio"
 
 #define INTRODUCTION_YEAR 2018
 #define MODEL_LIFE 45

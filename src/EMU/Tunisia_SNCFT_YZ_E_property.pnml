@@ -20,7 +20,8 @@
     "flag/TN", \
     "region/africa/northern",  \
     "power/electric/ac", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/ganz_mavag"
 
 #define INTRODUCTION_YEAR 1984
 #define MODEL_LIFE 45

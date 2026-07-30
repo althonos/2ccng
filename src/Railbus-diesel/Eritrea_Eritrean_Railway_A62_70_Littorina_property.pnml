@@ -20,7 +20,8 @@
     "flag/ER", \
     "region/africa/eastern", \
     "power/diesel", \
-    "railgauge/narrow/italian_metre"
+    "railgauge/narrow/italian_metre", \
+    "builder/fiat"
 
 #define INTRODUCTION_YEAR 1937
 #define MODEL_LIFE 45

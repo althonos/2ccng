@@ -19,7 +19,8 @@
     "flag/CH", \
     "region/europe/western", \
     "power/electric/ac", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/stadler"
 
 #define INTRODUCTION_YEAR 2019
 #define MODEL_LIFE VEHICLE_NEVER_EXPIRES

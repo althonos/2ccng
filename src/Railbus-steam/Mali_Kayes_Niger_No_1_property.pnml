@@ -21,7 +21,8 @@
     "flag/ML", \
     "region/africa/western", \
     "power/steam", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/robatel_buffaud"
 
 #define INTRODUCTION_YEAR 1905
 #define MODEL_LIFE 45

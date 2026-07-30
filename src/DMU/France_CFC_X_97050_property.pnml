@@ -20,7 +20,8 @@
     "flag/FR", \
     "region/europe/western",  \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/soule"
 
 #define INTRODUCTION_YEAR 1989
 #define MODEL_LIFE 35

@@ -20,7 +20,8 @@
     "flag/MG", \
     "region/africa/eastern", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/alsthom"
 
 #define INTRODUCTION_YEAR 1943
 #define MODEL_LIFE 45

@@ -20,7 +20,8 @@
     "flag/ZA", \
     "region/africa/southern", \
     "power/steam", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/kitson"
 
 #define INTRODUCTION_YEAR 1906
 #define MODEL_LIFE 45

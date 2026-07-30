@@ -20,7 +20,8 @@
     "flag/HU", \
     "region/europe/eastern", \
     "power/diesel", \
-    "railgauge/narrow/bosnian"
+    "railgauge/narrow/bosnian", \
+    "builder/mav"
 
 #define INTRODUCTION_YEAR 1952
 #define MODEL_LIFE 50

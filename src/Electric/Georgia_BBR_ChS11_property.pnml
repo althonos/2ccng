@@ -18,7 +18,8 @@
     "flag/GE", \
     "region/asia/western", \
     "power/electric/dc", \
-    "railgauge/narrow/900mm"
+    "railgauge/narrow/900mm", \
+    "builder/smz"
 
 #define INTRODUCTION_YEAR 1966
 #define MODEL_LIFE 45

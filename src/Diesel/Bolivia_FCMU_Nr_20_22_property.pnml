@@ -21,7 +21,8 @@
     "flag/BO", \
     "region/america/south", \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/sulzer"
 
 #define INTRODUCTION_YEAR 1949
 #define MODEL_LIFE 45

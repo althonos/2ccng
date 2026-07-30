@@ -20,7 +20,8 @@
     "flag/JP", \
     "region/asia/eastern", \
     "power/diesel", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/kisha_seizo"
 
 #define INTRODUCTION_YEAR 1957
 #define MODEL_LIFE 45

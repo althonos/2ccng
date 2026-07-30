@@ -20,7 +20,8 @@
     "flag/ES", \
     "region/europe/southern",  \
     "power/diesel", \
-    "railgauge/narrow/metre"
+    "railgauge/narrow/metre", \
+    "builder/mtm"
 
 #define INTRODUCTION_YEAR 1983
 #define MODEL_LIFE 45

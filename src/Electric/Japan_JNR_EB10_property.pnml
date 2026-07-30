@@ -18,7 +18,8 @@
     "flag/JP", \
     "region/asia/eastern", \
     "power/electric/dc", \
-    "railgauge/narrow/cape"
+    "railgauge/narrow/cape", \
+    "builder/kisha_seizo"
 
 #define INTRODUCTION_YEAR 1931
 #define MODEL_LIFE 45
