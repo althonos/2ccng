@@ -31,11 +31,19 @@
 #define LOADINGSPEED LOADINGSPEEDDEF_COMMUTER
 #define CARGODEF CARGODEF_PASSENGERS
 
-#define SPEED 100
-#define POWER 720
-#define WEIGHT 44
+// The FEVE 2400 initially had two MAN D-3256 BTYVE (305hp each) and had
+// a maximum speed of 100 km/h. After the 1998 reform, the motors were changed
+// to Volvo Penta DH10A (360hp each) and the speed lowered to 80 km/h.
+//
+// The stats here are for the initial 1983 specifications -- the post-1998
+// stats will be moved to the INCOFER variant.
+
+// References: (1) https://es.wikipedia.org/wiki/Serie_524_de_Renfe
+
+#define SPEED 100                 // (1)
+#define POWER 610                 // (1)
+#define WEIGHT 33                 // (1), 90t for a three car unit with unpowered trailer, 67 (t) for a two car set
 #define TE_COEFFICIENT 0.2
-#define AIR_DRAG_COEFFICIENT 0
 
 #define LENGTH 7
 #define ACTUAL_LENGTH 7
@@ -44,21 +52,9 @@
 #define HEAD_CAPACITY 50
 #define WAGON_CAPACITY 50
 
-
 #define DUAL_HEADED 1
 #define PASSENGER 1
 #define MISC_FLAGS bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_2CC)
 #define VISUAL_FLAG visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER)
 
-
-#define TRACK_TYPE CURRENT_TRACK_TYPE
-#define ENGINE_CLASS CURRENT_ENGINE_CLASS
-#define RUNNING_COST_BASE CURRENT_RUNNING_COST_BASE
-
-
-#define REFIT_COST DEFAULT_REFIT_COST
-#define RELIABILITY_DECAY DEFAULT_RELIABILITY_DECAY
-#define CARGO_AGE_PERIOD DEFAULT_CARGO_AGE_PERIOD
-#define POWER_PER_WAGON DEFAULT_POWER_PER_WAGON
-#define BITMASK_VEHICLE_INFO DEFAULT_BITMASK
-#define SPRITE_ID DEFAULT_SPRITE_ID
+#include "../_CodeSupport/item_defaults.pnml"
