@@ -16,23 +16,35 @@ PURCHASE_SPRITESET_DUALHEADED(VEHIDCODE, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 
 * VEHICLE
 */
 
-FORWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 1)
-BACKWARD_SPRITESET(VEHIDCODE, "gfx/EMU/Spain_Euskotren_3500.xpm", 1, 32)
+#define REVERSED_SPRITESET(id, y) \
+	spriteset(spriteset_emu_Spain_Euskotren_3500_ ## id ## _fwd, "gfx/EMU/Spain_Euskotren_3500.xpm") { \
+		template_2cc_engines_general(1, y)																			 \
+	} 																												 \
+	spriteset(spriteset_emu_Spain_Euskotren_3500_ ## id ## _rev, "gfx/EMU/Spain_Euskotren_3500.xpm") { \
+		template_2cc_engines_general(179, y)																		 \
+	}																												 \
+	switch(FEAT_TRAINS, PARENT, switch_emu_Spain_Euskotren_3500_ ## id, vehicle_is_reversed) { 		 \
+		1: spriteset_emu_Spain_Euskotren_3500_ ## id ## _rev;											 \
+		0: spriteset_emu_Spain_Euskotren_3500_ ## id ## _fwd;											 \
+	}
 
-//Middle - PAX
-spriteset(spriteset_emu_Spain_Euskotren_3500_middlepass, "gfx/EMU/Spain_Euskotren_3500.xpm") {
-	template_2cc_engines_general(1, 64)
-}
-//Middle - MAIL
-// spriteset(spriteset_emu_Spain_Euskotren_3500_middlemail, "gfx/EMU/Spain_Euskotren_3500.xpm") {
-// 	template_2cc_engines_general(1, 96)
-// }
+// Driving car
+
+REVERSED_SPRITESET(front, 1)
+REVERSED_SPRITESET(back, 32)
+
+// Middle
+
+REVERSED_SPRITESET(middlepass, 64)
+REVERSED_SPRITESET(middlemail, 64)
+
+#undef REVERSED_SPRITESET
 
 //Dualheaded engines
 switch(FEAT_TRAINS, SELF, switch_emu_Spain_Euskotren_3500_reversed, var[0xC8]) {
-	0xFE: switch_emu_Spain_Euskotren_3500_bwd;
-    0xFF: switch_emu_Spain_Euskotren_3500_bwd; 
-    switch_emu_Spain_Euskotren_3500_fwd;
+	0xFE: switch_emu_Spain_Euskotren_3500_back;
+    0xFF: switch_emu_Spain_Euskotren_3500_back; 
+    switch_emu_Spain_Euskotren_3500_front;
 }
 
 //Visual effect, for DMU this is done on the front engine
@@ -53,8 +65,8 @@ WAGONCAPACITYSWITCH(VEHIDCODE)
 //Graphics for the unit wagon based on cargo class
 switch(FEAT_TRAINS, SELF, switch_emu_Spain_Euskotren_3500_cargo_selection, cargo_classes){
 	// bitmask(CC_PASSENGERS): spriteset_emu_Spain_Euskotren_3500_middlepass;
-	// spriteset_emu_Spain_Euskotren_3500_middlemail;
-	spriteset_emu_Spain_Euskotren_3500_middlepass;
+	// switch_emu_Spain_Euskotren_3500_middlemail;
+	switch_emu_Spain_Euskotren_3500_middlepass;
 }
 
 //Add defined switches
