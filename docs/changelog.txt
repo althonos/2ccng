@@ -1,6 +1,29 @@
 2cc Narrow-Gauge in NML changelog
 =================================
 
+
+v0.7.0 (2026-08-03)
+-------------------
+
+Added
+^^^^^
+- ``BD5`` 2017 diesel locomotive of Botswana.
+- ``Kayes-Niger No. 1`` 1905 steam railbus of Mali.
+
+Changed
+^^^^^^^
+- Rebalance tare weights of freight wagons.
+- Use badges instead of extra purchase text to display engine builders.
+
+Fixed
+^^^^^
+- Provide proper reverse-driving sprites for ``Euskotren 3500`` EMU.
+- ``ZZ 800`` DMU having an incorrect region (for filtering).
+- Zimbabwe, Iran and Mozambique being assigned to the wrong UN geoscheme regions.
+- ``SNCF T 2000`` being marked with incorrect propulsion.
+- ``FEVE 2400`` having wrong engine specifications.
+
+
 v0.6.2 (2026-05-21)
 -------------------
 
